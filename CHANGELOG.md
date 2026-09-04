@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.5.1](https://github.com/yoanbernabeu/pronote-digest/compare/v0.5.0...v0.5.1) (2026-09-04)
+
+
+### Documentation
+
+* garde-fou cron insensible au retard de GitHub ([a55ada3](https://github.com/yoanbernabeu/pronote-digest/commit/a55ada3b07b86536b5b452d491914af62ac67d2e))
+
 ## [0.5.0](https://github.com/yoanbernabeu/pronote-digest/compare/v0.4.1...v0.5.0) (2026-09-04)
 
 
