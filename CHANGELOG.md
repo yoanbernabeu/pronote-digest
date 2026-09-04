@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.1](https://github.com/yoanbernabeu/pronote-digest/compare/v0.1.0...v0.1.1) (2026-09-04)
+
+
+### Corrections
+
+* **homework:** dédoublonner sur le texte et garder la matière d'origine ([7bb2745](https://github.com/yoanbernabeu/pronote-digest/commit/7bb2745c9ad9330f0b80df919f44ec5d9cbe2940))
+
 ## 0.1.0 (2026-09-04)
 
 
