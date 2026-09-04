@@ -17,7 +17,7 @@ jobs:
       tag: ${{ steps.rp.outputs.tag_name }}
       major: ${{ steps.rp.outputs.major }}
     steps:
-      - uses: googleapis/release-please-action@v4
+      - uses: googleapis/release-please-action@v5
         id: rp
         with:
           config-file: release-please-config.json
@@ -29,12 +29,12 @@ jobs:
     needs: release-please
     if: needs.release-please.outputs.created == 'true'
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           ref: ${{ needs.release-please.outputs.tag }}
           fetch-depth: 0
-      - uses: pnpm/action-setup@v4
-      - uses: actions/setup-node@v4
+      - uses: pnpm/action-setup@v6
+      - uses: actions/setup-node@v7
         with:
           node-version: 22
           cache: pnpm
