@@ -1,5 +1,5 @@
 import sanitizeHtml from 'sanitize-html';
-import type { Change, ChildDigest, Digest, Homework, Lesson } from '../core/model.js';
+import type { ChildDigest, Digest, Homework, Lesson } from '../core/model.js';
 import { longDate, timeHM, timeRange } from '../core/time.js';
 
 /** Modèle de présentation partagé par tous les formats : tout est déjà formaté en chaînes. */
@@ -29,7 +29,6 @@ interface ChildView {
   lastEnd: string | undefined;
   lessons: LessonView[];
   homework: HomeworkView[];
-  changes: string[];
 }
 
 export interface DigestView {
@@ -41,7 +40,6 @@ export interface DigestView {
   holiday: string | undefined;
   nextSchoolDay: string | undefined;
   intro: string | undefined;
-  hasChanges: boolean;
   children: ChildView[];
   generatedAt: string;
 }
@@ -54,14 +52,6 @@ const STATUS_LABEL: Record<Lesson['status'], string> = {
   scheduled: '',
   cancelled: 'Annulé',
   moved: 'Déplacé',
-};
-
-const CHANGE_LABEL: Record<Change['type'], string> = {
-  'homework-added': 'Nouveau devoir',
-  'lesson-cancelled': 'Cours annulé',
-  'lesson-moved': 'Cours déplacé',
-  'lesson-added': 'Cours ajouté',
-  'lesson-removed': 'Cours retiré',
 };
 
 export function sanitizeTeacherHtml(html: string): string {
@@ -93,7 +83,7 @@ function homeworkView(hw: Homework): HomeworkView {
   };
 }
 
-function childView(child: ChildDigest, changes: Change[]): ChildView {
+function childView(child: ChildDigest): ChildView {
   return {
     name: child.name,
     noSchool: child.flags.noSchool,
@@ -103,9 +93,6 @@ function childView(child: ChildDigest, changes: Change[]): ChildView {
     lastEnd: child.flags.lastEnd === undefined ? undefined : timeHM(child.flags.lastEnd),
     lessons: child.lessons.map(lessonView),
     homework: child.homework.map(homeworkView),
-    changes: changes
-      .filter((c) => c.child === child.name)
-      .map((c) => `${CHANGE_LABEL[c.type]} : ${c.label}`),
   };
 }
 
@@ -122,8 +109,7 @@ export function buildView(digest: Digest, options: ViewOptions = {}): DigestView
     holiday: digest.holiday,
     nextSchoolDay: digest.nextSchoolDay === undefined ? undefined : longDate(digest.nextSchoolDay),
     intro: digest.intro,
-    hasChanges: digest.changes.length > 0,
-    children: digest.children.map((c) => childView(c, digest.changes)),
+    children: digest.children.map(childView),
     generatedAt: digest.generatedAt,
   };
 }

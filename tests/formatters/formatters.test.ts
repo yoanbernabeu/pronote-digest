@@ -51,14 +51,11 @@ describe('renderEmail – planning', () => {
     expect(mail.html).not.toContain('<th>Heure</th>');
   });
 
-  it('affiche les nouveautés et l’intro quand elles existent', async () => {
+  it('affiche l’intro quand elle existe', async () => {
     const digest = planning();
     digest.intro = 'Journée chargée pour Alice.';
-    digest.changes = [{ child: 'Alice', type: 'lesson-cancelled', label: 'FRANCAIS 08:55–09:50' }];
     const mail = await renderEmail(digest);
     expect(mail.html).toContain('Journée chargée pour Alice.');
-    expect(mail.html).toContain('Nouveautés');
-    expect(mail.html).toContain('Cours annulé : FRANCAIS 08:55–09:50');
   });
 
   it('échappe le HTML venant des données', async () => {

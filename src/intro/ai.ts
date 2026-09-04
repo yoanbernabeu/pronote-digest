@@ -25,7 +25,7 @@ Règles :
 - Trois à cinq phrases en français, ton chaleureux et sobre, sans emoji, sans titre, sans liste.
 - Appuie-toi uniquement sur les données fournies. N'invente aucun horaire, aucune matière, aucun devoir.
 - Ne cite pas d'horaire précis : le message détaille déjà les heures. Dis plutôt « finit tôt », « journée longue ».
-- Mets en avant ce qui aide à s'organiser : sac de sport, devoirs à rendre, cours annulé, journée sans cours, nouveautés.
+- Mets en avant ce qui aide à s'organiser : sac de sport, devoirs à rendre, cours annulé, journée sans cours.
 - Réponds par le texte seul.`;
 
 async function defaultResolveModel(config: AiConfig): Promise<LanguageModel> {
@@ -89,10 +89,6 @@ export function describeDigest(digest: Digest): string {
     if (child.homework.length > 0) {
       lines.push('Devoirs :');
       for (const h of child.homework) lines.push(`- ${h.subject} : ${h.text}`);
-    }
-    if (child.changes.length > 0) {
-      lines.push('Nouveautés :');
-      for (const c of child.changes) lines.push(`- ${c}`);
     }
   }
   return lines.join('\n');

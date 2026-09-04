@@ -19,7 +19,7 @@ inputs:
     description: 'Préfixe du sujet des messages.'
     default: '[Pronote]'
   archive_dir:
-    description: 'Répertoire où archiver JSON et rendus (sert au calcul des nouveautés). none pour désactiver.'
+    description: 'Répertoire où archiver le JSON et les rendus de chaque envoi. none pour désactiver.'
     default: 'archive'
   on_no_school:
     description: 'Jour sans cours : notify (message court) ou skip (aucun envoi).'
@@ -85,8 +85,6 @@ outputs:
     description: 'true si le jour visé comporte des cours.'
   subject:
     description: 'Sujet du message.'
-  changes:
-    description: 'Nombre de nouveautés depuis le dernier digest archivé pour ce jour.'
   archive-json:
     description: 'Chemin du digest JSON archivé (vide si archive désactivée).'
   archive-html:

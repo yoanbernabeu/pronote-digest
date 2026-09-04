@@ -46,16 +46,6 @@ export const EMAIL_TEMPLATE = `<mjml>
     <mj-section background-color="#ffffff" border-radius="8px" padding="8px 16px 16px">
       <mj-column>
         <mj-text font-size="19px" font-weight="bold" padding-bottom="4px"><%= child.name %></mj-text>
-<% if (child.changes.length > 0) { %>
-        <mj-text padding-top="0" padding-bottom="8px">
-          <span class="badge badge-warn">Nouveautés</span>
-          <ul style="margin: 8px 0 0; padding-left: 20px;">
-<% for (const change of child.changes) { %>
-            <li><%= change %></li>
-<% } %>
-          </ul>
-        </mj-text>
-<% } %>
 <% if (it.kind === 'planning') { %>
 <% if (child.noSchool) { %>
         <mj-text>Pas de cours<% if (child.holiday) { %> (<%= child.holiday %>)<% } %>.</mj-text>

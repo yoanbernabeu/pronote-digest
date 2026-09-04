@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://yoanbernabeu.github.io/pronote-digest/sitemap-index.xml

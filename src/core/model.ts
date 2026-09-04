@@ -62,19 +62,6 @@ export const ChildDigestSchema = z.object({
 });
 export type ChildDigest = z.infer<typeof ChildDigestSchema>;
 
-const ChangeSchema = z.object({
-  child: z.string(),
-  type: z.enum([
-    'homework-added',
-    'lesson-cancelled',
-    'lesson-moved',
-    'lesson-added',
-    'lesson-removed',
-  ]),
-  label: z.string(),
-});
-export type Change = z.infer<typeof ChangeSchema>;
-
 export const DigestKindSchema = z.enum(['planning', 'homework']);
 export type DigestKind = z.infer<typeof DigestKindSchema>;
 
@@ -88,7 +75,6 @@ export const DigestSchema = z.object({
   holiday: z.string().optional(),
   nextSchoolDay: IsoDateSchema.optional(),
   children: z.array(ChildDigestSchema),
-  changes: z.array(ChangeSchema),
   intro: z.string().optional(),
 });
 export type Digest = z.infer<typeof DigestSchema>;

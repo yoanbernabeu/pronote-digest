@@ -6,7 +6,6 @@ envoyés par mail ou sur un autre canal. Une GitHub Action et une CLI, sans serv
 - **Planning** : les cours du prochain jour de classe, heure de début et de fin, salles, cours annulés ou
   déplacés, rappel de la tenue de sport.
 - **Devoirs** : le travail à faire pour ce jour, tel que saisi par les enseignants dans le cahier de textes.
-- **Nouveautés** : ce qui a changé depuis le dernier envoi pour ce jour (devoir ajouté, cours annulé…).
 - **Introduction rédigée** (optionnelle) : quelques phrases générées par le fournisseur d'IA de votre choix.
 - **Canaux** : mail via n'importe quel SMTP, fichiers sur disque. D'autres canaux se branchent en quelques
   lignes (voir [docs/architecture.md](docs/architecture.md)).
@@ -160,9 +159,9 @@ Les deux workflows committent dans le même dépôt : le `git pull --rebase` ava
 l'un tourne pendant l'autre. Un exemple complet et à jour est maintenu dans le dépôt privé de l'auteur, il est
 identique à ceux-ci.
 
-L'étape « Archive » committe le JSON et les rendus de chaque envoi dans `archive/<date visée>/`. C'est ce qui
-permet de calculer les nouveautés d'un envoi à l'autre, de relire ce qui a été envoyé, et de garder le dépôt
-actif pour que GitHub ne désactive pas le cron après 60 jours d'inactivité.
+L'étape « Archive » committe le JSON et les rendus de chaque envoi dans `archive/<date visée>/`. Ça permet de
+relire ce qui a été envoyé, et ça garde le dépôt actif pour que GitHub ne désactive pas le cron après 60 jours
+d'inactivité.
 
 ### Entrées
 
@@ -172,7 +171,7 @@ actif pour que GitHub ne désactive pas le cron après 60 jours d'inactivité.
 | `digest` | requis | `planning` ou `homework`. |
 | `channels` | `email` | Canaux, séparés par des virgules : `email`, `file`. |
 | `subject_prefix` | `[Pronote]` | Préfixe du sujet. |
-| `archive_dir` | `archive` | Répertoire d'archive. `none` pour désactiver (les nouveautés ne sont alors plus calculées). |
+| `archive_dir` | `archive` | Répertoire d'archive. `none` pour désactiver. |
 | `on_no_school` | `notify` | Jour sans cours : `notify` envoie un message court, `skip` n'envoie rien. |
 | `require_homework_data` | `true` | Échouer si aucun flux ne contient de cahier de textes (digest `homework`). |
 | `date` | aujourd'hui | Jour de préparation `AAAA-MM-JJ`, en heure de Paris. Utile pour tester. |
@@ -187,7 +186,7 @@ actif pour que GitHub ne désactive pas le cron après 60 jours d'inactivité.
 
 ### Sorties
 
-`skipped`, `target-date`, `school-day`, `subject`, `changes`, `archive-json`, `archive-html`,
+`skipped`, `target-date`, `school-day`, `subject`, `archive-json`, `archive-html`,
 `archive-markdown`, `delivered`. Elles permettent d'enchaîner d'autres étapes, par exemple une notification
 push à partir du Markdown archivé.
 

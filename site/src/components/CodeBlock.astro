@@ -1,0 +1,48 @@
+---
+/** Bloc de code avec bouton copier. Le contenu est passé en texte brut et échappé par Astro. */
+interface Props {
+  code: string;
+  lang?: string;
+  title?: string;
+  class?: string;
+}
+const { code, lang = 'text', title, class: className = '' } = Astro.props;
+---
+
+<figure class={`relative ${className}`} data-codeblock>
+  {title && (
+    <figcaption class="mb-2 flex items-center justify-between">
+      <span class="font-mono text-[0.72rem] text-ink-faint">{title}</span>
+      <span class="font-mono text-[0.68rem] uppercase tracking-widest text-ink-faint">{lang}</span>
+    </figcaption>
+  )}
+  <pre tabindex="0"><code>{code}</code></pre>
+  <button
+    type="button"
+    class="absolute right-2 top-2 rounded-md border border-white/15 bg-white/5 px-2 py-1 font-mono text-[0.68rem] text-[#e9e6dd] transition hover:bg-white/15 focus-visible:outline focus-visible:outline-2 focus-visible:outline-encre"
+    style={title ? 'top: 2.4rem' : undefined}
+    data-copy
+    aria-label="Copier le code"
+  >
+    Copier
+  </button>
+</figure>
+
+<script>
+  for (const block of document.querySelectorAll('[data-codeblock]')) {
+    const button = block.querySelector<HTMLButtonElement>('[data-copy]');
+    const code = block.querySelector('code');
+    if (!button || !code) continue;
+    button.addEventListener('click', async () => {
+      try {
+        await navigator.clipboard.writeText(code.textContent ?? '');
+        button.textContent = 'Copié';
+        setTimeout(() => {
+          button.textContent = 'Copier';
+        }, 1500);
+      } catch {
+        button.textContent = 'Échec';
+      }
+    });
+  }
+</script>

@@ -1,0 +1,74 @@
+---
+/** Réplique fidèle du mail planning, données anonymisées (fixtures du projet). */
+interface Props {
+  class?: string;
+  compact?: boolean;
+}
+const { class: className = '', compact = false } = Astro.props;
+
+const alice = [
+  ['08:00–08:55', 'ACC. PERSO. FRANCAIS', 'S109'],
+  ['08:55–09:50', 'FRANCAIS', 'S109'],
+  ['10:10–11:05', 'ANGLAIS LV1', 'S204'],
+  ['11:05–12:00', 'ESPAGNOL LV2', 'S103'],
+  ['14:00–14:55', 'ARTS PLASTIQUES', 'S001'],
+  ['14:55–17:00', 'ED.PHYSIQUE & SPORT.', ''],
+];
+const bob = [
+  ['08:00–08:55', 'MATHEMATIQUES', 'S110'],
+  ['08:55–09:50', 'FRANCAIS', 'S103', 'cancelled'],
+  ['10:10–12:00', 'ED.PHYSIQUE & SPORT.', ''],
+  ['14:00–14:55', 'EDUCATION MUSICALE', 'S002'],
+  ['14:55–15:50', 'FRANCAIS', 'S113'],
+];
+---
+
+<article class={`mail p-5 sm:p-6 ${className}`} aria-label="Exemple de mail planning">
+  <header class="flex items-baseline justify-between gap-4">
+    <div>
+      <p class="eyebrow">[Pronote] · 19:00</p>
+      <h3 class="display mt-1 text-xl sm:text-2xl">Planning du lundi 7 septembre</h3>
+    </div>
+    <span class="hidden sm:inline-block h-2.5 w-2.5 rounded-full bg-encre" aria-hidden="true"></span>
+  </header>
+
+  <p class="mt-4 text-[0.9rem] italic text-ink-soft leading-relaxed">
+    Journée longue pour Alice, pensez au sac de sport pour l'EPS en fin d'après-midi. Bob a un cours
+    de français annulé ce matin.
+  </p>
+
+  <section class="mt-5">
+    <div class="flex flex-wrap items-center gap-2">
+      <h4 class="font-semibold">Alice</h4>
+      <span class="rounded-sm bg-encre-soft px-2 py-0.5 text-[0.72rem] text-encre">Journée 08:00 – 17:00</span>
+      <span class="rounded-sm bg-[#fff3cd] px-2 py-0.5 text-[0.72rem] text-[#7a5b00] dark:bg-[#3a2f0c] dark:text-[#f2d68a]">EPS : tenue de sport</span>
+    </div>
+    <div class="mt-2">
+      {alice.map(([time, subject, room]) => (
+        <div class="mail-row">
+          <span class="mail-time">{time}</span>
+          <span>{subject}</span>
+          <span class="text-ink-faint">{room}</span>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  {!compact && (
+    <section class="mt-6">
+      <div class="flex flex-wrap items-center gap-2">
+        <h4 class="font-semibold">Bob</h4>
+        <span class="rounded-sm bg-encre-soft px-2 py-0.5 text-[0.72rem] text-encre">Journée 08:00 – 15:50</span>
+      </div>
+      <div class="mt-2">
+        {bob.map(([time, subject, room, status]) => (
+          <div class={`mail-row ${status === 'cancelled' ? 'cancelled' : ''}`}>
+            <span class="mail-time">{time}</span>
+            <span>{subject}{status === 'cancelled' && <strong class="ml-1 font-semibold">(Annulé)</strong>}</span>
+            <span class="text-ink-faint">{room}</span>
+          </div>
+        ))}
+      </div>
+    </section>
+  )}
+</article>
