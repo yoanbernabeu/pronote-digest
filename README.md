@@ -53,7 +53,7 @@ jobs:
   digest:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       # Ne tourne qu'une fois par jour : la bonne entrée cron selon la saison.
       - name: Heure de Paris
