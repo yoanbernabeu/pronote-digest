@@ -1,0 +1,3264 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID;LANGUAGE=fr:Copyright Index-Education - Index-Education - ProNote20
+ 26 2026
+METHOD:PUBLISH
+X-CALSTART:20260831T000000Z
+X-CALEND:20270702T000000Z
+X-WR-CALNAME;LANGUAGE=fr:Calendrier - DUPONT Bob 01/01/2015 - du 01 septem
+ bre 2026 au 02 juillet 2027
+X-WR-CALDESC;LANGUAGE=fr:Calendrier DUPONT Bob 01/01/2015 généré par le
+  logiciel PRONOTE (©INDEX ÉDUCATION) le 04 sept. 2026 - COLLEGE EXEMPLE
+  - semaines 36 - 26
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260831T093827Z
+UID:Cours-16308-1-20260904T120218Z-Index-Education
+DTSTART:20260902T065500Z
+DTEND:20260902T075000Z
+SUMMARY;LANGUAGE=fr:TRAVAIL PERSONNEL - LEROY N.\, MOREL R.
+LOCATION;LANGUAGE=fr:S106\, S113
+DESCRIPTION;LANGUAGE=fr:Matière : TRAVAIL PERSONNEL\nProfesseurs : LEROY 
+ N.\, MOREL R.\nSalles : S106\, S113\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : TRAVAIL PERSONNEL<br/>Professeurs 
+ : LEROY N.\, MOREL R.<br/>Salles : S106\, S113<br/>
+COLOR:#D6A0C8
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260722T084908Z
+UID:Cours-16309-1-20260904T120218Z-Index-Education
+DTSTART:20260901T090500Z
+DTEND:20260901T100000Z
+SUMMARY;LANGUAGE=fr:ANGLAIS LV1 - THOMAS C.
+LOCATION;LANGUAGE=fr:S204
+DESCRIPTION;LANGUAGE=fr:Matière : ANGLAIS LV1\nProfesseur : THOMAS C.\nSa
+ lle : S204\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ANGLAIS LV1<br/>Professeur : THOMA
+ S C.<br/>Salle : S204<br/>
+COLOR:#EC6719
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260723T094338Z
+UID:Cours-16310-1-20260904T120218Z-Index-Education
+DTSTART:20260903T060000Z
+DTEND:20260903T065500Z
+SUMMARY;LANGUAGE=fr:ANGLAIS LV1 - THOMAS C.
+LOCATION;LANGUAGE=fr:S204
+DESCRIPTION;LANGUAGE=fr:Matière : ANGLAIS LV1\nProfesseur : THOMAS C.\nSa
+ lle : S204\n\n<strong>Contenu pédagogique : \n</strong><div style="font-
+ family: Arial\; font-size: 13px\;">prise de contact et jeu de balle</div>
+ <div style="font-family: Arial\; font-size: 13px\;">première page du cah
+ ier faite ensemble</div><div style="font-family: Arial\; font-size: 13px\
+ ;">classroom instructions: in pairs or groups of three\, find the French 
+ equivalents to the legends using the images to help you</div>\n<strong>Po
+ ur le 04/09/2026 : \n</strong><div>Finir le travail au crayon à papier p
+ our la première page de Classroom instructions : essayer de trouver les 
+ équivalents français aux légendes à l&#039\;aide des dessins et les n
+ oter au crayon à papier sur la fiche</div>\n<strong>Pour le 04/09/2026 :
+  \n</strong><div>lesson + vocabulary (= first page of the copybook)</div>
+X-ALT-DESC;FMTTYPE=text/html:Matière : ANGLAIS LV1<br/>Professeur : THOMA
+ S C.<br/>Salle : S204<br/><br/><strong>Contenu pédagogique : <br/></stro
+ ng><div style="font-family: Arial\; font-size: 13pt\;">prise de contact e
+ t jeu de balle</div><div style="font-family: Arial\; font-size: 13pt\;">p
+ remière page du cahier faite ensemble</div><div style="font-family: Aria
+ l\; font-size: 13pt\;">classroom instructions: in pairs or groups of thre
+ e\, find the French equivalents to the legends using the images to help y
+ ou</div><br/><strong>Pour le 04/09/2026 : <br/></strong><div>Finir le tra
+ vail au crayon à papier pour la première page de Classroom instructions
+  : essayer de trouver les équivalents français aux légendes à l&#039\
+ ;aide des dessins et les noter au crayon à papier sur la fiche</div><br/
+ ><strong>Pour le 04/09/2026 : <br/></strong><div>lesson + vocabulary (= f
+ irst page of the copybook)</div>
+COLOR:#EC6719
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260722T074858Z
+UID:Cours-16312-1-20260904T120218Z-Index-Education
+DTSTART:20260904T060000Z
+DTEND:20260904T065500Z
+SUMMARY;LANGUAGE=fr:ANGLAIS LV1 - THOMAS C.
+LOCATION;LANGUAGE=fr:S204
+DESCRIPTION;LANGUAGE=fr:Matière : ANGLAIS LV1\nProfesseur : THOMAS C.\nSa
+ lle : S204\n\n<strong>Contenu pédagogique : \n</strong><div style="font-
+ family: Arial\; font-size: 13px\;">révision de la leçon</div><div style
+ ="font-family: Arial\; font-size: 13px\;">correction du travail sur la pr
+ emière fiche de Classroom instructions</div><div style="font-family: Ari
+ al\; font-size: 13px\;">mise par deux ou trois pour travailler sur la 2è
+ me fiche</div><div style="font-family: Arial\; font-size: 13px\;">correct
+ ion de la deuxième fiche</div><div style="font-family: Arial\; font-size
+ : 13px\;">préparer des mimes pour faire deviner les instructions de clas
+ se aux autres</div>\n<strong>Donné le 03/09/2026 : \n</strong><div>Finir
+  le travail au crayon à papier pour la première page de Classroom instr
+ uctions : essayer de trouver les équivalents français aux légendes à 
+ l&#039\;aide des dessins et les noter au crayon à papier sur la fiche</d
+ iv>\n<strong>Donné le 03/09/2026 : \n</strong><div>lesson + vocabulary (
+ = first page of the copybook)</div>\n<strong>Pour le 07/09/2026 : \n</str
+ ong><div>apporter un chevalet avec son prénom écrit en gros dessus (= a
+  nametag)</div>\n<strong>Pour le 07/09/2026 : \n</strong><div>lesson + vo
+ cabulary (first page of the copybook) + dessiner une boîte de mouchoirs 
+ en papier sur la fiche</div>\n<strong>Pour le 07/09/2026 : \n</strong><di
+ v>préparer des mimes (entre 15 et 20) pour faire deviner les instruction
+ s de classe aux autres</div>
+X-ALT-DESC;FMTTYPE=text/html:Matière : ANGLAIS LV1<br/>Professeur : THOMA
+ S C.<br/>Salle : S204<br/><br/><strong>Contenu pédagogique : <br/></stro
+ ng><div style="font-family: Arial\; font-size: 13pt\;">révision de la le
+ çon</div><div style="font-family: Arial\; font-size: 13pt\;">correction 
+ du travail sur la première fiche de Classroom instructions</div><div sty
+ le="font-family: Arial\; font-size: 13pt\;">mise par deux ou trois pour t
+ ravailler sur la 2ème fiche</div><div style="font-family: Arial\; font-s
+ ize: 13pt\;">correction de la deuxième fiche</div><div style="font-famil
+ y: Arial\; font-size: 13pt\;">préparer des mimes pour faire deviner les 
+ instructions de classe aux autres</div><br/><strong>Donné le 03/09/2026 
+ : <br/></strong><div>Finir le travail au crayon à papier pour la premiè
+ re page de Classroom instructions : essayer de trouver les équivalents f
+ rançais aux légendes à l&#039\;aide des dessins et les noter au crayon
+  à papier sur la fiche</div><br/><strong>Donné le 03/09/2026 : <br/></s
+ trong><div>lesson + vocabulary (= first page of the copybook)</div><br/><
+ strong>Pour le 07/09/2026 : <br/></strong><div>apporter un chevalet avec 
+ son prénom écrit en gros dessus (= a nametag)</div><br/><strong>Pour le
+  07/09/2026 : <br/></strong><div>lesson + vocabulary (first page of the c
+ opybook) + dessiner une boîte de mouchoirs en papier sur la fiche</div><
+ br/><strong>Pour le 07/09/2026 : <br/></strong><div>préparer des mimes (
+ entre 15 et 20) pour faire deviner les instructions de classe aux autres<
+ /div>
+COLOR:#EC6719
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260723T094345Z
+UID:Cours-16313-1-20260904T120218Z-Index-Education
+DTSTART:20260903T120000Z
+DTEND:20260903T125500Z
+SUMMARY;LANGUAGE=fr:EDUCATION MUSICALE - DURAND G.
+LOCATION;LANGUAGE=fr:S002 Education musicale
+DESCRIPTION;LANGUAGE=fr:Matière : EDUCATION MUSICALE\nProfesseur : DURAND
+  G.\nSalle : S002 Education musicale\n\n<strong>SI : \n</strong><div styl
+ e="font-family: Arial\; font-size: 13px\;">séance découverte</div><div 
+ style="font-family: Arial\; font-size: 13px\;">tour de classe des activit
+ és extra-sco</div><div style="font-family: Arial\; font-size: 13px\;">é
+ coute comparée (Dvorak + Haydn) - oral</div><div style="font-family: Ari
+ al\; font-size: 13px\;">activité chantée (posture\, et caractère)</div
+ >\n<strong>Pour le 10/09/2026 : \n</strong><div>chercher les instruments 
+ qui composent les familles :<br>- des cordes frottées (4 instruments)<b
+ r>- des cuivres (4 instruments)</div>
+X-ALT-DESC;FMTTYPE=text/html:Matière : EDUCATION MUSICALE<br/>Professeur 
+ : DURAND G.<br/>Salle : S002 Education musicale<br/><br/><strong>SI : <br
+ /></strong><div style="font-family: Arial\; font-size: 13pt\;">séance d
+ écouverte</div><div style="font-family: Arial\; font-size: 13pt\;">tour 
+ de classe des activités extra-sco</div><div style="font-family: Arial\; 
+ font-size: 13pt\;">écoute comparée (Dvorak + Haydn) - oral</div><div st
+ yle="font-family: Arial\; font-size: 13pt\;">activité chantée (posture\
+ , et caractère)</div><br/><strong>Pour le 10/09/2026 : <br/></strong><di
+ v>chercher les instruments qui composent les familles :<br>- des cordes 
+ frottées (4 instruments)<br>- des cuivres (4 instruments)</div>
+COLOR:#ED679B
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260719T100052Z
+UID:Cours-16315-1-20260904T120218Z-Index-Education
+DTSTART:20260903T081000Z
+DTEND:20260903T100000Z
+SUMMARY;LANGUAGE=fr:ED.PHYSIQUE & SPORT. - BERTRAND Q.
+DESCRIPTION;LANGUAGE=fr:Matière : ED.PHYSIQUE &amp\; SPORT.\nProfesseur :
+  BERTRAND Q.\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ED.PHYSIQUE &amp\; SPORT.<br/>Prof
+ esseur : BERTRAND Q.<br/>
+COLOR:#1E6ADD
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260719T100030Z
+UID:Cours-16316-1-20260904T120218Z-Index-Education
+DTSTART:20260902T081000Z
+DTEND:20260902T100000Z
+SUMMARY;LANGUAGE=fr:ED.PHYSIQUE & SPORT. - BERTRAND Q.
+DESCRIPTION;LANGUAGE=fr:Matière : ED.PHYSIQUE &amp\; SPORT.\nProfesseur :
+  BERTRAND Q.\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ED.PHYSIQUE &amp\; SPORT.<br/>Prof
+ esseur : BERTRAND Q.<br/>
+COLOR:#1E6ADD
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours - Cours annulé
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T094312Z
+UID:Cours-16317-1-20260904T120218Z-Index-Education
+DTSTART:20260903T125500Z
+DTEND:20260903T135000Z
+SUMMARY;LANGUAGE=fr:Cours annulé : FRANCAIS - LEROY N.
+LOCATION;LANGUAGE=fr:S113
+DESCRIPTION;LANGUAGE=fr:Cours annulé\nMatière : FRANCAIS\nProfesseur : L
+ EROY N.\nSalle : S113\n\n<strong>Donné le 02/09/2026 : \n</strong><div>B
+ onjour !<br>Comme je l&#039\;avais mentionné hier\, je serai absente jeu
+ di... Mais attention\, seulement l&#039\;après-midi ! N&#039\;ayant pas 
+ encore intégré mon propre emploi du temps\, je n&#039\;avais pas vu que
+  nous nous voyons aussi le matin. Nous nous verrons donc bien demain\, je
+ udi 3 septembre\, à 8h55\, pour votre premier cours de français de sixi
+ ème. Ce qui est exceptionnel\, c&#039\;est que nous ne nous verrons pas 
+ à 14h55. L&#039\;emploi du temps est à jour sur Pronote et affiche déj
+ à les cours annulés\, donc vous pouvez vous y fier. <br>N&#039\;oubliez
+  pas de bien vérifier votre sac ce soir\, en y mettant le matériel néc
+ essaire pour chaque matière du jeudi (cahiers\, classeurs\, trousse\, ag
+ enda\, etc.) Ainsi vous serez tranquilles demain matin avant de partir...
+  Bon mercredi et à demain !</div>\n<strong>Donné le 02/09/2026 : \n</st
+ rong><div>Pensez bien à montrer les documents que j&#039\;ai donnés mar
+ di (et que vous avez normalement mis dans une pochette) chez vous. Plusie
+ urs de ces papiers sont à compléter et à signer. Pour le détail\, je 
+ vous renvoie vers l&#039\;agenda\, où vous avez déjà tout écrit. En c
+ as d&#039\;inquiétude\, que vos parents n&#039\;hésitent pas à m&#039\
+ ;écrire via la messagerie de Pronote. </div>\n<strong>Donné le 02/09/20
+ 26 : \n</strong><div>Bonjour Élève06 et Élève07\,<br>Pour rappel\, si
+  vous êtes demi-pensionnaires\, vous pourrez utiliser le casier n°3.<br
+ >Bonne journée et à demain !</div>\n<strong>Donné le 02/09/2026 : \n</
+ strong><div>Bonjour Élève08 et Élève09\,<br>Pour rappel\, si vous êt
+ es demi-pensionnaires\, vous pourrez utiliser le casier n°7.<br>Bonne jo
+ urnée et à demain !</div>\n<strong>Donné le 02/09/2026 : \n</strong><d
+ iv>Bonjour Élève04 et Élève10\,<br>Pour rappel\, si vous êtes demi-p
+ ensionnaires\, vous pourrez utiliser le casier n°6.<br>Bonne journée et
+  à demain !</div>\n<strong>Donné le 02/09/2026 : \n</strong><div>Bonjou
+ r Élève11 et Élève12\,<br>Pour rappel\, si vous êtes demi-pensionnai
+ res\, vous pourrez utiliser le casier n°10.<br>Bonne journée et à dema
+ in !</div>\n<strong>Donné le 02/09/2026 : \n</strong><div>Bonjour Élèv
+ e13 et Élève14\,<br>Pour rappel\, si vous êtes demi-pensionnaires\, vo
+ us pourrez utiliser le casier n°11.<br>Bonne journée et à demain !</di
+ v>\n<strong>Donné le 02/09/2026 : \n</strong><div>Bonjour Élève15 et 
+ Élève16\,<br>Pour rappel\, si vous êtes demi-pensionnaires\, vous pour
+ rez utiliser le casier n°14.<br>Bonne journée et à demain !</div>\n<st
+ rong>Donné le 02/09/2026 : \n</strong><div>Bonjour Élève17 et Élève1
+ 8\,<br>Pour rappel\, si vous êtes demi-pensionnaires\, vous pourrez util
+ iser le casier n°15.<br>Bonne journée et à demain !</div>\n<strong>Don
+ né le 02/09/2026 : \n</strong><div>Bonjour Élève19 et Élève20<br>Pou
+ r rappel\, si vous êtes demi-pensionnaires\, vous pourrez utiliser le ca
+ sier n°18.<br>Bonne journée et à demain !</div>\n<strong>Donné le 02/
+ 09/2026 : \n</strong><div>Bonjour Élève21 et Élève22\,<br>Pour rappel
+ \, si vous êtes demi-pensionnaires\, vous pourrez utiliser le casier n°
+ 19.<br>Bonne journée et à demain !</div>\n<strong>Donné le 02/09/2026 
+ : \n</strong><div>Bonjour Élève23 et Élève24\,<br>Pour rappel\, si vo
+ us êtes demi-pensionnaires\, vous pourrez utiliser le casier n°22.<br>B
+ onne journée et à demain !</div>\n<strong>Donné le 02/09/2026 : \n</st
+ rong><div>Bonjour Élève05 et Élève25\,<br>Pour rappel\, si vous êtes
+  demi-pensionnaires\, vous pourrez utiliser le casier n°23.<br>Bonne jou
+ rnée et à demain !</div>\n<strong>Donné le 02/09/2026 : \n</strong><di
+ v>Bonjour Élève01 et Élève26\,<br>Pour rappel\, si vous êtes demi-pe
+ nsionnaires\, vous pourrez utiliser le casier n°26.<br>Bonne journée et
+  à demain !</div>\n<strong>Donné le 02/09/2026 : \n</strong><div>Bonjou
+ r Élève27 et Élève28\,<br>Pour rappel\, si vous êtes demi-pensionnai
+ res\, vous pourrez utiliser le casier n°27.<br>Bonne journée et à dema
+ in !</div>\n<strong>Donné le 02/09/2026 : \n</strong><div>Bonjour Élèv
+ e01 ! <br>J&#039\;ai posé ta question aux surveillants et voici ce qu&#0
+ 39\;ils m&#039\;ont dit : comme l&#039\;année dernière\, Élève02 disp
+ ose déjà d&#039\;un casier pour lui\, directement à la Vie Scolaire\, 
+ afin de lui faciliter les choses. Il n&#039\;a donc déjà plus besoin de
+  casier. <br>Cela dit ta question était tout de même utile\, car nous a
+ urions fait en sorte de lui faciliter les choses avec toi si ce n&#039\;
+ était pas déjà le cas\, donc merci d&#039\;avoir proposé !<br>Par con
+ séquent\, tu es associée à la camarade que tu avais suggérée\, Élè
+ ve03. Je vous remets un message à toutes les deux pour officialiser ça 
+ et vous rappeler le numéro de votre casier. <br>Bonne journée à toi et
+  à Élève02 !</div>\n<strong>Donné le 02/09/2026 : \n</strong><div>Bon
+ jour Élève01 et Élève03\,<br>Pour rappel\, si vous êtes demi-pension
+ naires\, vous pourrez utiliser le casier n°30.<br>Bonne journée et à d
+ emain !</div>
+X-ALT-DESC;FMTTYPE=text/html:Cours annulé<br/>Matière : FRANCAIS<br/>Pro
+ fesseur : LEROY N.<br/>Salle : S113<br/><br/><strong>Donné le 02/09/2026
+  : <br/></strong><div>Bonjour !<br>Comme je l&#039\;avais mentionné hier
+ \, je serai absente jeudi... Mais attention\, seulement l&#039\;après-mi
+ di ! N&#039\;ayant pas encore intégré mon propre emploi du temps\, je n
+ &#039\;avais pas vu que nous nous voyons aussi le matin. Nous nous verron
+ s donc bien demain\, jeudi 3 septembre\, à 8h55\, pour votre premier cou
+ rs de français de sixième. Ce qui est exceptionnel\, c&#039\;est que no
+ us ne nous verrons pas à 14h55. L&#039\;emploi du temps est à jour sur 
+ Pronote et affiche déjà les cours annulés\, donc vous pouvez vous y fi
+ er. <br>N&#039\;oubliez pas de bien vérifier votre sac ce soir\, en y me
+ ttant le matériel nécessaire pour chaque matière du jeudi (cahiers\, c
+ lasseurs\, trousse\, agenda\, etc.) Ainsi vous serez tranquilles demain m
+ atin avant de partir... Bon mercredi et à demain !</div><br/><strong>Don
+ né le 02/09/2026 : <br/></strong><div>Pensez bien à montrer les documen
+ ts que j&#039\;ai donnés mardi (et que vous avez normalement mis dans un
+ e pochette) chez vous. Plusieurs de ces papiers sont à compléter et à 
+ signer. Pour le détail\, je vous renvoie vers l&#039\;agenda\, où vous 
+ avez déjà tout écrit. En cas d&#039\;inquiétude\, que vos parents n&#
+ 039\;hésitent pas à m&#039\;écrire via la messagerie de Pronote. </div
+ ><br/><strong>Donné le 02/09/2026 : <br/></strong><div>Bonjour Élève06
+  et Élève07\,<br>Pour rappel\, si vous êtes demi-pensionnaires\, vous 
+ pourrez utiliser le casier n°3.<br>Bonne journée et à demain !</div><b
+ r/><strong>Donné le 02/09/2026 : <br/></strong><div>Bonjour Élève08 et
+  Élève09\,<br>Pour rappel\, si vous êtes demi-pensionnaires\, vous pou
+ rrez utiliser le casier n°7.<br>Bonne journée et à demain !</div><br/>
+ <strong>Donné le 02/09/2026 : <br/></strong><div>Bonjour Élève04 et É
+ lève10\,<br>Pour rappel\, si vous êtes demi-pensionnaires\, vous pourre
+ z utiliser le casier n°6.<br>Bonne journée et à demain !</div><br/><st
+ rong>Donné le 02/09/2026 : <br/></strong><div>Bonjour Élève11 et Élè
+ ve12\,<br>Pour rappel\, si vous êtes demi-pensionnaires\, vous pourrez u
+ tiliser le casier n°10.<br>Bonne journée et à demain !</div><br/><stro
+ ng>Donné le 02/09/2026 : <br/></strong><div>Bonjour Élève13 et Élève
+ 14\,<br>Pour rappel\, si vous êtes demi-pensionnaires\, vous pourrez uti
+ liser le casier n°11.<br>Bonne journée et à demain !</div><br/><strong
+ >Donné le 02/09/2026 : <br/></strong><div>Bonjour Élève15 et Élève16
+ \,<br>Pour rappel\, si vous êtes demi-pensionnaires\, vous pourrez utili
+ ser le casier n°14.<br>Bonne journée et à demain !</div><br/><strong>D
+ onné le 02/09/2026 : <br/></strong><div>Bonjour Élève17 et Élève18\,
+ <br>Pour rappel\, si vous êtes demi-pensionnaires\, vous pourrez utilise
+ r le casier n°15.<br>Bonne journée et à demain !</div><br/><strong>Don
+ né le 02/09/2026 : <br/></strong><div>Bonjour Élève19 et Élève20<br>
+ Pour rappel\, si vous êtes demi-pensionnaires\, vous pourrez utiliser le
+  casier n°18.<br>Bonne journée et à demain !</div><br/><strong>Donné 
+ le 02/09/2026 : <br/></strong><div>Bonjour Élève21 et Élève22\,<br>Po
+ ur rappel\, si vous êtes demi-pensionnaires\, vous pourrez utiliser le c
+ asier n°19.<br>Bonne journée et à demain !</div><br/><strong>Donné le
+  02/09/2026 : <br/></strong><div>Bonjour Élève23 et Élève24\,<br>Pour
+  rappel\, si vous êtes demi-pensionnaires\, vous pourrez utiliser le cas
+ ier n°22.<br>Bonne journée et à demain !</div><br/><strong>Donné le 0
+ 2/09/2026 : <br/></strong><div>Bonjour Élève05 et Élève25\,<br>Pour r
+ appel\, si vous êtes demi-pensionnaires\, vous pourrez utiliser le casie
+ r n°23.<br>Bonne journée et à demain !</div><br/><strong>Donné le 02/
+ 09/2026 : <br/></strong><div>Bonjour Élève01 et Élève26\,<br>Pour rap
+ pel\, si vous êtes demi-pensionnaires\, vous pourrez utiliser le casier 
+ n°26.<br>Bonne journée et à demain !</div><br/><strong>Donné le 02/09
+ /2026 : <br/></strong><div>Bonjour Élève27 et Élève28\,<br>Pour rappe
+ l\, si vous êtes demi-pensionnaires\, vous pourrez utiliser le casier n
+ °27.<br>Bonne journée et à demain !</div><br/><strong>Donné le 02/09/
+ 2026 : <br/></strong><div>Bonjour Élève01 ! <br>J&#039\;ai posé ta que
+ stion aux surveillants et voici ce qu&#039\;ils m&#039\;ont dit : comme l
+ &#039\;année dernière\, Élève02 dispose déjà d&#039\;un casier pour
+  lui\, directement à la Vie Scolaire\, afin de lui faciliter les choses.
+  Il n&#039\;a donc déjà plus besoin de casier. <br>Cela dit ta question
+  était tout de même utile\, car nous aurions fait en sorte de lui facil
+ iter les choses avec toi si ce n&#039\;était pas déjà le cas\, donc me
+ rci d&#039\;avoir proposé !<br>Par conséquent\, tu es associée à la c
+ amarade que tu avais suggérée\, Élève03. Je vous remets un message à
+  toutes les deux pour officialiser ça et vous rappeler le numéro de vot
+ re casier. <br>Bonne journée à toi et à Élève02 !</div><br/><strong>
+ Donné le 02/09/2026 : <br/></strong><div>Bonjour Élève01 et Élève03\
+ ,<br>Pour rappel\, si vous êtes demi-pensionnaires\, vous pourrez utilis
+ er le casier n°30.<br>Bonne journée et à demain !</div>
+COLOR:#21BBEF
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T094134Z
+UID:Cours-16318-1-20260904T120218Z-Index-Education
+DTSTART:20260901T060000Z
+DTEND:20260901T065500Z
+SUMMARY;LANGUAGE=fr:FRANCAIS - LEROY N.
+LOCATION;LANGUAGE=fr:S106
+DESCRIPTION;LANGUAGE=fr:Matière : FRANCAIS\nProfesseur : LEROY N.\nSalle 
+ : S106\n\n<strong>Pour le 03/09/2026 : \n</strong><div>Bonjour !<br>Comme
+  je l&#039\;avais mentionné hier\, je serai absente jeudi... Mais attent
+ ion\, seulement l&#039\;après-midi ! N&#039\;ayant pas encore intégré 
+ mon propre emploi du temps\, je n&#039\;avais pas vu que nous nous voyons
+  aussi le matin. Nous nous verrons donc bien demain\, jeudi 3 septembre\,
+  à 8h55\, pour votre premier cours de français de sixième. Ce qui est 
+ exceptionnel\, c&#039\;est que nous ne nous verrons pas à 14h55. L&#039\
+ ;emploi du temps est à jour sur Pronote et affiche déjà les cours annu
+ lés\, donc vous pouvez vous y fier. <br>N&#039\;oubliez pas de bien vér
+ ifier votre sac ce soir\, en y mettant le matériel nécessaire pour chaq
+ ue matière du jeudi (cahiers\, classeurs\, trousse\, agenda\, etc.) Ains
+ i vous serez tranquilles demain matin avant de partir... Bon mercredi et 
+ à demain !</div>\n<strong>Pour le 03/09/2026 : \n</strong><div>Pensez bi
+ en à montrer les documents que j&#039\;ai donnés mardi (et que vous ave
+ z normalement mis dans une pochette) chez vous. Plusieurs de ces papiers 
+ sont à compléter et à signer. Pour le détail\, je vous renvoie vers l
+ &#039\;agenda\, où vous avez déjà tout écrit. En cas d&#039\;inquiét
+ ude\, que vos parents n&#039\;hésitent pas à m&#039\;écrire via la mes
+ sagerie de Pronote. </div>\n<strong>Pour le 03/09/2026 : \n</strong><div>
+ Bonjour Élève06 et Élève07\,<br>Pour rappel\, si vous êtes demi-pens
+ ionnaires\, vous pourrez utiliser le casier n°3.<br>Bonne journée et à
+  demain !</div>\n<strong>Pour le 03/09/2026 : \n</strong><div>Bonjour Él
+ ève08 et Élève09\,<br>Pour rappel\, si vous êtes demi-pensionnaires\,
+  vous pourrez utiliser le casier n°7.<br>Bonne journée et à demain !</
+ div>\n<strong>Pour le 03/09/2026 : \n</strong><div>Bonjour Élève04 et 
+ Élève10\,<br>Pour rappel\, si vous êtes demi-pensionnaires\, vous pour
+ rez utiliser le casier n°6.<br>Bonne journée et à demain !</div>\n<str
+ ong>Pour le 03/09/2026 : \n</strong><div>Bonjour Élève11 et Élève12\,
+ <br>Pour rappel\, si vous êtes demi-pensionnaires\, vous pourrez utilise
+ r le casier n°10.<br>Bonne journée et à demain !</div>\n<strong>Pour l
+ e 03/09/2026 : \n</strong><div>Bonjour Élève13 et Élève14\,<br>Pour r
+ appel\, si vous êtes demi-pensionnaires\, vous pourrez utiliser le casie
+ r n°11.<br>Bonne journée et à demain !</div>\n<strong>Pour le 03/09/20
+ 26 : \n</strong><div>Bonjour Élève15 et Élève16\,<br>Pour rappel\, si
+  vous êtes demi-pensionnaires\, vous pourrez utiliser le casier n°14.<b
+ r>Bonne journée et à demain !</div>\n<strong>Pour le 03/09/2026 : \n</s
+ trong><div>Bonjour Élève17 et Élève18\,<br>Pour rappel\, si vous ête
+ s demi-pensionnaires\, vous pourrez utiliser le casier n°15.<br>Bonne jo
+ urnée et à demain !</div>\n<strong>Pour le 03/09/2026 : \n</strong><div
+ >Bonjour Élève19 et Élève20<br>Pour rappel\, si vous êtes demi-pensi
+ onnaires\, vous pourrez utiliser le casier n°18.<br>Bonne journée et à
+  demain !</div>\n<strong>Pour le 03/09/2026 : \n</strong><div>Bonjour Él
+ ève21 et Élève22\,<br>Pour rappel\, si vous êtes demi-pensionnaires\,
+  vous pourrez utiliser le casier n°19.<br>Bonne journée et à demain !<
+ /div>\n<strong>Pour le 03/09/2026 : \n</strong><div>Bonjour Élève23 et 
+ Élève24\,<br>Pour rappel\, si vous êtes demi-pensionnaires\, vous pour
+ rez utiliser le casier n°22.<br>Bonne journée et à demain !</div>\n<st
+ rong>Pour le 03/09/2026 : \n</strong><div>Bonjour Élève05 et Élève25\
+ ,<br>Pour rappel\, si vous êtes demi-pensionnaires\, vous pourrez utilis
+ er le casier n°23.<br>Bonne journée et à demain !</div>\n<strong>Pour 
+ le 03/09/2026 : \n</strong><div>Bonjour Élève01 et Élève26\,<br>Pour 
+ rappel\, si vous êtes demi-pensionnaires\, vous pourrez utiliser le casi
+ er n°26.<br>Bonne journée et à demain !</div>\n<strong>Pour le 03/09/2
+ 026 : \n</strong><div>Bonjour Élève27 et Élève28\,<br>Pour rappel\, s
+ i vous êtes demi-pensionnaires\, vous pourrez utiliser le casier n°27.<
+ br>Bonne journée et à demain !</div>\n<strong>Pour le 03/09/2026 : \n</
+ strong><div>Bonjour Élève01 ! <br>J&#039\;ai posé ta question aux surv
+ eillants et voici ce qu&#039\;ils m&#039\;ont dit : comme l&#039\;année 
+ dernière\, Élève02 dispose déjà d&#039\;un casier pour lui\, directe
+ ment à la Vie Scolaire\, afin de lui faciliter les choses. Il n&#039\;a 
+ donc déjà plus besoin de casier. <br>Cela dit ta question était tout d
+ e même utile\, car nous aurions fait en sorte de lui faciliter les chose
+ s avec toi si ce n&#039\;était pas déjà le cas\, donc merci d&#039\;av
+ oir proposé !<br>Par conséquent\, tu es associée à la camarade que tu
+  avais suggérée\, Élève03. Je vous remets un message à toutes les de
+ ux pour officialiser ça et vous rappeler le numéro de votre casier. <br
+ >Bonne journée à toi et à Élève02 !</div>\n<strong>Pour le 03/09/202
+ 6 : \n</strong><div>Bonjour Élève01 et Élève03\,<br>Pour rappel\, si 
+ vous êtes demi-pensionnaires\, vous pourrez utiliser le casier n°30.<br
+ >Bonne journée et à demain !</div>
+X-ALT-DESC;FMTTYPE=text/html:Matière : FRANCAIS<br/>Professeur : LEROY N.
+ <br/>Salle : S106<br/><br/><strong>Pour le 03/09/2026 : <br/></strong><di
+ v>Bonjour !<br>Comme je l&#039\;avais mentionné hier\, je serai absente 
+ jeudi... Mais attention\, seulement l&#039\;après-midi ! N&#039\;ayant p
+ as encore intégré mon propre emploi du temps\, je n&#039\;avais pas vu 
+ que nous nous voyons aussi le matin. Nous nous verrons donc bien demain\,
+  jeudi 3 septembre\, à 8h55\, pour votre premier cours de français de s
+ ixième. Ce qui est exceptionnel\, c&#039\;est que nous ne nous verrons p
+ as à 14h55. L&#039\;emploi du temps est à jour sur Pronote et affiche d
+ éjà les cours annulés\, donc vous pouvez vous y fier. <br>N&#039\;oubl
+ iez pas de bien vérifier votre sac ce soir\, en y mettant le matériel n
+ écessaire pour chaque matière du jeudi (cahiers\, classeurs\, trousse\,
+  agenda\, etc.) Ainsi vous serez tranquilles demain matin avant de partir
+ ... Bon mercredi et à demain !</div><br/><strong>Pour le 03/09/2026 : <b
+ r/></strong><div>Pensez bien à montrer les documents que j&#039\;ai donn
+ és mardi (et que vous avez normalement mis dans une pochette) chez vous.
+  Plusieurs de ces papiers sont à compléter et à signer. Pour le détai
+ l\, je vous renvoie vers l&#039\;agenda\, où vous avez déjà tout écri
+ t. En cas d&#039\;inquiétude\, que vos parents n&#039\;hésitent pas à 
+ m&#039\;écrire via la messagerie de Pronote. </div><br/><strong>Pour le 
+ 03/09/2026 : <br/></strong><div>Bonjour Élève06 et Élève07\,<br>Pour 
+ rappel\, si vous êtes demi-pensionnaires\, vous pourrez utiliser le casi
+ er n°3.<br>Bonne journée et à demain !</div><br/><strong>Pour le 03/09
+ /2026 : <br/></strong><div>Bonjour Élève08 et Élève09\,<br>Pour rappe
+ l\, si vous êtes demi-pensionnaires\, vous pourrez utiliser le casier n
+ °7.<br>Bonne journée et à demain !</div><br/><strong>Pour le 03/09/202
+ 6 : <br/></strong><div>Bonjour Élève04 et Élève10\,<br>Pour rappel\, 
+ si vous êtes demi-pensionnaires\, vous pourrez utiliser le casier n°6.<
+ br>Bonne journée et à demain !</div><br/><strong>Pour le 03/09/2026 : <
+ br/></strong><div>Bonjour Élève11 et Élève12\,<br>Pour rappel\, si vo
+ us êtes demi-pensionnaires\, vous pourrez utiliser le casier n°10.<br>B
+ onne journée et à demain !</div><br/><strong>Pour le 03/09/2026 : <br/>
+ </strong><div>Bonjour Élève13 et Élève14\,<br>Pour rappel\, si vous 
+ êtes demi-pensionnaires\, vous pourrez utiliser le casier n°11.<br>Bonn
+ e journée et à demain !</div><br/><strong>Pour le 03/09/2026 : <br/></s
+ trong><div>Bonjour Élève15 et Élève16\,<br>Pour rappel\, si vous ête
+ s demi-pensionnaires\, vous pourrez utiliser le casier n°14.<br>Bonne jo
+ urnée et à demain !</div><br/><strong>Pour le 03/09/2026 : <br/></stron
+ g><div>Bonjour Élève17 et Élève18\,<br>Pour rappel\, si vous êtes de
+ mi-pensionnaires\, vous pourrez utiliser le casier n°15.<br>Bonne journ
+ ée et à demain !</div><br/><strong>Pour le 03/09/2026 : <br/></strong><
+ div>Bonjour Élève19 et Élève20<br>Pour rappel\, si vous êtes demi-pe
+ nsionnaires\, vous pourrez utiliser le casier n°18.<br>Bonne journée et
+  à demain !</div><br/><strong>Pour le 03/09/2026 : <br/></strong><div>Bo
+ njour Élève21 et Élève22\,<br>Pour rappel\, si vous êtes demi-pensio
+ nnaires\, vous pourrez utiliser le casier n°19.<br>Bonne journée et à 
+ demain !</div><br/><strong>Pour le 03/09/2026 : <br/></strong><div>Bonjou
+ r Élève23 et Élève24\,<br>Pour rappel\, si vous êtes demi-pensionnai
+ res\, vous pourrez utiliser le casier n°22.<br>Bonne journée et à dema
+ in !</div><br/><strong>Pour le 03/09/2026 : <br/></strong><div>Bonjour É
+ lève05 et Élève25\,<br>Pour rappel\, si vous êtes demi-pensionnaires\
+ , vous pourrez utiliser le casier n°23.<br>Bonne journée et à demain !
+ </div><br/><strong>Pour le 03/09/2026 : <br/></strong><div>Bonjour Élèv
+ e01 et Élève26\,<br>Pour rappel\, si vous êtes demi-pensionnaires\, vo
+ us pourrez utiliser le casier n°26.<br>Bonne journée et à demain !</di
+ v><br/><strong>Pour le 03/09/2026 : <br/></strong><div>Bonjour Élève27 
+ et Élève28\,<br>Pour rappel\, si vous êtes demi-pensionnaires\, vous p
+ ourrez utiliser le casier n°27.<br>Bonne journée et à demain !</div><b
+ r/><strong>Pour le 03/09/2026 : <br/></strong><div>Bonjour Élève01 ! <b
+ r>J&#039\;ai posé ta question aux surveillants et voici ce qu&#039\;ils 
+ m&#039\;ont dit : comme l&#039\;année dernière\, Élève02 dispose déj
+ à d&#039\;un casier pour lui\, directement à la Vie Scolaire\, afin de 
+ lui faciliter les choses. Il n&#039\;a donc déjà plus besoin de casier.
+  <br>Cela dit ta question était tout de même utile\, car nous aurions f
+ ait en sorte de lui faciliter les choses avec toi si ce n&#039\;était pa
+ s déjà le cas\, donc merci d&#039\;avoir proposé !<br>Par conséquent\
+ , tu es associée à la camarade que tu avais suggérée\, Élève03. Je 
+ vous remets un message à toutes les deux pour officialiser ça et vous r
+ appeler le numéro de votre casier. <br>Bonne journée à toi et à Élè
+ ve02 !</div><br/><strong>Pour le 03/09/2026 : <br/></strong><div>Bonjour 
+ Élève01 et Élève03\,<br>Pour rappel\, si vous êtes demi-pensionnaire
+ s\, vous pourrez utiliser le casier n°30.<br>Bonne journée et à demain
+  !</div>
+COLOR:#21BBEF
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260903T083553Z
+UID:Cours-16319-1-20260904T120218Z-Index-Education
+DTSTART:20260903T065500Z
+DTEND:20260903T075000Z
+SUMMARY;LANGUAGE=fr:FRANCAIS - LEROY N.
+LOCATION;LANGUAGE=fr:S103 - Sciences
+DESCRIPTION;LANGUAGE=fr:Matière : FRANCAIS\nProfesseur : LEROY N.\nSalle 
+ : S103 - Sciences\n\n<strong>Contenu pédagogique : \n</strong><div style
+ ="font-family: Arial\; font-size: 13px\;">Vie de Classe : récupération 
+ des documents demandés. La majorité d'entre eux ont été rendus\, à l
+ 'exception de ceux de certains élèves\, qui ont noté dans leur agenda 
+ de rapporter les documents en question demain.</div>\n<strong>Donné le 0
+ 2/09/2026 : \n</strong><div>Bonjour !<br>Comme je l&#039\;avais mentionn
+ é hier\, je serai absente jeudi... Mais attention\, seulement l&#039\;ap
+ rès-midi ! N&#039\;ayant pas encore intégré mon propre emploi du temps
+ \, je n&#039\;avais pas vu que nous nous voyons aussi le matin. Nous nous
+  verrons donc bien demain\, jeudi 3 septembre\, à 8h55\, pour votre prem
+ ier cours de français de sixième. Ce qui est exceptionnel\, c&#039\;est
+  que nous ne nous verrons pas à 14h55. L&#039\;emploi du temps est à jo
+ ur sur Pronote et affiche déjà les cours annulés\, donc vous pouvez vo
+ us y fier. <br>N&#039\;oubliez pas de bien vérifier votre sac ce soir\, 
+ en y mettant le matériel nécessaire pour chaque matière du jeudi (cahi
+ ers\, classeurs\, trousse\, agenda\, etc.) Ainsi vous serez tranquilles d
+ emain matin avant de partir... Bon mercredi et à demain !</div>\n<strong
+ >Donné le 02/09/2026 : \n</strong><div>Pensez bien à montrer les docume
+ nts que j&#039\;ai donnés mardi (et que vous avez normalement mis dans u
+ ne pochette) chez vous. Plusieurs de ces papiers sont à compléter et à
+  signer. Pour le détail\, je vous renvoie vers l&#039\;agenda\, où vous
+  avez déjà tout écrit. En cas d&#039\;inquiétude\, que vos parents n&
+ #039\;hésitent pas à m&#039\;écrire via la messagerie de Pronote. </di
+ v>\n<strong>Donné le 02/09/2026 : \n</strong><div>Bonjour Élève06 et 
+ Élève07\,<br>Pour rappel\, si vous êtes demi-pensionnaires\, vous pour
+ rez utiliser le casier n°3.<br>Bonne journée et à demain !</div>\n<str
+ ong>Donné le 02/09/2026 : \n</strong><div>Bonjour Élève08 et Élève09
+ \,<br>Pour rappel\, si vous êtes demi-pensionnaires\, vous pourrez utili
+ ser le casier n°7.<br>Bonne journée et à demain !</div>\n<strong>Donn
+ é le 02/09/2026 : \n</strong><div>Bonjour Élève04 et Élève10\,<br>Po
+ ur rappel\, si vous êtes demi-pensionnaires\, vous pourrez utiliser le c
+ asier n°6.<br>Bonne journée et à demain !</div>\n<strong>Donné le 02/
+ 09/2026 : \n</strong><div>Bonjour Élève11 et Élève12\,<br>Pour rappel
+ \, si vous êtes demi-pensionnaires\, vous pourrez utiliser le casier n°
+ 10.<br>Bonne journée et à demain !</div>\n<strong>Donné le 02/09/2026 
+ : \n</strong><div>Bonjour Élève13 et Élève14\,<br>Pour rappel\, si vo
+ us êtes demi-pensionnaires\, vous pourrez utiliser le casier n°11.<br>B
+ onne journée et à demain !</div>\n<strong>Donné le 02/09/2026 : \n</st
+ rong><div>Bonjour Élève15 et Élève16\,<br>Pour rappel\, si vous êtes
+  demi-pensionnaires\, vous pourrez utiliser le casier n°14.<br>Bonne jou
+ rnée et à demain !</div>\n<strong>Donné le 02/09/2026 : \n</strong><di
+ v>Bonjour Élève17 et Élève18\,<br>Pour rappel\, si vous êtes demi-pe
+ nsionnaires\, vous pourrez utiliser le casier n°15.<br>Bonne journée et
+  à demain !</div>\n<strong>Donné le 02/09/2026 : \n</strong><div>Bonjou
+ r Élève19 et Élève20<br>Pour rappel\, si vous êtes demi-pensionnaire
+ s\, vous pourrez utiliser le casier n°18.<br>Bonne journée et à demain
+  !</div>\n<strong>Donné le 02/09/2026 : \n</strong><div>Bonjour Élève2
+ 1 et Élève22\,<br>Pour rappel\, si vous êtes demi-pensionnaires\, vous
+  pourrez utiliser le casier n°19.<br>Bonne journée et à demain !</div>
+ \n<strong>Donné le 02/09/2026 : \n</strong><div>Bonjour Élève23 et Él
+ ève24\,<br>Pour rappel\, si vous êtes demi-pensionnaires\, vous pourrez
+  utiliser le casier n°22.<br>Bonne journée et à demain !</div>\n<stron
+ g>Donné le 02/09/2026 : \n</strong><div>Bonjour Élève05 et Élève25\,
+ <br>Pour rappel\, si vous êtes demi-pensionnaires\, vous pourrez utilise
+ r le casier n°23.<br>Bonne journée et à demain !</div>\n<strong>Donné
+  le 02/09/2026 : \n</strong><div>Bonjour Élève01 et Élève26\,<br>Pour
+  rappel\, si vous êtes demi-pensionnaires\, vous pourrez utiliser le cas
+ ier n°26.<br>Bonne journée et à demain !</div>\n<strong>Donné le 02/0
+ 9/2026 : \n</strong><div>Bonjour Élève27 et Élève28\,<br>Pour rappel\
+ , si vous êtes demi-pensionnaires\, vous pourrez utiliser le casier n°2
+ 7.<br>Bonne journée et à demain !</div>\n<strong>Donné le 02/09/2026 :
+  \n</strong><div>Bonjour Élève01 ! <br>J&#039\;ai posé ta question aux
+  surveillants et voici ce qu&#039\;ils m&#039\;ont dit : comme l&#039\;an
+ née dernière\, Élève02 dispose déjà d&#039\;un casier pour lui\, di
+ rectement à la Vie Scolaire\, afin de lui faciliter les choses. Il n&#03
+ 9\;a donc déjà plus besoin de casier. <br>Cela dit ta question était t
+ out de même utile\, car nous aurions fait en sorte de lui faciliter les 
+ choses avec toi si ce n&#039\;était pas déjà le cas\, donc merci d&#03
+ 9\;avoir proposé !<br>Par conséquent\, tu es associée à la camarade q
+ ue tu avais suggérée\, Élève03. Je vous remets un message à toutes l
+ es deux pour officialiser ça et vous rappeler le numéro de votre casier
+ . <br>Bonne journée à toi et à Élève02 !</div>\n<strong>Donné le 02
+ /09/2026 : \n</strong><div>Bonjour Élève01 et Élève03\,<br>Pour rappe
+ l\, si vous êtes demi-pensionnaires\, vous pourrez utiliser le casier n
+ °30.<br>Bonne journée et à demain !</div>\n<strong>Pour le 04/09/2026 
+ : \n</strong><div>Pas de devoirs : apporter seulement votre matériel (cl
+ asseur\, intercalaires\, feuilles...)</div>\n<strong>Pour le 04/09/2026 :
+  \n</strong><div>Vie de Classe : que les élèves qui n&#039\;ont pas rap
+ porté les documents demandé aujourd&#039\;hui pensent bien à les rappo
+ rter demain\, s&#039\;il vous plaît !<br>Pour rappel\, il faudra égalem
+ ent rapporter votre attestation d&#039\;assurance ce vendredi (sauf pour 
+ ceux l&#039\;ayant déjà fait aujourd&#039\;hui).</div>
+X-ALT-DESC;FMTTYPE=text/html:Matière : FRANCAIS<br/>Professeur : LEROY N.
+ <br/>Salle : S103 - Sciences<br/><br/><strong>Contenu pédagogique : <br/
+ ></strong><div style="font-family: Arial\; font-size: 13pt\;">Vie de Clas
+ se : récupération des documents demandés. La majorité d'entre eux ont
+  été rendus\, à l'exception de ceux de certains élèves\, qui ont not
+ é dans leur agenda de rapporter les documents en question demain.</div><
+ br/><strong>Donné le 02/09/2026 : <br/></strong><div>Bonjour !<br>Comme 
+ je l&#039\;avais mentionné hier\, je serai absente jeudi... Mais attenti
+ on\, seulement l&#039\;après-midi ! N&#039\;ayant pas encore intégré m
+ on propre emploi du temps\, je n&#039\;avais pas vu que nous nous voyons 
+ aussi le matin. Nous nous verrons donc bien demain\, jeudi 3 septembre\, 
+ à 8h55\, pour votre premier cours de français de sixième. Ce qui est e
+ xceptionnel\, c&#039\;est que nous ne nous verrons pas à 14h55. L&#039\;
+ emploi du temps est à jour sur Pronote et affiche déjà les cours annul
+ és\, donc vous pouvez vous y fier. <br>N&#039\;oubliez pas de bien véri
+ fier votre sac ce soir\, en y mettant le matériel nécessaire pour chaqu
+ e matière du jeudi (cahiers\, classeurs\, trousse\, agenda\, etc.) Ainsi
+  vous serez tranquilles demain matin avant de partir... Bon mercredi et 
+ à demain !</div><br/><strong>Donné le 02/09/2026 : <br/></strong><div>P
+ ensez bien à montrer les documents que j&#039\;ai donnés mardi (et que 
+ vous avez normalement mis dans une pochette) chez vous. Plusieurs de ces 
+ papiers sont à compléter et à signer. Pour le détail\, je vous renvoi
+ e vers l&#039\;agenda\, où vous avez déjà tout écrit. En cas d&#039\;
+ inquiétude\, que vos parents n&#039\;hésitent pas à m&#039\;écrire vi
+ a la messagerie de Pronote. </div><br/><strong>Donné le 02/09/2026 : <br
+ /></strong><div>Bonjour Élève06 et Élève07\,<br>Pour rappel\, si vous
+  êtes demi-pensionnaires\, vous pourrez utiliser le casier n°3.<br>Bonn
+ e journée et à demain !</div><br/><strong>Donné le 02/09/2026 : <br/><
+ /strong><div>Bonjour Élève08 et Élève09\,<br>Pour rappel\, si vous ê
+ tes demi-pensionnaires\, vous pourrez utiliser le casier n°7.<br>Bonne j
+ ournée et à demain !</div><br/><strong>Donné le 02/09/2026 : <br/></st
+ rong><div>Bonjour Élève04 et Élève10\,<br>Pour rappel\, si vous êtes
+  demi-pensionnaires\, vous pourrez utiliser le casier n°6.<br>Bonne jour
+ née et à demain !</div><br/><strong>Donné le 02/09/2026 : <br/></stron
+ g><div>Bonjour Élève11 et Élève12\,<br>Pour rappel\, si vous êtes de
+ mi-pensionnaires\, vous pourrez utiliser le casier n°10.<br>Bonne journ
+ ée et à demain !</div><br/><strong>Donné le 02/09/2026 : <br/></strong
+ ><div>Bonjour Élève13 et Élève14\,<br>Pour rappel\, si vous êtes dem
+ i-pensionnaires\, vous pourrez utiliser le casier n°11.<br>Bonne journé
+ e et à demain !</div><br/><strong>Donné le 02/09/2026 : <br/></strong><
+ div>Bonjour Élève15 et Élève16\,<br>Pour rappel\, si vous êtes demi-
+ pensionnaires\, vous pourrez utiliser le casier n°14.<br>Bonne journée 
+ et à demain !</div><br/><strong>Donné le 02/09/2026 : <br/></strong><di
+ v>Bonjour Élève17 et Élève18\,<br>Pour rappel\, si vous êtes demi-pe
+ nsionnaires\, vous pourrez utiliser le casier n°15.<br>Bonne journée et
+  à demain !</div><br/><strong>Donné le 02/09/2026 : <br/></strong><div>
+ Bonjour Élève19 et Élève20<br>Pour rappel\, si vous êtes demi-pensio
+ nnaires\, vous pourrez utiliser le casier n°18.<br>Bonne journée et à 
+ demain !</div><br/><strong>Donné le 02/09/2026 : <br/></strong><div>Bonj
+ our Élève21 et Élève22\,<br>Pour rappel\, si vous êtes demi-pensionn
+ aires\, vous pourrez utiliser le casier n°19.<br>Bonne journée et à de
+ main !</div><br/><strong>Donné le 02/09/2026 : <br/></strong><div>Bonjou
+ r Élève23 et Élève24\,<br>Pour rappel\, si vous êtes demi-pensionnai
+ res\, vous pourrez utiliser le casier n°22.<br>Bonne journée et à dema
+ in !</div><br/><strong>Donné le 02/09/2026 : <br/></strong><div>Bonjour 
+ Élève05 et Élève25\,<br>Pour rappel\, si vous êtes demi-pensionnaire
+ s\, vous pourrez utiliser le casier n°23.<br>Bonne journée et à demain
+  !</div><br/><strong>Donné le 02/09/2026 : <br/></strong><div>Bonjour É
+ lève01 et Élève26\,<br>Pour rappel\, si vous êtes demi-pensionnaires\
+ , vous pourrez utiliser le casier n°26.<br>Bonne journée et à demain !
+ </div><br/><strong>Donné le 02/09/2026 : <br/></strong><div>Bonjour Él
+ ève27 et Élève28\,<br>Pour rappel\, si vous êtes demi-pensionnaires\,
+  vous pourrez utiliser le casier n°27.<br>Bonne journée et à demain !<
+ /div><br/><strong>Donné le 02/09/2026 : <br/></strong><div>Bonjour Élè
+ ve01 ! <br>J&#039\;ai posé ta question aux surveillants et voici ce qu&#
+ 039\;ils m&#039\;ont dit : comme l&#039\;année dernière\, Élève02 dis
+ pose déjà d&#039\;un casier pour lui\, directement à la Vie Scolaire\,
+  afin de lui faciliter les choses. Il n&#039\;a donc déjà plus besoin d
+ e casier. <br>Cela dit ta question était tout de même utile\, car nous 
+ aurions fait en sorte de lui faciliter les choses avec toi si ce n&#039\;
+ était pas déjà le cas\, donc merci d&#039\;avoir proposé !<br>Par con
+ séquent\, tu es associée à la camarade que tu avais suggérée\, Élè
+ ve03. Je vous remets un message à toutes les deux pour officialiser ça 
+ et vous rappeler le numéro de votre casier. <br>Bonne journée à toi et
+  à Élève02 !</div><br/><strong>Donné le 02/09/2026 : <br/></strong><d
+ iv>Bonjour Élève01 et Élève03\,<br>Pour rappel\, si vous êtes demi-p
+ ensionnaires\, vous pourrez utiliser le casier n°30.<br>Bonne journée e
+ t à demain !</div><br/><strong>Pour le 04/09/2026 : <br/></strong><div>P
+ as de devoirs : apporter seulement votre matériel (classeur\, intercalai
+ res\, feuilles...)</div><br/><strong>Pour le 04/09/2026 : <br/></strong><
+ div>Vie de Classe : que les élèves qui n&#039\;ont pas rapporté les do
+ cuments demandé aujourd&#039\;hui pensent bien à les rapporter demain\,
+  s&#039\;il vous plaît !<br>Pour rappel\, il faudra également rapporter
+  votre attestation d&#039\;assurance ce vendredi (sauf pour ceux l&#039\;
+ ayant déjà fait aujourd&#039\;hui).</div>
+COLOR:#21BBEF
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T094418Z
+UID:Cours-16320-1-20260904T120218Z-Index-Education
+DTSTART:20260904T125500Z
+DTEND:20260904T135000Z
+SUMMARY;LANGUAGE=fr:FRANCAIS - LEROY N.
+LOCATION;LANGUAGE=fr:S111
+DESCRIPTION;LANGUAGE=fr:Matière : FRANCAIS\nProfesseur : LEROY N.\nSalle 
+ : S111\n\n<strong>Donné le 03/09/2026 : \n</strong><div>Pas de devoirs :
+  apporter seulement votre matériel (classeur\, intercalaires\, feuilles.
+ ..)</div>\n<strong>Donné le 03/09/2026 : \n</strong><div>Vie de Classe :
+  que les élèves qui n&#039\;ont pas rapporté les documents demandé au
+ jourd&#039\;hui pensent bien à les rapporter demain\, s&#039\;il vous pl
+ aît !<br>Pour rappel\, il faudra également rapporter votre attestation 
+ d&#039\;assurance ce vendredi (sauf pour ceux l&#039\;ayant déjà fait a
+ ujourd&#039\;hui).</div>
+X-ALT-DESC;FMTTYPE=text/html:Matière : FRANCAIS<br/>Professeur : LEROY N.
+ <br/>Salle : S111<br/><br/><strong>Donné le 03/09/2026 : <br/></strong><
+ div>Pas de devoirs : apporter seulement votre matériel (classeur\, inter
+ calaires\, feuilles...)</div><br/><strong>Donné le 03/09/2026 : <br/></s
+ trong><div>Vie de Classe : que les élèves qui n&#039\;ont pas rapporté
+  les documents demandé aujourd&#039\;hui pensent bien à les rapporter d
+ emain\, s&#039\;il vous plaît !<br>Pour rappel\, il faudra également ra
+ pporter votre attestation d&#039\;assurance ce vendredi (sauf pour ceux l
+ &#039\;ayant déjà fait aujourd&#039\;hui).</div>
+COLOR:#21BBEF
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260722T085011Z
+UID:Cours-16321-1-20260904T120218Z-Index-Education
+DTSTART:20260904T065500Z
+DTEND:20260904T075000Z
+SUMMARY;LANGUAGE=fr:HISTOIRE-GEOGRAPHIE - DAVID P.
+LOCATION;LANGUAGE=fr:S203
+DESCRIPTION;LANGUAGE=fr:Matière : HISTOIRE-GEOGRAPHIE\nProfesseur : DAVID
+  P.\nSalle : S203\n\n<strong>Contenu pédagogique : \n</strong><div style
+ ="font-family: Arial\; font-size: 13px\;"><div style="font-family: Arial\
+ ; font-size: 13px\;">Présentation de l'année et du programme</div></div
+ >\n<strong>Contenu pédagogique : \n</strong><div style="font-family: Ari
+ al\; font-size: 13px\; text-align: center\;"><span style="color: #e03e2d\
+ ;"><strong>Rappels d'histoire</strong></span></div><div style="font-famil
+ y: Arial\; font-size: 13px\;">&nbsp\;</div><ul><li style="font-family: Ar
+ ial\; font-size: 13px\;"><span style="color: #1309fd\;">Lecture d'une fri
+ se chronologique</span></li><li style="font-family: Arial\; font-size: 13
+ px\;"><span style="color: #1309fd\;">Périodes historiques</span></li></u
+ l>\n<strong>Pour le 07/09/2026 : \n</strong><div>Illustrer la 1ère page 
+ du cahier d'histoire géographie avec des éléments en lien avec le prog
+ ramme de l'année</div>
+X-ALT-DESC;FMTTYPE=text/html:Matière : HISTOIRE-GEOGRAPHIE<br/>Professeur
+  : DAVID P.<br/>Salle : S203<br/><br/><strong>Contenu pédagogique : <br/
+ ></strong><div style="font-family: Arial\; font-size: 13pt\;"><div style=
+ "font-family: Arial\; font-size: 13pt\;">Présentation de l'année et du 
+ programme</div></div><br/><strong>Contenu pédagogique : <br/></strong><d
+ iv style="font-family: Arial\; font-size: 13pt\; text-align: center\;"><s
+ pan style="color: #e03e2d\;"><strong>Rappels d'histoire</strong></span></
+ div><div style="font-family: Arial\; font-size: 13pt\;">&nbsp\;</div><ul>
+ <li style="font-family: Arial\; font-size: 13pt\;"><span style="color: #1
+ 309fd\;">Lecture d'une frise chronologique</span></li><li style="font-fam
+ ily: Arial\; font-size: 13pt\;"><span style="color: #1309fd\;">Périodes 
+ historiques</span></li></ul><br/><strong>Pour le 07/09/2026 : <br/></stro
+ ng><div>Illustrer la 1ère page du cahier d'histoire géographie avec des
+  éléments en lien avec le programme de l'année</div>
+COLOR:#FFED00
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260724T084254Z
+UID:Cours-16324-1-20260904T120218Z-Index-Education
+DTSTART:20260901T081000Z
+DTEND:20260901T090500Z
+SUMMARY;LANGUAGE=fr:MATHEMATIQUES - ROUX O.
+LOCATION;LANGUAGE=fr:S110
+DESCRIPTION;LANGUAGE=fr:Matière : MATHEMATIQUES\nProfesseur : ROUX O.\nSa
+ lle : S110\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : MATHEMATIQUES<br/>Professeur : ROU
+ X O.<br/>Salle : S110<br/>
+COLOR:#AC75AE
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260721T142305Z
+UID:Cours-16325-1-20260904T120218Z-Index-Education
+DTSTART:20260902T060000Z
+DTEND:20260902T065500Z
+SUMMARY;LANGUAGE=fr:MATHEMATIQUES - ROUX O.
+LOCATION;LANGUAGE=fr:S110
+DESCRIPTION;LANGUAGE=fr:Matière : MATHEMATIQUES\nProfesseur : ROUX O.\nSa
+ lle : S110\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : MATHEMATIQUES<br/>Professeur : ROU
+ X O.<br/>Salle : S110<br/>
+COLOR:#AC75AE
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260723T165410Z
+UID:Cours-16329-1-20260904T120218Z-Index-Education
+DTSTART:20260901T120000Z
+DTEND:20260901T132500Z
+SUMMARY;LANGUAGE=fr:SCIENCES VIE & TERRE - MOREAU I.
+LOCATION;LANGUAGE=fr:S103 - Sciences
+DESCRIPTION;LANGUAGE=fr:Matière : SCIENCES VIE &amp\; TERRE\nProfesseur :
+  MOREAU I.\nSalle : S103 - Sciences\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : SCIENCES VIE &amp\; TERRE<br/>Prof
+ esseur : MOREAU I.<br/>Salle : S103 - Sciences<br/>
+COLOR:#75B951
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260729T185057Z
+UID:Cours-16460-1-20260904T120218Z-Index-Education
+DTSTART:20260904T090500Z
+DTEND:20260904T100000Z
+SUMMARY;LANGUAGE=fr:MATHEMATIQUES - ROUX O. - [6E5 AP MATHS GR1] - <6EME5>
+  6EME5-P1
+LOCATION;LANGUAGE=fr:S110
+DESCRIPTION;LANGUAGE=fr:Matière : MATHEMATIQUES\nProfesseur : ROUX O.\nGr
+ oupe : [6E5 AP MATHS GR1]\nPartie de classe : &lt\;6EME5&gt\; 6EME5-P1\nS
+ alle : S110\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : MATHEMATIQUES<br/>Professeur : ROU
+ X O.<br/>Groupe : [6E5 AP MATHS GR1]<br/>Partie de classe : &lt\;6EME5&gt
+ \; 6EME5-P1<br/>Salle : S110<br/>
+COLOR:#AC75AE
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260729T185102Z
+UID:Cours-16463-1-20260904T120218Z-Index-Education
+DTSTART:20260904T081000Z
+DTEND:20260904T090500Z
+SUMMARY;LANGUAGE=fr:FRANCAIS - LEROY N. - [6E5 AP FRAN GR1] - <6EME5> 6EME
+ 5-P1
+LOCATION;LANGUAGE=fr:S111
+DESCRIPTION;LANGUAGE=fr:Matière : FRANCAIS\nProfesseur : LEROY N.\nGroupe
+  : [6E5 AP FRAN GR1]\nPartie de classe : &lt\;6EME5&gt\; 6EME5-P1\nSalle 
+ : S111\n\n<strong>Contenu pédagogique : \n</strong><div style="font-fami
+ ly: Arial\; font-size: 13px\;">Dictée dialoguée (extrait des Sept Corbe
+ aux de J. &amp\; W. Grimm).</div>\n<strong>Donné le 03/09/2026 : \n</str
+ ong><div>Pas de devoirs : apporter seulement votre matériel (classeur\, 
+ intercalaires\, feuilles...)</div>\n<strong>Donné le 03/09/2026 : \n</st
+ rong><div>Vie de Classe : que les élèves qui n&#039\;ont pas rapporté 
+ les documents demandé aujourd&#039\;hui pensent bien à les rapporter de
+ main\, s&#039\;il vous plaît !<br>Pour rappel\, il faudra également rap
+ porter votre attestation d&#039\;assurance ce vendredi (sauf pour ceux l&
+ #039\;ayant déjà fait aujourd&#039\;hui).</div>
+X-ALT-DESC;FMTTYPE=text/html:Matière : FRANCAIS<br/>Professeur : LEROY N.
+ <br/>Groupe : [6E5 AP FRAN GR1]<br/>Partie de classe : &lt\;6EME5&gt\; 6E
+ ME5-P1<br/>Salle : S111<br/><br/><strong>Contenu pédagogique : <br/></st
+ rong><div style="font-family: Arial\; font-size: 13pt\;">Dictée dialogu
+ ée (extrait des Sept Corbeaux de J. &amp\; W. Grimm).</div><br/><strong>
+ Donné le 03/09/2026 : <br/></strong><div>Pas de devoirs : apporter seule
+ ment votre matériel (classeur\, intercalaires\, feuilles...)</div><br/><
+ strong>Donné le 03/09/2026 : <br/></strong><div>Vie de Classe : que les 
+ élèves qui n&#039\;ont pas rapporté les documents demandé aujourd&#03
+ 9\;hui pensent bien à les rapporter demain\, s&#039\;il vous plaît !<br
+ >Pour rappel\, il faudra également rapporter votre attestation d&#039\;a
+ ssurance ce vendredi (sauf pour ceux l&#039\;ayant déjà fait aujourd&#0
+ 39\;hui).</div>
+COLOR:#21BBEF
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260723T094421Z
+UID:Cours-16620-1-20260904T120218Z-Index-Education
+DTSTART:20260901T065500Z
+DTEND:20260901T075000Z
+SUMMARY;LANGUAGE=fr:HISTOIRE-GEOGRAPHIE - DAVID P.
+LOCATION;LANGUAGE=fr:S203
+DESCRIPTION;LANGUAGE=fr:Matière : HISTOIRE-GEOGRAPHIE\nProfesseur : DAVID
+  P.\nSalle : S203\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : HISTOIRE-GEOGRAPHIE<br/>Professeur
+  : DAVID P.<br/>Salle : S203<br/>
+COLOR:#FFED00
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours - Cours annulé
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T140542Z
+UID:Cours-16710-1-20260904T120218Z-Index-Education
+DTSTART:20260903T140500Z
+DTEND:20260903T150000Z
+SUMMARY;LANGUAGE=fr:Cours annulé : VIE DE CLASSE - LEROY N.
+LOCATION;LANGUAGE=fr:S113
+DESCRIPTION;LANGUAGE=fr:Cours annulé\nMatière : VIE DE CLASSE\nProfesseu
+ r : LEROY N.\nSalle : S113\n\n<strong>Donné le 02/09/2026 : \n</strong><
+ div>Bonjour !<br>Comme je l&#039\;avais mentionné hier\, je serai absent
+ e jeudi... Mais attention\, seulement l&#039\;après-midi ! N&#039\;ayant
+  pas encore intégré mon propre emploi du temps\, je n&#039\;avais pas v
+ u que nous nous voyons aussi le matin. Nous nous verrons donc bien demain
+ \, jeudi 3 septembre\, à 8h55\, pour votre premier cours de français de
+  sixième. Ce qui est exceptionnel\, c&#039\;est que nous ne nous verrons
+  pas à 14h55. L&#039\;emploi du temps est à jour sur Pronote et affiche
+  déjà les cours annulés\, donc vous pouvez vous y fier. <br>N&#039\;ou
+ bliez pas de bien vérifier votre sac ce soir\, en y mettant le matériel
+  nécessaire pour chaque matière du jeudi (cahiers\, classeurs\, trousse
+ \, agenda\, etc.) Ainsi vous serez tranquilles demain matin avant de part
+ ir... Bon mercredi et à demain !</div>\n<strong>Donné le 02/09/2026 : \
+ n</strong><div>Pensez bien à montrer les documents que j&#039\;ai donné
+ s mardi (et que vous avez normalement mis dans une pochette) chez vous. P
+ lusieurs de ces papiers sont à compléter et à signer. Pour le détail\
+ , je vous renvoie vers l&#039\;agenda\, où vous avez déjà tout écrit.
+  En cas d&#039\;inquiétude\, que vos parents n&#039\;hésitent pas à m&
+ #039\;écrire via la messagerie de Pronote. </div>\n<strong>Donné le 02/
+ 09/2026 : \n</strong><div>Bonjour Élève06 et Élève07\,<br>Pour rappel
+ \, si vous êtes demi-pensionnaires\, vous pourrez utiliser le casier n°
+ 3.<br>Bonne journée et à demain !</div>\n<strong>Donné le 02/09/2026 :
+  \n</strong><div>Bonjour Élève08 et Élève09\,<br>Pour rappel\, si vou
+ s êtes demi-pensionnaires\, vous pourrez utiliser le casier n°7.<br>Bon
+ ne journée et à demain !</div>\n<strong>Donné le 02/09/2026 : \n</stro
+ ng><div>Bonjour Élève04 et Élève10\,<br>Pour rappel\, si vous êtes d
+ emi-pensionnaires\, vous pourrez utiliser le casier n°6.<br>Bonne journ
+ ée et à demain !</div>\n<strong>Donné le 02/09/2026 : \n</strong><div>
+ Bonjour Élève11 et Élève12\,<br>Pour rappel\, si vous êtes demi-pens
+ ionnaires\, vous pourrez utiliser le casier n°10.<br>Bonne journée et 
+ à demain !</div>\n<strong>Donné le 02/09/2026 : \n</strong><div>Bonjour
+  Élève13 et Élève14\,<br>Pour rappel\, si vous êtes demi-pensionnair
+ es\, vous pourrez utiliser le casier n°11.<br>Bonne journée et à demai
+ n !</div>\n<strong>Donné le 02/09/2026 : \n</strong><div>Bonjour Élève
+ 15 et Élève16\,<br>Pour rappel\, si vous êtes demi-pensionnaires\, vou
+ s pourrez utiliser le casier n°14.<br>Bonne journée et à demain !</div
+ >\n<strong>Donné le 02/09/2026 : \n</strong><div>Bonjour Élève17 et É
+ lève18\,<br>Pour rappel\, si vous êtes demi-pensionnaires\, vous pourre
+ z utiliser le casier n°15.<br>Bonne journée et à demain !</div>\n<stro
+ ng>Donné le 02/09/2026 : \n</strong><div>Bonjour Élève19 et Élève20<
+ br>Pour rappel\, si vous êtes demi-pensionnaires\, vous pourrez utiliser
+  le casier n°18.<br>Bonne journée et à demain !</div>\n<strong>Donné 
+ le 02/09/2026 : \n</strong><div>Bonjour Élève21 et Élève22\,<br>Pour 
+ rappel\, si vous êtes demi-pensionnaires\, vous pourrez utiliser le casi
+ er n°19.<br>Bonne journée et à demain !</div>\n<strong>Donné le 02/09
+ /2026 : \n</strong><div>Bonjour Élève23 et Élève24\,<br>Pour rappel\,
+  si vous êtes demi-pensionnaires\, vous pourrez utiliser le casier n°22
+ .<br>Bonne journée et à demain !</div>\n<strong>Donné le 02/09/2026 : 
+ \n</strong><div>Bonjour Élève05 et Élève25\,<br>Pour rappel\, si vous
+  êtes demi-pensionnaires\, vous pourrez utiliser le casier n°23.<br>Bon
+ ne journée et à demain !</div>\n<strong>Donné le 02/09/2026 : \n</stro
+ ng><div>Bonjour Élève01 et Élève26\,<br>Pour rappel\, si vous êtes d
+ emi-pensionnaires\, vous pourrez utiliser le casier n°26.<br>Bonne journ
+ ée et à demain !</div>\n<strong>Donné le 02/09/2026 : \n</strong><div>
+ Bonjour Élève27 et Élève28\,<br>Pour rappel\, si vous êtes demi-pens
+ ionnaires\, vous pourrez utiliser le casier n°27.<br>Bonne journée et 
+ à demain !</div>\n<strong>Donné le 02/09/2026 : \n</strong><div>Bonjour
+  Élève01 ! <br>J&#039\;ai posé ta question aux surveillants et voici c
+ e qu&#039\;ils m&#039\;ont dit : comme l&#039\;année dernière\, Élève
+ 02 dispose déjà d&#039\;un casier pour lui\, directement à la Vie Scol
+ aire\, afin de lui faciliter les choses. Il n&#039\;a donc déjà plus be
+ soin de casier. <br>Cela dit ta question était tout de même utile\, car
+  nous aurions fait en sorte de lui faciliter les choses avec toi si ce n&
+ #039\;était pas déjà le cas\, donc merci d&#039\;avoir proposé !<br>P
+ ar conséquent\, tu es associée à la camarade que tu avais suggérée\,
+  Élève03. Je vous remets un message à toutes les deux pour officialise
+ r ça et vous rappeler le numéro de votre casier. <br>Bonne journée à 
+ toi et à Élève02 !</div>\n<strong>Donné le 02/09/2026 : \n</strong><d
+ iv>Bonjour Élève01 et Élève03\,<br>Pour rappel\, si vous êtes demi-p
+ ensionnaires\, vous pourrez utiliser le casier n°30.<br>Bonne journée e
+ t à demain !</div>
+X-ALT-DESC;FMTTYPE=text/html:Cours annulé<br/>Matière : VIE DE CLASSE<br
+ />Professeur : LEROY N.<br/>Salle : S113<br/><br/><strong>Donné le 02/09
+ /2026 : <br/></strong><div>Bonjour !<br>Comme je l&#039\;avais mentionné
+  hier\, je serai absente jeudi... Mais attention\, seulement l&#039\;apr
+ ès-midi ! N&#039\;ayant pas encore intégré mon propre emploi du temps\
+ , je n&#039\;avais pas vu que nous nous voyons aussi le matin. Nous nous 
+ verrons donc bien demain\, jeudi 3 septembre\, à 8h55\, pour votre premi
+ er cours de français de sixième. Ce qui est exceptionnel\, c&#039\;est 
+ que nous ne nous verrons pas à 14h55. L&#039\;emploi du temps est à jou
+ r sur Pronote et affiche déjà les cours annulés\, donc vous pouvez vou
+ s y fier. <br>N&#039\;oubliez pas de bien vérifier votre sac ce soir\, e
+ n y mettant le matériel nécessaire pour chaque matière du jeudi (cahie
+ rs\, classeurs\, trousse\, agenda\, etc.) Ainsi vous serez tranquilles de
+ main matin avant de partir... Bon mercredi et à demain !</div><br/><stro
+ ng>Donné le 02/09/2026 : <br/></strong><div>Pensez bien à montrer les d
+ ocuments que j&#039\;ai donnés mardi (et que vous avez normalement mis d
+ ans une pochette) chez vous. Plusieurs de ces papiers sont à compléter 
+ et à signer. Pour le détail\, je vous renvoie vers l&#039\;agenda\, où
+  vous avez déjà tout écrit. En cas d&#039\;inquiétude\, que vos paren
+ ts n&#039\;hésitent pas à m&#039\;écrire via la messagerie de Pronote.
+  </div><br/><strong>Donné le 02/09/2026 : <br/></strong><div>Bonjour Él
+ ève06 et Élève07\,<br>Pour rappel\, si vous êtes demi-pensionnaires\,
+  vous pourrez utiliser le casier n°3.<br>Bonne journée et à demain !</
+ div><br/><strong>Donné le 02/09/2026 : <br/></strong><div>Bonjour Élèv
+ e08 et Élève09\,<br>Pour rappel\, si vous êtes demi-pensionnaires\, vo
+ us pourrez utiliser le casier n°7.<br>Bonne journée et à demain !</div
+ ><br/><strong>Donné le 02/09/2026 : <br/></strong><div>Bonjour Élève04
+  et Élève10\,<br>Pour rappel\, si vous êtes demi-pensionnaires\, vous 
+ pourrez utiliser le casier n°6.<br>Bonne journée et à demain !</div><b
+ r/><strong>Donné le 02/09/2026 : <br/></strong><div>Bonjour Élève11 et
+  Élève12\,<br>Pour rappel\, si vous êtes demi-pensionnaires\, vous pou
+ rrez utiliser le casier n°10.<br>Bonne journée et à demain !</div><br/
+ ><strong>Donné le 02/09/2026 : <br/></strong><div>Bonjour Élève13 et 
+ Élève14\,<br>Pour rappel\, si vous êtes demi-pensionnaires\, vous pour
+ rez utiliser le casier n°11.<br>Bonne journée et à demain !</div><br/>
+ <strong>Donné le 02/09/2026 : <br/></strong><div>Bonjour Élève15 et É
+ lève16\,<br>Pour rappel\, si vous êtes demi-pensionnaires\, vous pourre
+ z utiliser le casier n°14.<br>Bonne journée et à demain !</div><br/><s
+ trong>Donné le 02/09/2026 : <br/></strong><div>Bonjour Élève17 et Él
+ ève18\,<br>Pour rappel\, si vous êtes demi-pensionnaires\, vous pourrez
+  utiliser le casier n°15.<br>Bonne journée et à demain !</div><br/><st
+ rong>Donné le 02/09/2026 : <br/></strong><div>Bonjour Élève19 et Élè
+ ve20<br>Pour rappel\, si vous êtes demi-pensionnaires\, vous pourrez uti
+ liser le casier n°18.<br>Bonne journée et à demain !</div><br/><strong
+ >Donné le 02/09/2026 : <br/></strong><div>Bonjour Élève21 et Élève22
+ \,<br>Pour rappel\, si vous êtes demi-pensionnaires\, vous pourrez utili
+ ser le casier n°19.<br>Bonne journée et à demain !</div><br/><strong>D
+ onné le 02/09/2026 : <br/></strong><div>Bonjour Élève23 et Élève24\,
+ <br>Pour rappel\, si vous êtes demi-pensionnaires\, vous pourrez utilise
+ r le casier n°22.<br>Bonne journée et à demain !</div><br/><strong>Don
+ né le 02/09/2026 : <br/></strong><div>Bonjour Élève05 et Élève25\,<b
+ r>Pour rappel\, si vous êtes demi-pensionnaires\, vous pourrez utiliser 
+ le casier n°23.<br>Bonne journée et à demain !</div><br/><strong>Donn
+ é le 02/09/2026 : <br/></strong><div>Bonjour Élève01 et Élève26\,<br
+ >Pour rappel\, si vous êtes demi-pensionnaires\, vous pourrez utiliser l
+ e casier n°26.<br>Bonne journée et à demain !</div><br/><strong>Donné
+  le 02/09/2026 : <br/></strong><div>Bonjour Élève27 et Élève28\,<br>P
+ our rappel\, si vous êtes demi-pensionnaires\, vous pourrez utiliser le 
+ casier n°27.<br>Bonne journée et à demain !</div><br/><strong>Donné l
+ e 02/09/2026 : <br/></strong><div>Bonjour Élève01 ! <br>J&#039\;ai pos
+ é ta question aux surveillants et voici ce qu&#039\;ils m&#039\;ont dit 
+ : comme l&#039\;année dernière\, Élève02 dispose déjà d&#039\;un ca
+ sier pour lui\, directement à la Vie Scolaire\, afin de lui faciliter le
+ s choses. Il n&#039\;a donc déjà plus besoin de casier. <br>Cela dit ta
+  question était tout de même utile\, car nous aurions fait en sorte de 
+ lui faciliter les choses avec toi si ce n&#039\;était pas déjà le cas\
+ , donc merci d&#039\;avoir proposé !<br>Par conséquent\, tu es associé
+ e à la camarade que tu avais suggérée\, Élève03. Je vous remets un m
+ essage à toutes les deux pour officialiser ça et vous rappeler le numé
+ ro de votre casier. <br>Bonne journée à toi et à Élève02 !</div><br/
+ ><strong>Donné le 02/09/2026 : <br/></strong><div>Bonjour Élève01 et 
+ Élève03\,<br>Pour rappel\, si vous êtes demi-pensionnaires\, vous pour
+ rez utiliser le casier n°30.<br>Bonne journée et à demain !</div>
+COLOR:#C93E69
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260831T093827Z
+UID:Cours-16308-2-20260904T120218Z-Index-Education
+DTSTART:20260909T065500Z
+DTEND:20260909T075000Z
+SUMMARY;LANGUAGE=fr:TRAVAIL PERSONNEL - LEROY N.\, MOREL R.
+LOCATION;LANGUAGE=fr:S106\, S113
+DESCRIPTION;LANGUAGE=fr:Matière : TRAVAIL PERSONNEL\nProfesseurs : LEROY 
+ N.\, MOREL R.\nSalles : S106\, S113\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : TRAVAIL PERSONNEL<br/>Professeurs 
+ : LEROY N.\, MOREL R.<br/>Salles : S106\, S113<br/>
+COLOR:#D6A0C8
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260722T084908Z
+UID:Cours-16309-2-20260904T120218Z-Index-Education
+DTSTART:20260908T090500Z
+DTEND:20260908T100000Z
+SUMMARY;LANGUAGE=fr:ANGLAIS LV1 - THOMAS C.
+LOCATION;LANGUAGE=fr:S204
+DESCRIPTION;LANGUAGE=fr:Matière : ANGLAIS LV1\nProfesseur : THOMAS C.\nSa
+ lle : S204\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ANGLAIS LV1<br/>Professeur : THOMA
+ S C.<br/>Salle : S204<br/>
+COLOR:#EC6719
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260723T155916Z
+UID:Cours-16311-2-20260904T120218Z-Index-Education
+DTSTART:20260907T125500Z
+DTEND:20260907T143500Z
+SUMMARY;LANGUAGE=fr:ANGLAIS LV1 - THOMAS C.
+LOCATION;LANGUAGE=fr:S204
+DESCRIPTION;LANGUAGE=fr:Matière : ANGLAIS LV1\nProfesseur : THOMAS C.\nSa
+ lle : S204\n\n<strong>Donné le 04/09/2026 : \n</strong><div>apporter un 
+ chevalet avec son prénom écrit en gros dessus (= a nametag)</div>\n<str
+ ong>Donné le 04/09/2026 : \n</strong><div>lesson + vocabulary (first pag
+ e of the copybook) + dessiner une boîte de mouchoirs en papier sur la fi
+ che</div>\n<strong>Donné le 04/09/2026 : \n</strong><div>préparer des m
+ imes (entre 15 et 20) pour faire deviner les instructions de classe aux a
+ utres</div>
+X-ALT-DESC;FMTTYPE=text/html:Matière : ANGLAIS LV1<br/>Professeur : THOMA
+ S C.<br/>Salle : S204<br/><br/><strong>Donné le 04/09/2026 : <br/></stro
+ ng><div>apporter un chevalet avec son prénom écrit en gros dessus (= a 
+ nametag)</div><br/><strong>Donné le 04/09/2026 : <br/></strong><div>less
+ on + vocabulary (first page of the copybook) + dessiner une boîte de mou
+ choirs en papier sur la fiche</div><br/><strong>Donné le 04/09/2026 : <b
+ r/></strong><div>préparer des mimes (entre 15 et 20) pour faire deviner 
+ les instructions de classe aux autres</div>
+COLOR:#EC6719
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260722T074858Z
+UID:Cours-16312-2-20260904T120218Z-Index-Education
+DTSTART:20260911T060000Z
+DTEND:20260911T065500Z
+SUMMARY;LANGUAGE=fr:ANGLAIS LV1 - THOMAS C.
+LOCATION;LANGUAGE=fr:S204
+DESCRIPTION;LANGUAGE=fr:Matière : ANGLAIS LV1\nProfesseur : THOMAS C.\nSa
+ lle : S204\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ANGLAIS LV1<br/>Professeur : THOMA
+ S C.<br/>Salle : S204<br/>
+COLOR:#EC6719
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260723T094345Z
+UID:Cours-16313-2-20260904T120218Z-Index-Education
+DTSTART:20260910T120000Z
+DTEND:20260910T125500Z
+SUMMARY;LANGUAGE=fr:EDUCATION MUSICALE - DURAND G.
+LOCATION;LANGUAGE=fr:S002 Education musicale
+DESCRIPTION;LANGUAGE=fr:Matière : EDUCATION MUSICALE\nProfesseur : DURAND
+  G.\nSalle : S002 Education musicale\n\n<strong>Donné le 03/09/2026 : \n
+ </strong><div>chercher les instruments qui composent les familles :<br>-
+  des cordes frottées (4 instruments)<br>- des cuivres (4 instruments)</d
+ iv>
+X-ALT-DESC;FMTTYPE=text/html:Matière : EDUCATION MUSICALE<br/>Professeur 
+ : DURAND G.<br/>Salle : S002 Education musicale<br/><br/><strong>Donné l
+ e 03/09/2026 : <br/></strong><div>chercher les instruments qui composent 
+ les familles :<br>- des cordes frottées (4 instruments)<br>- des cuivre
+ s (4 instruments)</div>
+COLOR:#ED679B
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260725T095457Z
+UID:Cours-16314-2-20260904T120218Z-Index-Education
+DTSTART:20260907T065500Z
+DTEND:20260907T075000Z
+SUMMARY;LANGUAGE=fr:ENS. MORAL & CIVIQUE - DAVID P.
+LOCATION;LANGUAGE=fr:S203
+DESCRIPTION;LANGUAGE=fr:Matière : ENS. MORAL &amp\; CIVIQUE\nProfesseur :
+  DAVID P.\nSalle : S203\n\n<strong>Donné le 04/09/2026 : \n</strong><div
+ >Illustrer la 1ère page du cahier d'histoire géographie avec des élém
+ ents en lien avec le programme de l'année</div>
+X-ALT-DESC;FMTTYPE=text/html:Matière : ENS. MORAL &amp\; CIVIQUE<br/>Prof
+ esseur : DAVID P.<br/>Salle : S203<br/><br/><strong>Donné le 04/09/2026 
+ : <br/></strong><div>Illustrer la 1ère page du cahier d'histoire géogra
+ phie avec des éléments en lien avec le programme de l'année</div>
+COLOR:#FFED00
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260719T100052Z
+UID:Cours-16315-2-20260904T120218Z-Index-Education
+DTSTART:20260910T081000Z
+DTEND:20260910T100000Z
+SUMMARY;LANGUAGE=fr:ED.PHYSIQUE & SPORT. - BERTRAND Q.
+DESCRIPTION;LANGUAGE=fr:Matière : ED.PHYSIQUE &amp\; SPORT.\nProfesseur :
+  BERTRAND Q.\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ED.PHYSIQUE &amp\; SPORT.<br/>Prof
+ esseur : BERTRAND Q.<br/>
+COLOR:#1E6ADD
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260719T100030Z
+UID:Cours-16316-2-20260904T120218Z-Index-Education
+DTSTART:20260909T081000Z
+DTEND:20260909T100000Z
+SUMMARY;LANGUAGE=fr:ED.PHYSIQUE & SPORT. - BERTRAND Q.
+DESCRIPTION;LANGUAGE=fr:Matière : ED.PHYSIQUE &amp\; SPORT.\nProfesseur :
+  BERTRAND Q.\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ED.PHYSIQUE &amp\; SPORT.<br/>Prof
+ esseur : BERTRAND Q.<br/>
+COLOR:#1E6ADD
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T094312Z
+UID:Cours-16317-2-20260904T120218Z-Index-Education
+DTSTART:20260910T125500Z
+DTEND:20260910T135000Z
+SUMMARY;LANGUAGE=fr:FRANCAIS - LEROY N.
+LOCATION;LANGUAGE=fr:S113
+DESCRIPTION;LANGUAGE=fr:Matière : FRANCAIS\nProfesseur : LEROY N.\nSalle 
+ : S113\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : FRANCAIS<br/>Professeur : LEROY N.
+ <br/>Salle : S113<br/>
+COLOR:#21BBEF
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T094134Z
+UID:Cours-16318-2-20260904T120218Z-Index-Education
+DTSTART:20260908T060000Z
+DTEND:20260908T065500Z
+SUMMARY;LANGUAGE=fr:FRANCAIS - LEROY N.
+LOCATION;LANGUAGE=fr:S106
+DESCRIPTION;LANGUAGE=fr:Matière : FRANCAIS\nProfesseur : LEROY N.\nSalle 
+ : S106\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : FRANCAIS<br/>Professeur : LEROY N.
+ <br/>Salle : S106<br/>
+COLOR:#21BBEF
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260903T083553Z
+UID:Cours-16319-2-20260904T120218Z-Index-Education
+DTSTART:20260910T065500Z
+DTEND:20260910T075000Z
+SUMMARY;LANGUAGE=fr:FRANCAIS - LEROY N.
+LOCATION;LANGUAGE=fr:S103 - Sciences
+DESCRIPTION;LANGUAGE=fr:Matière : FRANCAIS\nProfesseur : LEROY N.\nSalle 
+ : S103 - Sciences\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : FRANCAIS<br/>Professeur : LEROY N.
+ <br/>Salle : S103 - Sciences<br/>
+COLOR:#21BBEF
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260722T085011Z
+UID:Cours-16321-2-20260904T120218Z-Index-Education
+DTSTART:20260911T065500Z
+DTEND:20260911T075000Z
+SUMMARY;LANGUAGE=fr:HISTOIRE-GEOGRAPHIE - DAVID P.
+LOCATION;LANGUAGE=fr:S203
+DESCRIPTION;LANGUAGE=fr:Matière : HISTOIRE-GEOGRAPHIE\nProfesseur : DAVID
+  P.\nSalle : S203\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : HISTOIRE-GEOGRAPHIE<br/>Professeur
+  : DAVID P.<br/>Salle : S203<br/>
+COLOR:#FFED00
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260724T084254Z
+UID:Cours-16324-2-20260904T120218Z-Index-Education
+DTSTART:20260908T081000Z
+DTEND:20260908T090500Z
+SUMMARY;LANGUAGE=fr:MATHEMATIQUES - ROUX O.
+LOCATION;LANGUAGE=fr:S110
+DESCRIPTION;LANGUAGE=fr:Matière : MATHEMATIQUES\nProfesseur : ROUX O.\nSa
+ lle : S110\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : MATHEMATIQUES<br/>Professeur : ROU
+ X O.<br/>Salle : S110<br/>
+COLOR:#AC75AE
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260721T142305Z
+UID:Cours-16325-2-20260904T120218Z-Index-Education
+DTSTART:20260909T060000Z
+DTEND:20260909T065500Z
+SUMMARY;LANGUAGE=fr:MATHEMATIQUES - ROUX O.
+LOCATION;LANGUAGE=fr:S110
+DESCRIPTION;LANGUAGE=fr:Matière : MATHEMATIQUES\nProfesseur : ROUX O.\nSa
+ lle : S110\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : MATHEMATIQUES<br/>Professeur : ROU
+ X O.<br/>Salle : S110<br/>
+COLOR:#AC75AE
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260722T073819Z
+UID:Cours-16326-2-20260904T120218Z-Index-Education
+DTSTART:20260907T060000Z
+DTEND:20260907T065500Z
+SUMMARY;LANGUAGE=fr:MATHEMATIQUES - ROUX O.
+LOCATION;LANGUAGE=fr:S110
+DESCRIPTION;LANGUAGE=fr:Matière : MATHEMATIQUES\nProfesseur : ROUX O.\nSa
+ lle : S110\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : MATHEMATIQUES<br/>Professeur : ROU
+ X O.<br/>Salle : S110<br/>
+COLOR:#AC75AE
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T100141Z
+UID:Cours-16328-2-20260904T120218Z-Index-Education
+DTSTART:20260907T081000Z
+DTEND:20260907T093500Z
+SUMMARY;LANGUAGE=fr:PHYSIQUE-CHIMIE - FOURNIER S.
+LOCATION;LANGUAGE=fr:S102 - Sciences
+DESCRIPTION;LANGUAGE=fr:Matière : PHYSIQUE-CHIMIE\nProfesseur : FOURNIER 
+ S.\nSalle : S102 - Sciences\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : PHYSIQUE-CHIMIE<br/>Professeur : F
+ OURNIER S.<br/>Salle : S102 - Sciences<br/>
+COLOR:#4B95B4
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260723T165410Z
+UID:Cours-16329-2-20260904T120218Z-Index-Education
+DTSTART:20260908T120000Z
+DTEND:20260908T132500Z
+SUMMARY;LANGUAGE=fr:SCIENCES VIE & TERRE - MOREAU I.
+LOCATION;LANGUAGE=fr:S103 - Sciences
+DESCRIPTION;LANGUAGE=fr:Matière : SCIENCES VIE &amp\; TERRE\nProfesseur :
+  MOREAU I.\nSalle : S103 - Sciences\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : SCIENCES VIE &amp\; TERRE<br/>Prof
+ esseur : MOREAU I.<br/>Salle : S103 - Sciences<br/>
+COLOR:#75B951
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260825T121329Z
+UID:Cours-16340-2-20260904T120218Z-Index-Education
+DTSTART:20260911T120000Z
+DTEND:20260911T135000Z
+SUMMARY;LANGUAGE=fr:ARCHEOLOGIE - DAVID P.\, GIRARD T. - [6E4-5 ARCHEO] - 
+ <6EME4> ARCHEO\, <6EME5> ARCHEO
+LOCATION;LANGUAGE=fr:CDI\, S203
+DESCRIPTION;LANGUAGE=fr:Matière : ARCHEOLOGIE\nProfesseurs : DAVID P.\, G
+ IRARD T.\nGroupe : [6E4-5 ARCHEO]\nParties de classe : &lt\;6EME4&gt\; AR
+ CHEO\, &lt\;6EME5&gt\; ARCHEO\nSalles : CDI\, S203\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ARCHEOLOGIE<br/>Professeurs : DAVI
+ D P.\, GIRARD T.<br/>Groupe : [6E4-5 ARCHEO]<br/>Parties de classe : &lt\
+ ;6EME4&gt\; ARCHEO\, &lt\;6EME5&gt\; ARCHEO<br/>Salles : CDI\, S203<br/>
+COLOR:#FDCF1D
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260721T142619Z
+UID:Cours-16550-2-20260904T120218Z-Index-Education
+DTSTART:20260910T060000Z
+DTEND:20260910T065500Z
+SUMMARY;LANGUAGE=fr:MATHEMATIQUES - ROUX O.
+LOCATION;LANGUAGE=fr:S110
+DESCRIPTION;LANGUAGE=fr:Matière : MATHEMATIQUES\nProfesseur : ROUX O.\nSa
+ lle : S110\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : MATHEMATIQUES<br/>Professeur : ROU
+ X O.<br/>Salle : S110<br/>
+COLOR:#AC75AE
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260722T090608Z
+UID:Cours-16598-2-20260904T120218Z-Index-Education
+DTSTART:20260908T065500Z
+DTEND:20260908T075000Z
+SUMMARY;LANGUAGE=fr:ARTS PLASTIQUES - SIMON K.
+LOCATION;LANGUAGE=fr:S001 Arts Plastiques
+DESCRIPTION;LANGUAGE=fr:Matière : ARTS PLASTIQUES\nProfesseur : SIMON K.\
+ nSalle : S001 Arts Plastiques\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ARTS PLASTIQUES<br/>Professeur : S
+ IMON K.<br/>Salle : S001 Arts Plastiques<br/>
+COLOR:#ED6566
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T201252Z
+UID:Cours-16614-2-20260904T120218Z-Index-Education
+DTSTART:20260907T120000Z
+DTEND:20260907T125500Z
+SUMMARY;LANGUAGE=fr:HISTOIRE-GEOGRAPHIE - DAVID P.
+LOCATION;LANGUAGE=fr:S203
+DESCRIPTION;LANGUAGE=fr:Matière : HISTOIRE-GEOGRAPHIE\nProfesseur : DAVID
+  P.\nSalle : S203\n\n<strong>Donné le 04/09/2026 : \n</strong><div>Illus
+ trer la 1ère page du cahier d'histoire géographie avec des éléments e
+ n lien avec le programme de l'année</div>
+X-ALT-DESC;FMTTYPE=text/html:Matière : HISTOIRE-GEOGRAPHIE<br/>Professeur
+  : DAVID P.<br/>Salle : S203<br/><br/><strong>Donné le 04/09/2026 : <br/
+ ></strong><div>Illustrer la 1ère page du cahier d'histoire géographie a
+ vec des éléments en lien avec le programme de l'année</div>
+COLOR:#FFED00
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260729T185123Z
+UID:Cours-16721-2-20260904T120218Z-Index-Education
+DTSTART:20260911T081000Z
+DTEND:20260911T090500Z
+SUMMARY;LANGUAGE=fr:FRANCAIS - LEROY N.
+LOCATION;LANGUAGE=fr:S111
+DESCRIPTION;LANGUAGE=fr:Matière : FRANCAIS\nProfesseur : LEROY N.\nSalle 
+ : S111\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : FRANCAIS<br/>Professeur : LEROY N.
+ <br/>Salle : S111<br/>
+COLOR:#21BBEF
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260729T185136Z
+UID:Cours-16722-2-20260904T120218Z-Index-Education
+DTSTART:20260911T090500Z
+DTEND:20260911T100000Z
+SUMMARY;LANGUAGE=fr:MATHEMATIQUES - ROUX O.
+LOCATION;LANGUAGE=fr:S110
+DESCRIPTION;LANGUAGE=fr:Matière : MATHEMATIQUES\nProfesseur : ROUX O.\nSa
+ lle : S110\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : MATHEMATIQUES<br/>Professeur : ROU
+ X O.<br/>Salle : S110<br/>
+COLOR:#AC75AE
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours - Cours déplacé
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260901T111255Z
+UID:Cours-16861-2-20260904T120218Z-Index-Education
+DTSTART:20260910T140500Z
+DTEND:20260910T150000Z
+SUMMARY;LANGUAGE=fr:FRANCAIS - LEROY N.
+LOCATION;LANGUAGE=fr:S113
+DESCRIPTION;LANGUAGE=fr:Matière : FRANCAIS\nProfesseur : LEROY N.\nSalle 
+ : S113\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : FRANCAIS<br/>Professeur : LEROY N.
+ <br/>Salle : S113<br/>
+COLOR:#21BBEF
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260722T090627Z
+UID:Cours-16307-3-20260904T120218Z-Index-Education
+DTSTART:20260914T065500Z
+DTEND:20260914T075000Z
+SUMMARY;LANGUAGE=fr:ARTS PLASTIQUES - SIMON K.
+LOCATION;LANGUAGE=fr:S001 Arts Plastiques
+DESCRIPTION;LANGUAGE=fr:Matière : ARTS PLASTIQUES\nProfesseur : SIMON K.\
+ nSalle : S001 Arts Plastiques\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ARTS PLASTIQUES<br/>Professeur : S
+ IMON K.<br/>Salle : S001 Arts Plastiques<br/>
+COLOR:#ED6566
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260831T093827Z
+UID:Cours-16308-3-20260904T120218Z-Index-Education
+DTSTART:20260916T065500Z
+DTEND:20260916T075000Z
+SUMMARY;LANGUAGE=fr:TRAVAIL PERSONNEL - LEROY N.\, MOREL R.
+LOCATION;LANGUAGE=fr:S106\, S113
+DESCRIPTION;LANGUAGE=fr:Matière : TRAVAIL PERSONNEL\nProfesseurs : LEROY 
+ N.\, MOREL R.\nSalles : S106\, S113\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : TRAVAIL PERSONNEL<br/>Professeurs 
+ : LEROY N.\, MOREL R.<br/>Salles : S106\, S113<br/>
+COLOR:#D6A0C8
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260722T084908Z
+UID:Cours-16309-3-20260904T120218Z-Index-Education
+DTSTART:20260915T090500Z
+DTEND:20260915T100000Z
+SUMMARY;LANGUAGE=fr:ANGLAIS LV1 - THOMAS C.
+LOCATION;LANGUAGE=fr:S204
+DESCRIPTION;LANGUAGE=fr:Matière : ANGLAIS LV1\nProfesseur : THOMAS C.\nSa
+ lle : S204\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ANGLAIS LV1<br/>Professeur : THOMA
+ S C.<br/>Salle : S204<br/>
+COLOR:#EC6719
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260723T094338Z
+UID:Cours-16310-3-20260904T120218Z-Index-Education
+DTSTART:20260917T060000Z
+DTEND:20260917T065500Z
+SUMMARY;LANGUAGE=fr:ANGLAIS LV1 - THOMAS C.
+LOCATION;LANGUAGE=fr:S204
+DESCRIPTION;LANGUAGE=fr:Matière : ANGLAIS LV1\nProfesseur : THOMAS C.\nSa
+ lle : S204\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ANGLAIS LV1<br/>Professeur : THOMA
+ S C.<br/>Salle : S204<br/>
+COLOR:#EC6719
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260723T155916Z
+UID:Cours-16311-3-20260904T120218Z-Index-Education
+DTSTART:20260914T125500Z
+DTEND:20260914T143500Z
+SUMMARY;LANGUAGE=fr:ANGLAIS LV1 - THOMAS C.
+LOCATION;LANGUAGE=fr:S204
+DESCRIPTION;LANGUAGE=fr:Matière : ANGLAIS LV1\nProfesseur : THOMAS C.\nSa
+ lle : S204\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ANGLAIS LV1<br/>Professeur : THOMA
+ S C.<br/>Salle : S204<br/>
+COLOR:#EC6719
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260722T074858Z
+UID:Cours-16312-3-20260904T120218Z-Index-Education
+DTSTART:20260918T060000Z
+DTEND:20260918T065500Z
+SUMMARY;LANGUAGE=fr:ANGLAIS LV1 - THOMAS C.
+LOCATION;LANGUAGE=fr:S204
+DESCRIPTION;LANGUAGE=fr:Matière : ANGLAIS LV1\nProfesseur : THOMAS C.\nSa
+ lle : S204\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ANGLAIS LV1<br/>Professeur : THOMA
+ S C.<br/>Salle : S204<br/>
+COLOR:#EC6719
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260723T094345Z
+UID:Cours-16313-3-20260904T120218Z-Index-Education
+DTSTART:20260917T120000Z
+DTEND:20260917T125500Z
+SUMMARY;LANGUAGE=fr:EDUCATION MUSICALE - DURAND G.
+LOCATION;LANGUAGE=fr:S002 Education musicale
+DESCRIPTION;LANGUAGE=fr:Matière : EDUCATION MUSICALE\nProfesseur : DURAND
+  G.\nSalle : S002 Education musicale\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : EDUCATION MUSICALE<br/>Professeur 
+ : DURAND G.<br/>Salle : S002 Education musicale<br/>
+COLOR:#ED679B
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260719T100052Z
+UID:Cours-16315-3-20260904T120218Z-Index-Education
+DTSTART:20260917T081000Z
+DTEND:20260917T100000Z
+SUMMARY;LANGUAGE=fr:ED.PHYSIQUE & SPORT. - BERTRAND Q.
+DESCRIPTION;LANGUAGE=fr:Matière : ED.PHYSIQUE &amp\; SPORT.\nProfesseur :
+  BERTRAND Q.\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ED.PHYSIQUE &amp\; SPORT.<br/>Prof
+ esseur : BERTRAND Q.<br/>
+COLOR:#1E6ADD
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260719T100030Z
+UID:Cours-16316-3-20260904T120218Z-Index-Education
+DTSTART:20260916T081000Z
+DTEND:20260916T100000Z
+SUMMARY;LANGUAGE=fr:ED.PHYSIQUE & SPORT. - BERTRAND Q.
+DESCRIPTION;LANGUAGE=fr:Matière : ED.PHYSIQUE &amp\; SPORT.\nProfesseur :
+  BERTRAND Q.\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ED.PHYSIQUE &amp\; SPORT.<br/>Prof
+ esseur : BERTRAND Q.<br/>
+COLOR:#1E6ADD
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T094312Z
+UID:Cours-16317-3-20260904T120218Z-Index-Education
+DTSTART:20260917T125500Z
+DTEND:20260917T135000Z
+SUMMARY;LANGUAGE=fr:FRANCAIS - LEROY N.
+LOCATION;LANGUAGE=fr:S113
+DESCRIPTION;LANGUAGE=fr:Matière : FRANCAIS\nProfesseur : LEROY N.\nSalle 
+ : S113\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : FRANCAIS<br/>Professeur : LEROY N.
+ <br/>Salle : S113<br/>
+COLOR:#21BBEF
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T094134Z
+UID:Cours-16318-3-20260904T120218Z-Index-Education
+DTSTART:20260915T060000Z
+DTEND:20260915T065500Z
+SUMMARY;LANGUAGE=fr:FRANCAIS - LEROY N.
+LOCATION;LANGUAGE=fr:S106
+DESCRIPTION;LANGUAGE=fr:Matière : FRANCAIS\nProfesseur : LEROY N.\nSalle 
+ : S106\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : FRANCAIS<br/>Professeur : LEROY N.
+ <br/>Salle : S106<br/>
+COLOR:#21BBEF
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260903T083553Z
+UID:Cours-16319-3-20260904T120218Z-Index-Education
+DTSTART:20260917T065500Z
+DTEND:20260917T075000Z
+SUMMARY;LANGUAGE=fr:FRANCAIS - LEROY N.
+LOCATION;LANGUAGE=fr:S103 - Sciences
+DESCRIPTION;LANGUAGE=fr:Matière : FRANCAIS\nProfesseur : LEROY N.\nSalle 
+ : S103 - Sciences\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : FRANCAIS<br/>Professeur : LEROY N.
+ <br/>Salle : S103 - Sciences<br/>
+COLOR:#21BBEF
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T094418Z
+UID:Cours-16320-3-20260904T120218Z-Index-Education
+DTSTART:20260918T125500Z
+DTEND:20260918T135000Z
+SUMMARY;LANGUAGE=fr:FRANCAIS - LEROY N.
+LOCATION;LANGUAGE=fr:S111
+DESCRIPTION;LANGUAGE=fr:Matière : FRANCAIS\nProfesseur : LEROY N.\nSalle 
+ : S111\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : FRANCAIS<br/>Professeur : LEROY N.
+ <br/>Salle : S111<br/>
+COLOR:#21BBEF
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260722T085011Z
+UID:Cours-16321-3-20260904T120218Z-Index-Education
+DTSTART:20260918T065500Z
+DTEND:20260918T075000Z
+SUMMARY;LANGUAGE=fr:HISTOIRE-GEOGRAPHIE - DAVID P.
+LOCATION;LANGUAGE=fr:S203
+DESCRIPTION;LANGUAGE=fr:Matière : HISTOIRE-GEOGRAPHIE\nProfesseur : DAVID
+  P.\nSalle : S203\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : HISTOIRE-GEOGRAPHIE<br/>Professeur
+  : DAVID P.<br/>Salle : S203<br/>
+COLOR:#FFED00
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260724T084254Z
+UID:Cours-16324-3-20260904T120218Z-Index-Education
+DTSTART:20260915T081000Z
+DTEND:20260915T090500Z
+SUMMARY;LANGUAGE=fr:MATHEMATIQUES - ROUX O.
+LOCATION;LANGUAGE=fr:S110
+DESCRIPTION;LANGUAGE=fr:Matière : MATHEMATIQUES\nProfesseur : ROUX O.\nSa
+ lle : S110\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : MATHEMATIQUES<br/>Professeur : ROU
+ X O.<br/>Salle : S110<br/>
+COLOR:#AC75AE
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260721T142305Z
+UID:Cours-16325-3-20260904T120218Z-Index-Education
+DTSTART:20260916T060000Z
+DTEND:20260916T065500Z
+SUMMARY;LANGUAGE=fr:MATHEMATIQUES - ROUX O.
+LOCATION;LANGUAGE=fr:S110
+DESCRIPTION;LANGUAGE=fr:Matière : MATHEMATIQUES\nProfesseur : ROUX O.\nSa
+ lle : S110\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : MATHEMATIQUES<br/>Professeur : ROU
+ X O.<br/>Salle : S110<br/>
+COLOR:#AC75AE
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260722T073819Z
+UID:Cours-16326-3-20260904T120218Z-Index-Education
+DTSTART:20260914T060000Z
+DTEND:20260914T065500Z
+SUMMARY;LANGUAGE=fr:MATHEMATIQUES - ROUX O.
+LOCATION;LANGUAGE=fr:S110
+DESCRIPTION;LANGUAGE=fr:Matière : MATHEMATIQUES\nProfesseur : ROUX O.\nSa
+ lle : S110\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : MATHEMATIQUES<br/>Professeur : ROU
+ X O.<br/>Salle : S110<br/>
+COLOR:#AC75AE
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T100141Z
+UID:Cours-16328-3-20260904T120218Z-Index-Education
+DTSTART:20260914T081000Z
+DTEND:20260914T093500Z
+SUMMARY;LANGUAGE=fr:PHYSIQUE-CHIMIE - FOURNIER S.
+LOCATION;LANGUAGE=fr:S102 - Sciences
+DESCRIPTION;LANGUAGE=fr:Matière : PHYSIQUE-CHIMIE\nProfesseur : FOURNIER 
+ S.\nSalle : S102 - Sciences\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : PHYSIQUE-CHIMIE<br/>Professeur : F
+ OURNIER S.<br/>Salle : S102 - Sciences<br/>
+COLOR:#4B95B4
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260723T165410Z
+UID:Cours-16329-3-20260904T120218Z-Index-Education
+DTSTART:20260915T120000Z
+DTEND:20260915T132500Z
+SUMMARY;LANGUAGE=fr:SCIENCES VIE & TERRE - MOREAU I.
+LOCATION;LANGUAGE=fr:S103 - Sciences
+DESCRIPTION;LANGUAGE=fr:Matière : SCIENCES VIE &amp\; TERRE\nProfesseur :
+  MOREAU I.\nSalle : S103 - Sciences\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : SCIENCES VIE &amp\; TERRE<br/>Prof
+ esseur : MOREAU I.<br/>Salle : S103 - Sciences<br/>
+COLOR:#75B951
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260729T185057Z
+UID:Cours-16460-3-20260904T120218Z-Index-Education
+DTSTART:20260918T090500Z
+DTEND:20260918T100000Z
+SUMMARY;LANGUAGE=fr:MATHEMATIQUES - ROUX O. - [6E5 AP MATHS GR1] - <6EME5>
+  6EME5-P1
+LOCATION;LANGUAGE=fr:S110
+DESCRIPTION;LANGUAGE=fr:Matière : MATHEMATIQUES\nProfesseur : ROUX O.\nGr
+ oupe : [6E5 AP MATHS GR1]\nPartie de classe : &lt\;6EME5&gt\; 6EME5-P1\nS
+ alle : S110\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : MATHEMATIQUES<br/>Professeur : ROU
+ X O.<br/>Groupe : [6E5 AP MATHS GR1]<br/>Partie de classe : &lt\;6EME5&gt
+ \; 6EME5-P1<br/>Salle : S110<br/>
+COLOR:#AC75AE
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260729T185102Z
+UID:Cours-16463-3-20260904T120218Z-Index-Education
+DTSTART:20260918T081000Z
+DTEND:20260918T090500Z
+SUMMARY;LANGUAGE=fr:FRANCAIS - LEROY N. - [6E5 AP FRAN GR1] - <6EME5> 6EME
+ 5-P1
+LOCATION;LANGUAGE=fr:S111
+DESCRIPTION;LANGUAGE=fr:Matière : FRANCAIS\nProfesseur : LEROY N.\nGroupe
+  : [6E5 AP FRAN GR1]\nPartie de classe : &lt\;6EME5&gt\; 6EME5-P1\nSalle 
+ : S111\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : FRANCAIS<br/>Professeur : LEROY N.
+ <br/>Groupe : [6E5 AP FRAN GR1]<br/>Partie de classe : &lt\;6EME5&gt\; 6E
+ ME5-P1<br/>Salle : S111<br/>
+COLOR:#21BBEF
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T201252Z
+UID:Cours-16614-3-20260904T120218Z-Index-Education
+DTSTART:20260914T120000Z
+DTEND:20260914T125500Z
+SUMMARY;LANGUAGE=fr:HISTOIRE-GEOGRAPHIE - DAVID P.
+LOCATION;LANGUAGE=fr:S203
+DESCRIPTION;LANGUAGE=fr:Matière : HISTOIRE-GEOGRAPHIE\nProfesseur : DAVID
+  P.\nSalle : S203\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : HISTOIRE-GEOGRAPHIE<br/>Professeur
+  : DAVID P.<br/>Salle : S203<br/>
+COLOR:#FFED00
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260723T094421Z
+UID:Cours-16620-3-20260904T120218Z-Index-Education
+DTSTART:20260915T065500Z
+DTEND:20260915T075000Z
+SUMMARY;LANGUAGE=fr:HISTOIRE-GEOGRAPHIE - DAVID P.
+LOCATION;LANGUAGE=fr:S203
+DESCRIPTION;LANGUAGE=fr:Matière : HISTOIRE-GEOGRAPHIE\nProfesseur : DAVID
+  P.\nSalle : S203\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : HISTOIRE-GEOGRAPHIE<br/>Professeur
+  : DAVID P.<br/>Salle : S203<br/>
+COLOR:#FFED00
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T140542Z
+UID:Cours-16710-3-20260904T120218Z-Index-Education
+DTSTART:20260917T140500Z
+DTEND:20260917T150000Z
+SUMMARY;LANGUAGE=fr:VIE DE CLASSE - LEROY N.
+LOCATION;LANGUAGE=fr:S113
+DESCRIPTION;LANGUAGE=fr:Matière : VIE DE CLASSE\nProfesseur : LEROY N.\nS
+ alle : S113\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : VIE DE CLASSE<br/>Professeur : LER
+ OY N.<br/>Salle : S113<br/>
+COLOR:#C93E69
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260831T093827Z
+UID:Cours-16308-4-20260904T120218Z-Index-Education
+DTSTART:20260923T065500Z
+DTEND:20260923T075000Z
+SUMMARY;LANGUAGE=fr:TRAVAIL PERSONNEL - LEROY N.\, MOREL R.
+LOCATION;LANGUAGE=fr:S106\, S113
+DESCRIPTION;LANGUAGE=fr:Matière : TRAVAIL PERSONNEL\nProfesseurs : LEROY 
+ N.\, MOREL R.\nSalles : S106\, S113\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : TRAVAIL PERSONNEL<br/>Professeurs 
+ : LEROY N.\, MOREL R.<br/>Salles : S106\, S113<br/>
+COLOR:#D6A0C8
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260722T084908Z
+UID:Cours-16309-4-20260904T120218Z-Index-Education
+DTSTART:20260922T090500Z
+DTEND:20260922T100000Z
+SUMMARY;LANGUAGE=fr:ANGLAIS LV1 - THOMAS C.
+LOCATION;LANGUAGE=fr:S204
+DESCRIPTION;LANGUAGE=fr:Matière : ANGLAIS LV1\nProfesseur : THOMAS C.\nSa
+ lle : S204\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ANGLAIS LV1<br/>Professeur : THOMA
+ S C.<br/>Salle : S204<br/>
+COLOR:#EC6719
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260723T155916Z
+UID:Cours-16311-4-20260904T120218Z-Index-Education
+DTSTART:20260921T125500Z
+DTEND:20260921T143500Z
+SUMMARY;LANGUAGE=fr:ANGLAIS LV1 - THOMAS C.
+LOCATION;LANGUAGE=fr:S204
+DESCRIPTION;LANGUAGE=fr:Matière : ANGLAIS LV1\nProfesseur : THOMAS C.\nSa
+ lle : S204\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ANGLAIS LV1<br/>Professeur : THOMA
+ S C.<br/>Salle : S204<br/>
+COLOR:#EC6719
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260722T074858Z
+UID:Cours-16312-4-20260904T120218Z-Index-Education
+DTSTART:20260925T060000Z
+DTEND:20260925T065500Z
+SUMMARY;LANGUAGE=fr:ANGLAIS LV1 - THOMAS C.
+LOCATION;LANGUAGE=fr:S204
+DESCRIPTION;LANGUAGE=fr:Matière : ANGLAIS LV1\nProfesseur : THOMAS C.\nSa
+ lle : S204\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ANGLAIS LV1<br/>Professeur : THOMA
+ S C.<br/>Salle : S204<br/>
+COLOR:#EC6719
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260723T094345Z
+UID:Cours-16313-4-20260904T120218Z-Index-Education
+DTSTART:20260924T120000Z
+DTEND:20260924T125500Z
+SUMMARY;LANGUAGE=fr:EDUCATION MUSICALE - DURAND G.
+LOCATION;LANGUAGE=fr:S002 Education musicale
+DESCRIPTION;LANGUAGE=fr:Matière : EDUCATION MUSICALE\nProfesseur : DURAND
+  G.\nSalle : S002 Education musicale\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : EDUCATION MUSICALE<br/>Professeur 
+ : DURAND G.<br/>Salle : S002 Education musicale<br/>
+COLOR:#ED679B
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260725T095457Z
+UID:Cours-16314-4-20260904T120218Z-Index-Education
+DTSTART:20260921T065500Z
+DTEND:20260921T075000Z
+SUMMARY;LANGUAGE=fr:ENS. MORAL & CIVIQUE - DAVID P.
+LOCATION;LANGUAGE=fr:S203
+DESCRIPTION;LANGUAGE=fr:Matière : ENS. MORAL &amp\; CIVIQUE\nProfesseur :
+  DAVID P.\nSalle : S203\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ENS. MORAL &amp\; CIVIQUE<br/>Prof
+ esseur : DAVID P.<br/>Salle : S203<br/>
+COLOR:#FFED00
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260719T100052Z
+UID:Cours-16315-4-20260904T120218Z-Index-Education
+DTSTART:20260924T081000Z
+DTEND:20260924T100000Z
+SUMMARY;LANGUAGE=fr:ED.PHYSIQUE & SPORT. - BERTRAND Q.
+DESCRIPTION;LANGUAGE=fr:Matière : ED.PHYSIQUE &amp\; SPORT.\nProfesseur :
+  BERTRAND Q.\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ED.PHYSIQUE &amp\; SPORT.<br/>Prof
+ esseur : BERTRAND Q.<br/>
+COLOR:#1E6ADD
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260719T100030Z
+UID:Cours-16316-4-20260904T120218Z-Index-Education
+DTSTART:20260923T081000Z
+DTEND:20260923T100000Z
+SUMMARY;LANGUAGE=fr:ED.PHYSIQUE & SPORT. - BERTRAND Q.
+DESCRIPTION;LANGUAGE=fr:Matière : ED.PHYSIQUE &amp\; SPORT.\nProfesseur :
+  BERTRAND Q.\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ED.PHYSIQUE &amp\; SPORT.<br/>Prof
+ esseur : BERTRAND Q.<br/>
+COLOR:#1E6ADD
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T094312Z
+UID:Cours-16317-4-20260904T120218Z-Index-Education
+DTSTART:20260924T125500Z
+DTEND:20260924T135000Z
+SUMMARY;LANGUAGE=fr:FRANCAIS - LEROY N.
+LOCATION;LANGUAGE=fr:S113
+DESCRIPTION;LANGUAGE=fr:Matière : FRANCAIS\nProfesseur : LEROY N.\nSalle 
+ : S113\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : FRANCAIS<br/>Professeur : LEROY N.
+ <br/>Salle : S113<br/>
+COLOR:#21BBEF
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T094134Z
+UID:Cours-16318-4-20260904T120218Z-Index-Education
+DTSTART:20260922T060000Z
+DTEND:20260922T065500Z
+SUMMARY;LANGUAGE=fr:FRANCAIS - LEROY N.
+LOCATION;LANGUAGE=fr:S106
+DESCRIPTION;LANGUAGE=fr:Matière : FRANCAIS\nProfesseur : LEROY N.\nSalle 
+ : S106\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : FRANCAIS<br/>Professeur : LEROY N.
+ <br/>Salle : S106<br/>
+COLOR:#21BBEF
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260903T083553Z
+UID:Cours-16319-4-20260904T120218Z-Index-Education
+DTSTART:20260924T065500Z
+DTEND:20260924T075000Z
+SUMMARY;LANGUAGE=fr:FRANCAIS - LEROY N.
+LOCATION;LANGUAGE=fr:S103 - Sciences
+DESCRIPTION;LANGUAGE=fr:Matière : FRANCAIS\nProfesseur : LEROY N.\nSalle 
+ : S103 - Sciences\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : FRANCAIS<br/>Professeur : LEROY N.
+ <br/>Salle : S103 - Sciences<br/>
+COLOR:#21BBEF
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260722T085011Z
+UID:Cours-16321-4-20260904T120218Z-Index-Education
+DTSTART:20260925T065500Z
+DTEND:20260925T075000Z
+SUMMARY;LANGUAGE=fr:HISTOIRE-GEOGRAPHIE - DAVID P.
+LOCATION;LANGUAGE=fr:S203
+DESCRIPTION;LANGUAGE=fr:Matière : HISTOIRE-GEOGRAPHIE\nProfesseur : DAVID
+  P.\nSalle : S203\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : HISTOIRE-GEOGRAPHIE<br/>Professeur
+  : DAVID P.<br/>Salle : S203<br/>
+COLOR:#FFED00
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260724T084254Z
+UID:Cours-16324-4-20260904T120218Z-Index-Education
+DTSTART:20260922T081000Z
+DTEND:20260922T090500Z
+SUMMARY;LANGUAGE=fr:MATHEMATIQUES - ROUX O.
+LOCATION;LANGUAGE=fr:S110
+DESCRIPTION;LANGUAGE=fr:Matière : MATHEMATIQUES\nProfesseur : ROUX O.\nSa
+ lle : S110\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : MATHEMATIQUES<br/>Professeur : ROU
+ X O.<br/>Salle : S110<br/>
+COLOR:#AC75AE
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260721T142305Z
+UID:Cours-16325-4-20260904T120218Z-Index-Education
+DTSTART:20260923T060000Z
+DTEND:20260923T065500Z
+SUMMARY;LANGUAGE=fr:MATHEMATIQUES - ROUX O.
+LOCATION;LANGUAGE=fr:S110
+DESCRIPTION;LANGUAGE=fr:Matière : MATHEMATIQUES\nProfesseur : ROUX O.\nSa
+ lle : S110\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : MATHEMATIQUES<br/>Professeur : ROU
+ X O.<br/>Salle : S110<br/>
+COLOR:#AC75AE
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260722T073819Z
+UID:Cours-16326-4-20260904T120218Z-Index-Education
+DTSTART:20260921T060000Z
+DTEND:20260921T065500Z
+SUMMARY;LANGUAGE=fr:MATHEMATIQUES - ROUX O.
+LOCATION;LANGUAGE=fr:S110
+DESCRIPTION;LANGUAGE=fr:Matière : MATHEMATIQUES\nProfesseur : ROUX O.\nSa
+ lle : S110\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : MATHEMATIQUES<br/>Professeur : ROU
+ X O.<br/>Salle : S110<br/>
+COLOR:#AC75AE
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T100141Z
+UID:Cours-16328-4-20260904T120218Z-Index-Education
+DTSTART:20260921T081000Z
+DTEND:20260921T093500Z
+SUMMARY;LANGUAGE=fr:PHYSIQUE-CHIMIE - FOURNIER S.
+LOCATION;LANGUAGE=fr:S102 - Sciences
+DESCRIPTION;LANGUAGE=fr:Matière : PHYSIQUE-CHIMIE\nProfesseur : FOURNIER 
+ S.\nSalle : S102 - Sciences\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : PHYSIQUE-CHIMIE<br/>Professeur : F
+ OURNIER S.<br/>Salle : S102 - Sciences<br/>
+COLOR:#4B95B4
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260723T165410Z
+UID:Cours-16329-4-20260904T120218Z-Index-Education
+DTSTART:20260922T120000Z
+DTEND:20260922T132500Z
+SUMMARY;LANGUAGE=fr:SCIENCES VIE & TERRE - MOREAU I.
+LOCATION;LANGUAGE=fr:S103 - Sciences
+DESCRIPTION;LANGUAGE=fr:Matière : SCIENCES VIE &amp\; TERRE\nProfesseur :
+  MOREAU I.\nSalle : S103 - Sciences\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : SCIENCES VIE &amp\; TERRE<br/>Prof
+ esseur : MOREAU I.<br/>Salle : S103 - Sciences<br/>
+COLOR:#75B951
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260825T121329Z
+UID:Cours-16340-4-20260904T120218Z-Index-Education
+DTSTART:20260925T120000Z
+DTEND:20260925T135000Z
+SUMMARY;LANGUAGE=fr:ARCHEOLOGIE - DAVID P.\, GIRARD T. - [6E4-5 ARCHEO] - 
+ <6EME4> ARCHEO\, <6EME5> ARCHEO
+LOCATION;LANGUAGE=fr:CDI\, S203
+DESCRIPTION;LANGUAGE=fr:Matière : ARCHEOLOGIE\nProfesseurs : DAVID P.\, G
+ IRARD T.\nGroupe : [6E4-5 ARCHEO]\nParties de classe : &lt\;6EME4&gt\; AR
+ CHEO\, &lt\;6EME5&gt\; ARCHEO\nSalles : CDI\, S203\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ARCHEOLOGIE<br/>Professeurs : DAVI
+ D P.\, GIRARD T.<br/>Groupe : [6E4-5 ARCHEO]<br/>Parties de classe : &lt\
+ ;6EME4&gt\; ARCHEO\, &lt\;6EME5&gt\; ARCHEO<br/>Salles : CDI\, S203<br/>
+COLOR:#FDCF1D
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260721T142619Z
+UID:Cours-16550-4-20260904T120218Z-Index-Education
+DTSTART:20260924T060000Z
+DTEND:20260924T065500Z
+SUMMARY;LANGUAGE=fr:MATHEMATIQUES - ROUX O.
+LOCATION;LANGUAGE=fr:S110
+DESCRIPTION;LANGUAGE=fr:Matière : MATHEMATIQUES\nProfesseur : ROUX O.\nSa
+ lle : S110\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : MATHEMATIQUES<br/>Professeur : ROU
+ X O.<br/>Salle : S110<br/>
+COLOR:#AC75AE
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260722T090608Z
+UID:Cours-16598-4-20260904T120218Z-Index-Education
+DTSTART:20260922T065500Z
+DTEND:20260922T075000Z
+SUMMARY;LANGUAGE=fr:ARTS PLASTIQUES - SIMON K.
+LOCATION;LANGUAGE=fr:S001 Arts Plastiques
+DESCRIPTION;LANGUAGE=fr:Matière : ARTS PLASTIQUES\nProfesseur : SIMON K.\
+ nSalle : S001 Arts Plastiques\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ARTS PLASTIQUES<br/>Professeur : S
+ IMON K.<br/>Salle : S001 Arts Plastiques<br/>
+COLOR:#ED6566
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T201252Z
+UID:Cours-16614-4-20260904T120218Z-Index-Education
+DTSTART:20260921T120000Z
+DTEND:20260921T125500Z
+SUMMARY;LANGUAGE=fr:HISTOIRE-GEOGRAPHIE - DAVID P.
+LOCATION;LANGUAGE=fr:S203
+DESCRIPTION;LANGUAGE=fr:Matière : HISTOIRE-GEOGRAPHIE\nProfesseur : DAVID
+  P.\nSalle : S203\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : HISTOIRE-GEOGRAPHIE<br/>Professeur
+  : DAVID P.<br/>Salle : S203<br/>
+COLOR:#FFED00
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260729T185123Z
+UID:Cours-16721-4-20260904T120218Z-Index-Education
+DTSTART:20260925T081000Z
+DTEND:20260925T090500Z
+SUMMARY;LANGUAGE=fr:FRANCAIS - LEROY N.
+LOCATION;LANGUAGE=fr:S111
+DESCRIPTION;LANGUAGE=fr:Matière : FRANCAIS\nProfesseur : LEROY N.\nSalle 
+ : S111\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : FRANCAIS<br/>Professeur : LEROY N.
+ <br/>Salle : S111<br/>
+COLOR:#21BBEF
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260729T185136Z
+UID:Cours-16722-4-20260904T120218Z-Index-Education
+DTSTART:20260925T090500Z
+DTEND:20260925T100000Z
+SUMMARY;LANGUAGE=fr:MATHEMATIQUES - ROUX O.
+LOCATION;LANGUAGE=fr:S110
+DESCRIPTION;LANGUAGE=fr:Matière : MATHEMATIQUES\nProfesseur : ROUX O.\nSa
+ lle : S110\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : MATHEMATIQUES<br/>Professeur : ROU
+ X O.<br/>Salle : S110<br/>
+COLOR:#AC75AE
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260722T090627Z
+UID:Cours-16307-5-20260904T120218Z-Index-Education
+DTSTART:20260928T065500Z
+DTEND:20260928T075000Z
+SUMMARY;LANGUAGE=fr:ARTS PLASTIQUES - SIMON K.
+LOCATION;LANGUAGE=fr:S001 Arts Plastiques
+DESCRIPTION;LANGUAGE=fr:Matière : ARTS PLASTIQUES\nProfesseur : SIMON K.\
+ nSalle : S001 Arts Plastiques\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ARTS PLASTIQUES<br/>Professeur : S
+ IMON K.<br/>Salle : S001 Arts Plastiques<br/>
+COLOR:#ED6566
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260831T093827Z
+UID:Cours-16308-5-20260904T120218Z-Index-Education
+DTSTART:20260930T065500Z
+DTEND:20260930T075000Z
+SUMMARY;LANGUAGE=fr:TRAVAIL PERSONNEL - LEROY N.\, MOREL R.
+LOCATION;LANGUAGE=fr:S106\, S113
+DESCRIPTION;LANGUAGE=fr:Matière : TRAVAIL PERSONNEL\nProfesseurs : LEROY 
+ N.\, MOREL R.\nSalles : S106\, S113\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : TRAVAIL PERSONNEL<br/>Professeurs 
+ : LEROY N.\, MOREL R.<br/>Salles : S106\, S113<br/>
+COLOR:#D6A0C8
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260722T084908Z
+UID:Cours-16309-5-20260904T120218Z-Index-Education
+DTSTART:20260929T090500Z
+DTEND:20260929T100000Z
+SUMMARY;LANGUAGE=fr:ANGLAIS LV1 - THOMAS C.
+LOCATION;LANGUAGE=fr:S204
+DESCRIPTION;LANGUAGE=fr:Matière : ANGLAIS LV1\nProfesseur : THOMAS C.\nSa
+ lle : S204\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ANGLAIS LV1<br/>Professeur : THOMA
+ S C.<br/>Salle : S204<br/>
+COLOR:#EC6719
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260723T094338Z
+UID:Cours-16310-5-20260904T120218Z-Index-Education
+DTSTART:20261001T060000Z
+DTEND:20261001T065500Z
+SUMMARY;LANGUAGE=fr:ANGLAIS LV1 - THOMAS C.
+LOCATION;LANGUAGE=fr:S204
+DESCRIPTION;LANGUAGE=fr:Matière : ANGLAIS LV1\nProfesseur : THOMAS C.\nSa
+ lle : S204\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ANGLAIS LV1<br/>Professeur : THOMA
+ S C.<br/>Salle : S204<br/>
+COLOR:#EC6719
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260723T155916Z
+UID:Cours-16311-5-20260904T120218Z-Index-Education
+DTSTART:20260928T125500Z
+DTEND:20260928T143500Z
+SUMMARY;LANGUAGE=fr:ANGLAIS LV1 - THOMAS C.
+LOCATION;LANGUAGE=fr:S204
+DESCRIPTION;LANGUAGE=fr:Matière : ANGLAIS LV1\nProfesseur : THOMAS C.\nSa
+ lle : S204\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ANGLAIS LV1<br/>Professeur : THOMA
+ S C.<br/>Salle : S204<br/>
+COLOR:#EC6719
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260722T074858Z
+UID:Cours-16312-5-20260904T120218Z-Index-Education
+DTSTART:20261002T060000Z
+DTEND:20261002T065500Z
+SUMMARY;LANGUAGE=fr:ANGLAIS LV1 - THOMAS C.
+LOCATION;LANGUAGE=fr:S204
+DESCRIPTION;LANGUAGE=fr:Matière : ANGLAIS LV1\nProfesseur : THOMAS C.\nSa
+ lle : S204\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ANGLAIS LV1<br/>Professeur : THOMA
+ S C.<br/>Salle : S204<br/>
+COLOR:#EC6719
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260723T094345Z
+UID:Cours-16313-5-20260904T120218Z-Index-Education
+DTSTART:20261001T120000Z
+DTEND:20261001T125500Z
+SUMMARY;LANGUAGE=fr:EDUCATION MUSICALE - DURAND G.
+LOCATION;LANGUAGE=fr:S002 Education musicale
+DESCRIPTION;LANGUAGE=fr:Matière : EDUCATION MUSICALE\nProfesseur : DURAND
+  G.\nSalle : S002 Education musicale\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : EDUCATION MUSICALE<br/>Professeur 
+ : DURAND G.<br/>Salle : S002 Education musicale<br/>
+COLOR:#ED679B
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260719T100052Z
+UID:Cours-16315-5-20260904T120218Z-Index-Education
+DTSTART:20261001T081000Z
+DTEND:20261001T100000Z
+SUMMARY;LANGUAGE=fr:ED.PHYSIQUE & SPORT. - BERTRAND Q.
+DESCRIPTION;LANGUAGE=fr:Matière : ED.PHYSIQUE &amp\; SPORT.\nProfesseur :
+  BERTRAND Q.\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ED.PHYSIQUE &amp\; SPORT.<br/>Prof
+ esseur : BERTRAND Q.<br/>
+COLOR:#1E6ADD
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260719T100030Z
+UID:Cours-16316-5-20260904T120218Z-Index-Education
+DTSTART:20260930T081000Z
+DTEND:20260930T100000Z
+SUMMARY;LANGUAGE=fr:ED.PHYSIQUE & SPORT. - BERTRAND Q.
+DESCRIPTION;LANGUAGE=fr:Matière : ED.PHYSIQUE &amp\; SPORT.\nProfesseur :
+  BERTRAND Q.\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ED.PHYSIQUE &amp\; SPORT.<br/>Prof
+ esseur : BERTRAND Q.<br/>
+COLOR:#1E6ADD
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T094312Z
+UID:Cours-16317-5-20260904T120218Z-Index-Education
+DTSTART:20261001T125500Z
+DTEND:20261001T135000Z
+SUMMARY;LANGUAGE=fr:FRANCAIS - LEROY N.
+LOCATION;LANGUAGE=fr:S113
+DESCRIPTION;LANGUAGE=fr:Matière : FRANCAIS\nProfesseur : LEROY N.\nSalle 
+ : S113\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : FRANCAIS<br/>Professeur : LEROY N.
+ <br/>Salle : S113<br/>
+COLOR:#21BBEF
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T094134Z
+UID:Cours-16318-5-20260904T120218Z-Index-Education
+DTSTART:20260929T060000Z
+DTEND:20260929T065500Z
+SUMMARY;LANGUAGE=fr:FRANCAIS - LEROY N.
+LOCATION;LANGUAGE=fr:S106
+DESCRIPTION;LANGUAGE=fr:Matière : FRANCAIS\nProfesseur : LEROY N.\nSalle 
+ : S106\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : FRANCAIS<br/>Professeur : LEROY N.
+ <br/>Salle : S106<br/>
+COLOR:#21BBEF
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260903T083553Z
+UID:Cours-16319-5-20260904T120218Z-Index-Education
+DTSTART:20261001T065500Z
+DTEND:20261001T075000Z
+SUMMARY;LANGUAGE=fr:FRANCAIS - LEROY N.
+LOCATION;LANGUAGE=fr:S103 - Sciences
+DESCRIPTION;LANGUAGE=fr:Matière : FRANCAIS\nProfesseur : LEROY N.\nSalle 
+ : S103 - Sciences\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : FRANCAIS<br/>Professeur : LEROY N.
+ <br/>Salle : S103 - Sciences<br/>
+COLOR:#21BBEF
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T094418Z
+UID:Cours-16320-5-20260904T120218Z-Index-Education
+DTSTART:20261002T125500Z
+DTEND:20261002T135000Z
+SUMMARY;LANGUAGE=fr:FRANCAIS - LEROY N.
+LOCATION;LANGUAGE=fr:S111
+DESCRIPTION;LANGUAGE=fr:Matière : FRANCAIS\nProfesseur : LEROY N.\nSalle 
+ : S111\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : FRANCAIS<br/>Professeur : LEROY N.
+ <br/>Salle : S111<br/>
+COLOR:#21BBEF
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260722T085011Z
+UID:Cours-16321-5-20260904T120218Z-Index-Education
+DTSTART:20261002T065500Z
+DTEND:20261002T075000Z
+SUMMARY;LANGUAGE=fr:HISTOIRE-GEOGRAPHIE - DAVID P.
+LOCATION;LANGUAGE=fr:S203
+DESCRIPTION;LANGUAGE=fr:Matière : HISTOIRE-GEOGRAPHIE\nProfesseur : DAVID
+  P.\nSalle : S203\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : HISTOIRE-GEOGRAPHIE<br/>Professeur
+  : DAVID P.<br/>Salle : S203<br/>
+COLOR:#FFED00
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260724T084254Z
+UID:Cours-16324-5-20260904T120218Z-Index-Education
+DTSTART:20260929T081000Z
+DTEND:20260929T090500Z
+SUMMARY;LANGUAGE=fr:MATHEMATIQUES - ROUX O.
+LOCATION;LANGUAGE=fr:S110
+DESCRIPTION;LANGUAGE=fr:Matière : MATHEMATIQUES\nProfesseur : ROUX O.\nSa
+ lle : S110\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : MATHEMATIQUES<br/>Professeur : ROU
+ X O.<br/>Salle : S110<br/>
+COLOR:#AC75AE
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260721T142305Z
+UID:Cours-16325-5-20260904T120218Z-Index-Education
+DTSTART:20260930T060000Z
+DTEND:20260930T065500Z
+SUMMARY;LANGUAGE=fr:MATHEMATIQUES - ROUX O.
+LOCATION;LANGUAGE=fr:S110
+DESCRIPTION;LANGUAGE=fr:Matière : MATHEMATIQUES\nProfesseur : ROUX O.\nSa
+ lle : S110\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : MATHEMATIQUES<br/>Professeur : ROU
+ X O.<br/>Salle : S110<br/>
+COLOR:#AC75AE
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260722T073819Z
+UID:Cours-16326-5-20260904T120218Z-Index-Education
+DTSTART:20260928T060000Z
+DTEND:20260928T065500Z
+SUMMARY;LANGUAGE=fr:MATHEMATIQUES - ROUX O.
+LOCATION;LANGUAGE=fr:S110
+DESCRIPTION;LANGUAGE=fr:Matière : MATHEMATIQUES\nProfesseur : ROUX O.\nSa
+ lle : S110\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : MATHEMATIQUES<br/>Professeur : ROU
+ X O.<br/>Salle : S110<br/>
+COLOR:#AC75AE
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T100141Z
+UID:Cours-16328-5-20260904T120218Z-Index-Education
+DTSTART:20260928T081000Z
+DTEND:20260928T093500Z
+SUMMARY;LANGUAGE=fr:PHYSIQUE-CHIMIE - FOURNIER S.
+LOCATION;LANGUAGE=fr:S102 - Sciences
+DESCRIPTION;LANGUAGE=fr:Matière : PHYSIQUE-CHIMIE\nProfesseur : FOURNIER 
+ S.\nSalle : S102 - Sciences\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : PHYSIQUE-CHIMIE<br/>Professeur : F
+ OURNIER S.<br/>Salle : S102 - Sciences<br/>
+COLOR:#4B95B4
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260723T165410Z
+UID:Cours-16329-5-20260904T120218Z-Index-Education
+DTSTART:20260929T120000Z
+DTEND:20260929T132500Z
+SUMMARY;LANGUAGE=fr:SCIENCES VIE & TERRE - MOREAU I.
+LOCATION;LANGUAGE=fr:S103 - Sciences
+DESCRIPTION;LANGUAGE=fr:Matière : SCIENCES VIE &amp\; TERRE\nProfesseur :
+  MOREAU I.\nSalle : S103 - Sciences\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : SCIENCES VIE &amp\; TERRE<br/>Prof
+ esseur : MOREAU I.<br/>Salle : S103 - Sciences<br/>
+COLOR:#75B951
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260729T185057Z
+UID:Cours-16460-5-20260904T120218Z-Index-Education
+DTSTART:20261002T090500Z
+DTEND:20261002T100000Z
+SUMMARY;LANGUAGE=fr:MATHEMATIQUES - ROUX O. - [6E5 AP MATHS GR1] - <6EME5>
+  6EME5-P1
+LOCATION;LANGUAGE=fr:S110
+DESCRIPTION;LANGUAGE=fr:Matière : MATHEMATIQUES\nProfesseur : ROUX O.\nGr
+ oupe : [6E5 AP MATHS GR1]\nPartie de classe : &lt\;6EME5&gt\; 6EME5-P1\nS
+ alle : S110\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : MATHEMATIQUES<br/>Professeur : ROU
+ X O.<br/>Groupe : [6E5 AP MATHS GR1]<br/>Partie de classe : &lt\;6EME5&gt
+ \; 6EME5-P1<br/>Salle : S110<br/>
+COLOR:#AC75AE
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260729T185102Z
+UID:Cours-16463-5-20260904T120218Z-Index-Education
+DTSTART:20261002T081000Z
+DTEND:20261002T090500Z
+SUMMARY;LANGUAGE=fr:FRANCAIS - LEROY N. - [6E5 AP FRAN GR1] - <6EME5> 6EME
+ 5-P1
+LOCATION;LANGUAGE=fr:S111
+DESCRIPTION;LANGUAGE=fr:Matière : FRANCAIS\nProfesseur : LEROY N.\nGroupe
+  : [6E5 AP FRAN GR1]\nPartie de classe : &lt\;6EME5&gt\; 6EME5-P1\nSalle 
+ : S111\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : FRANCAIS<br/>Professeur : LEROY N.
+ <br/>Groupe : [6E5 AP FRAN GR1]<br/>Partie de classe : &lt\;6EME5&gt\; 6E
+ ME5-P1<br/>Salle : S111<br/>
+COLOR:#21BBEF
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T201252Z
+UID:Cours-16614-5-20260904T120218Z-Index-Education
+DTSTART:20260928T120000Z
+DTEND:20260928T125500Z
+SUMMARY;LANGUAGE=fr:HISTOIRE-GEOGRAPHIE - DAVID P.
+LOCATION;LANGUAGE=fr:S203
+DESCRIPTION;LANGUAGE=fr:Matière : HISTOIRE-GEOGRAPHIE\nProfesseur : DAVID
+  P.\nSalle : S203\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : HISTOIRE-GEOGRAPHIE<br/>Professeur
+  : DAVID P.<br/>Salle : S203<br/>
+COLOR:#FFED00
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260723T094421Z
+UID:Cours-16620-5-20260904T120218Z-Index-Education
+DTSTART:20260929T065500Z
+DTEND:20260929T075000Z
+SUMMARY;LANGUAGE=fr:HISTOIRE-GEOGRAPHIE - DAVID P.
+LOCATION;LANGUAGE=fr:S203
+DESCRIPTION;LANGUAGE=fr:Matière : HISTOIRE-GEOGRAPHIE\nProfesseur : DAVID
+  P.\nSalle : S203\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : HISTOIRE-GEOGRAPHIE<br/>Professeur
+  : DAVID P.<br/>Salle : S203<br/>
+COLOR:#FFED00
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T140542Z
+UID:Cours-16710-5-20260904T120218Z-Index-Education
+DTSTART:20261001T140500Z
+DTEND:20261001T150000Z
+SUMMARY;LANGUAGE=fr:VIE DE CLASSE - LEROY N.
+LOCATION;LANGUAGE=fr:S113
+DESCRIPTION;LANGUAGE=fr:Matière : VIE DE CLASSE\nProfesseur : LEROY N.\nS
+ alle : S113\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : VIE DE CLASSE<br/>Professeur : LER
+ OY N.<br/>Salle : S113<br/>
+COLOR:#C93E69
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260831T093827Z
+UID:Cours-16308-6-20260904T120218Z-Index-Education
+DTSTART:20261007T065500Z
+DTEND:20261007T075000Z
+SUMMARY;LANGUAGE=fr:TRAVAIL PERSONNEL - LEROY N.\, MOREL R.
+LOCATION;LANGUAGE=fr:S106\, S113
+DESCRIPTION;LANGUAGE=fr:Matière : TRAVAIL PERSONNEL\nProfesseurs : LEROY 
+ N.\, MOREL R.\nSalles : S106\, S113\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : TRAVAIL PERSONNEL<br/>Professeurs 
+ : LEROY N.\, MOREL R.<br/>Salles : S106\, S113<br/>
+COLOR:#D6A0C8
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260722T084908Z
+UID:Cours-16309-6-20260904T120218Z-Index-Education
+DTSTART:20261006T090500Z
+DTEND:20261006T100000Z
+SUMMARY;LANGUAGE=fr:ANGLAIS LV1 - THOMAS C.
+LOCATION;LANGUAGE=fr:S204
+DESCRIPTION;LANGUAGE=fr:Matière : ANGLAIS LV1\nProfesseur : THOMAS C.\nSa
+ lle : S204\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ANGLAIS LV1<br/>Professeur : THOMA
+ S C.<br/>Salle : S204<br/>
+COLOR:#EC6719
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260723T155916Z
+UID:Cours-16311-6-20260904T120218Z-Index-Education
+DTSTART:20261005T125500Z
+DTEND:20261005T143500Z
+SUMMARY;LANGUAGE=fr:ANGLAIS LV1 - THOMAS C.
+LOCATION;LANGUAGE=fr:S204
+DESCRIPTION;LANGUAGE=fr:Matière : ANGLAIS LV1\nProfesseur : THOMAS C.\nSa
+ lle : S204\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ANGLAIS LV1<br/>Professeur : THOMA
+ S C.<br/>Salle : S204<br/>
+COLOR:#EC6719
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260722T074858Z
+UID:Cours-16312-6-20260904T120218Z-Index-Education
+DTSTART:20261009T060000Z
+DTEND:20261009T065500Z
+SUMMARY;LANGUAGE=fr:ANGLAIS LV1 - THOMAS C.
+LOCATION;LANGUAGE=fr:S204
+DESCRIPTION;LANGUAGE=fr:Matière : ANGLAIS LV1\nProfesseur : THOMAS C.\nSa
+ lle : S204\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ANGLAIS LV1<br/>Professeur : THOMA
+ S C.<br/>Salle : S204<br/>
+COLOR:#EC6719
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260723T094345Z
+UID:Cours-16313-6-20260904T120218Z-Index-Education
+DTSTART:20261008T120000Z
+DTEND:20261008T125500Z
+SUMMARY;LANGUAGE=fr:EDUCATION MUSICALE - DURAND G.
+LOCATION;LANGUAGE=fr:S002 Education musicale
+DESCRIPTION;LANGUAGE=fr:Matière : EDUCATION MUSICALE\nProfesseur : DURAND
+  G.\nSalle : S002 Education musicale\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : EDUCATION MUSICALE<br/>Professeur 
+ : DURAND G.<br/>Salle : S002 Education musicale<br/>
+COLOR:#ED679B
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260725T095457Z
+UID:Cours-16314-6-20260904T120218Z-Index-Education
+DTSTART:20261005T065500Z
+DTEND:20261005T075000Z
+SUMMARY;LANGUAGE=fr:ENS. MORAL & CIVIQUE - DAVID P.
+LOCATION;LANGUAGE=fr:S203
+DESCRIPTION;LANGUAGE=fr:Matière : ENS. MORAL &amp\; CIVIQUE\nProfesseur :
+  DAVID P.\nSalle : S203\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ENS. MORAL &amp\; CIVIQUE<br/>Prof
+ esseur : DAVID P.<br/>Salle : S203<br/>
+COLOR:#FFED00
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260719T100052Z
+UID:Cours-16315-6-20260904T120218Z-Index-Education
+DTSTART:20261008T081000Z
+DTEND:20261008T100000Z
+SUMMARY;LANGUAGE=fr:ED.PHYSIQUE & SPORT. - BERTRAND Q.
+DESCRIPTION;LANGUAGE=fr:Matière : ED.PHYSIQUE &amp\; SPORT.\nProfesseur :
+  BERTRAND Q.\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ED.PHYSIQUE &amp\; SPORT.<br/>Prof
+ esseur : BERTRAND Q.<br/>
+COLOR:#1E6ADD
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260719T100030Z
+UID:Cours-16316-6-20260904T120218Z-Index-Education
+DTSTART:20261007T081000Z
+DTEND:20261007T100000Z
+SUMMARY;LANGUAGE=fr:ED.PHYSIQUE & SPORT. - BERTRAND Q.
+DESCRIPTION;LANGUAGE=fr:Matière : ED.PHYSIQUE &amp\; SPORT.\nProfesseur :
+  BERTRAND Q.\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ED.PHYSIQUE &amp\; SPORT.<br/>Prof
+ esseur : BERTRAND Q.<br/>
+COLOR:#1E6ADD
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T094312Z
+UID:Cours-16317-6-20260904T120218Z-Index-Education
+DTSTART:20261008T125500Z
+DTEND:20261008T135000Z
+SUMMARY;LANGUAGE=fr:FRANCAIS - LEROY N.
+LOCATION;LANGUAGE=fr:S113
+DESCRIPTION;LANGUAGE=fr:Matière : FRANCAIS\nProfesseur : LEROY N.\nSalle 
+ : S113\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : FRANCAIS<br/>Professeur : LEROY N.
+ <br/>Salle : S113<br/>
+COLOR:#21BBEF
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T094134Z
+UID:Cours-16318-6-20260904T120218Z-Index-Education
+DTSTART:20261006T060000Z
+DTEND:20261006T065500Z
+SUMMARY;LANGUAGE=fr:FRANCAIS - LEROY N.
+LOCATION;LANGUAGE=fr:S106
+DESCRIPTION;LANGUAGE=fr:Matière : FRANCAIS\nProfesseur : LEROY N.\nSalle 
+ : S106\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : FRANCAIS<br/>Professeur : LEROY N.
+ <br/>Salle : S106<br/>
+COLOR:#21BBEF
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260903T083553Z
+UID:Cours-16319-6-20260904T120218Z-Index-Education
+DTSTART:20261008T065500Z
+DTEND:20261008T075000Z
+SUMMARY;LANGUAGE=fr:FRANCAIS - LEROY N.
+LOCATION;LANGUAGE=fr:S103 - Sciences
+DESCRIPTION;LANGUAGE=fr:Matière : FRANCAIS\nProfesseur : LEROY N.\nSalle 
+ : S103 - Sciences\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : FRANCAIS<br/>Professeur : LEROY N.
+ <br/>Salle : S103 - Sciences<br/>
+COLOR:#21BBEF
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260722T085011Z
+UID:Cours-16321-6-20260904T120218Z-Index-Education
+DTSTART:20261009T065500Z
+DTEND:20261009T075000Z
+SUMMARY;LANGUAGE=fr:HISTOIRE-GEOGRAPHIE - DAVID P.
+LOCATION;LANGUAGE=fr:S203
+DESCRIPTION;LANGUAGE=fr:Matière : HISTOIRE-GEOGRAPHIE\nProfesseur : DAVID
+  P.\nSalle : S203\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : HISTOIRE-GEOGRAPHIE<br/>Professeur
+  : DAVID P.<br/>Salle : S203<br/>
+COLOR:#FFED00
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260724T084254Z
+UID:Cours-16324-6-20260904T120218Z-Index-Education
+DTSTART:20261006T081000Z
+DTEND:20261006T090500Z
+SUMMARY;LANGUAGE=fr:MATHEMATIQUES - ROUX O.
+LOCATION;LANGUAGE=fr:S110
+DESCRIPTION;LANGUAGE=fr:Matière : MATHEMATIQUES\nProfesseur : ROUX O.\nSa
+ lle : S110\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : MATHEMATIQUES<br/>Professeur : ROU
+ X O.<br/>Salle : S110<br/>
+COLOR:#AC75AE
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260721T142305Z
+UID:Cours-16325-6-20260904T120218Z-Index-Education
+DTSTART:20261007T060000Z
+DTEND:20261007T065500Z
+SUMMARY;LANGUAGE=fr:MATHEMATIQUES - ROUX O.
+LOCATION;LANGUAGE=fr:S110
+DESCRIPTION;LANGUAGE=fr:Matière : MATHEMATIQUES\nProfesseur : ROUX O.\nSa
+ lle : S110\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : MATHEMATIQUES<br/>Professeur : ROU
+ X O.<br/>Salle : S110<br/>
+COLOR:#AC75AE
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260722T073819Z
+UID:Cours-16326-6-20260904T120218Z-Index-Education
+DTSTART:20261005T060000Z
+DTEND:20261005T065500Z
+SUMMARY;LANGUAGE=fr:MATHEMATIQUES - ROUX O.
+LOCATION;LANGUAGE=fr:S110
+DESCRIPTION;LANGUAGE=fr:Matière : MATHEMATIQUES\nProfesseur : ROUX O.\nSa
+ lle : S110\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : MATHEMATIQUES<br/>Professeur : ROU
+ X O.<br/>Salle : S110<br/>
+COLOR:#AC75AE
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T100141Z
+UID:Cours-16328-6-20260904T120218Z-Index-Education
+DTSTART:20261005T081000Z
+DTEND:20261005T093500Z
+SUMMARY;LANGUAGE=fr:PHYSIQUE-CHIMIE - FOURNIER S.
+LOCATION;LANGUAGE=fr:S102 - Sciences
+DESCRIPTION;LANGUAGE=fr:Matière : PHYSIQUE-CHIMIE\nProfesseur : FOURNIER 
+ S.\nSalle : S102 - Sciences\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : PHYSIQUE-CHIMIE<br/>Professeur : F
+ OURNIER S.<br/>Salle : S102 - Sciences<br/>
+COLOR:#4B95B4
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260723T165410Z
+UID:Cours-16329-6-20260904T120218Z-Index-Education
+DTSTART:20261006T120000Z
+DTEND:20261006T132500Z
+SUMMARY;LANGUAGE=fr:SCIENCES VIE & TERRE - MOREAU I.
+LOCATION;LANGUAGE=fr:S103 - Sciences
+DESCRIPTION;LANGUAGE=fr:Matière : SCIENCES VIE &amp\; TERRE\nProfesseur :
+  MOREAU I.\nSalle : S103 - Sciences\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : SCIENCES VIE &amp\; TERRE<br/>Prof
+ esseur : MOREAU I.<br/>Salle : S103 - Sciences<br/>
+COLOR:#75B951
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260825T121329Z
+UID:Cours-16340-6-20260904T120218Z-Index-Education
+DTSTART:20261009T120000Z
+DTEND:20261009T135000Z
+SUMMARY;LANGUAGE=fr:ARCHEOLOGIE - DAVID P.\, GIRARD T. - [6E4-5 ARCHEO] - 
+ <6EME4> ARCHEO\, <6EME5> ARCHEO
+LOCATION;LANGUAGE=fr:CDI\, S203
+DESCRIPTION;LANGUAGE=fr:Matière : ARCHEOLOGIE\nProfesseurs : DAVID P.\, G
+ IRARD T.\nGroupe : [6E4-5 ARCHEO]\nParties de classe : &lt\;6EME4&gt\; AR
+ CHEO\, &lt\;6EME5&gt\; ARCHEO\nSalles : CDI\, S203\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ARCHEOLOGIE<br/>Professeurs : DAVI
+ D P.\, GIRARD T.<br/>Groupe : [6E4-5 ARCHEO]<br/>Parties de classe : &lt\
+ ;6EME4&gt\; ARCHEO\, &lt\;6EME5&gt\; ARCHEO<br/>Salles : CDI\, S203<br/>
+COLOR:#FDCF1D
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260721T142619Z
+UID:Cours-16550-6-20260904T120218Z-Index-Education
+DTSTART:20261008T060000Z
+DTEND:20261008T065500Z
+SUMMARY;LANGUAGE=fr:MATHEMATIQUES - ROUX O.
+LOCATION;LANGUAGE=fr:S110
+DESCRIPTION;LANGUAGE=fr:Matière : MATHEMATIQUES\nProfesseur : ROUX O.\nSa
+ lle : S110\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : MATHEMATIQUES<br/>Professeur : ROU
+ X O.<br/>Salle : S110<br/>
+COLOR:#AC75AE
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260722T090608Z
+UID:Cours-16598-6-20260904T120218Z-Index-Education
+DTSTART:20261006T065500Z
+DTEND:20261006T075000Z
+SUMMARY;LANGUAGE=fr:ARTS PLASTIQUES - SIMON K.
+LOCATION;LANGUAGE=fr:S001 Arts Plastiques
+DESCRIPTION;LANGUAGE=fr:Matière : ARTS PLASTIQUES\nProfesseur : SIMON K.\
+ nSalle : S001 Arts Plastiques\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ARTS PLASTIQUES<br/>Professeur : S
+ IMON K.<br/>Salle : S001 Arts Plastiques<br/>
+COLOR:#ED6566
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T201252Z
+UID:Cours-16614-6-20260904T120218Z-Index-Education
+DTSTART:20261005T120000Z
+DTEND:20261005T125500Z
+SUMMARY;LANGUAGE=fr:HISTOIRE-GEOGRAPHIE - DAVID P.
+LOCATION;LANGUAGE=fr:S203
+DESCRIPTION;LANGUAGE=fr:Matière : HISTOIRE-GEOGRAPHIE\nProfesseur : DAVID
+  P.\nSalle : S203\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : HISTOIRE-GEOGRAPHIE<br/>Professeur
+  : DAVID P.<br/>Salle : S203<br/>
+COLOR:#FFED00
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260729T185123Z
+UID:Cours-16721-6-20260904T120218Z-Index-Education
+DTSTART:20261009T081000Z
+DTEND:20261009T090500Z
+SUMMARY;LANGUAGE=fr:FRANCAIS - LEROY N.
+LOCATION;LANGUAGE=fr:S111
+DESCRIPTION;LANGUAGE=fr:Matière : FRANCAIS\nProfesseur : LEROY N.\nSalle 
+ : S111\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : FRANCAIS<br/>Professeur : LEROY N.
+ <br/>Salle : S111<br/>
+COLOR:#21BBEF
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260729T185136Z
+UID:Cours-16722-6-20260904T120218Z-Index-Education
+DTSTART:20261009T090500Z
+DTEND:20261009T100000Z
+SUMMARY;LANGUAGE=fr:MATHEMATIQUES - ROUX O.
+LOCATION;LANGUAGE=fr:S110
+DESCRIPTION;LANGUAGE=fr:Matière : MATHEMATIQUES\nProfesseur : ROUX O.\nSa
+ lle : S110\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : MATHEMATIQUES<br/>Professeur : ROU
+ X O.<br/>Salle : S110<br/>
+COLOR:#AC75AE
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260722T090627Z
+UID:Cours-16307-7-20260904T120218Z-Index-Education
+DTSTART:20261012T065500Z
+DTEND:20261012T075000Z
+SUMMARY;LANGUAGE=fr:ARTS PLASTIQUES - SIMON K.
+LOCATION;LANGUAGE=fr:S001 Arts Plastiques
+DESCRIPTION;LANGUAGE=fr:Matière : ARTS PLASTIQUES\nProfesseur : SIMON K.\
+ nSalle : S001 Arts Plastiques\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ARTS PLASTIQUES<br/>Professeur : S
+ IMON K.<br/>Salle : S001 Arts Plastiques<br/>
+COLOR:#ED6566
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260831T093827Z
+UID:Cours-16308-7-20260904T120218Z-Index-Education
+DTSTART:20261014T065500Z
+DTEND:20261014T075000Z
+SUMMARY;LANGUAGE=fr:TRAVAIL PERSONNEL - LEROY N.\, MOREL R.
+LOCATION;LANGUAGE=fr:S106\, S113
+DESCRIPTION;LANGUAGE=fr:Matière : TRAVAIL PERSONNEL\nProfesseurs : LEROY 
+ N.\, MOREL R.\nSalles : S106\, S113\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : TRAVAIL PERSONNEL<br/>Professeurs 
+ : LEROY N.\, MOREL R.<br/>Salles : S106\, S113<br/>
+COLOR:#D6A0C8
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260722T084908Z
+UID:Cours-16309-7-20260904T120218Z-Index-Education
+DTSTART:20261013T090500Z
+DTEND:20261013T100000Z
+SUMMARY;LANGUAGE=fr:ANGLAIS LV1 - THOMAS C.
+LOCATION;LANGUAGE=fr:S204
+DESCRIPTION;LANGUAGE=fr:Matière : ANGLAIS LV1\nProfesseur : THOMAS C.\nSa
+ lle : S204\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ANGLAIS LV1<br/>Professeur : THOMA
+ S C.<br/>Salle : S204<br/>
+COLOR:#EC6719
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260723T094338Z
+UID:Cours-16310-7-20260904T120218Z-Index-Education
+DTSTART:20261015T060000Z
+DTEND:20261015T065500Z
+SUMMARY;LANGUAGE=fr:ANGLAIS LV1 - THOMAS C.
+LOCATION;LANGUAGE=fr:S204
+DESCRIPTION;LANGUAGE=fr:Matière : ANGLAIS LV1\nProfesseur : THOMAS C.\nSa
+ lle : S204\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ANGLAIS LV1<br/>Professeur : THOMA
+ S C.<br/>Salle : S204<br/>
+COLOR:#EC6719
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260723T155916Z
+UID:Cours-16311-7-20260904T120218Z-Index-Education
+DTSTART:20261012T125500Z
+DTEND:20261012T143500Z
+SUMMARY;LANGUAGE=fr:ANGLAIS LV1 - THOMAS C.
+LOCATION;LANGUAGE=fr:S204
+DESCRIPTION;LANGUAGE=fr:Matière : ANGLAIS LV1\nProfesseur : THOMAS C.\nSa
+ lle : S204\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ANGLAIS LV1<br/>Professeur : THOMA
+ S C.<br/>Salle : S204<br/>
+COLOR:#EC6719
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260722T074858Z
+UID:Cours-16312-7-20260904T120218Z-Index-Education
+DTSTART:20261016T060000Z
+DTEND:20261016T065500Z
+SUMMARY;LANGUAGE=fr:ANGLAIS LV1 - THOMAS C.
+LOCATION;LANGUAGE=fr:S204
+DESCRIPTION;LANGUAGE=fr:Matière : ANGLAIS LV1\nProfesseur : THOMAS C.\nSa
+ lle : S204\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ANGLAIS LV1<br/>Professeur : THOMA
+ S C.<br/>Salle : S204<br/>
+COLOR:#EC6719
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260723T094345Z
+UID:Cours-16313-7-20260904T120218Z-Index-Education
+DTSTART:20261015T120000Z
+DTEND:20261015T125500Z
+SUMMARY;LANGUAGE=fr:EDUCATION MUSICALE - DURAND G.
+LOCATION;LANGUAGE=fr:S002 Education musicale
+DESCRIPTION;LANGUAGE=fr:Matière : EDUCATION MUSICALE\nProfesseur : DURAND
+  G.\nSalle : S002 Education musicale\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : EDUCATION MUSICALE<br/>Professeur 
+ : DURAND G.<br/>Salle : S002 Education musicale<br/>
+COLOR:#ED679B
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260719T100052Z
+UID:Cours-16315-7-20260904T120218Z-Index-Education
+DTSTART:20261015T081000Z
+DTEND:20261015T100000Z
+SUMMARY;LANGUAGE=fr:ED.PHYSIQUE & SPORT. - BERTRAND Q.
+DESCRIPTION;LANGUAGE=fr:Matière : ED.PHYSIQUE &amp\; SPORT.\nProfesseur :
+  BERTRAND Q.\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ED.PHYSIQUE &amp\; SPORT.<br/>Prof
+ esseur : BERTRAND Q.<br/>
+COLOR:#1E6ADD
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260719T100030Z
+UID:Cours-16316-7-20260904T120218Z-Index-Education
+DTSTART:20261014T081000Z
+DTEND:20261014T100000Z
+SUMMARY;LANGUAGE=fr:ED.PHYSIQUE & SPORT. - BERTRAND Q.
+DESCRIPTION;LANGUAGE=fr:Matière : ED.PHYSIQUE &amp\; SPORT.\nProfesseur :
+  BERTRAND Q.\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ED.PHYSIQUE &amp\; SPORT.<br/>Prof
+ esseur : BERTRAND Q.<br/>
+COLOR:#1E6ADD
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T094312Z
+UID:Cours-16317-7-20260904T120218Z-Index-Education
+DTSTART:20261015T125500Z
+DTEND:20261015T135000Z
+SUMMARY;LANGUAGE=fr:FRANCAIS - LEROY N.
+LOCATION;LANGUAGE=fr:S113
+DESCRIPTION;LANGUAGE=fr:Matière : FRANCAIS\nProfesseur : LEROY N.\nSalle 
+ : S113\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : FRANCAIS<br/>Professeur : LEROY N.
+ <br/>Salle : S113<br/>
+COLOR:#21BBEF
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T094134Z
+UID:Cours-16318-7-20260904T120218Z-Index-Education
+DTSTART:20261013T060000Z
+DTEND:20261013T065500Z
+SUMMARY;LANGUAGE=fr:FRANCAIS - LEROY N.
+LOCATION;LANGUAGE=fr:S106
+DESCRIPTION;LANGUAGE=fr:Matière : FRANCAIS\nProfesseur : LEROY N.\nSalle 
+ : S106\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : FRANCAIS<br/>Professeur : LEROY N.
+ <br/>Salle : S106<br/>
+COLOR:#21BBEF
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260903T083553Z
+UID:Cours-16319-7-20260904T120218Z-Index-Education
+DTSTART:20261015T065500Z
+DTEND:20261015T075000Z
+SUMMARY;LANGUAGE=fr:FRANCAIS - LEROY N.
+LOCATION;LANGUAGE=fr:S103 - Sciences
+DESCRIPTION;LANGUAGE=fr:Matière : FRANCAIS\nProfesseur : LEROY N.\nSalle 
+ : S103 - Sciences\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : FRANCAIS<br/>Professeur : LEROY N.
+ <br/>Salle : S103 - Sciences<br/>
+COLOR:#21BBEF
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T094418Z
+UID:Cours-16320-7-20260904T120218Z-Index-Education
+DTSTART:20261016T125500Z
+DTEND:20261016T135000Z
+SUMMARY;LANGUAGE=fr:FRANCAIS - LEROY N.
+LOCATION;LANGUAGE=fr:S111
+DESCRIPTION;LANGUAGE=fr:Matière : FRANCAIS\nProfesseur : LEROY N.\nSalle 
+ : S111\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : FRANCAIS<br/>Professeur : LEROY N.
+ <br/>Salle : S111<br/>
+COLOR:#21BBEF
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260722T085011Z
+UID:Cours-16321-7-20260904T120218Z-Index-Education
+DTSTART:20261016T065500Z
+DTEND:20261016T075000Z
+SUMMARY;LANGUAGE=fr:HISTOIRE-GEOGRAPHIE - DAVID P.
+LOCATION;LANGUAGE=fr:S203
+DESCRIPTION;LANGUAGE=fr:Matière : HISTOIRE-GEOGRAPHIE\nProfesseur : DAVID
+  P.\nSalle : S203\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : HISTOIRE-GEOGRAPHIE<br/>Professeur
+  : DAVID P.<br/>Salle : S203<br/>
+COLOR:#FFED00
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260724T084254Z
+UID:Cours-16324-7-20260904T120218Z-Index-Education
+DTSTART:20261013T081000Z
+DTEND:20261013T090500Z
+SUMMARY;LANGUAGE=fr:MATHEMATIQUES - ROUX O.
+LOCATION;LANGUAGE=fr:S110
+DESCRIPTION;LANGUAGE=fr:Matière : MATHEMATIQUES\nProfesseur : ROUX O.\nSa
+ lle : S110\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : MATHEMATIQUES<br/>Professeur : ROU
+ X O.<br/>Salle : S110<br/>
+COLOR:#AC75AE
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260721T142305Z
+UID:Cours-16325-7-20260904T120218Z-Index-Education
+DTSTART:20261014T060000Z
+DTEND:20261014T065500Z
+SUMMARY;LANGUAGE=fr:MATHEMATIQUES - ROUX O.
+LOCATION;LANGUAGE=fr:S110
+DESCRIPTION;LANGUAGE=fr:Matière : MATHEMATIQUES\nProfesseur : ROUX O.\nSa
+ lle : S110\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : MATHEMATIQUES<br/>Professeur : ROU
+ X O.<br/>Salle : S110<br/>
+COLOR:#AC75AE
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260722T073819Z
+UID:Cours-16326-7-20260904T120218Z-Index-Education
+DTSTART:20261012T060000Z
+DTEND:20261012T065500Z
+SUMMARY;LANGUAGE=fr:MATHEMATIQUES - ROUX O.
+LOCATION;LANGUAGE=fr:S110
+DESCRIPTION;LANGUAGE=fr:Matière : MATHEMATIQUES\nProfesseur : ROUX O.\nSa
+ lle : S110\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : MATHEMATIQUES<br/>Professeur : ROU
+ X O.<br/>Salle : S110<br/>
+COLOR:#AC75AE
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T100141Z
+UID:Cours-16328-7-20260904T120218Z-Index-Education
+DTSTART:20261012T081000Z
+DTEND:20261012T093500Z
+SUMMARY;LANGUAGE=fr:PHYSIQUE-CHIMIE - FOURNIER S.
+LOCATION;LANGUAGE=fr:S102 - Sciences
+DESCRIPTION;LANGUAGE=fr:Matière : PHYSIQUE-CHIMIE\nProfesseur : FOURNIER 
+ S.\nSalle : S102 - Sciences\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : PHYSIQUE-CHIMIE<br/>Professeur : F
+ OURNIER S.<br/>Salle : S102 - Sciences<br/>
+COLOR:#4B95B4
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260723T165410Z
+UID:Cours-16329-7-20260904T120218Z-Index-Education
+DTSTART:20261013T120000Z
+DTEND:20261013T132500Z
+SUMMARY;LANGUAGE=fr:SCIENCES VIE & TERRE - MOREAU I.
+LOCATION;LANGUAGE=fr:S103 - Sciences
+DESCRIPTION;LANGUAGE=fr:Matière : SCIENCES VIE &amp\; TERRE\nProfesseur :
+  MOREAU I.\nSalle : S103 - Sciences\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : SCIENCES VIE &amp\; TERRE<br/>Prof
+ esseur : MOREAU I.<br/>Salle : S103 - Sciences<br/>
+COLOR:#75B951
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260729T185057Z
+UID:Cours-16460-7-20260904T120218Z-Index-Education
+DTSTART:20261016T090500Z
+DTEND:20261016T100000Z
+SUMMARY;LANGUAGE=fr:MATHEMATIQUES - ROUX O. - [6E5 AP MATHS GR1] - <6EME5>
+  6EME5-P1
+LOCATION;LANGUAGE=fr:S110
+DESCRIPTION;LANGUAGE=fr:Matière : MATHEMATIQUES\nProfesseur : ROUX O.\nGr
+ oupe : [6E5 AP MATHS GR1]\nPartie de classe : &lt\;6EME5&gt\; 6EME5-P1\nS
+ alle : S110\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : MATHEMATIQUES<br/>Professeur : ROU
+ X O.<br/>Groupe : [6E5 AP MATHS GR1]<br/>Partie de classe : &lt\;6EME5&gt
+ \; 6EME5-P1<br/>Salle : S110<br/>
+COLOR:#AC75AE
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260729T185102Z
+UID:Cours-16463-7-20260904T120218Z-Index-Education
+DTSTART:20261016T081000Z
+DTEND:20261016T090500Z
+SUMMARY;LANGUAGE=fr:FRANCAIS - LEROY N. - [6E5 AP FRAN GR1] - <6EME5> 6EME
+ 5-P1
+LOCATION;LANGUAGE=fr:S111
+DESCRIPTION;LANGUAGE=fr:Matière : FRANCAIS\nProfesseur : LEROY N.\nGroupe
+  : [6E5 AP FRAN GR1]\nPartie de classe : &lt\;6EME5&gt\; 6EME5-P1\nSalle 
+ : S111\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : FRANCAIS<br/>Professeur : LEROY N.
+ <br/>Groupe : [6E5 AP FRAN GR1]<br/>Partie de classe : &lt\;6EME5&gt\; 6E
+ ME5-P1<br/>Salle : S111<br/>
+COLOR:#21BBEF
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T201252Z
+UID:Cours-16614-7-20260904T120218Z-Index-Education
+DTSTART:20261012T120000Z
+DTEND:20261012T125500Z
+SUMMARY;LANGUAGE=fr:HISTOIRE-GEOGRAPHIE - DAVID P.
+LOCATION;LANGUAGE=fr:S203
+DESCRIPTION;LANGUAGE=fr:Matière : HISTOIRE-GEOGRAPHIE\nProfesseur : DAVID
+  P.\nSalle : S203\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : HISTOIRE-GEOGRAPHIE<br/>Professeur
+  : DAVID P.<br/>Salle : S203<br/>
+COLOR:#FFED00
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260723T094421Z
+UID:Cours-16620-7-20260904T120218Z-Index-Education
+DTSTART:20261013T065500Z
+DTEND:20261013T075000Z
+SUMMARY;LANGUAGE=fr:HISTOIRE-GEOGRAPHIE - DAVID P.
+LOCATION;LANGUAGE=fr:S203
+DESCRIPTION;LANGUAGE=fr:Matière : HISTOIRE-GEOGRAPHIE\nProfesseur : DAVID
+  P.\nSalle : S203\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : HISTOIRE-GEOGRAPHIE<br/>Professeur
+  : DAVID P.<br/>Salle : S203<br/>
+COLOR:#FFED00
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T140542Z
+UID:Cours-16710-7-20260904T120218Z-Index-Education
+DTSTART:20261015T140500Z
+DTEND:20261015T150000Z
+SUMMARY;LANGUAGE=fr:VIE DE CLASSE - LEROY N.
+LOCATION;LANGUAGE=fr:S113
+DESCRIPTION;LANGUAGE=fr:Matière : VIE DE CLASSE\nProfesseur : LEROY N.\nS
+ alle : S113\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : VIE DE CLASSE<br/>Professeur : LER
+ OY N.<br/>Salle : S113<br/>
+COLOR:#C93E69
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Jours fériés
+DTSTAMP:20260904T100218Z
+UID:Ferie-10-20260904T120218Z-Index-Education
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261102
+SUMMARY;LANGUAGE=fr:Vacances
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Jours fériés
+DTSTAMP:20260904T100218Z
+UID:Ferie-11-20260904T120218Z-Index-Education
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY;LANGUAGE=fr:Férié
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Jours fériés
+DTSTAMP:20260904T100218Z
+UID:Ferie-12-20260904T120218Z-Index-Education
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20270104
+SUMMARY;LANGUAGE=fr:Vacances
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Jours fériés
+DTSTAMP:20260904T100218Z
+UID:Ferie-13-20260904T120218Z-Index-Education
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270301
+SUMMARY;LANGUAGE=fr:Vacances
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Jours fériés
+DTSTAMP:20260904T100218Z
+UID:Ferie-14-20260904T120218Z-Index-Education
+DTSTART;VALUE=DATE:20270328
+DTEND;VALUE=DATE:20270330
+SUMMARY;LANGUAGE=fr:Vacances
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Jours fériés
+DTSTAMP:20260904T100218Z
+UID:Ferie-15-20260904T120218Z-Index-Education
+DTSTART;VALUE=DATE:20270411
+DTEND;VALUE=DATE:20270426
+SUMMARY;LANGUAGE=fr:Vacances
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Jours fériés
+DTSTAMP:20260904T100218Z
+UID:Ferie-16-20260904T120218Z-Index-Education
+DTSTART;VALUE=DATE:20270501
+DTEND;VALUE=DATE:20270502
+SUMMARY;LANGUAGE=fr:Férié
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Jours fériés
+DTSTAMP:20260904T100218Z
+UID:Ferie-17-20260904T120218Z-Index-Education
+DTSTART;VALUE=DATE:20270506
+DTEND;VALUE=DATE:20270510
+SUMMARY;LANGUAGE=fr:Vacances
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Jours fériés
+DTSTAMP:20260904T100218Z
+UID:Ferie-18-20260904T120218Z-Index-Education
+DTSTART;VALUE=DATE:20270516
+DTEND;VALUE=DATE:20270518
+SUMMARY;LANGUAGE=fr:Vacances
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,78 @@
+{
+  "name": "pronote-digest",
+  "version": "0.0.0",
+  "description": "GitHub Action et CLI : digest quotidien (planning et devoirs) à partir des flux iCal Pronote, envoyé par mail ou tout autre canal.",
+  "license": "MIT",
+  "author": "Yoan Bernabeu",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yoanbernabeu/pronote-digest.git"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "packageManager": "pnpm@10.11.0",
+  "bin": {
+    "pronote-digest": "./dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "action.yml"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "check": "biome check .",
+    "check:fix": "biome check --write .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "knip": "knip",
+    "cli": "tsx src/cli/main.ts",
+    "verify": "pnpm check && pnpm typecheck && pnpm knip && pnpm test:coverage && pnpm build",
+    "prepare": "simple-git-hooks"
+  },
+  "dependencies": {
+    "@actions/core": "^3.0.1",
+    "@ai-sdk/anthropic": "^4.0.49",
+    "@ai-sdk/google": "^4.0.63",
+    "@ai-sdk/mistral": "^4.0.39",
+    "@ai-sdk/openai": "^4.0.58",
+    "@ai-sdk/openai-compatible": "^3.0.43",
+    "@date-fns/tz": "^1.5.0",
+    "ai": "^7.0.92",
+    "commander": "^15.0.0",
+    "date-fns": "^4.4.0",
+    "entities": "^8.0.0",
+    "eta": "^4.6.0",
+    "html-to-text": "^10.0.1",
+    "mjml": "^5.4.0",
+    "node-ical": "^0.27.1",
+    "nodemailer": "^10.0.0",
+    "sanitize-html": "^2.17.7",
+    "zod": "^4.5.4"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.5.12",
+    "@commitlint/cli": "^21.2.2",
+    "@commitlint/config-conventional": "^21.2.2",
+    "@types/html-to-text": "^9.0.4",
+    "@types/mjml": "^5.0.0",
+    "@types/node": "^26.4.1",
+    "@types/nodemailer": "^8.0.1",
+    "@types/sanitize-html": "^2.16.1",
+    "@vitest/coverage-v8": "^5.0.0",
+    "knip": "^6.34.0",
+    "msw": "^2.15.0",
+    "simple-git-hooks": "^2.14.0",
+    "tsup": "^8.5.1",
+    "tsx": "^4.23.13",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.0"
+  },
+  "simple-git-hooks": {
+    "commit-msg": "pnpm exec commitlint --edit $1",
+    "pre-commit": "pnpm check && pnpm typecheck"
+  }
+}

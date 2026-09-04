@@ -1,0 +1,32 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:recommended", ":semanticCommits", ":dependencyDashboard"],
+  "timezone": "Europe/Paris",
+  "schedule": ["before 7am on monday"],
+  "labels": ["dependencies"],
+  "rangeStrategy": "bump",
+  "lockFileMaintenance": {
+    "enabled": true,
+    "schedule": ["before 7am on the first day of the month"]
+  },
+  "packageRules": [
+    {
+      "description": "Mises à jour mineures et correctives regroupées, fusion automatique si la CI passe",
+      "matchUpdateTypes": ["minor", "patch"],
+      "groupName": "dépendances mineures",
+      "automerge": true,
+      "automergeType": "pr"
+    },
+    {
+      "description": "Adaptateurs IA regroupés",
+      "matchPackageNames": ["ai", "/^@ai-sdk\\//"],
+      "groupName": "SDK IA"
+    },
+    {
+      "description": "Actions GitHub épinglées par version majeure",
+      "matchManagers": ["github-actions"],
+      "pinDigests": false
+    }
+  ],
+  "vulnerabilityAlerts": { "labels": ["security"], "automerge": true }
+}
