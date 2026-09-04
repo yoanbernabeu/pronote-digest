@@ -1,6 +1,6 @@
 {
   "name": "pronote-digest",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "description": "GitHub Action et CLI : digest quotidien (planning et devoirs) à partir des flux iCal Pronote, envoyé par mail ou tout autre canal.",
   "license": "MIT",
   "author": "Yoan Bernabeu",
