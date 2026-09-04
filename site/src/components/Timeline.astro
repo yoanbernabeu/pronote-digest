@@ -1,0 +1,24 @@
+---
+/** Le motif du site : deux instants, rien d'autre. */
+interface Props {
+  class?: string;
+}
+const { class: className = '' } = Astro.props;
+---
+
+<div class={`relative py-6 ${className}`} aria-label="Heures d'envoi : 17h30 les devoirs, 19h00 le planning">
+  <div class="timeline">
+    <span class="tick" style="left: 38%"></span>
+    <span class="tick" style="left: 62%"></span>
+  </div>
+  <div class="relative mt-4 h-10">
+    <div class="absolute -translate-x-1/2 text-center" style="left: 38%">
+      <p class="font-mono text-sm text-ink">17:30</p>
+      <p class="text-xs text-ink-faint">les devoirs</p>
+    </div>
+    <div class="absolute -translate-x-1/2 text-center" style="left: 62%">
+      <p class="font-mono text-sm text-ink">19:00</p>
+      <p class="text-xs text-ink-faint">le planning</p>
+    </div>
+  </div>
+</div>

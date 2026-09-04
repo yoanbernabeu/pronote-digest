@@ -1,0 +1,44 @@
+---
+/** Réplique du mail devoirs, données anonymisées. */
+interface Props {
+  class?: string;
+}
+const { class: className = '' } = Astro.props;
+
+const items = [
+  {
+    child: 'Alice',
+    homework: [
+      ['ANGLAIS LV1', 'THOMAS C.', 'lesson + vocabulary : être capable de reparler des deux bandes-annonces avec le vocabulaire noté en classe'],
+      ['FRANCAIS', 'MARTIN A.', 'Apporter le manuel de français couvert, avec l’étiquette complétée.'],
+    ],
+  },
+  {
+    child: 'Bob',
+    homework: [
+      ['HISTOIRE-GEOGRAPHIE', 'DAVID P.', 'Illustrer la première page du cahier avec des éléments en lien avec le programme de l’année.'],
+      ['MATHEMATIQUES', 'ROUX O.', 'Apporter les deux cahiers (48 pages et 96 pages) et tout le matériel attendu.'],
+    ],
+  },
+];
+---
+
+<article class={`mail p-5 sm:p-6 ${className}`} aria-label="Exemple de mail devoirs">
+  <header>
+    <p class="eyebrow">[Pronote] · 17:30</p>
+    <h3 class="display mt-1 text-xl sm:text-2xl">Devoirs pour le lundi 7 septembre</h3>
+  </header>
+  {items.map(({ child, homework }) => (
+    <section class="mt-5">
+      <h4 class="font-semibold">{child}</h4>
+      <ul class="mt-2 space-y-3">
+        {homework.map(([subject, teacher, text]) => (
+          <li class="border-t border-rule pt-2.5 text-[0.88rem] leading-relaxed">
+            <p><strong class="font-semibold">{subject}</strong> <span class="text-ink-faint">· {teacher} · donné le jeudi 3 septembre</span></p>
+            <p class="mt-0.5">{text}</p>
+          </li>
+        ))}
+      </ul>
+    </section>
+  ))}
+</article>

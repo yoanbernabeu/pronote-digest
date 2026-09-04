@@ -1,0 +1,56 @@
+---
+/** Tableau des entrées et sorties, lu dans action.yml au build : jamais désynchronisé du code. */
+import { parse } from 'yaml';
+import actionYaml from '../../../action.yml?raw';
+
+interface ActionInput {
+  description: string;
+  required?: boolean;
+  default?: string;
+}
+interface ActionFile {
+  inputs: Record<string, ActionInput>;
+  outputs: Record<string, { description: string }>;
+}
+
+const action = parse(actionYaml) as ActionFile;
+const inputs = Object.entries(action.inputs);
+const outputs = Object.entries(action.outputs);
+
+function defaultLabel(input: ActionInput): string {
+  if (input.required) return 'requis';
+  if (input.default === undefined || input.default === '') return '—';
+  return input.default;
+}
+---
+
+<div class="overflow-x-auto rounded-lg border border-rule bg-craie">
+  <table class="w-full text-left text-[0.86rem]">
+    <thead class="bg-paper-deep">
+      <tr>
+        <th class="px-4 py-2.5 font-mono text-[0.7rem] uppercase tracking-widest text-ink-faint">Entrée</th>
+        <th class="px-4 py-2.5 font-mono text-[0.7rem] uppercase tracking-widest text-ink-faint">Défaut</th>
+        <th class="px-4 py-2.5 font-mono text-[0.7rem] uppercase tracking-widest text-ink-faint">Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      {inputs.map(([name, input]) => (
+        <tr class="border-t border-rule align-top">
+          <td class="whitespace-nowrap px-4 py-2.5 font-mono text-[0.8rem]">{name}</td>
+          <td class="whitespace-nowrap px-4 py-2.5 font-mono text-[0.78rem] text-ink-soft">{defaultLabel(input)}</td>
+          <td class="px-4 py-2.5 leading-relaxed">{input.description}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</div>
+
+<h4 class="mt-8 font-semibold">Sorties</h4>
+<dl class="mt-3 grid gap-x-8 gap-y-2 sm:grid-cols-2">
+  {outputs.map(([name, output]) => (
+    <div class="border-t border-rule pt-2 text-[0.86rem]">
+      <dt class="font-mono text-[0.8rem]">{name}</dt>
+      <dd class="text-ink-soft">{output.description}</dd>
+    </div>
+  ))}
+</dl>

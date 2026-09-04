@@ -1,0 +1,433 @@
+---
+import Base from '../layouts/Base.astro';
+import MailPlanning from '../components/MailPlanning.astro';
+import MailHomework from '../components/MailHomework.astro';
+import Timeline from '../components/Timeline.astro';
+import CodeBlock from '../components/CodeBlock.astro';
+import Reference from '../components/Reference.astro';
+import { Button } from '../components/starwind/button';
+import { Tabs, TabsList, TabsTrigger, TabsContent } from '../components/starwind/tabs';
+import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from '../components/starwind/accordion';
+
+const repo = 'https://github.com/yoanbernabeu/pronote-digest';
+
+const childrenJson = `[
+  { "name": "Alice", "ics": "https://…/pronote/ical/Edt_alice.ics?icalsecurise=…&version=…&param=…" },
+  { "name": "Bob",   "ics": "https://…/pronote/ical/Edt_bob.ics?icalsecurise=…&version=…&param=…" }
+]`;
+
+const planningYaml = `name: Planning du lendemain
+
+on:
+  schedule:
+    # 19h00 Paris, heure d'été et heure d'hiver
+    - cron: '0 17 * * *'
+    - cron: '0 18 * * *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Heure de Paris
+        id: paris
+        run: echo "hour=$(TZ=Europe/Paris date +%H)" >> "$GITHUB_OUTPUT"
+
+      - name: Digest
+        if: github.event_name != 'schedule' || steps.paris.outputs.hour == '19'
+        uses: yoanbernabeu/pronote-digest@v0
+        with:
+          children: \${{ secrets.CHILDREN }}
+          digest: planning
+          smtp_host: \${{ secrets.SMTP_HOST }}
+          smtp_port: 587
+          smtp_user: \${{ secrets.SMTP_USER }}
+          smtp_pass: \${{ secrets.SMTP_PASS }}
+          mail_from: 'Pronote Digest <digest@example.com>'
+          mail_to: \${{ secrets.MAIL_TO }}
+          dry_run: \${{ inputs.dry_run }}
+
+      - name: Archive
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add archive
+          git diff --cached --quiet || git commit -m "chore: archive $(date -u +%F)"
+          git pull --rebase --autostash
+          git push`;
+
+const homeworkYaml = planningYaml
+  .replace('Planning du lendemain', 'Devoirs du lendemain')
+  .replace("# 19h00 Paris, heure d'été et heure d'hiver", "# 17h30 Paris, heure d'été et heure d'hiver")
+  .replace("- cron: '0 17 * * *'", "- cron: '30 15 * * *'")
+  .replace("- cron: '0 18 * * *'", "- cron: '30 16 * * *'")
+  .replace("steps.paris.outputs.hour == '19'", "steps.paris.outputs.hour == '17'")
+  .replace('digest: planning', 'digest: homework\n          on_no_school: skip');
+
+const faq = [
+  {
+    q: 'Mon établissement n’exporte pas le cahier de textes. Que se passe-t-il ?',
+    a: 'Le planning fonctionne. Le digest devoirs, lui, ne peut pas : l’action le détecte au premier run et échoue avec un message clair, plutôt que d’envoyer des mails vides. L’inclusion du cahier de textes dans l’export iCal est un réglage côté établissement.',
+  },
+  {
+    q: 'À quelle heure arrivent les mails ?',
+    a: 'Dans la soirée, autour de l’heure choisie. GitHub Actions ne garantit pas l’heure exacte d’un cron : des retards de quelques minutes à une demi-heure sont courants. Les deux entrées cron du workflow couvrent l’heure d’été et l’heure d’hiver ; un garde-fou sur l’heure de Paris n’en laisse passer qu’une.',
+  },
+  {
+    q: 'Quel jour est visé le vendredi soir ? Et pendant les vacances ?',
+    a: 'Le prochain jour de classe : lundi le vendredi soir, le jour de reprise la veille des vacances. Le dimanche de fin de vacances, le lundi de reprise est bien envoyé. Les jours de classe sont déduits des cours présents dans le flux, donc les fériés et journées banalisées sont gérés sans configuration.',
+  },
+  {
+    q: 'Le jeton de l’URL iCal a été régénéré par l’établissement.',
+    a: 'Ça arrive, souvent à la rentrée. Le run échoue avec un message explicite et GitHub vous prévient par mail. Récupérez les nouvelles URL dans Pronote et mettez à jour le secret CHILDREN.',
+  },
+  {
+    q: 'L’introduction rédigée par IA est-elle obligatoire ?',
+    a: 'Non, elle est désactivée par défaut. Si vous renseignez un fournisseur, le modèle reçoit le digest en texte et rédige trois à cinq phrases en tête du planning. Tout ce qui est factuel reste produit par le code : si le modèle cite une heure absente des données, l’intro est écartée et le mail part sans.',
+  },
+  {
+    q: 'Où vont les données de mes enfants ?',
+    a: 'Nulle part ailleurs que dans votre dépôt privé. Le flux est téléchargé par le runner GitHub, transformé en mail, envoyé par votre SMTP, et le rendu est archivé dans votre dépôt. Aucun service tiers n’est appelé, hormis le fournisseur d’IA si vous l’activez.',
+  },
+];
+---
+
+<Base
+  title="pronote-digest — le planning de demain, chaque soir dans votre boîte"
+  description="Une GitHub Action qui envoie chaque soir le planning et les devoirs du lendemain de vos enfants, à partir des flux iCal Pronote. Rien à héberger."
+>
+  <header class="mx-auto flex max-w-6xl items-center justify-between px-6 py-6">
+    <a href="#" class="flex items-center gap-2.5 font-semibold" aria-label="pronote-digest, accueil">
+      <span class="inline-block h-2.5 w-2.5 rounded-full bg-encre" aria-hidden="true"></span>
+      pronote-digest
+    </a>
+    <nav class="flex items-center gap-5 text-sm text-ink-soft">
+      <a class="hover:text-ink" href="#pourquoi">Pourquoi</a>
+      <a class="hover:text-ink" href="#mise-en-place">Mise en place</a>
+      <a class="hover:text-ink" href="#reference">Référence</a>
+      <a class="hover:text-ink" href={repo} rel="noopener">GitHub</a>
+    </nav>
+  </header>
+
+  <!-- Accroche -->
+  <section class="mx-auto grid max-w-6xl grid-cols-1 items-center gap-12 px-6 pb-20 pt-10 lg:grid-cols-[1.05fr_1fr] lg:gap-16 lg:pt-20">
+    <div>
+      <p class="eyebrow rise rise-1">GitHub Action · Pronote · sans serveur</p>
+      <h1 class="display rise rise-2 mt-5 text-[2.6rem] leading-[1.02] sm:text-6xl lg:text-[4.4rem]">
+        Le planning de demain,<br />
+        <span class="text-encre">chaque soir</span> dans votre boîte.
+      </h1>
+      <p class="rise rise-3 mt-7 max-w-lg text-lg leading-relaxed text-ink-soft">
+        Pronote a toutes les informations. Il faut juste aller les chercher, tous les soirs, enfant
+        par enfant. pronote-digest le fait pour vous : un mail à 17h30 pour les devoirs, un mail à
+        19h pour le planning. Rien à installer, rien à héberger.
+      </p>
+      <div class="rise rise-4 mt-9 flex flex-wrap items-center gap-3">
+        <Button href="#mise-en-place" size="lg">Mettre en place en 10 minutes</Button>
+        <Button href={repo} variant="outline" size="lg" rel="noopener">Voir le code</Button>
+      </div>
+      <Timeline class="rise rise-4 mt-6 max-w-md" />
+    </div>
+    <MailPlanning class="rise rise-3 lg:translate-y-4 lg:rotate-[0.6deg]" />
+  </section>
+
+  <!-- Pourquoi -->
+  <section id="pourquoi" class="border-t border-rule">
+    <div class="mx-auto max-w-6xl px-6 py-20">
+      <p class="eyebrow">Pourquoi</p>
+      <h2 class="display mt-3 max-w-2xl text-3xl sm:text-4xl">
+        L'information existe. Elle n'est simplement pas là où vous êtes le soir.
+      </h2>
+      <div class="mt-12 grid gap-10 md:grid-cols-3">
+        <div>
+          <p class="font-mono text-sm text-encre">01</p>
+          <h3 class="mt-2 font-semibold">Un compte par enfant, une appli, des clics</h3>
+          <p class="mt-2 leading-relaxed text-ink-soft">
+            Voir la journée de demain, c'est ouvrir Pronote, changer d'enfant, ouvrir l'emploi du
+            temps, puis le cahier de textes. Tous les soirs.
+          </p>
+        </div>
+        <div>
+          <p class="font-mono text-sm text-encre">02</p>
+          <h3 class="mt-2 font-semibold">Ce qui compte tient en dix lignes</h3>
+          <p class="mt-2 leading-relaxed text-ink-soft">
+            À quelle heure ça commence, à quelle heure ça finit, s'il y a sport, ce qu'il y a à
+            rendre, si un cours saute. Le reste, c'est du bruit.
+          </p>
+        </div>
+        <div>
+          <p class="font-mono text-sm text-encre">03</p>
+          <h3 class="mt-2 font-semibold">Le mail arrive quand la question se pose</h3>
+          <p class="mt-2 leading-relaxed text-ink-soft">
+            17h30 pour vérifier les devoirs avant le dîner, 19h pour préparer le cartable. Pas de
+            notification, pas d'application : un mail, que vous lisez ou pas.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Ce que vous recevez -->
+  <section class="border-t border-rule bg-paper-deep/50">
+    <div class="mx-auto max-w-6xl px-6 py-20">
+      <p class="eyebrow">Ce que vous recevez</p>
+      <h2 class="display mt-3 max-w-2xl text-3xl sm:text-4xl">Deux mails. Toujours les mêmes.</h2>
+      <div class="mt-12 grid grid-cols-1 gap-8 lg:grid-cols-2">
+        <div>
+          <MailHomework />
+          <p class="mt-4 text-sm leading-relaxed text-ink-soft">
+            <strong class="text-ink">17:30, les devoirs.</strong> Le travail à rendre pour le prochain
+            jour de classe, tel que saisi par les enseignants dans le cahier de textes. Matière,
+            enseignant, date où le devoir a été donné, consigne. Rien les jours sans cours.
+          </p>
+        </div>
+        <div>
+          <MailPlanning compact />
+          <p class="mt-4 text-sm leading-relaxed text-ink-soft">
+            <strong class="text-ink">19:00, le planning.</strong> Les cours du prochain jour de classe,
+            heure de début et de fin de journée, salles, cours annulés ou déplacés barrés, rappel de la
+            tenue de sport. Et, si vous l'activez, une introduction rédigée par le modèle d'IA de votre
+            choix.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Comment ça marche -->
+  <section class="border-t border-rule">
+    <div class="mx-auto max-w-6xl px-6 py-20">
+      <p class="eyebrow">Comment ça marche</p>
+      <h2 class="display mt-3 max-w-2xl text-3xl sm:text-4xl">Trois pièces, aucune à vous.</h2>
+      <ol class="mt-12 grid gap-6 md:grid-cols-3">
+        <li class="rounded-lg border border-rule bg-craie p-6">
+          <p class="font-mono text-sm text-encre">1 · Pronote</p>
+          <h3 class="mt-2 font-semibold">Le flux iCal que Pronote publie déjà</h3>
+          <p class="mt-2 text-sm leading-relaxed text-ink-soft">
+            Chaque compte élève expose un calendrier iCal avec les cours, les annulations, et le
+            cahier de textes si l'établissement l'a activé. C'est la seule source.
+          </p>
+        </li>
+        <li class="rounded-lg border border-rule bg-craie p-6">
+          <p class="font-mono text-sm text-encre">2 · GitHub Actions</p>
+          <h3 class="mt-2 font-semibold">Un dépôt privé qui se réveille le soir</h3>
+          <p class="mt-2 text-sm leading-relaxed text-ink-soft">
+            Deux workflows planifiés téléchargent le flux, calculent le jour visé, et rendent le mail.
+            Le quota gratuit de GitHub couvre largement deux runs par jour.
+          </p>
+        </li>
+        <li class="rounded-lg border border-rule bg-craie p-6">
+          <p class="font-mono text-sm text-encre">3 · Votre SMTP</p>
+          <h3 class="mt-2 font-semibold">N'importe quel fournisseur de mail</h3>
+          <p class="mt-2 text-sm leading-relaxed text-ink-soft">
+            Brevo, Mailgun, Postmark, OVH, votre Gmail avec un mot de passe d'application. Le mail
+            part de chez vous, vers qui vous voulez.
+          </p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Intro IA -->
+  <section class="border-t border-rule">
+    <div class="mx-auto grid max-w-6xl grid-cols-1 gap-12 px-6 py-20 lg:grid-cols-[1fr_1.1fr] lg:gap-16">
+      <div>
+        <p class="eyebrow">Introduction rédigée · optionnel</p>
+        <h2 class="display mt-3 text-3xl sm:text-4xl">Quelques phrases en tête du planning, par le modèle de votre choix.</h2>
+        <p class="mt-6 leading-relaxed text-ink-soft">
+          Désactivée par défaut. Si vous renseignez un fournisseur, le modèle reçoit le digest en
+          texte brut et rédige trois à cinq phrases : la journée est longue, il y a sport, un cours
+          saute. Il ne voit ni votre boîte mail ni Pronote, seulement le contenu du mail.
+        </p>
+        <p class="mt-4 leading-relaxed text-ink-soft">
+          Tout ce qui est factuel reste produit par le code. Si le modèle cite une heure absente des
+          données, l'introduction est écartée et le mail part sans. Un échec du fournisseur n'empêche
+          jamais l'envoi.
+        </p>
+        <p class="mt-6 text-sm text-ink-faint">
+          Changer de fournisseur, c'est changer trois secrets. Le code ne bouge pas.
+        </p>
+      </div>
+      <div class="min-w-0">
+        <div class="grid grid-cols-2 gap-3 sm:grid-cols-3">
+          {[
+            ['anthropic', 'Claude'],
+            ['openai', 'GPT'],
+            ['google', 'Gemini'],
+            ['mistral', 'Mistral'],
+            ['ollama', 'Ollama, en local'],
+            ['openai-compatible', 'Tout endpoint compatible OpenAI'],
+          ].map(([id, label]) => (
+            <div class="rounded-lg border border-rule bg-craie px-4 py-3">
+              <p class="font-mono text-[0.78rem] text-encre">{id}</p>
+              <p class="mt-0.5 text-sm text-ink-soft">{label}</p>
+            </div>
+          ))}
+        </div>
+        <div class="mt-6">
+          <CodeBlock
+            title="dans le workflow, avec l'action"
+            lang="yaml"
+            code={`          ai_provider: google
+          ai_model: gemini-3.8-flash
+          ai_api_key: \${{ secrets.AI_API_KEY }}
+          # Ollama ou endpoint compatible OpenAI :
+          # ai_base_url: http://localhost:11434/v1`}
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mise en place -->
+  <section id="mise-en-place" class="border-t border-rule bg-paper-deep/50">
+    <div class="mx-auto max-w-6xl px-6 py-20">
+      <p class="eyebrow">Mise en place</p>
+      <h2 class="display mt-3 max-w-2xl text-3xl sm:text-4xl">Dix minutes, quatre étapes.</h2>
+
+      <div class="mt-12 grid grid-cols-1 gap-12 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.4fr)]">
+        <div class="space-y-10">
+          <div>
+            <p class="font-mono text-sm text-encre">Étape 1</p>
+            <h3 class="mt-1 font-semibold">Récupérez les URL iCal dans Pronote</h3>
+            <p class="mt-2 text-sm leading-relaxed text-ink-soft">
+              Espace Parents ou Élève, emploi du temps, export iCal. Vous obtenez une URL par enfant,
+              du type <code>…/pronote/ical/Edt_prenom.ics?icalsecurise=…</code>. Elle contient un
+              jeton : traitez-la comme un mot de passe.
+            </p>
+          </div>
+          <div>
+            <p class="font-mono text-sm text-encre">Étape 2</p>
+            <h3 class="mt-1 font-semibold">Créez un dépôt GitHub privé</h3>
+            <p class="mt-2 text-sm leading-relaxed text-ink-soft">
+              Il ne contiendra que deux workflows, vos secrets et l'archive des envois. Privé, parce
+              que l'archive porte les prénoms, les enseignants et les consignes.
+            </p>
+          </div>
+          <div>
+            <p class="font-mono text-sm text-encre">Étape 3</p>
+            <h3 class="mt-1 font-semibold">Renseignez les secrets</h3>
+            <p class="mt-2 text-sm leading-relaxed text-ink-soft">
+              Settings, Secrets and variables, Actions : <code>CHILDREN</code> avec le JSON ci-contre,
+              puis <code>SMTP_HOST</code>, <code>SMTP_USER</code>, <code>SMTP_PASS</code> et
+              <code>MAIL_TO</code>.
+            </p>
+          </div>
+          <div>
+            <p class="font-mono text-sm text-encre">Étape 4</p>
+            <h3 class="mt-1 font-semibold">Ajoutez les deux workflows</h3>
+            <p class="mt-2 text-sm leading-relaxed text-ink-soft">
+              Copiez-les dans <code>.github/workflows/</code>. Lancez-en un à la main avec
+              <code>dry_run</code> coché : le rendu est archivé dans le dépôt sans rien envoyer. Puis
+              décochez.
+            </p>
+          </div>
+        </div>
+
+        <div class="min-w-0 space-y-8">
+          <CodeBlock title="secret CHILDREN" lang="json" code={childrenJson} />
+          <Tabs defaultValue="planning">
+            <TabsList>
+              <TabsTrigger value="planning">planning.yml</TabsTrigger>
+              <TabsTrigger value="devoirs">devoirs.yml</TabsTrigger>
+            </TabsList>
+            <TabsContent value="planning">
+              <CodeBlock title=".github/workflows/planning.yml" lang="yaml" code={planningYaml} />
+            </TabsContent>
+            <TabsContent value="devoirs">
+              <CodeBlock title=".github/workflows/devoirs.yml" lang="yaml" code={homeworkYaml} />
+            </TabsContent>
+          </Tabs>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Données -->
+  <section class="border-t border-rule">
+    <div class="mx-auto max-w-6xl px-6 py-20">
+      <p class="eyebrow">Données et sécurité</p>
+      <h2 class="display mt-3 max-w-2xl text-3xl sm:text-4xl">Tout reste chez vous.</h2>
+      <ul class="mt-10 grid gap-6 md:grid-cols-2">
+        <li class="border-t border-rule pt-4">
+          <h3 class="font-semibold">Les URL iCal ne quittent pas vos secrets</h3>
+          <p class="mt-1 text-sm leading-relaxed text-ink-soft">
+            L'action les masque dans les logs du workflow. Elles n'apparaissent ni dans le code, ni
+            dans l'archive, ni dans les messages d'erreur.
+          </p>
+        </li>
+        <li class="border-t border-rule pt-4">
+          <h3 class="font-semibold">Aucun service intermédiaire</h3>
+          <p class="mt-1 text-sm leading-relaxed text-ink-soft">
+            Pronote, le runner GitHub, votre SMTP. C'est tout. Le fournisseur d'IA n'est appelé que si
+            vous l'activez, et ne reçoit que le contenu du digest.
+          </p>
+        </li>
+        <li class="border-t border-rule pt-4">
+          <h3 class="font-semibold">Le HTML des enseignants est assaini</h3>
+          <p class="mt-1 text-sm leading-relaxed text-ink-soft">
+            Les consignes du cahier de textes sont nettoyées avant d'entrer dans le mail : pas de
+            script, pas de style, pas de lien douteux.
+          </p>
+        </li>
+        <li class="border-t border-rule pt-4">
+          <h3 class="font-semibold">Code ouvert, tests, licence MIT</h3>
+          <p class="mt-1 text-sm leading-relaxed text-ink-soft">
+            Le parseur est testé sur de vrais flux anonymisés. Chaque version est compilée et taguée
+            par la CI, et publiée sur le GitHub Marketplace.
+          </p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="border-t border-rule bg-paper-deep/50">
+    <div class="mx-auto max-w-3xl px-6 py-20">
+      <p class="eyebrow">Questions fréquentes</p>
+      <Accordion class="mt-8" type="single">
+        {faq.map((item, index) => (
+          <AccordionItem value={`faq-${index}`}>
+            <AccordionTrigger class="text-left font-semibold">{item.q}</AccordionTrigger>
+            <AccordionContent><p class="leading-relaxed text-ink-soft">{item.a}</p></AccordionContent>
+          </AccordionItem>
+        ))}
+      </Accordion>
+    </div>
+  </section>
+
+  <!-- Référence -->
+  <section id="reference" class="border-t border-rule">
+    <div class="mx-auto max-w-6xl px-6 py-20">
+      <p class="eyebrow">Référence</p>
+      <h2 class="display mt-3 max-w-2xl text-3xl sm:text-4xl">Entrées et sorties de l'action.</h2>
+      <p class="mt-4 max-w-2xl text-sm leading-relaxed text-ink-soft">
+        Ce tableau est généré au build à partir du fichier <code>action.yml</code> du dépôt : il
+        correspond toujours à la version publiée.
+      </p>
+      <div class="mt-8">
+        <Reference />
+      </div>
+    </div>
+  </section>
+
+  <footer class="border-t border-rule">
+    <div class="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-4 px-6 py-10 text-sm text-ink-soft">
+      <p>
+        pronote-digest · MIT ·
+        <a class="underline decoration-rule underline-offset-4 hover:text-ink" href={repo} rel="noopener">GitHub</a> ·
+        <a class="underline decoration-rule underline-offset-4 hover:text-ink" href="https://github.com/marketplace/actions/pronote-digest" rel="noopener">Marketplace</a>
+      </p>
+      <p>Projet indépendant, <a class="underline decoration-rule underline-offset-4 hover:text-ink" href="https://yoandev.co" rel="noopener">YoanDev</a></p>
+    </div>
+  </footer>
+</Base>

@@ -1,0 +1,48 @@
+{
+  "$schema": "https://starwind.dev/config-schema.v2.json",
+  "version": 2,
+  "framework": "astro",
+  "registry": {
+    "source": "bundled",
+    "version": "2.2.0"
+  },
+  "components": [
+    {
+      "name": "button",
+      "version": "3.0.1",
+      "framework": "astro",
+      "registry": "default"
+    },
+    {
+      "name": "accordion",
+      "version": "2.0.3",
+      "framework": "astro",
+      "registry": "default"
+    },
+    {
+      "name": "tabs",
+      "version": "2.0.1",
+      "framework": "astro",
+      "registry": "default"
+    },
+    {
+      "name": "badge",
+      "version": "1.5.0",
+      "framework": "astro",
+      "registry": "default"
+    },
+    {
+      "name": "card",
+      "version": "2.3.1",
+      "framework": "astro",
+      "registry": "default"
+    }
+  ],
+  "tailwind": {
+    "css": "src/styles/starwind.css",
+    "baseColor": "neutral",
+    "cssVariables": true
+  },
+  "componentDir": "src/components/starwind",
+  "utilsDir": "src/lib/utils"
+}

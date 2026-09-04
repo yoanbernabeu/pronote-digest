@@ -1,0 +1,223 @@
+@import "./starwind.css";
+
+/*
+  Thème pronote-digest : papier chaud, encre, un seul accent « encre bleue ».
+  Typographie : Fraunces (titres, optique variable), Instrument Sans (texte), JetBrains Mono (code).
+*/
+@theme {
+  --font-display: "Fraunces", "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+  --font-sans: "Instrument Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+
+  --color-paper: #f7f3ec;
+  --color-paper-deep: #efe9de;
+  --color-ink: #16171c;
+  --color-ink-soft: #4b4d57;
+  --color-ink-faint: #8a8c96;
+  --color-rule: #ddd6c8;
+  --color-encre: #1f3ccf;
+  --color-encre-soft: #e6eaff;
+  --color-craie: #fffdf8;
+}
+
+:root {
+  --background: var(--color-paper);
+  --foreground: var(--color-ink);
+  --card: var(--color-craie);
+  --card-foreground: var(--color-ink);
+  --primary: var(--color-encre);
+  --primary-foreground: var(--color-craie);
+  --primary-accent: #1732b0;
+  --secondary: var(--color-paper-deep);
+  --secondary-foreground: var(--color-ink);
+  --secondary-accent: var(--color-rule);
+  --muted: var(--color-paper-deep);
+  --muted-foreground: var(--color-ink-soft);
+  --accent: var(--color-encre-soft);
+  --accent-foreground: var(--color-encre);
+  --border: var(--color-rule);
+  --input: var(--color-rule);
+  --outline: var(--color-encre);
+  --radius: 0.375rem;
+}
+
+.dark {
+  --color-paper: #15161b;
+  --color-paper-deep: #1d1f26;
+  --color-ink: #efeae0;
+  --color-ink-soft: #b9b4a8;
+  --color-ink-faint: #7f7b72;
+  --color-rule: #2c2f3a;
+  --color-encre: #8ea0ff;
+  --color-encre-soft: #1c2246;
+  --color-craie: #1a1c23;
+  --background: var(--color-paper);
+  --foreground: var(--color-ink);
+  --card: var(--color-craie);
+  --card-foreground: var(--color-ink);
+  --primary: var(--color-encre);
+  --primary-foreground: #0f1120;
+  --primary-accent: #a9b7ff;
+  --secondary: var(--color-paper-deep);
+  --secondary-foreground: var(--color-ink);
+  --muted: var(--color-paper-deep);
+  --muted-foreground: var(--color-ink-soft);
+  --accent: var(--color-encre-soft);
+  --accent-foreground: var(--color-encre);
+  --border: var(--color-rule);
+  --input: var(--color-rule);
+  --outline: var(--color-encre);
+}
+
+html {
+  scroll-behavior: smooth;
+  color-scheme: light;
+}
+html.dark {
+  color-scheme: dark;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "ss01", "cv11";
+}
+
+/* Grain léger : la page a une matière, comme un papier. */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.35;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+.dark body::before {
+  opacity: 0.5;
+}
+
+.display {
+  font-family: var(--font-display);
+  font-variation-settings: "opsz" 144, "SOFT" 30, "WONK" 1;
+  letter-spacing: -0.015em;
+  font-weight: 500;
+}
+
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-ink-faint);
+}
+
+.prose-tight p + p {
+  margin-top: 1em;
+}
+
+/* Réveil de la page : une seule animation, en cascade, sur l'accroche. */
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.rise {
+  animation: rise 0.7s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+.rise-1 { animation-delay: 0.05s; }
+.rise-2 { animation-delay: 0.18s; }
+.rise-3 { animation-delay: 0.32s; }
+.rise-4 { animation-delay: 0.5s; }
+@media (prefers-reduced-motion: reduce) {
+  .rise { animation: none; }
+  html { scroll-behavior: auto; }
+}
+
+/* Réplique du mail : un objet, pas une illustration. */
+.mail {
+  background: var(--color-craie);
+  border: 1px solid var(--color-rule);
+  border-radius: 10px;
+  box-shadow:
+    0 1px 0 rgba(22, 23, 28, 0.04),
+    0 24px 48px -24px rgba(22, 23, 28, 0.25);
+}
+.dark .mail {
+  box-shadow: 0 24px 48px -24px rgba(0, 0, 0, 0.7);
+}
+.mail-row {
+  display: grid;
+  grid-template-columns: 5.6rem 1fr auto;
+  gap: 0.75rem;
+  padding: 0.45rem 0;
+  border-top: 1px solid var(--color-rule);
+  font-size: 0.86rem;
+}
+.mail-row.cancelled {
+  color: var(--color-ink-faint);
+  text-decoration: line-through;
+}
+.mail-time {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--color-ink-soft);
+  white-space: nowrap;
+}
+
+/* Pas de ligatures en mono : `!=` doit rester `!=` dans un bloc à copier. */
+pre,
+code,
+.font-mono,
+.mail-time,
+.eyebrow {
+  font-variant-ligatures: none;
+  font-feature-settings: "liga" 0, "calt" 0;
+}
+
+/* Blocs de code */
+pre {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  line-height: 1.55;
+  background: var(--color-ink);
+  color: #e9e6dd;
+  border-radius: 8px;
+  padding: 1.1rem 1.25rem;
+  overflow-x: auto;
+}
+.dark pre {
+  background: #0d0e12;
+}
+code:not(pre code) {
+  font-family: var(--font-mono);
+  font-size: 0.85em;
+  background: var(--color-paper-deep);
+  padding: 0.1em 0.35em;
+  border-radius: 4px;
+}
+
+/* Ligne de temps : le motif du site. */
+.timeline {
+  position: relative;
+  height: 1px;
+  background: var(--color-rule);
+}
+.timeline .tick {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 9px;
+  height: 9px;
+  border-radius: 999px;
+  background: var(--color-encre);
+  box-shadow: 0 0 0 4px var(--color-paper);
+}
