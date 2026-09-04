@@ -20,9 +20,10 @@ const planningYaml = `name: Planning du lendemain
 
 on:
   schedule:
-    # 19h00 Paris, heure d'été et heure d'hiver
-    - cron: '0 17 * * *'
-    - cron: '0 18 * * *'
+    # 19h13 Paris, heure d'été et heure d'hiver
+    # Minute non ronde : les crons à :00 et :30 sont les plus retardés par GitHub
+    - cron: '13 17 * * *'
+    - cron: '13 18 * * *'
   workflow_dispatch:
     inputs:
       dry_run:
@@ -38,12 +39,17 @@ jobs:
     steps:
       - uses: actions/checkout@v7
 
-      - name: Heure de Paris
+      # On compare le décalage de Paris et l'entrée cron qui a déclenché le run,
+      # pas l'heure d'exécution : un cron lancé en retard doit quand même passer.
+      - name: Décalage de Paris
         id: paris
-        run: echo "hour=$(TZ=Europe/Paris date +%H)" >> "$GITHUB_OUTPUT"
+        run: echo "offset=$(TZ=Europe/Paris date +%z)" >> "$GITHUB_OUTPUT"
 
       - name: Digest
-        if: github.event_name != 'schedule' || steps.paris.outputs.hour == '19'
+        if: >-
+          github.event_name != 'schedule'
+          || (steps.paris.outputs.offset == '+0200' && github.event.schedule == '13 17 * * *')
+          || (steps.paris.outputs.offset == '+0100' && github.event.schedule == '13 18 * * *')
         uses: yoanbernabeu/pronote-digest@v0
         with:
           children: \${{ secrets.CHILDREN }}
@@ -67,10 +73,9 @@ jobs:
 
 const homeworkYaml = planningYaml
   .replace('Planning du lendemain', 'Devoirs du lendemain')
-  .replace("# 19h00 Paris, heure d'été et heure d'hiver", "# 17h30 Paris, heure d'été et heure d'hiver")
-  .replace("- cron: '0 17 * * *'", "- cron: '30 15 * * *'")
-  .replace("- cron: '0 18 * * *'", "- cron: '30 16 * * *'")
-  .replace("steps.paris.outputs.hour == '19'", "steps.paris.outputs.hour == '17'")
+  .replace("# 19h13 Paris, heure d'été et heure d'hiver", "# 17h33 Paris, heure d'été et heure d'hiver")
+  .replaceAll("'13 17 * * *'", "'33 15 * * *'")
+  .replaceAll("'13 18 * * *'", "'33 16 * * *'")
   .replace('digest: planning', 'digest: homework\n          on_no_school: skip');
 
 const faq = [
@@ -80,7 +85,7 @@ const faq = [
   },
   {
     q: 'À quelle heure arrivent les mails ?',
-    a: 'Dans la soirée, autour de l’heure choisie. GitHub Actions ne garantit pas l’heure exacte d’un cron : des retards de quelques minutes à une demi-heure sont courants. Les deux entrées cron du workflow couvrent l’heure d’été et l’heure d’hiver ; un garde-fou sur l’heure de Paris n’en laisse passer qu’une.',
+    a: 'Dans la soirée, autour de l’heure choisie. GitHub Actions ne garantit pas l’heure exacte d’un cron : des retards de quelques minutes à plus d’une heure sont courants, et un run peut être sauté en période de forte charge. D’où la minute non ronde dans les exemples. Les deux entrées cron du workflow couvrent l’heure d’été et l’heure d’hiver ; un garde-fou n’en laisse passer qu’une, en se basant sur l’entrée qui a déclenché le run et non sur l’heure d’exécution, pour rester juste même quand GitHub est en retard.',
   },
   {
     q: 'Quel jour est visé le vendredi soir ? Et pendant les vacances ?',

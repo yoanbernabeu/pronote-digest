@@ -32,9 +32,10 @@ name: Planning du lendemain
 
 on:
   schedule:
-    # 19h00 Paris. Deux entrées pour couvrir l'heure d'été (UTC+2) et l'heure d'hiver (UTC+1).
-    - cron: '0 17 * * *'
-    - cron: '0 18 * * *'
+    # 19h13 Paris. Deux entrées pour couvrir l'heure d'été (UTC+2) et l'heure d'hiver (UTC+1).
+    # Minute volontairement non ronde : les crons programmés à :00 et :30 sont les plus retardés.
+    - cron: '13 17 * * *'
+    - cron: '13 18 * * *'
   workflow_dispatch:
     inputs:
       date:
@@ -55,12 +56,18 @@ jobs:
       - uses: actions/checkout@v7
 
       # Ne tourne qu'une fois par jour : la bonne entrée cron selon la saison.
-      - name: Heure de Paris
+      # +0200 en heure d'été, +0100 en heure d'hiver. On compare le décalage et l'entrée cron
+      # qui a déclenché le run, pas l'heure d'exécution : un cron lancé en retard par GitHub
+      # doit quand même passer le garde-fou.
+      - name: Décalage de Paris
         id: paris
-        run: echo "hour=$(TZ=Europe/Paris date +%H)" >> "$GITHUB_OUTPUT"
+        run: echo "offset=$(TZ=Europe/Paris date +%z)" >> "$GITHUB_OUTPUT"
 
       - name: Digest
-        if: github.event_name != 'schedule' || steps.paris.outputs.hour == '19'
+        if: >-
+          github.event_name != 'schedule'
+          || (steps.paris.outputs.offset == '+0200' && github.event.schedule == '13 17 * * *')
+          || (steps.paris.outputs.offset == '+0100' && github.event.schedule == '13 18 * * *')
         uses: yoanbernabeu/pronote-digest@v0
         with:
           children: ${{ secrets.CHILDREN }}
@@ -103,9 +110,10 @@ name: Devoirs du lendemain
 
 on:
   schedule:
-    # 17h30 Paris, heure d'été et heure d'hiver.
-    - cron: '30 15 * * *'
-    - cron: '30 16 * * *'
+    # 17h33 Paris, heure d'été et heure d'hiver.
+    # Minute volontairement non ronde : les crons programmés à :00 et :30 sont les plus retardés.
+    - cron: '33 15 * * *'
+    - cron: '33 16 * * *'
   workflow_dispatch:
     inputs:
       date:
@@ -125,12 +133,15 @@ jobs:
     steps:
       - uses: actions/checkout@v7
 
-      - name: Heure de Paris
+      - name: Décalage de Paris
         id: paris
-        run: echo "hour=$(TZ=Europe/Paris date +%H)" >> "$GITHUB_OUTPUT"
+        run: echo "offset=$(TZ=Europe/Paris date +%z)" >> "$GITHUB_OUTPUT"
 
       - name: Digest
-        if: github.event_name != 'schedule' || steps.paris.outputs.hour == '17'
+        if: >-
+          github.event_name != 'schedule'
+          || (steps.paris.outputs.offset == '+0200' && github.event.schedule == '33 15 * * *')
+          || (steps.paris.outputs.offset == '+0100' && github.event.schedule == '33 16 * * *')
         uses: yoanbernabeu/pronote-digest@v0
         with:
           children: ${{ secrets.CHILDREN }}
@@ -231,8 +242,16 @@ données, l'intro est écartée et le message part sans. Un échec du fournisseu
 
 ## Limites connues
 
-- GitHub Actions ne garantit pas l'heure exacte d'un cron : des retards de quelques minutes à une demi-heure
-  sont courants. Le message arrive « dans la soirée », pas « à 19h00 pile ».
+- GitHub Actions ne garantit pas l'heure exacte d'un cron : des retards de quelques minutes à plus d'une
+  heure sont courants, et un run peut même être sauté en période de forte charge. Le message arrive « dans
+  la soirée », pas « à 19h00 pile ». Deux conséquences pratiques : choisissez une minute non ronde (les
+  crons à `:00` et `:30` sont les plus retardés), et n'écrivez jamais un garde-fou qui compare l'heure
+  d'exécution réelle — un run en retard se skipperait lui-même, en vert et sans mail. Les exemples
+  ci-dessus comparent `github.event.schedule`, qui reste juste quel que soit le retard.
+- Un cron mis en place sur un dépôt tout neuf peut mettre plusieurs heures avant son premier déclenchement.
+  Vérifiez-le avec `gh run list --event schedule`.
+- GitHub désactive les crons d'un dépôt sans commit depuis 60 jours. Ici l'étape `Archive` commite à chaque
+  envoi, ce qui garde le dépôt actif tout seul.
 - Seul ce que Pronote met dans l'export iCal est visible : pas de notes, pas d'absences, pas de messagerie,
   pas de statut « fait / à faire » des devoirs.
 - Les libellés Pronote sont reconnus en français.
