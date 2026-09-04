@@ -28,12 +28,16 @@ function homework(overrides: Partial<Homework> = {}): Homework {
   };
 }
 
-function digest(children: Partial<ChildDigest>[], targetDate = '2026-09-07'): Digest {
+function digest(
+  children: Partial<ChildDigest>[],
+  targetDate = '2026-09-07',
+  kind: Digest['kind'] = 'planning',
+): Digest {
   return {
     version: 1,
     generatedAt: '2026-09-06T17:00:00.000Z',
     targetDate,
-    kind: 'planning',
+    kind,
     schoolDay: true,
     changes: [],
     children: children.map((c) => ({
@@ -57,9 +61,9 @@ describe('diffDigests', () => {
     expect(diffDigests(previous, current)).toEqual([]);
   });
 
-  it('signale un devoir ajouté', () => {
-    const previous = digest([{ homework: [] }]);
-    const current = digest([{ homework: [homework()] }]);
+  it('signale un devoir ajouté dans le digest devoirs', () => {
+    const previous = digest([{ homework: [] }], '2026-09-07', 'homework');
+    const current = digest([{ homework: [homework()] }], '2026-09-07', 'homework');
     expect(diffDigests(previous, current)).toEqual([
       { child: 'Alice', type: 'homework-added', label: 'MATHEMATIQUES : signer la charte' },
     ]);
@@ -88,6 +92,20 @@ describe('diffDigests', () => {
       { child: 'Alice', type: 'lesson-added', label: 'SVT 08:00–08:55' },
       { child: 'Alice', type: 'lesson-removed', label: 'FRANCAIS 08:00–08:55' },
     ]);
+  });
+
+  it('ne signale que les cours dans un planning, que les devoirs dans un digest devoirs', () => {
+    const before = { lessons: [lesson()], homework: [] };
+    const after = { lessons: [lesson({ status: 'cancelled' })], homework: [homework()] };
+    expect(diffDigests(digest([before]), digest([after])).map((c) => c.type)).toEqual([
+      'lesson-cancelled',
+    ]);
+    expect(
+      diffDigests(
+        digest([before], '2026-09-07', 'homework'),
+        digest([after], '2026-09-07', 'homework'),
+      ).map((c) => c.type),
+    ).toEqual(['homework-added']);
   });
 
   it('ignore un enfant absent du digest précédent', () => {

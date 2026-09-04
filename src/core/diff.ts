@@ -38,12 +38,24 @@ function diffChild(previous: ChildDigest, current: ChildDigest): Change[] {
   return changes;
 }
 
-/** Nouveautés du digest courant par rapport au précédent, pour la même date visée. */
+const RELEVANT: Record<Digest['kind'], ReadonlySet<Change['type']>> = {
+  planning: new Set(['lesson-cancelled', 'lesson-moved', 'lesson-added', 'lesson-removed']),
+  homework: new Set(['homework-added']),
+};
+
+/**
+ * Nouveautés du digest courant par rapport au précédent, pour la même date visée.
+ * Chaque type de digest ne signale que ce qui le concerne : les cours pour le planning,
+ * les devoirs pour le digest devoirs.
+ */
 export function diffDigests(previous: Digest | undefined, current: Digest): Change[] {
   if (previous === undefined || previous.targetDate !== current.targetDate) return [];
   const previousChildren = new Map(previous.children.map((c) => [c.name, c]));
-  return current.children.flatMap((child) => {
-    const before = previousChildren.get(child.name);
-    return before === undefined ? [] : diffChild(before, child);
-  });
+  const relevant = RELEVANT[current.kind];
+  return current.children
+    .flatMap((child) => {
+      const before = previousChildren.get(child.name);
+      return before === undefined ? [] : diffChild(before, child);
+    })
+    .filter((change) => relevant.has(change.type));
 }
