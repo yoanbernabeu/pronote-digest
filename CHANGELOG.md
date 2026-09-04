@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.4.1](https://github.com/yoanbernabeu/pronote-digest/compare/v0.4.0...v0.4.1) (2026-09-04)
+
+
+### Documentation
+
+* checkout v7 dans l'exemple du README ([4222340](https://github.com/yoanbernabeu/pronote-digest/commit/4222340665b079414a38aff3f80554c763b9039c))
+* exemple complet du workflow devoirs ([e9f838e](https://github.com/yoanbernabeu/pronote-digest/commit/e9f838e905b0e21b195088249c81e51d370f9621))
+
 ## [0.4.0](https://github.com/yoanbernabeu/pronote-digest/compare/v0.3.1...v0.4.0) (2026-09-04)
 
 
