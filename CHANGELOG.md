@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.3.1](https://github.com/yoanbernabeu/pronote-digest/compare/v0.3.0...v0.3.1) (2026-09-04)
+
+
+### Corrections
+
+* **diff:** ne signaler que les nouveautés du type de digest ([cf37b96](https://github.com/yoanbernabeu/pronote-digest/commit/cf37b969df8c8bf725934500a7b21068afeb5de0))
+
+
+### Documentation
+
+* dist généré, diffs masqués ([dbc813c](https://github.com/yoanbernabeu/pronote-digest/commit/dbc813cd7ea4ce802e03b2a668fbba8d8efab9e1))
+
 ## [0.3.0](https://github.com/yoanbernabeu/pronote-digest/compare/v0.2.0...v0.3.0) (2026-09-04)
 
 
