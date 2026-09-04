@@ -10,24 +10,33 @@ function normalize(text: string): string {
   return text.replace(/\s+/g, ' ').trim().toLowerCase();
 }
 
+/** Cours maintenus d'abord, puis ceux qui ont le moins d'enseignants (la matière « pure »), puis l'heure. */
+function byPriority(a: PronoteLesson, b: PronoteLesson): number {
+  if (a.status !== b.status) return a.status === 'scheduled' ? -1 : 1;
+  if (a.teachers.length !== b.teachers.length) return a.teachers.length - b.teachers.length;
+  return a.start.localeCompare(b.start);
+}
+
 /**
  * Devoirs à rendre le jour `dueOn`.
- * Source principale : les blocs « Donné le » portés par les cours de ce jour.
- * Source de repli : les blocs « Pour le » de n'importe quel cours visant ce jour.
- * Les deux sont fusionnées et dédoublonnées sur (enseignants, texte) : Pronote recopie le même
- * bloc dans tous les cours de l'enseignant ce jour-là, y compris sous une autre matière (vie de
- * classe, accompagnement personnalisé), et la date « Donné le » (saisie) peut différer du jour du
- * cours porteur du « Pour le ». Les blocs « Donné le » sont traités en premier, puis le premier
- * cours maintenu dans l'ordre de la journée fixe la matière retenue.
+ *
+ * Pronote recopie le même bloc dans tous les cours de l'enseignant le jour de l'échéance, y compris
+ * sous une autre matière (vie de classe, accompagnement personnalisé, EMC pour un prof d'histoire),
+ * et parfois avec un co-enseignant. On dédoublonne donc sur le texte seul.
+ *
+ * Passe 1 : les blocs « Pour le » visant `dueOn`, portés par le cours où le devoir a été donné. Ils
+ * donnent la matière d'origine et la date du cours. Passe 2 : les blocs « Donné le » des cours du jour,
+ * pour les flux qui n'émettent pas « Pour le ».
  */
 export function homeworkFor(lessons: PronoteLesson[], dueOn: IsoDate): Homework[] {
-  const byKey = new Map<string, Homework>();
+  const byText = new Map<string, Homework>();
+  const ordered = [...lessons].sort(byPriority);
 
   const add = (lesson: PronoteLesson, assignedOn: IsoDate, html: string, text: string) => {
-    const key = [lesson.teachers.join(','), normalize(text)].join('|');
-    if (byKey.has(key)) return;
-    byKey.set(key, {
-      id: stableId([lesson.teachers.join(','), dueOn, normalize(text)]),
+    const key = normalize(text);
+    if (byText.has(key)) return;
+    byText.set(key, {
+      id: stableId([dueOn, key]),
       subject: lesson.subject,
       teachers: lesson.teachers,
       assignedOn,
@@ -37,17 +46,6 @@ export function homeworkFor(lessons: PronoteLesson[], dueOn: IsoDate): Homework[
     });
   };
 
-  const ordered = [...lessons].sort((a, b) => {
-    if (a.status !== b.status) return a.status === 'scheduled' ? -1 : 1;
-    return a.start.localeCompare(b.start);
-  });
-
-  for (const lesson of ordered) {
-    if (!lesson.start.startsWith(dueOn)) continue;
-    for (const block of lesson.homeworkBlocks) {
-      if (block.kind === 'assigned') add(lesson, block.date, block.html, block.text);
-    }
-  }
   for (const lesson of ordered) {
     for (const block of lesson.homeworkBlocks) {
       if (block.kind === 'due' && block.date === dueOn) {
@@ -55,8 +53,14 @@ export function homeworkFor(lessons: PronoteLesson[], dueOn: IsoDate): Homework[
       }
     }
   }
+  for (const lesson of ordered) {
+    if (!lesson.start.startsWith(dueOn)) continue;
+    for (const block of lesson.homeworkBlocks) {
+      if (block.kind === 'assigned') add(lesson, block.date, block.html, block.text);
+    }
+  }
 
-  return [...byKey.values()].sort((a, b) =>
+  return [...byText.values()].sort((a, b) =>
     a.subject === b.subject
       ? a.text.localeCompare(b.text, 'fr')
       : a.subject.localeCompare(b.subject, 'fr'),

@@ -32,6 +32,24 @@ describe('homeworkFor', () => {
     expect(hw.length).toBeGreaterThan(0);
   });
 
+  it('fusionne un même devoir recopié dans un cours d’accompagnement du même enseignant', () => {
+    // Le 7 septembre, « apporter le manuel » est recopié dans ACC. PERSO. FRANCAIS (deux enseignants)
+    // et dans FRANCAIS (un enseignant) : on garde la matière d'origine, FRANCAIS.
+    const hw = homeworkFor(feed4e.lessons, '2026-09-07');
+    expect(hw.map((h) => `${h.subject}|${h.text.slice(0, 20)}`)).toEqual([
+      'ANGLAIS LV1|lesson + vocabulary ',
+      'FRANCAIS|Apporter le manuel d',
+    ]);
+  });
+
+  it('rattache le devoir à la matière du cours où il a été donné, pas à un autre cours du prof', () => {
+    // Donné en HISTOIRE-GEOGRAPHIE le 4/09 ; le 7/09 le même prof a EMC à 8h55 et HG à 14h.
+    const hw = homeworkFor(feed6e.lessons, '2026-09-07');
+    const illustrer = hw.filter((h) => h.text.startsWith('Illustrer'));
+    expect(illustrer).toHaveLength(1);
+    expect(illustrer[0]?.subject).toBe('HISTOIRE-GEOGRAPHIE');
+  });
+
   it('renvoie une liste vide sans devoir', () => {
     expect(homeworkFor(feed4e.lessons, '2026-09-02')).toEqual([]);
   });
