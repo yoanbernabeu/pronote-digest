@@ -1,5 +1,16 @@
 # Changelog
 
+## [0.5.0](https://github.com/yoanbernabeu/pronote-digest/compare/v0.4.1...v0.5.0) (2026-09-04)
+
+
+### ⚠ BREAKING CHANGES
+
+* **site:** la sortie `changes` de l'action disparaît.
+
+### Fonctionnalités
+
+* **site:** landing page GitHub Pages et suppression des nouveautés ([047bad7](https://github.com/yoanbernabeu/pronote-digest/commit/047bad735e7ea5ad76078007885f0e579fb348d3))
+
 ## [0.4.1](https://github.com/yoanbernabeu/pronote-digest/compare/v0.4.0...v0.4.1) (2026-09-04)
 
 
