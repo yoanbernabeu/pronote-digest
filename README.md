@@ -62,7 +62,7 @@ jobs:
 
       - name: Digest
         if: github.event_name != 'schedule' || steps.paris.outputs.hour == '19'
-        uses: yoanbernabeu/pronote-digest@v1
+        uses: yoanbernabeu/pronote-digest@v0
         with:
           children: ${{ secrets.CHILDREN }}
           digest: planning
@@ -92,6 +92,8 @@ Le secret `CHILDREN` contient un tableau JSON :
   { "name": "Bob",   "ics": "https://…/Edt_bob.ics?icalsecurise=…" }
 ]
 ```
+
+> Tant que le projet est en version 0.x, le tag mobile est `v0`. Il deviendra `v1` à la première version stable.
 
 Dupliquez le workflow pour les devoirs avec `digest: homework` et un cron plus tôt, par exemple 17h30.
 
