@@ -111,10 +111,10 @@ const faq = [
       pronote-digest
     </a>
     <nav class="hidden items-center gap-5 text-sm text-ink-soft md:flex" aria-label="Navigation principale">
-      <a class="hover:text-ink" href="#pourquoi">Pourquoi</a>
-      <a class="hover:text-ink" href="#mise-en-place">Mise en place</a>
-      <a class="hover:text-ink" href="#reference">Référence</a>
-      <a class="hover:text-ink" href={repo} rel="noopener">GitHub</a>
+      <a class="navlink hover:text-ink" href="#pourquoi">Pourquoi</a>
+      <a class="navlink hover:text-ink" href="#mise-en-place">Mise en place</a>
+      <a class="navlink hover:text-ink" href="#reference">Référence</a>
+      <a class="navlink hover:text-ink" href={repo} rel="noopener">GitHub</a>
     </nav>
     <button
       type="button"
@@ -165,7 +165,8 @@ const faq = [
   </script>
 
   <!-- Accroche -->
-  <section class="mx-auto grid max-w-6xl grid-cols-1 items-center gap-12 px-6 pb-20 pt-10 lg:grid-cols-[1.05fr_1fr] lg:gap-16 lg:pt-20">
+  <section class="relative mx-auto grid max-w-6xl grid-cols-1 items-center gap-12 overflow-visible px-6 pb-20 pt-10 lg:grid-cols-[1.05fr_1fr] lg:gap-16 lg:pt-20">
+    <div class="glow -right-40 -top-40 -z-10 hidden lg:block" aria-hidden="true"></div>
     <div>
       <p class="eyebrow rise rise-1">GitHub Action · Pronote · sans serveur</p>
       <h1 class="display rise rise-2 mt-5 text-[2.4rem] leading-[1.04] sm:text-5xl lg:text-[3.6rem]">
@@ -183,35 +184,38 @@ const faq = [
       </div>
       <Timeline class="rise rise-4 mt-6 max-w-md" />
     </div>
-    <MailPlanning class="rise rise-3 lg:translate-y-4 lg:rotate-[0.6deg]" />
+    <div class="relative rise rise-3 lg:translate-y-4 lg:rotate-[0.6deg]">
+      <span class="mail-pill" aria-hidden="true">1 nouveau message</span>
+      <MailPlanning />
+    </div>
   </section>
 
   <!-- Pourquoi -->
   <section id="pourquoi" class="border-t border-rule">
     <div class="mx-auto max-w-6xl px-6 py-20">
       <p class="eyebrow">Pourquoi</p>
-      <h2 class="display mt-3 max-w-2xl text-3xl sm:text-4xl">
+      <h2 data-reveal class="display mt-3 max-w-2xl text-3xl sm:text-4xl">
         L'information existe. Elle n'est simplement pas là où vous êtes le soir.
       </h2>
       <div class="mt-12 grid gap-10 md:grid-cols-3">
-        <div>
-          <p class="font-mono text-sm text-encre">01</p>
+        <div data-reveal>
+          <p class="font-mono text-sm text-encre"><span class="num">01</span></p>
           <h3 class="mt-2 font-semibold">Un compte par enfant, une appli, des clics</h3>
           <p class="mt-2 leading-relaxed text-ink-soft">
             Voir la journée de demain, c'est ouvrir Pronote, changer d'enfant, ouvrir l'emploi du
             temps, puis le cahier de textes. Tous les soirs.
           </p>
         </div>
-        <div>
-          <p class="font-mono text-sm text-encre">02</p>
+        <div data-reveal>
+          <p class="font-mono text-sm text-encre"><span class="num">02</span></p>
           <h3 class="mt-2 font-semibold">Ce qui compte tient en dix lignes</h3>
           <p class="mt-2 leading-relaxed text-ink-soft">
             À quelle heure ça commence, à quelle heure ça finit, s'il y a sport, ce qu'il y a à
             rendre, si un cours saute. Le reste, c'est du bruit.
           </p>
         </div>
-        <div>
-          <p class="font-mono text-sm text-encre">03</p>
+        <div data-reveal>
+          <p class="font-mono text-sm text-encre"><span class="num">03</span></p>
           <h3 class="mt-2 font-semibold">Le mail arrive quand la question se pose</h3>
           <p class="mt-2 leading-relaxed text-ink-soft">
             17h30 pour vérifier les devoirs avant le dîner, 19h pour préparer le cartable. Pas de
@@ -226,18 +230,18 @@ const faq = [
   <section class="border-t border-rule bg-paper-deep/50">
     <div class="mx-auto max-w-6xl px-6 py-20">
       <p class="eyebrow">Ce que vous recevez</p>
-      <h2 class="display mt-3 max-w-2xl text-3xl sm:text-4xl">Deux mails. Toujours les mêmes.</h2>
+      <h2 data-reveal class="display mt-3 max-w-2xl text-3xl sm:text-4xl">Deux mails. Toujours les mêmes.</h2>
       <div class="mt-12 grid grid-cols-1 gap-8 lg:grid-cols-2">
-        <div>
-          <MailHomework />
+        <div data-reveal>
+          <MailHomework class="lift" />
           <p class="mt-4 text-sm leading-relaxed text-ink-soft">
             <strong class="text-ink">17:30, les devoirs.</strong> Le travail à rendre pour le prochain
             jour de classe, tel que saisi par les enseignants dans le cahier de textes. Matière,
             enseignant, date où le devoir a été donné, consigne. Rien les jours sans cours.
           </p>
         </div>
-        <div>
-          <MailPlanning compact />
+        <div data-reveal>
+          <MailPlanning compact class="lift" />
           <p class="mt-4 text-sm leading-relaxed text-ink-soft">
             <strong class="text-ink">19:00, le planning.</strong> Les cours du prochain jour de classe,
             heure de début et de fin de journée, salles, cours annulés ou déplacés barrés, rappel de la
@@ -253,9 +257,9 @@ const faq = [
   <section class="border-t border-rule">
     <div class="mx-auto max-w-6xl px-6 py-20">
       <p class="eyebrow">Comment ça marche</p>
-      <h2 class="display mt-3 max-w-2xl text-3xl sm:text-4xl">Trois pièces, aucune à vous.</h2>
+      <h2 data-reveal class="display mt-3 max-w-2xl text-3xl sm:text-4xl">Trois pièces, aucune à vous.</h2>
       <ol class="mt-12 grid gap-6 md:grid-cols-3">
-        <li class="rounded-lg border border-rule bg-craie p-6">
+        <li class="lift rounded-lg border border-rule bg-craie p-6" data-reveal>
           <p class="font-mono text-sm text-encre">1 · Pronote</p>
           <h3 class="mt-2 font-semibold">Le flux iCal que Pronote publie déjà</h3>
           <p class="mt-2 text-sm leading-relaxed text-ink-soft">
@@ -263,7 +267,7 @@ const faq = [
             cahier de textes si l'établissement l'a activé. C'est la seule source.
           </p>
         </li>
-        <li class="rounded-lg border border-rule bg-craie p-6">
+        <li class="lift rounded-lg border border-rule bg-craie p-6" data-reveal>
           <p class="font-mono text-sm text-encre">2 · GitHub Actions</p>
           <h3 class="mt-2 font-semibold">Un dépôt privé qui se réveille le soir</h3>
           <p class="mt-2 text-sm leading-relaxed text-ink-soft">
@@ -271,7 +275,7 @@ const faq = [
             Le quota gratuit de GitHub couvre largement deux runs par jour.
           </p>
         </li>
-        <li class="rounded-lg border border-rule bg-craie p-6">
+        <li class="lift rounded-lg border border-rule bg-craie p-6" data-reveal>
           <p class="font-mono text-sm text-encre">3 · Votre SMTP</p>
           <h3 class="mt-2 font-semibold">N'importe quel fournisseur de mail</h3>
           <p class="mt-2 text-sm leading-relaxed text-ink-soft">
@@ -288,7 +292,7 @@ const faq = [
     <div class="mx-auto grid max-w-6xl grid-cols-1 items-center gap-12 px-6 py-20 lg:grid-cols-[1fr_1.1fr] lg:gap-16">
       <div>
         <p class="eyebrow">Introduction rédigée · optionnel</p>
-        <h2 class="display mt-3 text-3xl sm:text-4xl">Quelques phrases en tête du planning, comme si quelqu'un l'avait lu pour vous.</h2>
+        <h2 data-reveal class="display mt-3 text-3xl sm:text-4xl">Quelques phrases en tête du planning, comme si quelqu'un l'avait lu pour vous.</h2>
         <p class="mt-6 leading-relaxed text-ink-soft">
           Si vous le souhaitez, un modèle d'IA lit le planning du lendemain et en tire trois à cinq
           phrases : la journée est longue, il y a sport, un cours saute, un manuel à ne pas oublier. Le
@@ -304,7 +308,7 @@ const faq = [
           est écarté et le mail part sans.
         </p>
       </div>
-      <figure class="mail p-6 sm:p-8">
+      <figure class="mail lift p-6 sm:p-8" data-reveal>
         <p class="eyebrow">Extrait d'un planning · 19:00</p>
         <blockquote class="display mt-4 text-[1.35rem] leading-snug sm:text-2xl">
           « Journée longue pour Alice, qui finit par du sport : prévoyez ses affaires d'EPS et le manuel
@@ -322,12 +326,12 @@ const faq = [
   <section id="mise-en-place" class="border-t border-rule bg-paper-deep/50">
     <div class="mx-auto max-w-6xl px-6 py-20">
       <p class="eyebrow">Mise en place</p>
-      <h2 class="display mt-3 max-w-2xl text-3xl sm:text-4xl">Dix minutes, quatre étapes.</h2>
+      <h2 data-reveal class="display mt-3 max-w-2xl text-3xl sm:text-4xl">Dix minutes, quatre étapes.</h2>
 
       <div class="mt-12 grid grid-cols-1 gap-12 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.4fr)]">
         <div class="space-y-10">
-          <div>
-            <p class="font-mono text-sm text-encre">Étape 1</p>
+          <div data-reveal>
+            <p class="font-mono text-sm text-encre"><span class="num">Étape 1</span></p>
             <h3 class="mt-1 font-semibold">Récupérez les URL iCal dans Pronote</h3>
             <p class="mt-2 text-sm leading-relaxed text-ink-soft">
               Espace Parents ou Élève, emploi du temps, export iCal. Vous obtenez une URL par enfant,
@@ -335,16 +339,16 @@ const faq = [
               jeton : traitez-la comme un mot de passe.
             </p>
           </div>
-          <div>
-            <p class="font-mono text-sm text-encre">Étape 2</p>
+          <div data-reveal>
+            <p class="font-mono text-sm text-encre"><span class="num">Étape 2</span></p>
             <h3 class="mt-1 font-semibold">Créez un dépôt GitHub privé</h3>
             <p class="mt-2 text-sm leading-relaxed text-ink-soft">
               Il ne contiendra que deux workflows, vos secrets et l'archive des envois. Privé, parce
               que l'archive porte les prénoms, les enseignants et les consignes.
             </p>
           </div>
-          <div>
-            <p class="font-mono text-sm text-encre">Étape 3</p>
+          <div data-reveal>
+            <p class="font-mono text-sm text-encre"><span class="num">Étape 3</span></p>
             <h3 class="mt-1 font-semibold">Renseignez les secrets</h3>
             <p class="mt-2 text-sm leading-relaxed text-ink-soft">
               Settings, Secrets and variables, Actions : <code>CHILDREN</code> avec le JSON ci-contre,
@@ -352,8 +356,8 @@ const faq = [
               <code>MAIL_TO</code>.
             </p>
           </div>
-          <div>
-            <p class="font-mono text-sm text-encre">Étape 4</p>
+          <div data-reveal>
+            <p class="font-mono text-sm text-encre"><span class="num">Étape 4</span></p>
             <h3 class="mt-1 font-semibold">Ajoutez les deux workflows</h3>
             <p class="mt-2 text-sm leading-relaxed text-ink-soft">
               Copiez-les dans <code>.github/workflows/</code>. Lancez-en un à la main avec
@@ -386,30 +390,30 @@ const faq = [
   <section class="border-t border-rule">
     <div class="mx-auto max-w-6xl px-6 py-20">
       <p class="eyebrow">Données et sécurité</p>
-      <h2 class="display mt-3 max-w-2xl text-3xl sm:text-4xl">Tout reste chez vous.</h2>
+      <h2 data-reveal class="display mt-3 max-w-2xl text-3xl sm:text-4xl">Tout reste chez vous.</h2>
       <ul class="mt-10 grid gap-6 md:grid-cols-2">
-        <li class="border-t border-rule pt-4">
+        <li class="border-t border-rule pt-4" data-reveal>
           <h3 class="font-semibold">Les URL iCal ne quittent pas vos secrets</h3>
           <p class="mt-1 text-sm leading-relaxed text-ink-soft">
             L'action les masque dans les logs du workflow. Elles n'apparaissent ni dans le code, ni
             dans l'archive, ni dans les messages d'erreur.
           </p>
         </li>
-        <li class="border-t border-rule pt-4">
+        <li class="border-t border-rule pt-4" data-reveal>
           <h3 class="font-semibold">Aucun service intermédiaire</h3>
           <p class="mt-1 text-sm leading-relaxed text-ink-soft">
             Pronote, le runner GitHub, votre SMTP. C'est tout. Le fournisseur d'IA n'est appelé que si
             vous l'activez, et ne reçoit que le contenu du digest.
           </p>
         </li>
-        <li class="border-t border-rule pt-4">
+        <li class="border-t border-rule pt-4" data-reveal>
           <h3 class="font-semibold">Le HTML des enseignants est assaini</h3>
           <p class="mt-1 text-sm leading-relaxed text-ink-soft">
             Les consignes du cahier de textes sont nettoyées avant d'entrer dans le mail : pas de
             script, pas de style, pas de lien douteux.
           </p>
         </li>
-        <li class="border-t border-rule pt-4">
+        <li class="border-t border-rule pt-4" data-reveal>
           <h3 class="font-semibold">Code ouvert, tests, licence MIT</h3>
           <p class="mt-1 text-sm leading-relaxed text-ink-soft">
             Le parseur est testé sur de vrais flux anonymisés. Chaque version est compilée et taguée
@@ -439,7 +443,7 @@ const faq = [
   <section id="reference" class="border-t border-rule">
     <div class="mx-auto max-w-6xl px-6 py-20">
       <p class="eyebrow">Référence</p>
-      <h2 class="display mt-3 max-w-2xl text-3xl sm:text-4xl">Entrées et sorties de l'action.</h2>
+      <h2 data-reveal class="display mt-3 max-w-2xl text-3xl sm:text-4xl">Entrées et sorties de l'action.</h2>
       <p class="mt-4 max-w-2xl text-sm leading-relaxed text-ink-soft">
         Ce tableau est généré au build à partir du fichier <code>action.yml</code> du dépôt : il
         correspond toujours à la version publiée.

@@ -221,3 +221,137 @@ code:not(pre code) {
   background: var(--color-encre);
   box-shadow: 0 0 0 4px var(--color-paper);
 }
+
+/* ---------- Touches de vie ---------- */
+
+/* Révélation au défilement */
+[data-reveal] {
+  opacity: 0;
+  transform: translateY(18px);
+  transition:
+    opacity 0.7s cubic-bezier(0.2, 0.7, 0.2, 1),
+    transform 0.7s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+[data-reveal].is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+/* Halo d'encre derrière l'accroche, qui respire lentement */
+.glow {
+  position: absolute;
+  width: 46rem;
+  height: 46rem;
+  border-radius: 999px;
+  background: radial-gradient(closest-side, color-mix(in oklab, var(--color-encre) 16%, transparent), transparent 70%);
+  filter: blur(10px);
+  pointer-events: none;
+  animation: breathe 9s ease-in-out infinite;
+}
+@keyframes breathe {
+  0%, 100% { transform: translate(0, 0) scale(1); opacity: 0.9; }
+  50% { transform: translate(-3%, 3%) scale(1.08); opacity: 1; }
+}
+
+/* Les deux instants de la ligne de temps battent */
+.timeline .tick::after {
+  content: "";
+  position: absolute;
+  inset: -6px;
+  border-radius: 999px;
+  border: 1.5px solid var(--color-encre);
+  opacity: 0;
+  animation: ping 2.8s cubic-bezier(0.2, 0.7, 0.2, 1) infinite;
+}
+.timeline .tick:nth-child(2)::after {
+  animation-delay: 1.4s;
+}
+@keyframes ping {
+  0% { transform: scale(0.6); opacity: 0.7; }
+  70%, 100% { transform: scale(2.2); opacity: 0; }
+}
+
+/* Le mail de l'accroche : une pastille « nouveau message » qui arrive après coup */
+.mail-pill {
+  position: absolute;
+  top: -0.85rem;
+  right: 1.25rem;
+  padding: 0.3rem 0.7rem;
+  border-radius: 999px;
+  background: var(--color-encre);
+  color: var(--color-craie);
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.06em;
+  box-shadow: 0 8px 20px -10px color-mix(in oklab, var(--color-encre) 70%, transparent);
+  animation: pop 0.6s cubic-bezier(0.2, 0.9, 0.2, 1.2) 1.3s both;
+}
+.dark .mail-pill {
+  color: #0f1120;
+}
+@keyframes pop {
+  from { opacity: 0; transform: translateY(8px) scale(0.85); }
+  to { opacity: 1; transform: none; }
+}
+
+/* Cartes et lignes qui répondent au survol */
+.lift {
+  transition: transform 0.35s cubic-bezier(0.2, 0.7, 0.2, 1), border-color 0.35s, box-shadow 0.35s;
+}
+.lift:hover {
+  transform: translateY(-3px);
+  border-color: color-mix(in oklab, var(--color-encre) 45%, var(--color-rule));
+  box-shadow: 0 18px 40px -28px color-mix(in oklab, var(--color-encre) 50%, transparent);
+}
+.mail-row {
+  transition: background-color 0.2s;
+}
+.mail-row:hover {
+  background: color-mix(in oklab, var(--color-encre) 6%, transparent);
+}
+
+/* Les numéros de section se soulignent d'un trait qui grandit */
+.num {
+  position: relative;
+  display: inline-block;
+}
+.num::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  height: 1.5px;
+  width: 0;
+  background: var(--color-encre);
+  transition: width 0.5s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+[data-reveal].is-visible .num::after,
+.group:hover .num::after {
+  width: 100%;
+}
+
+/* Liens de navigation : un trait qui glisse */
+.navlink {
+  position: relative;
+}
+.navlink::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -3px;
+  height: 1px;
+  background: currentColor;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+.navlink:hover::after {
+  transform: scaleX(1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .glow, .timeline .tick::after, .mail-pill { animation: none; }
+  [data-reveal] { opacity: 1; transform: none; transition: none; }
+  .lift, .lift:hover { transform: none; }
+}
