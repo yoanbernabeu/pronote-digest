@@ -29,17 +29,22 @@ describe('parsePronoteIcs – cours', () => {
   });
 
   it('convertit les horaires en heure de Paris avec décalage explicite', () => {
-    const music = feed4e.lessons.find(
-      (l) => l.id === 'Cours-16027-1-20260904T120218Z-Index-Education',
-    );
+    const music = feed4e.lessons.find((l) => l.id === 'Cours-16027-1');
     expect(music?.start).toBe('2026-09-03T14:55:00+02:00');
     expect(music?.end).toBe('2026-09-03T15:50:00+02:00');
   });
 
-  it('lit matière, professeur et salle depuis la description structurée', () => {
-    const music = feed4e.lessons.find(
-      (l) => l.id === 'Cours-16027-1-20260904T120218Z-Index-Education',
+  it('produit un identifiant stable d’un export à l’autre', () => {
+    // L'UID Pronote contient l'horodatage de génération : il change à chaque téléchargement.
+    const later = readFixture('pronote-4e.ics').replace(/20260904T120218Z/g, '20260905T070000Z');
+    expect(parsePronoteIcs(later).lessons.map((l) => l.id)).toEqual(
+      feed4e.lessons.map((l) => l.id),
     );
+    expect(feed4e.lessons[0]?.id).not.toMatch(/Index-Education/);
+  });
+
+  it('lit matière, professeur et salle depuis la description structurée', () => {
+    const music = feed4e.lessons.find((l) => l.id === 'Cours-16027-1');
     expect(music?.subject).toBe('EDUCATION MUSICALE');
     expect(music?.teachers).toEqual(['DURAND G.']);
     expect(music?.rooms).toEqual(['S002 Education musicale']);
@@ -74,16 +79,12 @@ describe('parsePronoteIcs – cours', () => {
 
 describe('parsePronoteIcs – cahier de textes', () => {
   it('extrait le contenu pédagogique en texte brut', () => {
-    const music = feed4e.lessons.find(
-      (l) => l.id === 'Cours-16027-1-20260904T120218Z-Index-Education',
-    );
+    const music = feed4e.lessons.find((l) => l.id === 'Cours-16027-1');
     expect(music?.content).toBe('écoute comparée découverte');
   });
 
   it('extrait les blocs « Pour le » avec leur date d’échéance', () => {
-    const music = feed4e.lessons.find(
-      (l) => l.id === 'Cours-16027-1-20260904T120218Z-Index-Education',
-    );
+    const music = feed4e.lessons.find((l) => l.id === 'Cours-16027-1');
     expect(music?.homeworkBlocks).toHaveLength(1);
     expect(music?.homeworkBlocks[0]).toMatchObject({ kind: 'due', date: '2026-09-10' });
     expect(music?.homeworkBlocks[0]?.text).toContain('work-song');

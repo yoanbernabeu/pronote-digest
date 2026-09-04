@@ -13,7 +13,6 @@
     { "type": "test", "section": "Tests", "hidden": true },
     { "type": "ci", "section": "CI", "hidden": true }
   ],
-  "last-release-sha": "0691154efcce73bd37e97a16849f253d83826f8c",
   "packages": {
     ".": { "initial-version": "0.1.0" }
   }

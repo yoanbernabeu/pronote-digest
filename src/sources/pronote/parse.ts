@@ -158,6 +158,11 @@ function readCalendarName(source: string): string {
   return match?.[1]?.trim() ?? '';
 }
 
+/** `Cours-16027-1-20260904T120218Z-Index-Education` → `Cours-16027-1` : l'horodatage est celui de l'export. */
+function stableUid(uid: string): string {
+  return uid.replace(/-\d{8}T\d{6}Z-Index-Education$/, '');
+}
+
 function eventKind(summary: string): SchoolEvent['kind'] {
   return /féri/i.test(summary) ? 'public-holiday' : 'holiday';
 }
@@ -192,7 +197,7 @@ export function parsePronoteIcs(source: string): PronoteFeed {
     const description = parseDescription(text(ev.description as IcalValue), summary);
     const location = splitList(text(ev.location as IcalValue));
     const lesson: PronoteLesson = {
-      id: ev.uid,
+      id: stableUid(ev.uid),
       start: toParisIso(ev.start),
       end: toParisIso(ev.end),
       subject: description.subject,
