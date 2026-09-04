@@ -105,18 +105,64 @@ const faq = [
   title="pronote-digest — le planning de vos enfants pour demain, chaque soir dans votre boîte"
   description="Une GitHub Action qui envoie chaque soir le planning et les devoirs du lendemain de vos enfants, à partir des flux iCal Pronote. Rien à héberger."
 >
-  <header class="mx-auto flex max-w-6xl items-center justify-between px-6 py-6">
+  <header class="relative mx-auto flex max-w-6xl items-center justify-between px-6 py-6">
     <a href="#" class="flex items-center gap-2.5 font-semibold" aria-label="pronote-digest, accueil">
       <span class="inline-block h-2.5 w-2.5 rounded-full bg-encre" aria-hidden="true"></span>
       pronote-digest
     </a>
-    <nav class="flex items-center gap-5 text-sm text-ink-soft">
+    <nav class="hidden items-center gap-5 text-sm text-ink-soft md:flex" aria-label="Navigation principale">
       <a class="hover:text-ink" href="#pourquoi">Pourquoi</a>
       <a class="hover:text-ink" href="#mise-en-place">Mise en place</a>
       <a class="hover:text-ink" href="#reference">Référence</a>
       <a class="hover:text-ink" href={repo} rel="noopener">GitHub</a>
     </nav>
+    <button
+      type="button"
+      class="inline-flex h-10 w-10 items-center justify-center rounded-md border border-rule text-ink md:hidden"
+      aria-label="Ouvrir le menu"
+      aria-expanded="false"
+      aria-controls="menu-mobile"
+      data-menu-button
+    >
+      <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+        <path d="M2 4.5h14M2 9h14M2 13.5h14" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" data-icon-open />
+        <path d="M4 4l10 10M14 4L4 14" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" class="hidden" data-icon-close />
+      </svg>
+    </button>
+    <nav
+      id="menu-mobile"
+      class="absolute inset-x-6 top-full z-20 hidden flex-col gap-1 rounded-lg border border-rule bg-craie p-2 text-[0.95rem] shadow-lg md:hidden"
+      aria-label="Navigation mobile"
+      data-menu
+    >
+      <a class="rounded-md px-3 py-2.5 hover:bg-paper-deep" href="#pourquoi">Pourquoi</a>
+      <a class="rounded-md px-3 py-2.5 hover:bg-paper-deep" href="#mise-en-place">Mise en place</a>
+      <a class="rounded-md px-3 py-2.5 hover:bg-paper-deep" href="#reference">Référence</a>
+      <a class="rounded-md px-3 py-2.5 hover:bg-paper-deep" href={repo} rel="noopener">GitHub</a>
+    </nav>
   </header>
+
+  <script>
+    const button = document.querySelector<HTMLButtonElement>('[data-menu-button]');
+    const menu = document.querySelector<HTMLElement>('[data-menu]');
+    const iconOpen = document.querySelector<SVGElement>('[data-icon-open]');
+    const iconClose = document.querySelector<SVGElement>('[data-icon-close]');
+    if (button && menu && iconOpen && iconClose) {
+      const setOpen = (open: boolean) => {
+        menu.classList.toggle('hidden', !open);
+        menu.classList.toggle('flex', open);
+        iconOpen.classList.toggle('hidden', open);
+        iconClose.classList.toggle('hidden', !open);
+        button.setAttribute('aria-expanded', String(open));
+        button.setAttribute('aria-label', open ? 'Fermer le menu' : 'Ouvrir le menu');
+      };
+      button.addEventListener('click', () => setOpen(menu.classList.contains('hidden')));
+      for (const link of menu.querySelectorAll('a')) link.addEventListener('click', () => setOpen(false));
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') setOpen(false);
+      });
+    }
+  </script>
 
   <!-- Accroche -->
   <section class="mx-auto grid max-w-6xl grid-cols-1 items-center gap-12 px-6 pb-20 pt-10 lg:grid-cols-[1.05fr_1fr] lg:gap-16 lg:pt-20">
