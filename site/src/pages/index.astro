@@ -239,52 +239,36 @@ const faq = [
 
   <!-- Intro IA -->
   <section class="border-t border-rule">
-    <div class="mx-auto grid max-w-6xl grid-cols-1 gap-12 px-6 py-20 lg:grid-cols-[1fr_1.1fr] lg:gap-16">
+    <div class="mx-auto grid max-w-6xl grid-cols-1 items-center gap-12 px-6 py-20 lg:grid-cols-[1fr_1.1fr] lg:gap-16">
       <div>
         <p class="eyebrow">Introduction rédigée · optionnel</p>
-        <h2 class="display mt-3 text-3xl sm:text-4xl">Quelques phrases en tête du planning, par le modèle de votre choix.</h2>
+        <h2 class="display mt-3 text-3xl sm:text-4xl">Quelques phrases en tête du planning, comme si quelqu'un l'avait lu pour vous.</h2>
         <p class="mt-6 leading-relaxed text-ink-soft">
-          Désactivée par défaut. Si vous renseignez un fournisseur, le modèle reçoit le digest en
-          texte brut et rédige trois à cinq phrases : la journée est longue, il y a sport, un cours
-          saute. Il ne voit ni votre boîte mail ni Pronote, seulement le contenu du mail.
+          Si vous le souhaitez, un modèle d'IA lit le planning du lendemain et en tire trois à cinq
+          phrases : la journée est longue, il y a sport, un cours saute, un manuel à ne pas oublier. Le
+          tableau reste en dessous, l'introduction ne le remplace pas.
         </p>
         <p class="mt-4 leading-relaxed text-ink-soft">
-          Tout ce qui est factuel reste produit par le code. Si le modèle cite une heure absente des
-          données, l'introduction est écartée et le mail part sans. Un échec du fournisseur n'empêche
-          jamais l'envoi.
+          Vous choisissez le fournisseur : Claude, GPT, Gemini, Mistral, ou un modèle qui tourne chez
+          vous avec Ollama. Le modèle ne voit que le contenu du mail, jamais Pronote ni votre boîte.
+          Et si vous ne configurez rien, il n'y a pas d'introduction, et aucun appel n'est fait.
         </p>
-        <p class="mt-6 text-sm text-ink-faint">
-          Changer de fournisseur, c'est changer trois secrets. Le code ne bouge pas.
+        <p class="mt-4 text-sm text-ink-faint">
+          Ce qui est factuel reste écrit par le programme. Si le modèle invente une heure, son texte
+          est écarté et le mail part sans.
         </p>
       </div>
-      <div class="min-w-0">
-        <div class="grid grid-cols-2 gap-3 sm:grid-cols-3">
-          {[
-            ['anthropic', 'Claude'],
-            ['openai', 'GPT'],
-            ['google', 'Gemini'],
-            ['mistral', 'Mistral'],
-            ['ollama', 'Ollama, en local'],
-            ['openai-compatible', 'Tout endpoint compatible OpenAI'],
-          ].map(([id, label]) => (
-            <div class="rounded-lg border border-rule bg-craie px-4 py-3">
-              <p class="font-mono text-[0.78rem] text-encre">{id}</p>
-              <p class="mt-0.5 text-sm text-ink-soft">{label}</p>
-            </div>
-          ))}
-        </div>
-        <div class="mt-6">
-          <CodeBlock
-            title="dans le workflow, avec l'action"
-            lang="yaml"
-            code={`          ai_provider: google
-          ai_model: gemini-3.8-flash
-          ai_api_key: \${{ secrets.AI_API_KEY }}
-          # Ollama ou endpoint compatible OpenAI :
-          # ai_base_url: http://localhost:11434/v1`}
-          />
-        </div>
-      </div>
+      <figure class="mail p-6 sm:p-8">
+        <p class="eyebrow">Extrait d'un planning · 19:00</p>
+        <blockquote class="display mt-4 text-[1.35rem] leading-snug sm:text-2xl">
+          « Journée longue pour Alice, qui finit par du sport : prévoyez ses affaires d'EPS et le manuel
+          de français couvert. Bob a un cours de français annulé en fin de matinée. Deux cahiers de
+          mathématiques et le chevalet pour l'anglais sont à glisser dans son cartable. »
+        </blockquote>
+        <figcaption class="mt-5 text-sm text-ink-faint">
+          Rédigé par le modèle à partir des données du mail, rien d'autre.
+        </figcaption>
+      </figure>
     </div>
   </section>
 
