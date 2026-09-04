@@ -108,5 +108,7 @@ données.
 - Couverture minimale imposée par Vitest (90 % lignes, 85 % branches).
 - Biome, `tsc --noEmit`, Knip, `pnpm audit` en CI (non bloquant), matrice Node 22 et 24, et un test de bout en bout de
   l'action elle-même sur les fixtures.
-- Conventional Commits vérifiés par un hook, releases et changelog par release-please, `dist/` compilé et
-  taggé par le workflow de release (jamais committé sur `main`).
+- Conventional Commits vérifiés par un hook, releases et changelog par release-please. `dist/` est compilé
+  par le workflow de release dans la PR de version, donc présent dans chaque commit taggé `vX.Y.Z` ; entre
+  deux versions il peut être en retard sur `src/`, c'est pourquoi on référence l'action par tag, jamais par
+  `main`.

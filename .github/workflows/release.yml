@@ -16,6 +16,7 @@ jobs:
       created: ${{ steps.rp.outputs.release_created }}
       tag: ${{ steps.rp.outputs.tag_name }}
       major: ${{ steps.rp.outputs.major }}
+      pr: ${{ steps.rp.outputs.pr }}
     steps:
       - uses: googleapis/release-please-action@v5
         id: rp
@@ -23,16 +24,18 @@ jobs:
           config-file: release-please-config.json
           manifest-file: .release-please-manifest.json
 
-  publish:
-    name: Compile dist et déplace les tags
+  dist:
+    # Compile dist/ dans la branche de la PR de release, pour que le commit de version le contienne.
+    # Fait ici plutôt que sur l'événement pull_request : une PR ouverte avec GITHUB_TOKEN ne déclenche
+    # aucun workflow.
+    name: Compile dist dans la PR de release
     runs-on: ubuntu-latest
     needs: release-please
-    if: needs.release-please.outputs.created == 'true'
+    if: needs.release-please.outputs.pr != ''
     steps:
       - uses: actions/checkout@v7
         with:
-          ref: ${{ needs.release-please.outputs.tag }}
-          fetch-depth: 0
+          ref: ${{ fromJSON(needs.release-please.outputs.pr).headBranchName }}
       - uses: pnpm/action-setup@v6
         with:
           standalone: true
@@ -43,16 +46,37 @@ jobs:
       - run: pnpm install --frozen-lockfile
       - run: pnpm test
       - run: pnpm build
-      - name: Commit de release avec dist, puis tags vX.Y.Z et vX
+      - name: Commit de dist si nécessaire
         env:
-          TAG: ${{ needs.release-please.outputs.tag }}
+          BRANCH: ${{ fromJSON(needs.release-please.outputs.pr).headBranchName }}
+        run: |
+          set -euo pipefail
+          git add dist
+          if git diff --cached --quiet; then echo "dist déjà à jour"; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore(release): dist compilé"
+          git push origin "HEAD:$BRANCH"
+
+  major-tag:
+    # Le commit de version contient dist/ : le tag vX.Y.Z posé par release-please est utilisable
+    # tel quel. On ne fait que déplacer le tag majeur mobile (v0, v1…).
+    name: Déplace le tag majeur
+    runs-on: ubuntu-latest
+    needs: release-please
+    if: needs.release-please.outputs.created == 'true'
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: ${{ needs.release-please.outputs.tag }}
+      - name: Vérifie que dist est présent
+        run: test -s dist/action.js
+      - name: Tag majeur
+        env:
           MAJOR: v${{ needs.release-please.outputs.major }}
         run: |
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -f dist
-          git commit -m "chore(release): dist pour $TAG [skip ci]"
-          git tag -f "$TAG"
           git tag -f "$MAJOR"
-          git push -f origin "$TAG" "$MAJOR"
+          git push -f origin "$MAJOR"

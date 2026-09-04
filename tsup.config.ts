@@ -10,7 +10,7 @@ export default defineConfig({
   splitting: false,
   sourcemap: false,
   clean: true,
-  minify: false,
+  minify: true,
   banner: {
     js: "#!/usr/bin/env node\nimport { createRequire } from 'node:module'; const require = createRequire(import.meta.url);",
   },
