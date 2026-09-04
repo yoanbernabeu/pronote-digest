@@ -120,6 +120,7 @@ actif pour que GitHub ne désactive pas le cron après 60 jours d'inactivité.
 | `file_dir` | `out` | Répertoire de sortie du canal `file`. |
 | `ai_provider` | vide | `anthropic`, `openai`, `mistral`, `google`, `ollama`, `openai-compatible`. Vide : pas d'intro. |
 | `ai_model`, `ai_api_key`, `ai_base_url` | | Modèle, clé et URL de base du fournisseur. |
+| `ai_digests` | `planning` | Digests qui reçoivent l'intro : `planning`, `homework`. |
 
 ### Sorties
 
@@ -153,7 +154,7 @@ gérés sans configuration.
 
 Renseignez `ai_provider`, `ai_model` et `ai_api_key` (ou `ai_base_url` pour Ollama et les endpoints
 compatibles OpenAI). Le modèle reçoit le digest en texte et rédige trois à cinq phrases placées en tête du
-message. Tout ce qui est factuel reste produit par le code ; si le modèle cite une heure absente des
+message, sur le planning seulement par défaut (`ai_digests`). Tout ce qui est factuel reste produit par le code ; si le modèle cite une heure absente des
 données, l'intro est écartée et le message part sans. Un échec du fournisseur n'empêche jamais l'envoi.
 
 ## Sécurité et données personnelles

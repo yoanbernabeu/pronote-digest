@@ -67,6 +67,8 @@ const ConfigSchema = z.object({
   smtp: SmtpConfigSchema.optional(),
   fileDir: z.string().default('out'),
   ai: AiConfigSchema.optional(),
+  /** Digests pour lesquels une intro est demandée au fournisseur IA. */
+  aiDigests: z.preprocess(csv, z.array(DigestKindSchema).default(['planning'])),
 });
 export type Config = z.infer<typeof ConfigSchema>;
 
@@ -94,7 +96,8 @@ export type RawKey =
   | 'AI_PROVIDER'
   | 'AI_MODEL'
   | 'AI_API_KEY'
-  | 'AI_BASE_URL';
+  | 'AI_BASE_URL'
+  | 'AI_DIGESTS';
 
 export const RAW_KEYS: RawKey[] = [
   'CHILDREN',
@@ -119,6 +122,7 @@ export const RAW_KEYS: RawKey[] = [
   'AI_MODEL',
   'AI_API_KEY',
   'AI_BASE_URL',
+  'AI_DIGESTS',
 ];
 
 function defined<T extends Record<string, unknown>>(obj: T): Partial<T> {
@@ -146,6 +150,7 @@ export function parseConfig(raw: RawConfig): Config {
     dryRun: raw.DRY_RUN,
     fetchTimeoutMs: raw.FETCH_TIMEOUT_MS,
     fileDir: raw.FILE_DIR,
+    aiDigests: raw.AI_DIGESTS,
     smtp: smtpGiven
       ? defined({
           host: raw.SMTP_HOST,

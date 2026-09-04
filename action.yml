@@ -72,6 +72,9 @@ inputs:
   ai_base_url:
     description: 'URL de base pour ollama ou un endpoint compatible OpenAI.'
     default: ''
+  ai_digests:
+    description: 'Digests qui reçoivent une introduction rédigée : planning, homework (séparés par des virgules).'
+    default: 'planning'
 
 outputs:
   skipped:

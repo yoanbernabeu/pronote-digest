@@ -89,7 +89,7 @@ export async function runDigest(config: Config, deps: RunDependencies = {}): Pro
       logger.info(`${digest.changes.length} nouveauté(s) depuis le dernier envoi`);
   }
 
-  if (deps.intro !== undefined) {
+  if (deps.intro !== undefined && config.aiDigests.includes(config.kind)) {
     try {
       const intro = await deps.intro.generate(digest);
       if (intro !== undefined) digest.intro = intro;

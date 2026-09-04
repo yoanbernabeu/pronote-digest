@@ -100,6 +100,15 @@ describe('parseConfig', () => {
     expect(config.ai).toEqual({ provider: 'anthropic', model: 'claude-opus-5', apiKey: 'k' });
   });
 
+  it('limite l’intro IA au planning par défaut, configurable', () => {
+    expect(parseConfig(minimalEmail).aiDigests).toEqual(['planning']);
+    expect(parseConfig({ ...minimalEmail, AI_DIGESTS: 'planning, homework' }).aiDigests).toEqual([
+      'planning',
+      'homework',
+    ]);
+    expect(() => parseConfig({ ...minimalEmail, AI_DIGESTS: 'notes' })).toThrow(ConfigError);
+  });
+
   it('refuse un fournisseur IA inconnu', () => {
     expect(() => parseConfig({ ...minimalEmail, AI_PROVIDER: 'skynet', AI_MODEL: 'x' })).toThrow(
       ConfigError,

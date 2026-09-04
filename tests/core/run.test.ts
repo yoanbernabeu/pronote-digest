@@ -153,6 +153,27 @@ describe('runDigest', () => {
     expect(warnings.join(' ')).toContain('quota');
   });
 
+  it('ne demande pas d’intro pour un digest exclu par AI_DIGESTS', async () => {
+    let calls = 0;
+    const intro = {
+      generate: async () => {
+        calls += 1;
+        return 'Intro.';
+      },
+    };
+    const homework = await runDigest(config({ DIGEST: 'homework' }), {
+      channels: [spyChannel()],
+      intro,
+    });
+    expect(homework.digest.intro).toBeUndefined();
+    expect(calls).toBe(0);
+    const both = await runDigest(config({ DIGEST: 'homework', AI_DIGESTS: 'planning,homework' }), {
+      channels: [spyChannel()],
+      intro,
+    });
+    expect(both.digest.intro).toBe('Intro.');
+  });
+
   it('prend la date de Paris quand aucune date n’est donnée', async () => {
     const result = await runDigest(config({ DATE: '' }), {
       channels: [spyChannel()],
