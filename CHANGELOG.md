@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.0](https://github.com/yoanbernabeu/pronote-digest/compare/v0.3.1...v0.4.0) (2026-09-04)
+
+
+### Fonctionnalités
+
+* **intro:** intro IA limitée au planning par défaut (AI_DIGESTS) ([fd7baaa](https://github.com/yoanbernabeu/pronote-digest/commit/fd7baaad9acaa2b82423e11040e4557312121255))
+
 ## [0.3.1](https://github.com/yoanbernabeu/pronote-digest/compare/v0.3.0...v0.3.1) (2026-09-04)
 
 
