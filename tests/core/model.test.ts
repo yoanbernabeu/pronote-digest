@@ -106,7 +106,6 @@ describe('DigestSchema', () => {
       kind: 'planning',
       schoolDay: true,
       children: [child],
-      changes: [],
     });
     expect(DigestSchema.parse(JSON.parse(JSON.stringify(digest)))).toEqual(digest);
   });
@@ -120,7 +119,6 @@ describe('DigestSchema', () => {
         kind: 'grades',
         schoolDay: true,
         children: [],
-        changes: [],
       }),
     ).toThrow();
   });

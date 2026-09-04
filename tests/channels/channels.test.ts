@@ -18,7 +18,6 @@ const digest: Digest = {
   kind: 'planning',
   schoolDay: true,
   children: [],
-  changes: [],
 };
 
 const context: ChannelContext = {

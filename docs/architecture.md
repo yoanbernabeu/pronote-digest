@@ -9,8 +9,6 @@ flux iCal Pronote ──► Source ──► événements typés
                                     │
                                     ▼
                     calendrier ─► buildDigest ─► Digest (JSON)
-                                    │              │
-                            archive précédente ◄───┤ diff ─► nouveautés
                                     │
                         IntroProvider (optionnel) ─► intro
                                     │
@@ -34,7 +32,6 @@ d'intro ne se connaissent pas entre eux.
 | `src/core/calendar.ts` | Prochain jour de classe à partir des cours présents dans le flux. |
 | `src/core/homework.ts` | Devoirs dus un jour donné, dédoublonnés. |
 | `src/core/digest.ts` | Assemble le `Digest` du jour visé pour chaque enfant. |
-| `src/core/diff.ts` | Nouveautés par rapport au dernier digest archivé pour la même date. |
 | `src/core/archive.ts` | Lecture et écriture de l'archive (`<dir>/<date visée>/<type>.{json,html,md}`). |
 | `src/core/run.ts` | Le pipeline complet, injectable pour les tests. |
 | `src/formatters/` | Modèle de présentation (`view.ts`), mail MJML (`index.ts`), Markdown (`markdown.ts`). |
@@ -98,7 +95,8 @@ données.
 - Pas de système de plugins chargés dynamiquement, pas de configuration YAML générique : une interface, un
   registre, des fichiers.
 - Pas de rendu des horaires par l'IA. Tout ce qui est factuel est produit par le code.
-- Pas d'archive du fichier ICS brut par défaut : le JSON du digest suffit au diff et au débogage.
+- Pas d'archive du fichier ICS brut par défaut : le JSON du digest suffit au débogage.
+- Pas de comparaison entre deux envois : un mail dit l'état du jour visé au moment où il part, rien de plus.
 
 ## Qualité
 

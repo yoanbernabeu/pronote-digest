@@ -76,7 +76,6 @@ export function buildDigest(input: BuildDigestInput): BuildDigestResult {
     kind: input.kind,
     schoolDay: target.kind === 'school-day',
     children: input.children.map((c) => buildChild(c, target.date)),
-    changes: [],
   };
   if (target.kind === 'no-school') {
     if (target.holiday !== undefined) digest.holiday = target.holiday;

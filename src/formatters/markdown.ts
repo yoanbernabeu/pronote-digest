@@ -25,9 +25,6 @@ export function renderMarkdown(digest: Digest, options: ViewOptions = {}): Markd
 
   for (const child of view.children) {
     out.push(`## ${child.name}`, '');
-    if (child.changes.length > 0) {
-      out.push('**Nouveautés**', ...child.changes.map((c) => `- ${c}`), '');
-    }
     if (view.kind === 'planning') {
       if (child.noSchool) {
         out.push(`Pas de cours${child.holiday === undefined ? '' : ` (${child.holiday})`}.`, '');

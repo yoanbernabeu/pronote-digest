@@ -5,8 +5,7 @@ import { renderEmail, renderMarkdown } from '../formatters/index.js';
 import type { IntroProvider } from '../intro/types.js';
 import { fetchIcs } from '../sources/pronote/fetch.js';
 import { parsePronoteIcs } from '../sources/pronote/parse.js';
-import { type ArchivePaths, readPreviousDigest, writeArchive } from './archive.js';
-import { diffDigests } from './diff.js';
+import { type ArchivePaths, writeArchive } from './archive.js';
 import { buildDigest, type ChildFeed } from './digest.js';
 import { type Logger, silentLogger } from './logger.js';
 import type { Digest } from './model.js';
@@ -80,13 +79,6 @@ export async function runDigest(config: Config, deps: RunDependencies = {}): Pro
   if (!digest.schoolDay && config.onNoSchool === 'skip') {
     logger.info('Pas de cours et ON_NO_SCHOOL=skip : rien à envoyer.');
     return { digest, subject: '', skipped: true, archive: undefined, deliveries: [] };
-  }
-
-  if (config.archiveDir !== '') {
-    const previous = await readPreviousDigest(config.archiveDir, digest);
-    digest.changes = diffDigests(previous, digest);
-    if (digest.changes.length > 0)
-      logger.info(`${digest.changes.length} nouveauté(s) depuis le dernier envoi`);
   }
 
   if (deps.intro !== undefined && config.aiDigests.includes(config.kind)) {

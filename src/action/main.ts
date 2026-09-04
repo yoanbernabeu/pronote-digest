@@ -37,7 +37,6 @@ async function main(): Promise<void> {
   core.setOutput('target-date', result.digest.targetDate);
   core.setOutput('school-day', String(result.digest.schoolDay));
   core.setOutput('subject', result.subject);
-  core.setOutput('changes', String(result.digest.changes.length));
   core.setOutput('archive-json', result.archive?.json ?? '');
   core.setOutput('archive-html', result.archive?.html ?? '');
   core.setOutput('archive-markdown', result.archive?.markdown ?? '');

@@ -78,20 +78,6 @@ describe('runDigest', () => {
     await expect(stat(join(dir, 'archive', '2026-09-07', 'planning.html'))).resolves.toBeDefined();
   });
 
-  it('calcule les nouveautés par rapport à l’archive précédente', async () => {
-    const first = await runDigest(config({ DIGEST: 'homework' }), { channels: [spyChannel()] });
-    expect(first.digest.changes).toEqual([]);
-    // On retire un devoir de l'archive pour simuler un ajout depuis le dernier envoi.
-    const path = join(dir, 'archive', '2026-09-07', 'homework.json');
-    const previous = JSON.parse(await readFile(path, 'utf8'));
-    previous.children[0].homework = [];
-    const { writeFile } = await import('node:fs/promises');
-    await writeFile(path, JSON.stringify(previous));
-    const second = await runDigest(config({ DIGEST: 'homework' }), { channels: [spyChannel()] });
-    expect(second.digest.changes.length).toBeGreaterThan(0);
-    expect(second.digest.changes[0]).toMatchObject({ child: 'Alice', type: 'homework-added' });
-  });
-
   it('n’appelle aucun canal en simulation mais écrit l’archive', async () => {
     const channel = spyChannel();
     const result = await runDigest(config({ DRY_RUN: 'true' }), { channels: [channel] });
