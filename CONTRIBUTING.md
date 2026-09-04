@@ -22,6 +22,12 @@ Node 22 minimum, pnpm 10.
 - **Aucune donnée réelle** dans le dépôt : les fixtures sont anonymisées. Si vous ajoutez un flux, remplacez
   prénoms, enseignants, élèves cités et établissement, et retirez le jeton de l'URL.
 
+## `dist/`
+
+`dist/` est committé mais généré : le workflow de release le recompile dans la PR de version. Ne le modifiez
+pas à la main et ne l'incluez pas dans vos PR, `pnpm build` sert à tester localement. Les diffs sont masqués
+par `.gitattributes`.
+
 ## Commits
 
 Conventional Commits, vérifiés par un hook :
