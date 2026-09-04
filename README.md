@@ -81,6 +81,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add archive
           git diff --cached --quiet || git commit -m "chore: archive $(date -u +%F)"
+          git pull --rebase --autostash
           git push
 ```
 
@@ -95,7 +96,69 @@ Le secret `CHILDREN` contient un tableau JSON :
 
 > Tant que le projet est en version 0.x, le tag mobile est `v0`. Il deviendra `v1` à la première version stable.
 
-Dupliquez le workflow pour les devoirs avec `digest: homework` et un cron plus tôt, par exemple 17h30.
+Puis `.github/workflows/devoirs.yml`, même structure, plus tôt dans la soirée et silencieux les jours sans
+cours :
+
+```yaml
+name: Devoirs du lendemain
+
+on:
+  schedule:
+    # 17h30 Paris, heure d'été et heure d'hiver.
+    - cron: '30 15 * * *'
+    - cron: '30 16 * * *'
+  workflow_dispatch:
+    inputs:
+      date:
+        description: 'Jour de préparation (AAAA-MM-JJ), vide pour aujourd’hui'
+        default: ''
+      dry_run:
+        description: 'Ne rien envoyer'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Heure de Paris
+        id: paris
+        run: echo "hour=$(TZ=Europe/Paris date +%H)" >> "$GITHUB_OUTPUT"
+
+      - name: Digest
+        if: github.event_name != 'schedule' || steps.paris.outputs.hour == '17'
+        uses: yoanbernabeu/pronote-digest@v0
+        with:
+          children: ${{ secrets.CHILDREN }}
+          digest: homework
+          on_no_school: skip
+          smtp_host: ${{ secrets.SMTP_HOST }}
+          smtp_port: 587
+          smtp_user: ${{ secrets.SMTP_USER }}
+          smtp_pass: ${{ secrets.SMTP_PASS }}
+          mail_from: 'Pronote Digest <digest@example.com>'
+          mail_to: ${{ secrets.MAIL_TO }}
+          date: ${{ inputs.date }}
+          dry_run: ${{ inputs.dry_run }}
+
+      - name: Archive
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add archive
+          git diff --cached --quiet || git commit -m "chore: archive $(date -u +%F)"
+          git pull --rebase --autostash
+          git push
+```
+
+Les deux workflows committent dans le même dépôt : le `git pull --rebase` avant le `push` évite un conflit si
+l'un tourne pendant l'autre. Un exemple complet et à jour est maintenu dans le dépôt privé de l'auteur, il est
+identique à ceux-ci.
 
 L'étape « Archive » committe le JSON et les rendus de chaque envoi dans `archive/<date visée>/`. C'est ce qui
 permet de calculer les nouveautés d'un envoi à l'autre, de relire ce qui a été envoyé, et de garder le dépôt
