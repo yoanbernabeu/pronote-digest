@@ -1,0 +1,98 @@
+name: 'Pronote Digest'
+description: 'Envoie chaque soir le planning ou les devoirs du lendemain à partir des flux iCal Pronote, par mail ou tout autre canal.'
+author: 'Yoan Bernabeu'
+branding:
+  icon: 'calendar'
+  color: 'blue'
+
+inputs:
+  children:
+    description: 'Tableau JSON des enfants : [{"name":"Alice","ics":"https://…/Edt_x.ics?icalsecurise=…"}]. À passer via un secret.'
+    required: true
+  digest:
+    description: 'Type de digest : planning ou homework.'
+    required: true
+  channels:
+    description: 'Canaux, séparés par des virgules : email, file.'
+    default: 'email'
+  subject_prefix:
+    description: 'Préfixe du sujet des messages.'
+    default: '[Pronote]'
+  archive_dir:
+    description: 'Répertoire où archiver JSON et rendus (sert au calcul des nouveautés). none pour désactiver.'
+    default: 'archive'
+  on_no_school:
+    description: 'Jour sans cours : notify (message court) ou skip (aucun envoi).'
+    default: 'notify'
+  require_homework_data:
+    description: 'Échouer si aucun flux ne contient de cahier de textes (digest homework).'
+    default: 'true'
+  date:
+    description: 'Jour de préparation AAAA-MM-JJ. Par défaut aujourd’hui, heure de Paris.'
+    default: ''
+  dry_run:
+    description: 'true pour ne rien envoyer (l’archive est tout de même écrite).'
+    default: 'false'
+  fetch_timeout_ms:
+    description: 'Délai maximal de téléchargement d’un flux, en millisecondes.'
+    default: '20000'
+  smtp_host:
+    description: 'Serveur SMTP (canal email).'
+    default: ''
+  smtp_port:
+    description: 'Port SMTP.'
+    default: '587'
+  smtp_secure:
+    description: 'true pour TLS implicite (port 465).'
+    default: 'false'
+  smtp_user:
+    description: 'Identifiant SMTP.'
+    default: ''
+  smtp_pass:
+    description: 'Mot de passe SMTP. À passer via un secret.'
+    default: ''
+  mail_from:
+    description: 'Expéditeur.'
+    default: ''
+  mail_to:
+    description: 'Destinataires, séparés par des virgules.'
+    default: ''
+  file_dir:
+    description: 'Répertoire de sortie du canal file.'
+    default: 'out'
+  ai_provider:
+    description: 'Fournisseur pour l’introduction rédigée (optionnel) : anthropic, openai, mistral, google, ollama, openai-compatible. Vide pour désactiver.'
+    default: ''
+  ai_model:
+    description: 'Identifiant du modèle chez le fournisseur choisi.'
+    default: ''
+  ai_api_key:
+    description: 'Clé d’API du fournisseur IA. À passer via un secret.'
+    default: ''
+  ai_base_url:
+    description: 'URL de base pour ollama ou un endpoint compatible OpenAI.'
+    default: ''
+
+outputs:
+  skipped:
+    description: 'true si rien n’a été envoyé (jour sans cours et on_no_school=skip).'
+  target-date:
+    description: 'Jour visé par le digest, AAAA-MM-JJ.'
+  school-day:
+    description: 'true si le jour visé comporte des cours.'
+  subject:
+    description: 'Sujet du message.'
+  changes:
+    description: 'Nombre de nouveautés depuis le dernier digest archivé pour ce jour.'
+  archive-json:
+    description: 'Chemin du digest JSON archivé (vide si archive désactivée).'
+  archive-html:
+    description: 'Chemin du rendu HTML archivé.'
+  archive-markdown:
+    description: 'Chemin du rendu Markdown archivé.'
+  delivered:
+    description: 'true si tous les canaux ont livré.'
+
+runs:
+  using: 'node24'
+  main: 'dist/action.js'

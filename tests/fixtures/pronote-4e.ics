@@ -1,0 +1,3250 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID;LANGUAGE=fr:Copyright Index-Education - Index-Education - ProNote20
+ 26 2026
+METHOD:PUBLISH
+X-CALSTART:20260831T000000Z
+X-CALEND:20270702T000000Z
+X-WR-CALNAME;LANGUAGE=fr:Calendrier - DUPONT Alice 01/01/2013 - du 01 sept
+ embre 2026 au 02 juillet 2027
+X-WR-CALDESC;LANGUAGE=fr:Calendrier DUPONT Alice 01/01/2013 généré par 
+ le logiciel PRONOTE (©INDEX ÉDUCATION) le 04 sept. 2026 - COLLEGE EXEMP
+ LE - semaines 36 - 26
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T195102Z
+UID:Cours-16027-1-20260904T120218Z-Index-Education
+DTSTART:20260903T125500Z
+DTEND:20260903T135000Z
+SUMMARY;LANGUAGE=fr:EDUCATION MUSICALE - DURAND G.
+LOCATION;LANGUAGE=fr:S002 Education musicale
+DESCRIPTION;LANGUAGE=fr:Matière : EDUCATION MUSICALE\nProfesseur : DURAND
+  G.\nSalle : S002 Education musicale\n\n<strong>Contenu pédagogique : \n
+ </strong><div style="font-family: Arial\; font-size: 13px\;">écoute comp
+ arée découverte</div>\n<strong>Pour le 10/09/2026 : \n</strong><div>Che
+ rcher le titre d’un work-song.<br>Par qui étaient chanté ce type de c
+ hant ? <br>Citez un autre film de Disney dans lequel on peut entendre un
+  chant de travail. </div>
+X-ALT-DESC;FMTTYPE=text/html:Matière : EDUCATION MUSICALE<br/>Professeur 
+ : DURAND G.<br/>Salle : S002 Education musicale<br/><br/><strong>Contenu 
+ pédagogique : <br/></strong><div style="font-family: Arial\; font-size: 
+ 13pt\;">écoute comparée découverte</div><br/><strong>Pour le 10/09/202
+ 6 : <br/></strong><div>Chercher le titre d’un work-song.<br>Par qui ét
+ aient chanté ce type de chant ? <br>Citez un autre film de Disney dans 
+ lequel on peut entendre un chant de travail. </div>
+COLOR:#ED679B
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260719T093656Z
+UID:Cours-16029-1-20260904T120218Z-Index-Education
+DTSTART:20260903T110000Z
+DTEND:20260903T125500Z
+SUMMARY;LANGUAGE=fr:ED.PHYSIQUE & SPORT. - RICHARD F.
+DESCRIPTION;LANGUAGE=fr:Matière : ED.PHYSIQUE &amp\; SPORT.\nProfesseur :
+  RICHARD F.\n\n<strong>Biathlon s1 : \n</strong>Présentation de l'année
+  et des activités&nbsp\;<div>Remise en route physique:</div><div>Travail
+  cardio vasculaire et coordination/ équilibre.&nbsp\;</div><div>Apprenti
+ ssage du tir à l'arc : position\, visée\, organisation des sessions de 
+ tir.&nbsp\;</div><div>Entrée ds l'activité\, Mini biathlon pour enchaî
+ ner course et tir.&nbsp\;</div>
+X-ALT-DESC;FMTTYPE=text/html:Matière : ED.PHYSIQUE &amp\; SPORT.<br/>Prof
+ esseur : RICHARD F.<br/><br/><strong>Biathlon s1 : <br/></strong>Présent
+ ation de l'année et des activités&nbsp\;<div>Remise en route physique:<
+ /div><div>Travail cardio vasculaire et coordination/ équilibre.&nbsp\;</
+ div><div>Apprentissage du tir à l'arc : position\, visée\, organisation
+  des sessions de tir.&nbsp\;</div><div>Entrée ds l'activité\, Mini biat
+ hlon pour enchaîner course et tir.&nbsp\;</div>
+COLOR:#1E6ADD
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260721T144731Z
+UID:Cours-16034-1-20260904T120218Z-Index-Education
+DTSTART:20260901T120000Z
+DTEND:20260901T125500Z
+SUMMARY;LANGUAGE=fr:FRANCAIS - MARTIN A.
+LOCATION;LANGUAGE=fr:S109
+DESCRIPTION;LANGUAGE=fr:Matière : FRANCAIS\nProfesseur : MARTIN A.\nSalle
+  : S109\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : FRANCAIS<br/>Professeur : MARTIN A
+ .<br/>Salle : S109<br/>
+COLOR:#21BBEF
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260721T144731Z
+UID:Cours-16036-1-20260904T120218Z-Index-Education
+DTSTART:20260902T065500Z
+DTEND:20260902T075000Z
+SUMMARY;LANGUAGE=fr:FRANCAIS - MARTIN A.
+LOCATION;LANGUAGE=fr:S109
+DESCRIPTION;LANGUAGE=fr:Matière : FRANCAIS\nProfesseur : MARTIN A.\nSalle
+  : S109\n\n<strong>Contenu pédagogique : \n</strong><div style="font-fam
+ ily: Arial\; font-size: 13px\;">Prise de contact</div><div style="font-fa
+ mily: Arial\; font-size: 13px\;">&nbsp\;</div><div style="font-family: Ar
+ ial\; font-size: 13px\;">Distribution des documents de rentrée</div><div
+  style="font-family: Arial\; font-size: 13px\;">&nbsp\;</div><div style="
+ font-family: Arial\; font-size: 13px\;"><div style="font-family: Arial\; 
+ font-size: 13px\;">Ateliers de rentrée : mission lecture</div><div style
+ ="font-family: Arial\; font-size: 13px\;">Ateliers 1 et 2</div></div><div
+  style="font-family: Arial\; font-size: 13px\;">&nbsp\;</div>
+X-ALT-DESC;FMTTYPE=text/html:Matière : FRANCAIS<br/>Professeur : MARTIN A
+ .<br/>Salle : S109<br/><br/><strong>Contenu pédagogique : <br/></strong>
+ <div style="font-family: Arial\; font-size: 13pt\;">Prise de contact</div
+ ><div style="font-family: Arial\; font-size: 13pt\;">&nbsp\;</div><div st
+ yle="font-family: Arial\; font-size: 13pt\;">Distribution des documents d
+ e rentrée</div><div style="font-family: Arial\; font-size: 13pt\;">&nbsp
+ \;</div><div style="font-family: Arial\; font-size: 13pt\;"><div style="f
+ ont-family: Arial\; font-size: 13pt\;">Ateliers de rentrée : mission lec
+ ture</div><div style="font-family: Arial\; font-size: 13pt\;">Ateliers 1 
+ et 2</div></div><div style="font-family: Arial\; font-size: 13pt\;">&nbsp
+ \;</div>
+COLOR:#21BBEF
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260721T144731Z
+UID:Cours-16037-1-20260904T120218Z-Index-Education
+DTSTART:20260903T081000Z
+DTEND:20260903T090500Z
+SUMMARY;LANGUAGE=fr:FRANCAIS - MARTIN A.
+LOCATION;LANGUAGE=fr:S109
+DESCRIPTION;LANGUAGE=fr:Matière : FRANCAIS\nProfesseur : MARTIN A.\nSalle
+  : S109\n\n<strong>Contenu pédagogique : \n</strong><div style="font-fam
+ ily: Arial\; font-size: 13px\;">Distribution des manuels</div><div style=
+ "font-family: Arial\; font-size: 13px\;">&nbsp\;</div><div style="font-fa
+ mily: Arial\; font-size: 13px\;">Documents ramassés</div><div style="fon
+ t-family: Arial\; font-size: 13px\;">&nbsp\;</div><div style="font-family
+ : Arial\; font-size: 13px\;">Présentation de la 1ère page du classeur</
+ div>\n<strong>Pour le 07/09/2026 : \n</strong><div>Apporter le manuel de 
+ français (avec l &#039\;étiquette complétée) couvert. </div>
+X-ALT-DESC;FMTTYPE=text/html:Matière : FRANCAIS<br/>Professeur : MARTIN A
+ .<br/>Salle : S109<br/><br/><strong>Contenu pédagogique : <br/></strong>
+ <div style="font-family: Arial\; font-size: 13pt\;">Distribution des manu
+ els</div><div style="font-family: Arial\; font-size: 13pt\;">&nbsp\;</div
+ ><div style="font-family: Arial\; font-size: 13pt\;">Documents ramassés<
+ /div><div style="font-family: Arial\; font-size: 13pt\;">&nbsp\;</div><di
+ v style="font-family: Arial\; font-size: 13pt\;">Présentation de la 1èr
+ e page du classeur</div><br/><strong>Pour le 07/09/2026 : <br/></strong><
+ div>Apporter le manuel de français (avec l &#039\;étiquette complétée
+ ) couvert. </div>
+COLOR:#21BBEF
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260725T150342Z
+UID:Cours-16039-1-20260904T120218Z-Index-Education
+DTSTART:20260901T125500Z
+DTEND:20260901T135000Z
+SUMMARY;LANGUAGE=fr:HISTOIRE-GEOGRAPHIE - PETIT D.
+LOCATION;LANGUAGE=fr:S201
+DESCRIPTION;LANGUAGE=fr:Matière : HISTOIRE-GEOGRAPHIE\nProfesseur : PETIT
+  D.\nSalle : S201\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : HISTOIRE-GEOGRAPHIE<br/>Professeur
+  : PETIT D.<br/>Salle : S201<br/>
+COLOR:#FFED00
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260721T144731Z
+UID:Cours-16040-1-20260904T120218Z-Index-Education
+DTSTART:20260902T081000Z
+DTEND:20260902T090500Z
+SUMMARY;LANGUAGE=fr:HISTOIRE-GEOGRAPHIE - PETIT D.
+LOCATION;LANGUAGE=fr:S201
+DESCRIPTION;LANGUAGE=fr:Matière : HISTOIRE-GEOGRAPHIE\nProfesseur : PETIT
+  D.\nSalle : S201\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : HISTOIRE-GEOGRAPHIE<br/>Professeur
+  : PETIT D.<br/>Salle : S201<br/>
+COLOR:#FFED00
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T093435Z
+UID:Cours-16042-1-20260904T120218Z-Index-Education
+DTSTART:20260901T081000Z
+DTEND:20260901T090500Z
+SUMMARY;LANGUAGE=fr:MATHEMATIQUES - BERNARD B.
+LOCATION;LANGUAGE=fr:S208
+DESCRIPTION;LANGUAGE=fr:Matière : MATHEMATIQUES\nProfesseur : BERNARD B.\
+ nSalle : S208\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : MATHEMATIQUES<br/>Professeur : BER
+ NARD B.<br/>Salle : S208<br/>
+COLOR:#AC75AE
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260820T074333Z
+UID:Cours-16043-1-20260904T120218Z-Index-Education
+DTSTART:20260903T065500Z
+DTEND:20260903T075000Z
+SUMMARY;LANGUAGE=fr:MATHEMATIQUES - BERNARD B.
+LOCATION;LANGUAGE=fr:S207
+DESCRIPTION;LANGUAGE=fr:Matière : MATHEMATIQUES\nProfesseur : BERNARD B.\
+ nSalle : S207\n\n<strong>Contenu pédagogique : \n</strong><div style="fo
+ nt-family: arial\,helvetica\,sans-serif\; font-size: 11px\;">Présentatio
+ n + Introduction chapitre 1</div>\n<strong>Pour le 08/09/2026 : \n</stron
+ g><div>signer la charte</div>
+X-ALT-DESC;FMTTYPE=text/html:Matière : MATHEMATIQUES<br/>Professeur : BER
+ NARD B.<br/>Salle : S207<br/><br/><strong>Contenu pédagogique : <br/></s
+ trong><div style="font-family: arial\,helvetica\,sans-serif\; font-size: 
+ 11pt\;">Présentation + Introduction chapitre 1</div><br/><strong>Pour le
+  08/09/2026 : <br/></strong><div>signer la charte</div>
+COLOR:#AC75AE
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260719T054247Z
+UID:Cours-16432-1-20260904T120218Z-Index-Education
+DTSTART:20260904T060000Z
+DTEND:20260904T072500Z
+SUMMARY;LANGUAGE=fr:TECHNOLOGIE - DUBOIS H. - [4E SCIENCES GR4] - <4EME4> 
+ 4E4 SCIENCES GR1\, <4EME3> 4E3 SCIENCES GR2
+LOCATION;LANGUAGE=fr:S102 - TECH
+DESCRIPTION;LANGUAGE=fr:Matière : TECHNOLOGIE\nProfesseur : DUBOIS H.\nGr
+ oupe : [4E SCIENCES GR4]\nParties de classe : &lt\;4EME4&gt\; 4E4 SCIENCE
+ S GR1\, &lt\;4EME3&gt\; 4E3 SCIENCES GR2\nSalle : S102 - TECH\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : TECHNOLOGIE<br/>Professeur : DUBOI
+ S H.<br/>Groupe : [4E SCIENCES GR4]<br/>Parties de classe : &lt\;4EME4&gt
+ \; 4E4 SCIENCES GR1\, &lt\;4EME3&gt\; 4E3 SCIENCES GR2<br/>Salle : S102 -
+  TECH<br/>
+COLOR:#325A69
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260719T054650Z
+UID:Cours-16433-1-20260904T120218Z-Index-Education
+DTSTART:20260904T072500Z
+DTEND:20260904T090500Z
+SUMMARY;LANGUAGE=fr:SCIENCES VIE & TERRE - MOREAU I. - [4E SCIENCES GR4] -
+  <4EME4> 4E4 SCIENCES GR1\, <4EME3> 4E3 SCIENCES GR2
+LOCATION;LANGUAGE=fr:S103 - Sciences
+DESCRIPTION;LANGUAGE=fr:Matière : SCIENCES VIE &amp\; TERRE\nProfesseur :
+  MOREAU I.\nGroupe : [4E SCIENCES GR4]\nParties de classe : &lt\;4EME4&gt
+ \; 4E4 SCIENCES GR1\, &lt\;4EME3&gt\; 4E3 SCIENCES GR2\nSalle : S103 - Sc
+ iences\n\n<strong>Nutrition et santé : \n</strong><div style="font-famil
+ y: arial\,helvetica\,sans-serif\; font-size: 11px\;">Présentation du pro
+ gramme</div><div style="font-family: arial\,helvetica\,sans-serif\; font-
+ size: 11px\;">&nbsp\;</div><div style="font-family: arial\,helvetica\,san
+ s-serif\; font-size: 11px\;">Act: la perception de l'environnment</div>nu
+ trition santé 4.pdf\nfiche mémo. nutrition et santé 4ème.pdf\nActivit
+ é la perception de l'environnement.pdf\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : SCIENCES VIE &amp\; TERRE<br/>Prof
+ esseur : MOREAU I.<br/>Groupe : [4E SCIENCES GR4]<br/>Parties de classe :
+  &lt\;4EME4&gt\; 4E4 SCIENCES GR1\, &lt\;4EME3&gt\; 4E3 SCIENCES GR2<br/>
+ Salle : S103 - Sciences<br/><br/><strong>Nutrition et santé : <br/></str
+ ong><div style="font-family: arial\,helvetica\,sans-serif\; font-size: 11
+ pt\;">Présentation du programme</div><div style="font-family: arial\,hel
+ vetica\,sans-serif\; font-size: 11pt\;">&nbsp\;</div><div style="font-fam
+ ily: arial\,helvetica\,sans-serif\; font-size: 11pt\;">Act: la perception
+  de l'environnment</div>nutrition santé 4.pdf<br/>fiche mémo. nutrition
+  et santé 4ème.pdf<br/>Activité la perception de l'environnement.pdf<b
+ r/>
+COLOR:#75B951
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260719T055008Z
+UID:Cours-16443-1-20260904T120218Z-Index-Education
+DTSTART:20260904T090500Z
+DTEND:20260904T103000Z
+SUMMARY;LANGUAGE=fr:PHYSIQUE-CHIMIE - LAURENT J. - [4E SCIENCES GR4] - <4E
+ ME4> 4E4 SCIENCES GR1\, <4EME3> 4E3 SCIENCES GR2
+LOCATION;LANGUAGE=fr:S101 - Sciences
+DESCRIPTION;LANGUAGE=fr:Matière : PHYSIQUE-CHIMIE\nProfesseur : LAURENT J
+ .\nGroupe : [4E SCIENCES GR4]\nParties de classe : &lt\;4EME4&gt\; 4E4 SC
+ IENCES GR1\, &lt\;4EME3&gt\; 4E3 SCIENCES GR2\nSalle : S101 - Sciences\n\
+ n<strong>Contenu pédagogique : \n</strong><div style="font-family: Arial
+ \; font-size: 13px\;">Chapitre 1 : La masse volumique&nbsp\;</div><div st
+ yle="font-family: Arial\; font-size: 13px\;">Expériences introductives +
+  Activité 1 page 16</div>\n<strong>Pour le 11/09/2026 : \n</strong><div>
+ Activité 1 page 16 à terminer</div>\n<strong>Pour le 11/09/2026 : \n</s
+ trong><div>Partie ex: faire un résumé de toutes les expériences réali
+ sées par la prof + penser à expliquer le principe de la lampe à lave</
+ div>
+X-ALT-DESC;FMTTYPE=text/html:Matière : PHYSIQUE-CHIMIE<br/>Professeur : L
+ AURENT J.<br/>Groupe : [4E SCIENCES GR4]<br/>Parties de classe : &lt\;4EM
+ E4&gt\; 4E4 SCIENCES GR1\, &lt\;4EME3&gt\; 4E3 SCIENCES GR2<br/>Salle : S
+ 101 - Sciences<br/><br/><strong>Contenu pédagogique : <br/></strong><div
+  style="font-family: Arial\; font-size: 13pt\;">Chapitre 1 : La masse vol
+ umique&nbsp\;</div><div style="font-family: Arial\; font-size: 13pt\;">Ex
+ périences introductives + Activité 1 page 16</div><br/><strong>Pour le 
+ 11/09/2026 : <br/></strong><div>Activité 1 page 16 à terminer</div><br/
+ ><strong>Pour le 11/09/2026 : <br/></strong><div>Partie ex: faire un rés
+ umé de toutes les expériences réalisées par la prof + penser à expli
+ quer le principe de la lampe à lave</div>
+COLOR:#4B95B4
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T203936Z
+UID:Cours-16509-1-20260904T120218Z-Index-Education
+DTSTART:20260901T090500Z
+DTEND:20260901T100000Z
+SUMMARY;LANGUAGE=fr:ESPAGNOL LV2 - ROBERT E. - [4E4 ESP NBIL] - <4EME4> 4E
+ ME4 ESP NBIL
+LOCATION;LANGUAGE=fr:S103
+DESCRIPTION;LANGUAGE=fr:Matière : ESPAGNOL LV2\nProfesseur : ROBERT E.\nG
+ roupe : [4E4 ESP NBIL]\nPartie de classe : &lt\;4EME4&gt\; 4EME4 ESP NBIL
+ \nSalle : S103\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ESPAGNOL LV2<br/>Professeur : ROBE
+ RT E.<br/>Groupe : [4E4 ESP NBIL]<br/>Partie de classe : &lt\;4EME4&gt\; 
+ 4EME4 ESP NBIL<br/>Salle : S103<br/>
+COLOR:#F49737
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260723T170433Z
+UID:Cours-16642-1-20260904T120218Z-Index-Education
+DTSTART:20260903T090500Z
+DTEND:20260903T100000Z
+SUMMARY;LANGUAGE=fr:ANGLAIS LV1 - THOMAS C.
+LOCATION;LANGUAGE=fr:S204
+DESCRIPTION;LANGUAGE=fr:Matière : ANGLAIS LV1\nProfesseur : THOMAS C.\nSa
+ lle : S204\n\n<strong>Contenu pédagogique : \n</strong><div style="font-
+ family: Arial\; font-size: 13px\;">prise de contact et placement dans la 
+ classe</div><div style="font-family: Arial\; font-size: 13px\;">first pag
+ e of the copybook</div><div style="font-family: Arial\; font-size: 13px\;
+ ">make an arrow: first theme: SURVIVOR</div><div style="font-family: Aria
+ l\; font-size: 13px\;">two trailers or advertisements</div><div style="fo
+ nt-family: Arial\; font-size: 13px\;">recap + trace écrite</div>\n<stron
+ g>Pour le 07/09/2026 : \n</strong><div>lesson + vocabulary (= être capab
+ le de reparler des deux bandes annonce en se servant du vocabulaire noté
+  en classe)</div>
+X-ALT-DESC;FMTTYPE=text/html:Matière : ANGLAIS LV1<br/>Professeur : THOMA
+ S C.<br/>Salle : S204<br/><br/><strong>Contenu pédagogique : <br/></stro
+ ng><div style="font-family: Arial\; font-size: 13pt\;">prise de contact e
+ t placement dans la classe</div><div style="font-family: Arial\; font-siz
+ e: 13pt\;">first page of the copybook</div><div style="font-family: Arial
+ \; font-size: 13pt\;">make an arrow: first theme: SURVIVOR</div><div styl
+ e="font-family: Arial\; font-size: 13pt\;">two trailers or advertisements
+ </div><div style="font-family: Arial\; font-size: 13pt\;">recap + trace 
+ écrite</div><br/><strong>Pour le 07/09/2026 : <br/></strong><div>lesson 
+ + vocabulary (= être capable de reparler des deux bandes annonce en se s
+ ervant du vocabulaire noté en classe)</div>
+COLOR:#EC6719
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260725T150503Z
+UID:Cours-16673-1-20260904T120218Z-Index-Education
+DTSTART:20260904T125500Z
+DTEND:20260904T135000Z
+SUMMARY;LANGUAGE=fr:HISTOIRE-GEOGRAPHIE - PETIT D.
+LOCATION;LANGUAGE=fr:S201
+DESCRIPTION;LANGUAGE=fr:Matière : HISTOIRE-GEOGRAPHIE\nProfesseur : PETIT
+  D.\nSalle : S201\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : HISTOIRE-GEOGRAPHIE<br/>Professeur
+  : PETIT D.<br/>Salle : S201<br/>
+COLOR:#FFED00
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260725T082146Z
+UID:Cours-16677-1-20260904T120218Z-Index-Education
+DTSTART:20260902T060000Z
+DTEND:20260902T065500Z
+SUMMARY;LANGUAGE=fr:HISTOIRE-GEOGRAPHIE - PETIT D.
+LOCATION;LANGUAGE=fr:S201
+DESCRIPTION;LANGUAGE=fr:Matière : HISTOIRE-GEOGRAPHIE\nProfesseur : PETIT
+  D.\nSalle : S201\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : HISTOIRE-GEOGRAPHIE<br/>Professeur
+  : PETIT D.<br/>Salle : S201<br/>
+COLOR:#FFED00
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T195655Z
+UID:Cours-16682-1-20260904T120218Z-Index-Education
+DTSTART:20260901T065500Z
+DTEND:20260901T075000Z
+SUMMARY;LANGUAGE=fr:ANGLAIS LV1 - THOMAS C.
+LOCATION;LANGUAGE=fr:S204
+DESCRIPTION;LANGUAGE=fr:Matière : ANGLAIS LV1\nProfesseur : THOMAS C.\nSa
+ lle : S204\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ANGLAIS LV1<br/>Professeur : THOMA
+ S C.<br/>Salle : S204<br/>
+COLOR:#EC6719
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260721T143441Z
+UID:Cours-16023-2-20260904T120218Z-Index-Education
+DTSTART:20260907T120000Z
+DTEND:20260907T125500Z
+SUMMARY;LANGUAGE=fr:ARTS PLASTIQUES - SIMON K.
+LOCATION;LANGUAGE=fr:S001 Arts Plastiques
+DESCRIPTION;LANGUAGE=fr:Matière : ARTS PLASTIQUES\nProfesseur : SIMON K.\
+ nSalle : S001 Arts Plastiques\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ARTS PLASTIQUES<br/>Professeur : S
+ IMON K.<br/>Salle : S001 Arts Plastiques<br/>
+COLOR:#ED6566
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260723T173018Z
+UID:Cours-16024-2-20260904T120218Z-Index-Education
+DTSTART:20260909T060000Z
+DTEND:20260909T065500Z
+SUMMARY;LANGUAGE=fr:ANGLAIS LV1 - THOMAS C.
+LOCATION;LANGUAGE=fr:S204
+DESCRIPTION;LANGUAGE=fr:Matière : ANGLAIS LV1\nProfesseur : THOMAS C.\nSa
+ lle : S204\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ANGLAIS LV1<br/>Professeur : THOMA
+ S C.<br/>Salle : S204<br/>
+COLOR:#EC6719
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260721T143945Z
+UID:Cours-16026-2-20260904T120218Z-Index-Education
+DTSTART:20260907T081000Z
+DTEND:20260907T090500Z
+SUMMARY;LANGUAGE=fr:ANGLAIS LV1 - THOMAS C.
+LOCATION;LANGUAGE=fr:S204
+DESCRIPTION;LANGUAGE=fr:Matière : ANGLAIS LV1\nProfesseur : THOMAS C.\nSa
+ lle : S204\n\n<strong>Donné le 03/09/2026 : \n</strong><div>lesson + voc
+ abulary (= être capable de reparler des deux bandes annonce en se servan
+ t du vocabulaire noté en classe)</div>
+X-ALT-DESC;FMTTYPE=text/html:Matière : ANGLAIS LV1<br/>Professeur : THOMA
+ S C.<br/>Salle : S204<br/><br/><strong>Donné le 03/09/2026 : <br/></stro
+ ng><div>lesson + vocabulary (= être capable de reparler des deux bandes 
+ annonce en se servant du vocabulaire noté en classe)</div>
+COLOR:#EC6719
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T195102Z
+UID:Cours-16027-2-20260904T120218Z-Index-Education
+DTSTART:20260910T125500Z
+DTEND:20260910T135000Z
+SUMMARY;LANGUAGE=fr:EDUCATION MUSICALE - DURAND G.
+LOCATION;LANGUAGE=fr:S002 Education musicale
+DESCRIPTION;LANGUAGE=fr:Matière : EDUCATION MUSICALE\nProfesseur : DURAND
+  G.\nSalle : S002 Education musicale\n\n<strong>Donné le 03/09/2026 : \n
+ </strong><div>Chercher le titre d’un work-song.<br>Par qui étaient cha
+ nté ce type de chant ? <br>Citez un autre film de Disney dans lequel on
+  peut entendre un chant de travail. </div>
+X-ALT-DESC;FMTTYPE=text/html:Matière : EDUCATION MUSICALE<br/>Professeur 
+ : DURAND G.<br/>Salle : S002 Education musicale<br/><br/><strong>Donné l
+ e 03/09/2026 : <br/></strong><div>Chercher le titre d’un work-song.<br>
+ Par qui étaient chanté ce type de chant ? <br>Citez un autre film de D
+ isney dans lequel on peut entendre un chant de travail. </div>
+COLOR:#ED679B
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260723T172306Z
+UID:Cours-16028-2-20260904T120218Z-Index-Education
+DTSTART:20260909T081000Z
+DTEND:20260909T090500Z
+SUMMARY;LANGUAGE=fr:ENS. MORAL & CIVIQUE - PETIT D.
+LOCATION;LANGUAGE=fr:S201
+DESCRIPTION;LANGUAGE=fr:Matière : ENS. MORAL &amp\; CIVIQUE\nProfesseur :
+  PETIT D.\nSalle : S201\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ENS. MORAL &amp\; CIVIQUE<br/>Prof
+ esseur : PETIT D.<br/>Salle : S201<br/>
+COLOR:#FFED00
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260719T093656Z
+UID:Cours-16029-2-20260904T120218Z-Index-Education
+DTSTART:20260910T110000Z
+DTEND:20260910T125500Z
+SUMMARY;LANGUAGE=fr:ED.PHYSIQUE & SPORT. - RICHARD F.
+DESCRIPTION;LANGUAGE=fr:Matière : ED.PHYSIQUE &amp\; SPORT.\nProfesseur :
+  RICHARD F.\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ED.PHYSIQUE &amp\; SPORT.<br/>Prof
+ esseur : RICHARD F.<br/>
+COLOR:#1E6ADD
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260719T093723Z
+UID:Cours-16030-2-20260904T120218Z-Index-Education
+DTSTART:20260907T125500Z
+DTEND:20260907T150000Z
+SUMMARY;LANGUAGE=fr:ED.PHYSIQUE & SPORT. - RICHARD F.
+DESCRIPTION;LANGUAGE=fr:Matière : ED.PHYSIQUE &amp\; SPORT.\nProfesseur :
+  RICHARD F.\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ED.PHYSIQUE &amp\; SPORT.<br/>Prof
+ esseur : RICHARD F.<br/>
+COLOR:#1E6ADD
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260721T144731Z
+UID:Cours-16034-2-20260904T120218Z-Index-Education
+DTSTART:20260908T120000Z
+DTEND:20260908T125500Z
+SUMMARY;LANGUAGE=fr:FRANCAIS - MARTIN A.
+LOCATION;LANGUAGE=fr:S109
+DESCRIPTION;LANGUAGE=fr:Matière : FRANCAIS\nProfesseur : MARTIN A.\nSalle
+  : S109\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : FRANCAIS<br/>Professeur : MARTIN A
+ .<br/>Salle : S109<br/>
+COLOR:#21BBEF
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260721T144731Z
+UID:Cours-16035-2-20260904T120218Z-Index-Education
+DTSTART:20260907T065500Z
+DTEND:20260907T075000Z
+SUMMARY;LANGUAGE=fr:FRANCAIS - MARTIN A.
+LOCATION;LANGUAGE=fr:S109
+DESCRIPTION;LANGUAGE=fr:Matière : FRANCAIS\nProfesseur : MARTIN A.\nSalle
+  : S109\n\n<strong>Donné le 03/09/2026 : \n</strong><div>Apporter le man
+ uel de français (avec l &#039\;étiquette complétée) couvert. </div>
+X-ALT-DESC;FMTTYPE=text/html:Matière : FRANCAIS<br/>Professeur : MARTIN A
+ .<br/>Salle : S109<br/><br/><strong>Donné le 03/09/2026 : <br/></strong>
+ <div>Apporter le manuel de français (avec l &#039\;étiquette complété
+ e) couvert. </div>
+COLOR:#21BBEF
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260721T144731Z
+UID:Cours-16036-2-20260904T120218Z-Index-Education
+DTSTART:20260909T065500Z
+DTEND:20260909T075000Z
+SUMMARY;LANGUAGE=fr:FRANCAIS - MARTIN A.
+LOCATION;LANGUAGE=fr:S109
+DESCRIPTION;LANGUAGE=fr:Matière : FRANCAIS\nProfesseur : MARTIN A.\nSalle
+  : S109\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : FRANCAIS<br/>Professeur : MARTIN A
+ .<br/>Salle : S109<br/>
+COLOR:#21BBEF
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260721T144731Z
+UID:Cours-16037-2-20260904T120218Z-Index-Education
+DTSTART:20260910T081000Z
+DTEND:20260910T090500Z
+SUMMARY;LANGUAGE=fr:FRANCAIS - MARTIN A.
+LOCATION;LANGUAGE=fr:S109
+DESCRIPTION;LANGUAGE=fr:Matière : FRANCAIS\nProfesseur : MARTIN A.\nSalle
+  : S109\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : FRANCAIS<br/>Professeur : MARTIN A
+ .<br/>Salle : S109<br/>
+COLOR:#21BBEF
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T093435Z
+UID:Cours-16042-2-20260904T120218Z-Index-Education
+DTSTART:20260908T081000Z
+DTEND:20260908T090500Z
+SUMMARY;LANGUAGE=fr:MATHEMATIQUES - BERNARD B.
+LOCATION;LANGUAGE=fr:S208
+DESCRIPTION;LANGUAGE=fr:Matière : MATHEMATIQUES\nProfesseur : BERNARD B.\
+ nSalle : S208\n\n<strong>Contenu pédagogique : \n</strong><div style="fo
+ nt-family: arial\,helvetica\,sans-serif\; font-size: 11px\;">I. du cours&
+ nbsp\;</div><div style="font-family: arial\,helvetica\,sans-serif\; font-
+ size: 11px\;">Exercices</div>\n<strong>Donné le 03/09/2026 : \n</strong>
+ <div>signer la charte</div>
+X-ALT-DESC;FMTTYPE=text/html:Matière : MATHEMATIQUES<br/>Professeur : BER
+ NARD B.<br/>Salle : S208<br/><br/><strong>Contenu pédagogique : <br/></s
+ trong><div style="font-family: arial\,helvetica\,sans-serif\; font-size: 
+ 11pt\;">I. du cours&nbsp\;</div><div style="font-family: arial\,helvetica
+ \,sans-serif\; font-size: 11pt\;">Exercices</div><br/><strong>Donné le 0
+ 3/09/2026 : <br/></strong><div>signer la charte</div>
+COLOR:#AC75AE
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260725T090245Z
+UID:Cours-16360-2-20260904T120218Z-Index-Education
+DTSTART:20260907T060000Z
+DTEND:20260907T065500Z
+SUMMARY;LANGUAGE=fr:ACC. PERSO. FRANCAIS - MARTIN A.\, MICHEL L.
+LOCATION;LANGUAGE=fr:S109
+DESCRIPTION;LANGUAGE=fr:Matière : ACC. PERSO. FRANCAIS\nProfesseurs : MAR
+ TIN A.\, MICHEL L.\nSalle : S109\n\n<strong>Donné le 03/09/2026 : \n</st
+ rong><div>Apporter le manuel de français (avec l &#039\;étiquette compl
+ étée) couvert. </div>
+X-ALT-DESC;FMTTYPE=text/html:Matière : ACC. PERSO. FRANCAIS<br/>Professeu
+ rs : MARTIN A.\, MICHEL L.<br/>Salle : S109<br/><br/><strong>Donné le 03
+ /09/2026 : <br/></strong><div>Apporter le manuel de français (avec l &#0
+ 39\;étiquette complétée) couvert. </div>
+COLOR:#21BBEF
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260719T054247Z
+UID:Cours-16432-2-20260904T120218Z-Index-Education
+DTSTART:20260911T060000Z
+DTEND:20260911T072500Z
+SUMMARY;LANGUAGE=fr:TECHNOLOGIE - DUBOIS H. - [4E SCIENCES GR4] - <4EME4> 
+ 4E4 SCIENCES GR1\, <4EME3> 4E3 SCIENCES GR2
+LOCATION;LANGUAGE=fr:S102 - TECH
+DESCRIPTION;LANGUAGE=fr:Matière : TECHNOLOGIE\nProfesseur : DUBOIS H.\nGr
+ oupe : [4E SCIENCES GR4]\nParties de classe : &lt\;4EME4&gt\; 4E4 SCIENCE
+ S GR1\, &lt\;4EME3&gt\; 4E3 SCIENCES GR2\nSalle : S102 - TECH\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : TECHNOLOGIE<br/>Professeur : DUBOI
+ S H.<br/>Groupe : [4E SCIENCES GR4]<br/>Parties de classe : &lt\;4EME4&gt
+ \; 4E4 SCIENCES GR1\, &lt\;4EME3&gt\; 4E3 SCIENCES GR2<br/>Salle : S102 -
+  TECH<br/>
+COLOR:#325A69
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260719T054650Z
+UID:Cours-16433-2-20260904T120218Z-Index-Education
+DTSTART:20260911T072500Z
+DTEND:20260911T090500Z
+SUMMARY;LANGUAGE=fr:SCIENCES VIE & TERRE - MOREAU I. - [4E SCIENCES GR4] -
+  <4EME4> 4E4 SCIENCES GR1\, <4EME3> 4E3 SCIENCES GR2
+LOCATION;LANGUAGE=fr:S103 - Sciences
+DESCRIPTION;LANGUAGE=fr:Matière : SCIENCES VIE &amp\; TERRE\nProfesseur :
+  MOREAU I.\nGroupe : [4E SCIENCES GR4]\nParties de classe : &lt\;4EME4&gt
+ \; 4E4 SCIENCES GR1\, &lt\;4EME3&gt\; 4E3 SCIENCES GR2\nSalle : S103 - Sc
+ iences\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : SCIENCES VIE &amp\; TERRE<br/>Prof
+ esseur : MOREAU I.<br/>Groupe : [4E SCIENCES GR4]<br/>Parties de classe :
+  &lt\;4EME4&gt\; 4E4 SCIENCES GR1\, &lt\;4EME3&gt\; 4E3 SCIENCES GR2<br/>
+ Salle : S103 - Sciences<br/>
+COLOR:#75B951
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260719T055008Z
+UID:Cours-16443-2-20260904T120218Z-Index-Education
+DTSTART:20260911T090500Z
+DTEND:20260911T103000Z
+SUMMARY;LANGUAGE=fr:PHYSIQUE-CHIMIE - LAURENT J. - [4E SCIENCES GR4] - <4E
+ ME4> 4E4 SCIENCES GR1\, <4EME3> 4E3 SCIENCES GR2
+LOCATION;LANGUAGE=fr:S101 - Sciences
+DESCRIPTION;LANGUAGE=fr:Matière : PHYSIQUE-CHIMIE\nProfesseur : LAURENT J
+ .\nGroupe : [4E SCIENCES GR4]\nParties de classe : &lt\;4EME4&gt\; 4E4 SC
+ IENCES GR1\, &lt\;4EME3&gt\; 4E3 SCIENCES GR2\nSalle : S101 - Sciences\n\
+ n<strong>Donné le 04/09/2026 : \n</strong><div>Activité 1 page 16 à te
+ rminer</div>\n<strong>Donné le 04/09/2026 : \n</strong><div>Partie ex: f
+ aire un résumé de toutes les expériences réalisées par la prof + pen
+ ser à expliquer le principe de la lampe à lave</div>
+X-ALT-DESC;FMTTYPE=text/html:Matière : PHYSIQUE-CHIMIE<br/>Professeur : L
+ AURENT J.<br/>Groupe : [4E SCIENCES GR4]<br/>Parties de classe : &lt\;4EM
+ E4&gt\; 4E4 SCIENCES GR1\, &lt\;4EME3&gt\; 4E3 SCIENCES GR2<br/>Salle : S
+ 101 - Sciences<br/><br/><strong>Donné le 04/09/2026 : <br/></strong><div
+ >Activité 1 page 16 à terminer</div><br/><strong>Donné le 04/09/2026 :
+  <br/></strong><div>Partie ex: faire un résumé de toutes les expérienc
+ es réalisées par la prof + penser à expliquer le principe de la lampe 
+ à lave</div>
+COLOR:#4B95B4
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260719T143739Z
+UID:Cours-16508-2-20260904T120218Z-Index-Education
+DTSTART:20260907T090500Z
+DTEND:20260907T100000Z
+SUMMARY;LANGUAGE=fr:ESPAGNOL LV2 - ROBERT E. - [4E4 ESP NBIL] - <4EME4> 4E
+ ME4 ESP NBIL
+LOCATION;LANGUAGE=fr:S103
+DESCRIPTION;LANGUAGE=fr:Matière : ESPAGNOL LV2\nProfesseur : ROBERT E.\nG
+ roupe : [4E4 ESP NBIL]\nPartie de classe : &lt\;4EME4&gt\; 4EME4 ESP NBIL
+ \nSalle : S103\n\n<strong>Contenu pédagogique : \n</strong><div style="f
+ ont-family: Arial\; font-size: 13px\;"><p><span style="font-size: 10.0pt\
+ ; font-family: 'Arial'\,'sans-serif'\;">Présentation. Méthode de travai
+ l. Entêtes du cahier. "Frases útiles en clase"\, à réviser petit à p
+ etit. Colonnes pour les verbes que nous rangerons au fil des séquences.<
+ /span></p><p><strong><u><span style="font-size: 10.0pt\; font-family: 'Ar
+ ial'\,'sans-serif'\; color: black\;">Séquence</span></u></strong><strong
+ ><span style="font-size: 10.0pt\; font-family: 'Arial'\,'sans-serif'\;">:
+  Présentation.</span></strong></p><p><span style="font-size: 10.0pt\; fo
+ nt-family: 'Arial'\,'sans-serif'\;">Pedro Capo : "calma" =&gt\; savoir pr
+ ésenter le chanteur. Situer Puerto Rico. Règle de l'accentuation et rep
+ érage des sons et accents toniques de la chanson. C.O sur certaines stro
+ phes. Chant.</span></p><p><span style="font-size: 10.0pt\; font-family: '
+ Arial'\,'sans-serif'\;">Regroupement des données sur le chanteur en fonc
+ tion du sens des expressions (flèches). SER*/TENER* à l'indicatif prés
+ ent.&nbsp\; Mots interrogatifs : Quel.l.e.s (Cuál(es) + verbe\, Qué + n
+ om) et EE. Cómo. Dónde. et EE. Cuándo. Cuánt@.s. EE. Quién.es. EE. Q
+ uestions fermées. EE.</span></p><p><span style="font-size: 10.0pt\; font
+ -family: 'Arial'\,'sans-serif'\;">Exercice d'expression écrite à partir
+  de données (à relier par des flèches) sur Rosalía.</span></p><p><spa
+ n style="font-size: 10.0pt\; font-family: 'Arial'\,'sans-serif'\;">Fiche 
+ d'exercices à la maison sur SER/TENER et mots interrogatifs/phrases inte
+ rrogatives : correction.</span></p><p><span style="font-size: 10.0pt\; fo
+ nt-family: 'Arial'\,'sans-serif'\;">Interrogation écrite sur SER/TENER e
+ t les mots interrogatifs/phrases interrogatives.</span></p><p><span style
+ ="font-size: 10.0pt\; font-family: 'Arial'\,'sans-serif'\;">Texte sur Pue
+ rto Rico : CE et repérage des déterminants.</span></p><p><span style="f
+ ont-size: 10.0pt\; font-family: 'Arial'\,'sans-serif'\;">Les déterminant
+ s (définis\, indéfinis\, pas de déterminant devant les noms de pays g
+ énéralement)</span></p><p><span style="font-size: 10.0pt\; font-family:
+  'Arial'\,'sans-serif'\;">ESTAR* indicatif présent\, pour un lieu.EE. "e
+ n" : dans un lieu.</span></p><p><span style="font-size: 10.0pt\; font-fam
+ ily: 'Arial'\,'sans-serif'\;">Le féminin. Le pluriel.</span></p><p><span
+  style="font-size: 10.0pt\; font-family: 'Arial'\,'sans-serif'\;">Exercic
+ e sur les déterminants qui nécessite de faire de la CE.</span></p><p><s
+ pan style="font-size: 10.0pt\; font-family: 'Arial'\,'sans-serif'\;">Fich
+ e d'exercices à la maison sur le féminin et le pluriel : correction.</s
+ pan></p><p><span style="font-size: 10.0pt\; font-family: 'Arial'\,'sans-s
+ erif'\;">On range les verbes dans les colonnes.</span></p><p><span style=
+ "font-size: 10.0pt\; font-family: 'Arial'\,'sans-serif'\;">Entraînement 
+ à la lecture du texte sur Puerto Rico (prononciation/accentuation).</spa
+ n></p><p><span style="font-size: 10.0pt\; font-family: 'Arial'\,'sans-ser
+ if'\;">Tâche finale<span style="color: black\;"> (Savoir poser des quest
+ ions à l’oral à une personnalité en la tutoyant et savoir y répondr
+ e&nbsp\; à partir de quelques indications&nbsp\; (tú /yo). Savoir lire 
+ le texte sur Puerto Rico en prononçant&nbsp\; correctement et en accentu
+ ant suffisamment là où il faut. Savoir mettre une phrase au féminin\, 
+ au masculin pluriel puis au féminin pluriel à l’écrit. Savoir poser 
+ des questions fermées et y répondre en parlant d’un personnage à l
+ ’écrit. Savoir répondre à des questions sur Puerto Rico à l’écri
+ t).</span></span></p><p><span style="font-size: 10.0pt\; font-family: 'Ar
+ ial'\,'sans-serif'\;">&nbsp\;</span></p><p><strong><u><span style="font-s
+ ize: 10.0pt\; font-family: 'Arial'\,'sans-serif'\; color: black\;">Séque
+ nce</span></u></strong><strong><span style="font-size: 10.0pt\; font-fami
+ ly: 'Arial'\,'sans-serif'\; color: black\;"> : l'école&nbsp\;</span></st
+ rong></p><p><span style="font-size: 10.0pt\; font-family: 'Arial'\,'sans-
+ serif'\; color: black\;">Reglas de la clase : CE (colorier des notions en
+  fonction du sens). EE avec "deber" et le vocabulaire du document.. EOI a
+ vec "deber".</span></p><p><span style="font-size: 10.0pt\; font-family: '
+ Arial'\,'sans-serif'\; color: black\;">Verbes réguliers à l'indicatif p
+ résent (3 groupes) et exercices.</span></p><p><span style="font-size: 10
+ .0pt\; font-family: 'Arial'\,'sans-serif'\; color: black\;">La négation 
+ et EE.</span></p><p><span style="font-size: 10.0pt\; font-family: 'Arial'
+ \,'sans-serif'\; color: black\;">"Llamarse" indicatif présent (verbes pr
+ onominaux). EO.</span></p><p><span style="font-size: 10.0pt\; font-family
+ : 'Arial'\,'sans-serif'\; color: black\;">Exercices à la maison sur l'in
+ dicatif présent : correction.</span></p><p><span style="font-size: 10.0p
+ t\; font-family: 'Arial'\,'sans-serif'\; color: black\;">Interrogation é
+ crite (sur le vocabulaire de la fiche et du&nbsp\;cours « Reglas de la c
+ lase » / Le verbe «&nbsp\;deber» (savoir faire les phrases avec ce ver
+ be) /&nbsp\;Savoir conjuguer&nbsp\;n’importe quel&nbsp\;verbe régulier
+ &nbsp\;à&nbsp\;l’indicatif présent&nbsp\;(tels que HABLAR\, DEBER\, V
+ IVIR) / Savoir conjuguer les verbes pronominaux tels que LLAMARSE (qu’i
+ ls soient en AR\, ER ou IR) / Savoir faire une phrase négative)</span></
+ p><p><span style="font-size: 10.0pt\; font-family: 'Arial'\,'sans-serif'\
+ ; color: black\;">Vidéo : Voy al cole (Perú) : CO.</span></p><p><span s
+ tyle="font-size: 10.0pt\; font-family: 'Arial'\,'sans-serif'\; color: bla
+ ck\;">Révision indicatif présent régulier puis verbes à diphtongues 
+ à l'indicatif présent.</span></p><p><span style="font-size: 10.0pt\; fo
+ nt-family: 'Arial'\,'sans-serif'\; color: black\;">Interrogation écrite 
+ sur les verbes à diphtongues.</span></p><p><span style="font-size: 10.0p
+ t\; font-family: 'Arial'\,'sans-serif'\; color: black\;">EE personnelle 
+ à partir de la vidéo (y tú ¿cómo te sientes... ? / ¿ Con qué sueñ
+ as...?)</span></p><p><span style="font-size: 10.0pt\; font-family: 'Arial
+ '\,'sans-serif'\; color: black\;">Verbes à affaiblissement (vestir) à l
+ 'indicatif présent et EE.</span></p><p><span style="font-size: 10.0pt\; 
+ font-family: 'Arial'\,'sans-serif'\; color: black\;">IR* indicatif prése
+ nt et EE et EO.</span></p><p><span style="font-size: 10.0pt\; font-family
+ : 'Arial'\,'sans-serif'\; color: black\;">Interrogation écrite (sur : le
+ s verbes à diphtongues\, à affaiblissement et le verbe IR* / Savoir les
+  conjuguer à l’indicatif présent dans des phrases)</span></p><p><span
+  style="font-size: 10.0pt\; font-family: 'Arial'\,'sans-serif'\; color: b
+ lack\;">On range les verbes dans les colonnes.</span></p><p><span style="
+ font-size: 10.0pt\; font-family: 'Arial'\,'sans-serif'\;">&nbsp\;</span><
+ /p><p><u><span style="font-size: 10.0pt\; font-family: 'Arial'\,'sans-ser
+ if'\;">El sistema escolar y los horarios en España</span></u><span style
+ ="font-size: 10.0pt\; font-family: 'Arial'\,'sans-serif'\;">&nbsp\;: CE.<
+ /span></p><p><u><span style="font-size: 10.0pt\; font-family: 'Arial'\,'s
+ ans-serif'\;">El horario de Élève05</span></u><span style="font-size: 1
+ 0.0pt\; font-family: 'Arial'\,'sans-serif'\;">&nbsp\;: (révision des jou
+ rs)\, CE et EE (a qué hora / cuándo...)\, las asignaturas. EOI.</span><
+ /p><p><span style="font-size: 10.0pt\; font-family: 'Arial'\,'sans-serif'
+ \;">EE avec «&nbsp\;volver&nbsp\;»\, «&nbsp\;a&nbsp\;»&nbsp\;: mouvem
+ ent\, </span></p><p><u><span style="font-size: 10.0pt\; font-family: 'Ari
+ al'\,'sans-serif'\;">¿ Está bien comer bocadillos durante el recreo en 
+ el instituto&nbsp\;?</span></u><span style="font-size: 10.0pt\; font-fami
+ ly: 'Arial'\,'sans-serif'\;"> CE&nbsp\;: devoir à la maison et correctio
+ n. Révision des aliments. Jeu par équipes pour mémoriser le vocabulair
+ e de ces fiches.</span></p><p><span style="font-size: 10.0pt\; font-famil
+ y: 'Arial'\,'sans-serif'\;">&nbsp\;</span></p><p><strong><span style="fon
+ t-size: 10.0pt\; font-family: 'Arial'\,'sans-serif'\;">Interrogation écr
+ ite</span></strong><span style="font-size: 10.0pt\; font-family: 'Arial'\
+ ,'sans-serif'\;"> sur&nbsp\;&nbsp\; TOUT depuis la fiche «&nbsp\;el sist
+ ema escolar&nbsp\;» :</span></p><p><span style="font-size: 10.0pt\; font
+ -family: 'Arial'\,'sans-serif'\;">mientras que / en cambio </span></p><p>
+ <span style="font-size: 10.0pt\; font-family: 'Arial'\,'sans-serif'\;">TE
+ NER* (avoir)</span></p><p><span style="font-size: 10.0pt\; font-family: '
+ Arial'\,'sans-serif'\;">ESTAR* + lieu (être)</span></p><p><span style="f
+ ont-size: 10.0pt\; font-family: 'Arial'\,'sans-serif'\;">les jours</span>
+ </p><p><span style="font-size: 10.0pt\; font-family: 'Arial'\,'sans-serif
+ '\;">les matières/disciplines scolaires =&gt\; savoir faire les question
+ s réponses à partir d’un emploi du temps donné en français mais à 
+ traduire en espagnol</span></p><p><span style="font-size: 10.0pt\; font-f
+ amily: 'Arial'\,'sans-serif'\;">VOLVER&nbsp\;&nbsp\; A... (revenir/rentre
+ r)</span></p><p><span style="font-size: 10.0pt\; font-family: 'Arial'\,'s
+ ans-serif'\;">EMPEZAR (commencer)</span></p><p><span style="font-size: 10
+ .0pt\; font-family: 'Arial'\,'sans-serif'\;">TERMINAR (terminer)</span></
+ p><p><span style="font-size: 10.0pt\; font-family: 'Arial'\,'sans-serif'\
+ ;">&nbsp\;ACABAR (finir)</span></p><p><span style="font-size: 10.0pt\; fo
+ nt-family: 'Arial'\,'sans-serif'\;">Savoir traduire tous ces verbes en es
+ pagnol et savoir les conjuguer à l’indicatif présent.</span></p><p><s
+ pan style="font-size: 10.0pt\; font-family: 'Arial'\,'sans-serif'\;">Conn
+ aître les aliments marqués d’un coeur ainsi qu’au moins 10 fruits e
+ t 10 légumes avec leurs déterminants</span></p><p><span style="font-siz
+ e: 10.0pt\; font-family: 'Arial'\,'sans-serif'\;">&nbsp\;</span></p><p><u
+ ><span style="font-size: 10.0pt\; font-family: 'Arial'\,'sans-serif'\;">H
+ orarios europeos</span></u><span style="font-size: 10.0pt\; font-family: 
+ 'Arial'\,'sans-serif'\;">&nbsp\;: CE et EO. HACER* / VER*&nbsp\;: indicat
+ if présent. EE à partir des documents. Les comparatifs (más/ menos... 
+ que\, tan... como) =&gt\; EE et EO.</span></p><p><span style="font-size: 
+ 10.0pt\; font-family: 'Arial'\,'sans-serif'\;">SALIR*&nbsp\;: indicatif p
+ résent. EE avec les comparatifs.Pero\, además\, entonces.</span></p><p>
+ <span style="font-size: 10.0pt\; font-family: 'Arial'\,'sans-serif'\;">On
+  range les verbes dans les colonnes.</span></p><p><span style="font-size:
+  10.0pt\; font-family: 'Arial'\,'sans-serif'\;">Dialogue par 2 entre un 
+ élève français et un élève espagnol&nbsp\;(sur les horaires\, le sys
+ tème scolaire\, les rythmes...) : le créer\, le faire corriger\, l’ap
+ prendre et le présenter devant la classe.</span></p><p><u><span style="f
+ ont-size: 10.0pt\; font-family: 'Arial'\,'sans-serif'\;">Ir a la escuela 
+ no es tan fácil</span></u><span style="font-size: 10.0pt\; font-family: 
+ 'Arial'\,'sans-serif'\;">&nbsp\;: así van al colegio&nbsp\;: vidéo Colo
+ mbie tyrolienne. CO et EE. Necesitar + nom. «&nbsp\;A&nbsp\;» devant «
+ &nbsp\;dónde&nbsp\;» quand mouvement vers un lieu.</span></p><p><span s
+ tyle="font-size: 10.0pt\; font-family: 'Arial'\,'sans-serif'\;">PONER* in
+ d présent.</span></p><p><span style="font-size: 10.0pt\; font-family: 'A
+ rial'\,'sans-serif'\;">Vidéo&nbsp\;: la escuela en el lago Titicaca&nbsp
+ \;: CO. SABER* ind présent. Et EE&nbsp\;: los niños del reportaje tiene
+ n una voluntad de hierro porque...&nbsp\; en efecto /mientras que / sin e
+ mbargo...</span></p><p><span style="font-size: 10.0pt\; font-family: 'Ari
+ al'\,'sans-serif'\;">&nbsp\;</span></p><p><span style="font-size: 10.0pt\
+ ; font-family: 'Arial'\,'sans-serif'\;">Faire une<strong> interrogation 
+ écrite sur tout depuis «&nbsp\;Horarios europeos&nbsp\;»</strong></spa
+ n></p><ul><li style="margin: 0cm 0cm .0001pt 36.0pt\;"><span style="font-
+ size: 10.0pt\; font-family: Symbol\;"> </span><span style="font-size: 10.
+ 0pt\; font-family: 'Arial'\,'sans-serif'\;">Connaître <strong>conjugaiso
+ ns</strong> de ver*\, hacer*\, salir*\, poner*\, saber*</span></li><li st
+ yle="margin: 0cm 0cm .0001pt 36.0pt\;"><span style="font-size: 10.0pt\; f
+ ont-family: Symbol\;"> </span><span style="font-size: 10.0pt\; font-famil
+ y: 'Arial'\,'sans-serif'\;">Connaître les <strong>comparatifs</strong> (
+ más... que\, menos... que\, tan... como)</span></li><li style="margin: 0
+ cm 0cm .0001pt 36.0pt\;"><span style="font-size: 10.0pt\; font-family: Sy
+ mbol\;"> </span><span style="font-size: 10.0pt\; font-family: 'Arial'\,'s
+ ans-serif'\;">Savoir poser des questions avec <strong>adónde\, dónde\,c
+ uánto </strong>tiempo\, <strong>a qué hora</strong>\, <strong>qué + ve
+ rbe </strong>(ex : ¿qué hace ella ?)\, cuántas horas...</span></li><li
+  style="margin: 0cm 0cm .0001pt 36.0pt\;"><span style="font-size: 10.0pt\
+ ; font-family: Symbol\;"> </span><span style="font-size: 10.0pt\; font-fa
+ mily: 'Arial'\,'sans-serif'\;">Savoir <strong>situer les pays\, les monta
+ gnes et les régions </strong>vus</span></li><li style="margin: 0cm 0cm .
+ 0001pt 36.0pt\;"><span style="font-size: 10.0pt\; font-family: Symbol\;">
+  </span><span style="font-size: 10.0pt\; font-family: 'Arial'\,'sans-seri
+ f'\;">Savoir utiliser «&nbsp\;<strong>necesitar</strong>» </span></li><
+ li style="margin: 0cm 0cm .0001pt 36.0pt\;"><span style="font-size: 10.0p
+ t\; font-family: Symbol\;"> </span><span style="font-size: 10.0pt\; font-
+ family: 'Arial'\,'sans-serif'\;">Savoir écrire un <strong>texte sur les 
+ enfants des reportages =&gt\; vocabulaire</strong></span></li><li style="
+ margin: 0cm 0cm .0001pt 36.0pt\;"><span style="font-size: 10.0pt\; font-f
+ amily: Symbol\;"> </span><span style="font-size: 10.0pt\; font-family: 'A
+ rial'\,'sans-serif'\;">Connaître les <strong>mots de liaison </strong>(e
+ n efecto\, pero\, mientras que\, además\, sin embargo\, entonces)</span>
+ </li></ul><p><span style="font-size: 10.0pt\; font-family: 'Arial'\,'sans
+ -serif'\;">CE notée&nbsp\;: <u>a la escuela a caballo</u></span></p><p><
+ u><span style="font-size: 10.0pt\; font-family: 'Arial'\,'sans-serif'\;">
+ Otros medios de transporte</span></u><span style="font-size: 10.0pt\; fon
+ t-family: 'Arial'\,'sans-serif'\;">. CONOCER* ind présent. =&gt\; en la 
+ ciudad / un pueblo/el campo&nbsp\;: EE et EOI. </span></p><p><span style=
+ "font-size: 10.0pt\; font-family: 'Arial'\,'sans-serif'\;">EO avec des ex
+ pression vues dans cette séquence\, à bien conjuguer.</span></p><p><spa
+ n style="font-size: 10.0pt\; font-family: 'Arial'\,'sans-serif'\;">On ran
+ ge les verbes dans les colonnes.</span></p><p><span style="font-size: 10.
+ 0pt\; font-family: 'Arial'\,'sans-serif'\;">&nbsp\;</span></p><p><strong>
+ <u><span style="font-size: 10.0pt\; font-family: 'Arial'\,'sans-serif'\;"
+ >Pour la tâche finale </span></u></strong><strong><span style="font-size
+ : 10.0pt\; font-family: 'Arial'\,'sans-serif'\;">=&gt\;&nbsp\; ATTENTION 
+ :</span></strong></p><p><strong><span style="font-size: 10.0pt\; font-fam
+ ily: 'Arial'\,'sans-serif'\;">tout réviser depuis le début de la séque
+ nce : «&nbsp\;Reglas de la clase&nbsp\;»</span></strong></p><ul><li sty
+ le="margin: 0cm 0cm .0001pt 36.0pt\;"><span style="font-size: 10.0pt\; fo
+ nt-family: Symbol\;"> </span><strong><span style="font-size: 10.0pt\; fon
+ t-family: 'Arial'\,'sans-serif'\;">Savoir comparer 2 élèves de deux pay
+ s différents <u>en écrivant des paragraphes</u>.</span></strong></li><l
+ i style="margin: 0cm 0cm .0001pt 36.0pt\;"><span style="font-size: 10.0pt
+ \; font-family: Symbol\;"> </span><span style="font-size: 10.0pt\; font-f
+ amily: 'Arial'\,'sans-serif'\;">Savoir dire leur <strong>prénom</strong>
+ \, leur <strong>âge</strong>\, leur <strong>pays</strong> et leur <stron
+ g>région</strong> (connaître les pays hispanophones et les régions vus
+  en classe pendant la séquence\, savoir <strong>les situer dans </strong
+ >le <strong>continent</strong>)</span></li><li style="margin: 0cm 0cm .00
+ 01pt 36.0pt\;"><span style="font-size: 10.0pt\; font-family: Symbol\;"> <
+ /span><span style="font-size: 10.0pt\; font-family: 'Arial'\,'sans-serif'
+ \;">Savoir dire <strong>l’heure (et les demi-heures) </strong>du lever\
+ , du repas\, du retour\, du coucher avec les <strong>verbes adaptés bien
+  conjugués</strong></span></li><li style="margin: 0cm 0cm .0001pt 36.0pt
+ \;"><span style="font-size: 10.0pt\; font-family: Symbol\;"> </span><span
+  style="font-size: 10.0pt\; font-family: 'Arial'\,'sans-serif'\;">Savoir 
+ utiliser les <strong>comparatifs</strong> (+\, -\, = ...)</span></li><li 
+ style="margin: 0cm 0cm .0001pt 36.0pt\;"><span style="font-size: 10.0pt\;
+  font-family: Symbol\;"> </span><span style="font-size: 10.0pt\; font-fam
+ ily: 'Arial'\,'sans-serif'\;">Savoir parler d’un <strong>trajet\, </str
+ ong>d’un<strong> moyen de transport\, </strong>de l’<strong>éloignem
+ ent\, </strong>d’une<strong> durée</strong></span></li><li style="marg
+ in: 0cm 0cm .0001pt 36.0pt\;"><span style="font-size: 10.0pt\; font-famil
+ y: Symbol\;"> </span><span style="font-size: 10.0pt\; font-family: 'Arial
+ '\,'sans-serif'\;">Savoir <strong>décrire un uniforme </strong>(scolaire
+ )</span></li><li style="margin: 0cm 0cm .0001pt 36.0pt\;"><span style="fo
+ nt-size: 10.0pt\; font-family: Symbol\;"> </span><span style="font-size: 
+ 10.0pt\; font-family: 'Arial'\,'sans-serif'\;">Savoir parler des <strong>
+ règles de la classe </strong>(verbe «&nbsp\;devoir&nbsp\;»...)</span><
+ /li><li style="margin: 0cm 0cm .0001pt 36.0pt\;"><span style="font-size: 
+ 10.0pt\; font-family: Symbol\;"> </span><span style="font-size: 10.0pt\; 
+ font-family: 'Arial'\,'sans-serif'\;">Savoir parler d’un <strong>emploi
+  du temps </strong>en fonction des <strong>jours</strong></span></li><li 
+ style="margin: 0cm 0cm .0001pt 36.0pt\;"><span style="font-size: 10.0pt\;
+  font-family: Symbol\;"> </span><span style="font-size: 10.0pt\; font-fam
+ ily: 'Arial'\,'sans-serif'\;">Savoir dire si les élèves sont <strong>en
+ thousiastes\, contents etc</strong>...\, <strong>s’ils veulent avancer<
+ /strong>\, s’ils ont un <strong>rêve</strong>...</span></li><li style=
+ "margin: 0cm 0cm .0001pt 36.0pt\;"><span style="font-size: 10.0pt\; font-
+ family: Symbol\;"> </span><span style="font-size: 10.0pt\; font-family: '
+ Arial'\,'sans-serif'\;">Savoir utiliser les <strong>mots de liaison </str
+ ong>(mais\, alors\, tandis que\, en effet\, parce que\, de plus\, cependa
+ nt...)</span></li><li style="margin: 0cm 0cm .0001pt 36.0pt\;"><span styl
+ e="font-size: 10.0pt\; font-family: Symbol\;"> </span><span style="font-s
+ ize: 10.0pt\; font-family: 'Arial'\,'sans-serif'\;">BIEN REVISER LES CONJ
+ UGAISONS ET LES CONSTRUCTIONS DE PHRASES\, LES POINTS DE GRAMMAIRE + LE V
+ OCABULAIRE</span></li></ul><p><span style="font-size: 10.0pt\; font-famil
+ y: 'Arial'\,'sans-serif'\;">&nbsp\;</span></p><p><span style="font-size: 
+ 10.0pt\; font-family: 'Arial'\,'sans-serif'\;">Exercices de révisions (
+ écrits) suite au contrôle mal réussi par certains. Et correction.</spa
+ n></p></div>
+X-ALT-DESC;FMTTYPE=text/html:Matière : ESPAGNOL LV2<br/>Professeur : ROBE
+ RT E.<br/>Groupe : [4E4 ESP NBIL]<br/>Partie de classe : &lt\;4EME4&gt\; 
+ 4EME4 ESP NBIL<br/>Salle : S103<br/><br/><strong>Contenu pédagogique : <
+ br/></strong><div style="font-family: Arial\; font-size: 13pt\;"><p><span
+  style="font-size: 10.0pt\; font-family: 'Arial'\,'sans-serif'\;">Présen
+ tation. Méthode de travail. Entêtes du cahier. "Frases útiles en clase
+ "\, à réviser petit à petit. Colonnes pour les verbes que nous rangero
+ ns au fil des séquences.</span></p><p><strong><u><span style="font-size:
+  10.0pt\; font-family: 'Arial'\,'sans-serif'\; color: black\;">Séquence<
+ /span></u></strong><strong><span style="font-size: 10.0pt\; font-family: 
+ 'Arial'\,'sans-serif'\;">: Présentation.</span></strong></p><p><span sty
+ le="font-size: 10.0pt\; font-family: 'Arial'\,'sans-serif'\;">Pedro Capo 
+ : "calma" =&gt\; savoir présenter le chanteur. Situer Puerto Rico. Règl
+ e de l'accentuation et repérage des sons et accents toniques de la chans
+ on. C.O sur certaines strophes. Chant.</span></p><p><span style="font-siz
+ e: 10.0pt\; font-family: 'Arial'\,'sans-serif'\;">Regroupement des donné
+ es sur le chanteur en fonction du sens des expressions (flèches). SER*/T
+ ENER* à l'indicatif présent.&nbsp\; Mots interrogatifs : Quel.l.e.s (Cu
+ ál(es) + verbe\, Qué + nom) et EE. Cómo. Dónde. et EE. Cuándo. Cuán
+ t@.s. EE. Quién.es. EE. Questions fermées. EE.</span></p><p><span style
+ ="font-size: 10.0pt\; font-family: 'Arial'\,'sans-serif'\;">Exercice d'ex
+ pression écrite à partir de données (à relier par des flèches) sur R
+ osalía.</span></p><p><span style="font-size: 10.0pt\; font-family: 'Aria
+ l'\,'sans-serif'\;">Fiche d'exercices à la maison sur SER/TENER et mots 
+ interrogatifs/phrases interrogatives : correction.</span></p><p><span sty
+ le="font-size: 10.0pt\; font-family: 'Arial'\,'sans-serif'\;">Interrogati
+ on écrite sur SER/TENER et les mots interrogatifs/phrases interrogatives
+ .</span></p><p><span style="font-size: 10.0pt\; font-family: 'Arial'\,'sa
+ ns-serif'\;">Texte sur Puerto Rico : CE et repérage des déterminants.</
+ span></p><p><span style="font-size: 10.0pt\; font-family: 'Arial'\,'sans-
+ serif'\;">Les déterminants (définis\, indéfinis\, pas de déterminant 
+ devant les noms de pays généralement)</span></p><p><span style="font-si
+ ze: 10.0pt\; font-family: 'Arial'\,'sans-serif'\;">ESTAR* indicatif prés
+ ent\, pour un lieu.EE. "en" : dans un lieu.</span></p><p><span style="fon
+ t-size: 10.0pt\; font-family: 'Arial'\,'sans-serif'\;">Le féminin. Le pl
+ uriel.</span></p><p><span style="font-size: 10.0pt\; font-family: 'Arial'
+ \,'sans-serif'\;">Exercice sur les déterminants qui nécessite de faire 
+ de la CE.</span></p><p><span style="font-size: 10.0pt\; font-family: 'Ari
+ al'\,'sans-serif'\;">Fiche d'exercices à la maison sur le féminin et le
+  pluriel : correction.</span></p><p><span style="font-size: 10.0pt\; font
+ -family: 'Arial'\,'sans-serif'\;">On range les verbes dans les colonnes.<
+ /span></p><p><span style="font-size: 10.0pt\; font-family: 'Arial'\,'sans
+ -serif'\;">Entraînement à la lecture du texte sur Puerto Rico (prononci
+ ation/accentuation).</span></p><p><span style="font-size: 10.0pt\; font-f
+ amily: 'Arial'\,'sans-serif'\;">Tâche finale<span style="color: black\;"
+ > (Savoir poser des questions à l’oral à une personnalité en la tuto
+ yant et savoir y répondre&nbsp\; à partir de quelques indications&nbsp\
+ ; (tú /yo). Savoir lire le texte sur Puerto Rico en prononçant&nbsp\; c
+ orrectement et en accentuant suffisamment là où il faut. Savoir mettre 
+ une phrase au féminin\, au masculin pluriel puis au féminin pluriel à 
+ l’écrit. Savoir poser des questions fermées et y répondre en parlant
+  d’un personnage à l’écrit. Savoir répondre à des questions sur P
+ uerto Rico à l’écrit).</span></span></p><p><span style="font-size: 10
+ .0pt\; font-family: 'Arial'\,'sans-serif'\;">&nbsp\;</span></p><p><strong
+ ><u><span style="font-size: 10.0pt\; font-family: 'Arial'\,'sans-serif'\;
+  color: black\;">Séquence</span></u></strong><strong><span style="font-s
+ ize: 10.0pt\; font-family: 'Arial'\,'sans-serif'\; color: black\;"> : l'
+ école&nbsp\;</span></strong></p><p><span style="font-size: 10.0pt\; font
+ -family: 'Arial'\,'sans-serif'\; color: black\;">Reglas de la clase : CE 
+ (colorier des notions en fonction du sens). EE avec "deber" et le vocabul
+ aire du document.. EOI avec "deber".</span></p><p><span style="font-size:
+  10.0pt\; font-family: 'Arial'\,'sans-serif'\; color: black\;">Verbes ré
+ guliers à l'indicatif présent (3 groupes) et exercices.</span></p><p><s
+ pan style="font-size: 10.0pt\; font-family: 'Arial'\,'sans-serif'\; color
+ : black\;">La négation et EE.</span></p><p><span style="font-size: 10.0p
+ t\; font-family: 'Arial'\,'sans-serif'\; color: black\;">"Llamarse" indic
+ atif présent (verbes pronominaux). EO.</span></p><p><span style="font-si
+ ze: 10.0pt\; font-family: 'Arial'\,'sans-serif'\; color: black\;">Exercic
+ es à la maison sur l'indicatif présent : correction.</span></p><p><span
+  style="font-size: 10.0pt\; font-family: 'Arial'\,'sans-serif'\; color: b
+ lack\;">Interrogation écrite (sur le vocabulaire de la fiche et du&nbsp\
+ ;cours « Reglas de la clase » / Le verbe «&nbsp\;deber» (savoir faire
+  les phrases avec ce verbe) /&nbsp\;Savoir conjuguer&nbsp\;n’importe qu
+ el&nbsp\;verbe régulier&nbsp\;à&nbsp\;l’indicatif présent&nbsp\;(tel
+ s que HABLAR\, DEBER\, VIVIR) / Savoir conjuguer les verbes pronominaux t
+ els que LLAMARSE (qu’ils soient en AR\, ER ou IR) / Savoir faire une ph
+ rase négative)</span></p><p><span style="font-size: 10.0pt\; font-family
+ : 'Arial'\,'sans-serif'\; color: black\;">Vidéo : Voy al cole (Perú) : 
+ CO.</span></p><p><span style="font-size: 10.0pt\; font-family: 'Arial'\,'
+ sans-serif'\; color: black\;">Révision indicatif présent régulier puis
+  verbes à diphtongues à l'indicatif présent.</span></p><p><span style=
+ "font-size: 10.0pt\; font-family: 'Arial'\,'sans-serif'\; color: black\;"
+ >Interrogation écrite sur les verbes à diphtongues.</span></p><p><span 
+ style="font-size: 10.0pt\; font-family: 'Arial'\,'sans-serif'\; color: bl
+ ack\;">EE personnelle à partir de la vidéo (y tú ¿cómo te sientes...
+  ? / ¿ Con qué sueñas...?)</span></p><p><span style="font-size: 10.0pt
+ \; font-family: 'Arial'\,'sans-serif'\; color: black\;">Verbes à affaibl
+ issement (vestir) à l'indicatif présent et EE.</span></p><p><span style
+ ="font-size: 10.0pt\; font-family: 'Arial'\,'sans-serif'\; color: black\;
+ ">IR* indicatif présent et EE et EO.</span></p><p><span style="font-size
+ : 10.0pt\; font-family: 'Arial'\,'sans-serif'\; color: black\;">Interroga
+ tion écrite (sur : les verbes à diphtongues\, à affaiblissement et le 
+ verbe IR* / Savoir les conjuguer à l’indicatif présent dans des phras
+ es)</span></p><p><span style="font-size: 10.0pt\; font-family: 'Arial'\,'
+ sans-serif'\; color: black\;">On range les verbes dans les colonnes.</spa
+ n></p><p><span style="font-size: 10.0pt\; font-family: 'Arial'\,'sans-ser
+ if'\;">&nbsp\;</span></p><p><u><span style="font-size: 10.0pt\; font-fami
+ ly: 'Arial'\,'sans-serif'\;">El sistema escolar y los horarios en España
+ </span></u><span style="font-size: 10.0pt\; font-family: 'Arial'\,'sans-s
+ erif'\;">&nbsp\;: CE.</span></p><p><u><span style="font-size: 10.0pt\; fo
+ nt-family: 'Arial'\,'sans-serif'\;">El horario de Élève05</span></u><sp
+ an style="font-size: 10.0pt\; font-family: 'Arial'\,'sans-serif'\;">&nbsp
+ \;: (révision des jours)\, CE et EE (a qué hora / cuándo...)\, las asi
+ gnaturas. EOI.</span></p><p><span style="font-size: 10.0pt\; font-family:
+  'Arial'\,'sans-serif'\;">EE avec «&nbsp\;volver&nbsp\;»\, «&nbsp\;a&n
+ bsp\;»&nbsp\;: mouvement\, </span></p><p><u><span style="font-size: 10.0
+ pt\; font-family: 'Arial'\,'sans-serif'\;">¿ Está bien comer bocadillos
+  durante el recreo en el instituto&nbsp\;?</span></u><span style="font-si
+ ze: 10.0pt\; font-family: 'Arial'\,'sans-serif'\;"> CE&nbsp\;: devoir à 
+ la maison et correction. Révision des aliments. Jeu par équipes pour m
+ émoriser le vocabulaire de ces fiches.</span></p><p><span style="font-si
+ ze: 10.0pt\; font-family: 'Arial'\,'sans-serif'\;">&nbsp\;</span></p><p><
+ strong><span style="font-size: 10.0pt\; font-family: 'Arial'\,'sans-serif
+ '\;">Interrogation écrite</span></strong><span style="font-size: 10.0pt\
+ ; font-family: 'Arial'\,'sans-serif'\;"> sur&nbsp\;&nbsp\; TOUT depuis la
+  fiche «&nbsp\;el sistema escolar&nbsp\;» :</span></p><p><span style="f
+ ont-size: 10.0pt\; font-family: 'Arial'\,'sans-serif'\;">mientras que / e
+ n cambio </span></p><p><span style="font-size: 10.0pt\; font-family: 'Ari
+ al'\,'sans-serif'\;">TENER* (avoir)</span></p><p><span style="font-size: 
+ 10.0pt\; font-family: 'Arial'\,'sans-serif'\;">ESTAR* + lieu (être)</spa
+ n></p><p><span style="font-size: 10.0pt\; font-family: 'Arial'\,'sans-ser
+ if'\;">les jours</span></p><p><span style="font-size: 10.0pt\; font-famil
+ y: 'Arial'\,'sans-serif'\;">les matières/disciplines scolaires =&gt\; sa
+ voir faire les questions réponses à partir d’un emploi du temps donn
+ é en français mais à traduire en espagnol</span></p><p><span style="fo
+ nt-size: 10.0pt\; font-family: 'Arial'\,'sans-serif'\;">VOLVER&nbsp\;&nbs
+ p\; A... (revenir/rentrer)</span></p><p><span style="font-size: 10.0pt\; 
+ font-family: 'Arial'\,'sans-serif'\;">EMPEZAR (commencer)</span></p><p><s
+ pan style="font-size: 10.0pt\; font-family: 'Arial'\,'sans-serif'\;">TERM
+ INAR (terminer)</span></p><p><span style="font-size: 10.0pt\; font-family
+ : 'Arial'\,'sans-serif'\;">&nbsp\;ACABAR (finir)</span></p><p><span style
+ ="font-size: 10.0pt\; font-family: 'Arial'\,'sans-serif'\;">Savoir tradui
+ re tous ces verbes en espagnol et savoir les conjuguer à l’indicatif p
+ résent.</span></p><p><span style="font-size: 10.0pt\; font-family: 'Aria
+ l'\,'sans-serif'\;">Connaître les aliments marqués d’un coeur ainsi q
+ u’au moins 10 fruits et 10 légumes avec leurs déterminants</span></p>
+ <p><span style="font-size: 10.0pt\; font-family: 'Arial'\,'sans-serif'\;"
+ >&nbsp\;</span></p><p><u><span style="font-size: 10.0pt\; font-family: 'A
+ rial'\,'sans-serif'\;">Horarios europeos</span></u><span style="font-size
+ : 10.0pt\; font-family: 'Arial'\,'sans-serif'\;">&nbsp\;: CE et EO. HACER
+ * / VER*&nbsp\;: indicatif présent. EE à partir des documents. Les comp
+ aratifs (más/ menos... que\, tan... como) =&gt\; EE et EO.</span></p><p>
+ <span style="font-size: 10.0pt\; font-family: 'Arial'\,'sans-serif'\;">SA
+ LIR*&nbsp\;: indicatif présent. EE avec les comparatifs.Pero\, además\,
+  entonces.</span></p><p><span style="font-size: 10.0pt\; font-family: 'Ar
+ ial'\,'sans-serif'\;">On range les verbes dans les colonnes.</span></p><p
+ ><span style="font-size: 10.0pt\; font-family: 'Arial'\,'sans-serif'\;">D
+ ialogue par 2 entre un élève français et un élève espagnol&nbsp\;(su
+ r les horaires\, le système scolaire\, les rythmes...) : le créer\, le 
+ faire corriger\, l’apprendre et le présenter devant la classe.</span><
+ /p><p><u><span style="font-size: 10.0pt\; font-family: 'Arial'\,'sans-ser
+ if'\;">Ir a la escuela no es tan fácil</span></u><span style="font-size:
+  10.0pt\; font-family: 'Arial'\,'sans-serif'\;">&nbsp\;: así van al cole
+ gio&nbsp\;: vidéo Colombie tyrolienne. CO et EE. Necesitar + nom. «&nbs
+ p\;A&nbsp\;» devant «&nbsp\;dónde&nbsp\;» quand mouvement vers un lie
+ u.</span></p><p><span style="font-size: 10.0pt\; font-family: 'Arial'\,'s
+ ans-serif'\;">PONER* ind présent.</span></p><p><span style="font-size: 1
+ 0.0pt\; font-family: 'Arial'\,'sans-serif'\;">Vidéo&nbsp\;: la escuela e
+ n el lago Titicaca&nbsp\;: CO. SABER* ind présent. Et EE&nbsp\;: los ni
+ ños del reportaje tienen una voluntad de hierro porque...&nbsp\; en efec
+ to /mientras que / sin embargo...</span></p><p><span style="font-size: 10
+ .0pt\; font-family: 'Arial'\,'sans-serif'\;">&nbsp\;</span></p><p><span s
+ tyle="font-size: 10.0pt\; font-family: 'Arial'\,'sans-serif'\;">Faire une
+ <strong> interrogation écrite sur tout depuis «&nbsp\;Horarios europeos
+ &nbsp\;»</strong></span></p><ul><li style="margin: 0cm 0cm .0001pt 36.0p
+ t\;"><span style="font-size: 10.0pt\; font-family: Symbol\;"> </span><spa
+ n style="font-size: 10.0pt\; font-family: 'Arial'\,'sans-serif'\;">Conna
+ ître <strong>conjugaisons</strong> de ver*\, hacer*\, salir*\, poner*\, 
+ saber*</span></li><li style="margin: 0cm 0cm .0001pt 36.0pt\;"><span styl
+ e="font-size: 10.0pt\; font-family: Symbol\;"> </span><span style="font-s
+ ize: 10.0pt\; font-family: 'Arial'\,'sans-serif'\;">Connaître les <stron
+ g>comparatifs</strong> (más... que\, menos... que\, tan... como)</span><
+ /li><li style="margin: 0cm 0cm .0001pt 36.0pt\;"><span style="font-size: 
+ 10.0pt\; font-family: Symbol\;"> </span><span style="font-size: 10.0pt\; 
+ font-family: 'Arial'\,'sans-serif'\;">Savoir poser des questions avec <st
+ rong>adónde\, dónde\,cuánto </strong>tiempo\, <strong>a qué hora</str
+ ong>\, <strong>qué + verbe </strong>(ex : ¿qué hace ella ?)\, cuántas
+  horas...</span></li><li style="margin: 0cm 0cm .0001pt 36.0pt\;"><span s
+ tyle="font-size: 10.0pt\; font-family: Symbol\;"> </span><span style="fon
+ t-size: 10.0pt\; font-family: 'Arial'\,'sans-serif'\;">Savoir <strong>sit
+ uer les pays\, les montagnes et les régions </strong>vus</span></li><li 
+ style="margin: 0cm 0cm .0001pt 36.0pt\;"><span style="font-size: 10.0pt\;
+  font-family: Symbol\;"> </span><span style="font-size: 10.0pt\; font-fam
+ ily: 'Arial'\,'sans-serif'\;">Savoir utiliser «&nbsp\;<strong>necesitar<
+ /strong>» </span></li><li style="margin: 0cm 0cm .0001pt 36.0pt\;"><span
+  style="font-size: 10.0pt\; font-family: Symbol\;"> </span><span style="f
+ ont-size: 10.0pt\; font-family: 'Arial'\,'sans-serif'\;">Savoir écrire u
+ n <strong>texte sur les enfants des reportages =&gt\; vocabulaire</strong
+ ></span></li><li style="margin: 0cm 0cm .0001pt 36.0pt\;"><span style="fo
+ nt-size: 10.0pt\; font-family: Symbol\;"> </span><span style="font-size: 
+ 10.0pt\; font-family: 'Arial'\,'sans-serif'\;">Connaître les <strong>mot
+ s de liaison </strong>(en efecto\, pero\, mientras que\, además\, sin em
+ bargo\, entonces)</span></li></ul><p><span style="font-size: 10.0pt\; fon
+ t-family: 'Arial'\,'sans-serif'\;">CE notée&nbsp\;: <u>a la escuela a ca
+ ballo</u></span></p><p><u><span style="font-size: 10.0pt\; font-family: '
+ Arial'\,'sans-serif'\;">Otros medios de transporte</span></u><span style=
+ "font-size: 10.0pt\; font-family: 'Arial'\,'sans-serif'\;">. CONOCER* ind
+  présent. =&gt\; en la ciudad / un pueblo/el campo&nbsp\;: EE et EOI. </
+ span></p><p><span style="font-size: 10.0pt\; font-family: 'Arial'\,'sans-
+ serif'\;">EO avec des expression vues dans cette séquence\, à bien conj
+ uguer.</span></p><p><span style="font-size: 10.0pt\; font-family: 'Arial'
+ \,'sans-serif'\;">On range les verbes dans les colonnes.</span></p><p><sp
+ an style="font-size: 10.0pt\; font-family: 'Arial'\,'sans-serif'\;">&nbsp
+ \;</span></p><p><strong><u><span style="font-size: 10.0pt\; font-family: 
+ 'Arial'\,'sans-serif'\;">Pour la tâche finale </span></u></strong><stron
+ g><span style="font-size: 10.0pt\; font-family: 'Arial'\,'sans-serif'\;">
+ =&gt\;&nbsp\; ATTENTION :</span></strong></p><p><strong><span style="font
+ -size: 10.0pt\; font-family: 'Arial'\,'sans-serif'\;">tout réviser depui
+ s le début de la séquence : «&nbsp\;Reglas de la clase&nbsp\;»</span>
+ </strong></p><ul><li style="margin: 0cm 0cm .0001pt 36.0pt\;"><span style
+ ="font-size: 10.0pt\; font-family: Symbol\;"> </span><strong><span style=
+ "font-size: 10.0pt\; font-family: 'Arial'\,'sans-serif'\;">Savoir compare
+ r 2 élèves de deux pays différents <u>en écrivant des paragraphes</u>
+ .</span></strong></li><li style="margin: 0cm 0cm .0001pt 36.0pt\;"><span 
+ style="font-size: 10.0pt\; font-family: Symbol\;"> </span><span style="fo
+ nt-size: 10.0pt\; font-family: 'Arial'\,'sans-serif'\;">Savoir dire leur 
+ <strong>prénom</strong>\, leur <strong>âge</strong>\, leur <strong>pays
+ </strong> et leur <strong>région</strong> (connaître les pays hispanoph
+ ones et les régions vus en classe pendant la séquence\, savoir <strong>
+ les situer dans </strong>le <strong>continent</strong>)</span></li><li st
+ yle="margin: 0cm 0cm .0001pt 36.0pt\;"><span style="font-size: 10.0pt\; f
+ ont-family: Symbol\;"> </span><span style="font-size: 10.0pt\; font-famil
+ y: 'Arial'\,'sans-serif'\;">Savoir dire <strong>l’heure (et les demi-he
+ ures) </strong>du lever\, du repas\, du retour\, du coucher avec les <str
+ ong>verbes adaptés bien conjugués</strong></span></li><li style="margin
+ : 0cm 0cm .0001pt 36.0pt\;"><span style="font-size: 10.0pt\; font-family:
+  Symbol\;"> </span><span style="font-size: 10.0pt\; font-family: 'Arial'\
+ ,'sans-serif'\;">Savoir utiliser les <strong>comparatifs</strong> (+\, -\
+ , = ...)</span></li><li style="margin: 0cm 0cm .0001pt 36.0pt\;"><span st
+ yle="font-size: 10.0pt\; font-family: Symbol\;"> </span><span style="font
+ -size: 10.0pt\; font-family: 'Arial'\,'sans-serif'\;">Savoir parler d’u
+ n <strong>trajet\, </strong>d’un<strong> moyen de transport\, </strong>
+ de l’<strong>éloignement\, </strong>d’une<strong> durée</strong></s
+ pan></li><li style="margin: 0cm 0cm .0001pt 36.0pt\;"><span style="font-s
+ ize: 10.0pt\; font-family: Symbol\;"> </span><span style="font-size: 10.0
+ pt\; font-family: 'Arial'\,'sans-serif'\;">Savoir <strong>décrire un uni
+ forme </strong>(scolaire)</span></li><li style="margin: 0cm 0cm .0001pt 3
+ 6.0pt\;"><span style="font-size: 10.0pt\; font-family: Symbol\;"> </span>
+ <span style="font-size: 10.0pt\; font-family: 'Arial'\,'sans-serif'\;">Sa
+ voir parler des <strong>règles de la classe </strong>(verbe «&nbsp\;dev
+ oir&nbsp\;»...)</span></li><li style="margin: 0cm 0cm .0001pt 36.0pt\;">
+ <span style="font-size: 10.0pt\; font-family: Symbol\;"> </span><span sty
+ le="font-size: 10.0pt\; font-family: 'Arial'\,'sans-serif'\;">Savoir parl
+ er d’un <strong>emploi du temps </strong>en fonction des <strong>jours<
+ /strong></span></li><li style="margin: 0cm 0cm .0001pt 36.0pt\;"><span st
+ yle="font-size: 10.0pt\; font-family: Symbol\;"> </span><span style="font
+ -size: 10.0pt\; font-family: 'Arial'\,'sans-serif'\;">Savoir dire si les 
+ élèves sont <strong>enthousiastes\, contents etc</strong>...\, <strong>
+ s’ils veulent avancer</strong>\, s’ils ont un <strong>rêve</strong>.
+ ..</span></li><li style="margin: 0cm 0cm .0001pt 36.0pt\;"><span style="f
+ ont-size: 10.0pt\; font-family: Symbol\;"> </span><span style="font-size:
+  10.0pt\; font-family: 'Arial'\,'sans-serif'\;">Savoir utiliser les <stro
+ ng>mots de liaison </strong>(mais\, alors\, tandis que\, en effet\, parce
+  que\, de plus\, cependant...)</span></li><li style="margin: 0cm 0cm .000
+ 1pt 36.0pt\;"><span style="font-size: 10.0pt\; font-family: Symbol\;"> </
+ span><span style="font-size: 10.0pt\; font-family: 'Arial'\,'sans-serif'\
+ ;">BIEN REVISER LES CONJUGAISONS ET LES CONSTRUCTIONS DE PHRASES\, LES PO
+ INTS DE GRAMMAIRE + LE VOCABULAIRE</span></li></ul><p><span style="font-s
+ ize: 10.0pt\; font-family: 'Arial'\,'sans-serif'\;">&nbsp\;</span></p><p>
+ <span style="font-size: 10.0pt\; font-family: 'Arial'\,'sans-serif'\;">Ex
+ ercices de révisions (écrits) suite au contrôle mal réussi par certai
+ ns. Et correction.</span></p></div>
+COLOR:#F49737
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T203936Z
+UID:Cours-16509-2-20260904T120218Z-Index-Education
+DTSTART:20260908T090500Z
+DTEND:20260908T100000Z
+SUMMARY;LANGUAGE=fr:ESPAGNOL LV2 - ROBERT E. - [4E4 ESP NBIL] - <4EME4> 4E
+ ME4 ESP NBIL
+LOCATION;LANGUAGE=fr:S103
+DESCRIPTION;LANGUAGE=fr:Matière : ESPAGNOL LV2\nProfesseur : ROBERT E.\nG
+ roupe : [4E4 ESP NBIL]\nPartie de classe : &lt\;4EME4&gt\; 4EME4 ESP NBIL
+ \nSalle : S103\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ESPAGNOL LV2<br/>Professeur : ROBE
+ RT E.<br/>Groupe : [4E4 ESP NBIL]<br/>Partie de classe : &lt\;4EME4&gt\; 
+ 4EME4 ESP NBIL<br/>Salle : S103<br/>
+COLOR:#F49737
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260723T170827Z
+UID:Cours-16510-2-20260904T120218Z-Index-Education
+DTSTART:20260910T090500Z
+DTEND:20260910T100000Z
+SUMMARY;LANGUAGE=fr:ESPAGNOL LV2 - ROBERT E. - [4E4 ESP NBIL] - <4EME4> 4E
+ ME4 ESP NBIL
+LOCATION;LANGUAGE=fr:S103
+DESCRIPTION;LANGUAGE=fr:Matière : ESPAGNOL LV2\nProfesseur : ROBERT E.\nG
+ roupe : [4E4 ESP NBIL]\nPartie de classe : &lt\;4EME4&gt\; 4EME4 ESP NBIL
+ \nSalle : S103\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ESPAGNOL LV2<br/>Professeur : ROBE
+ RT E.<br/>Groupe : [4E4 ESP NBIL]<br/>Partie de classe : &lt\;4EME4&gt\; 
+ 4EME4 ESP NBIL<br/>Salle : S103<br/>
+COLOR:#F49737
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T093435Z
+UID:Cours-16643-2-20260904T120218Z-Index-Education
+DTSTART:20260908T125500Z
+DTEND:20260908T135000Z
+SUMMARY;LANGUAGE=fr:MATHEMATIQUES - BERNARD B.
+LOCATION;LANGUAGE=fr:S208
+DESCRIPTION;LANGUAGE=fr:Matière : MATHEMATIQUES\nProfesseur : BERNARD B.\
+ nSalle : S208\n\n<strong>Contenu pédagogique : \n</strong><div style="fo
+ nt-family: arial\,helvetica\,sans-serif\; font-size: 11px\;">II. du cours
+ </div><div style="font-family: arial\,helvetica\,sans-serif\; font-size: 
+ 11px\;">Exercices</div>\n<strong>Donné le 03/09/2026 : \n</strong><div>s
+ igner la charte</div>
+X-ALT-DESC;FMTTYPE=text/html:Matière : MATHEMATIQUES<br/>Professeur : BER
+ NARD B.<br/>Salle : S208<br/><br/><strong>Contenu pédagogique : <br/></s
+ trong><div style="font-family: arial\,helvetica\,sans-serif\; font-size: 
+ 11pt\;">II. du cours</div><div style="font-family: arial\,helvetica\,sans
+ -serif\; font-size: 11pt\;">Exercices</div><br/><strong>Donné le 03/09/2
+ 026 : <br/></strong><div>signer la charte</div>
+COLOR:#AC75AE
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260725T150503Z
+UID:Cours-16673-2-20260904T120218Z-Index-Education
+DTSTART:20260911T125500Z
+DTEND:20260911T135000Z
+SUMMARY;LANGUAGE=fr:HISTOIRE-GEOGRAPHIE - PETIT D.
+LOCATION;LANGUAGE=fr:S201
+DESCRIPTION;LANGUAGE=fr:Matière : HISTOIRE-GEOGRAPHIE\nProfesseur : PETIT
+  D.\nSalle : S201\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : HISTOIRE-GEOGRAPHIE<br/>Professeur
+  : PETIT D.<br/>Salle : S201<br/>
+COLOR:#FFED00
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T195655Z
+UID:Cours-16682-2-20260904T120218Z-Index-Education
+DTSTART:20260908T065500Z
+DTEND:20260908T075000Z
+SUMMARY;LANGUAGE=fr:ANGLAIS LV1 - THOMAS C.
+LOCATION;LANGUAGE=fr:S204
+DESCRIPTION;LANGUAGE=fr:Matière : ANGLAIS LV1\nProfesseur : THOMAS C.\nSa
+ lle : S204\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ANGLAIS LV1<br/>Professeur : THOMA
+ S C.<br/>Salle : S204<br/>
+COLOR:#EC6719
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260820T074311Z
+UID:Cours-16737-2-20260904T120218Z-Index-Education
+DTSTART:20260910T065500Z
+DTEND:20260910T075000Z
+SUMMARY;LANGUAGE=fr:MATHEMATIQUES - BERNARD B.
+LOCATION;LANGUAGE=fr:S208
+DESCRIPTION;LANGUAGE=fr:Matière : MATHEMATIQUES\nProfesseur : BERNARD B.\
+ nSalle : S208\n\n<strong>Contenu pédagogique : \n</strong><div style="fo
+ nt-family: arial\,helvetica\,sans-serif\; font-size: 11px\;">test</div>
+X-ALT-DESC;FMTTYPE=text/html:Matière : MATHEMATIQUES<br/>Professeur : BER
+ NARD B.<br/>Salle : S208<br/><br/><strong>Contenu pédagogique : <br/></s
+ trong><div style="font-family: arial\,helvetica\,sans-serif\; font-size: 
+ 11pt\;">test</div>
+COLOR:#AC75AE
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260721T143441Z
+UID:Cours-16023-3-20260904T120218Z-Index-Education
+DTSTART:20260914T120000Z
+DTEND:20260914T125500Z
+SUMMARY;LANGUAGE=fr:ARTS PLASTIQUES - SIMON K.
+LOCATION;LANGUAGE=fr:S001 Arts Plastiques
+DESCRIPTION;LANGUAGE=fr:Matière : ARTS PLASTIQUES\nProfesseur : SIMON K.\
+ nSalle : S001 Arts Plastiques\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ARTS PLASTIQUES<br/>Professeur : S
+ IMON K.<br/>Salle : S001 Arts Plastiques<br/>
+COLOR:#ED6566
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260721T143945Z
+UID:Cours-16026-3-20260904T120218Z-Index-Education
+DTSTART:20260914T081000Z
+DTEND:20260914T090500Z
+SUMMARY;LANGUAGE=fr:ANGLAIS LV1 - THOMAS C.
+LOCATION;LANGUAGE=fr:S204
+DESCRIPTION;LANGUAGE=fr:Matière : ANGLAIS LV1\nProfesseur : THOMAS C.\nSa
+ lle : S204\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ANGLAIS LV1<br/>Professeur : THOMA
+ S C.<br/>Salle : S204<br/>
+COLOR:#EC6719
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T195102Z
+UID:Cours-16027-3-20260904T120218Z-Index-Education
+DTSTART:20260917T125500Z
+DTEND:20260917T135000Z
+SUMMARY;LANGUAGE=fr:EDUCATION MUSICALE - DURAND G.
+LOCATION;LANGUAGE=fr:S002 Education musicale
+DESCRIPTION;LANGUAGE=fr:Matière : EDUCATION MUSICALE\nProfesseur : DURAND
+  G.\nSalle : S002 Education musicale\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : EDUCATION MUSICALE<br/>Professeur 
+ : DURAND G.<br/>Salle : S002 Education musicale<br/>
+COLOR:#ED679B
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260719T093656Z
+UID:Cours-16029-3-20260904T120218Z-Index-Education
+DTSTART:20260917T110000Z
+DTEND:20260917T125500Z
+SUMMARY;LANGUAGE=fr:ED.PHYSIQUE & SPORT. - RICHARD F.
+DESCRIPTION;LANGUAGE=fr:Matière : ED.PHYSIQUE &amp\; SPORT.\nProfesseur :
+  RICHARD F.\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ED.PHYSIQUE &amp\; SPORT.<br/>Prof
+ esseur : RICHARD F.<br/>
+COLOR:#1E6ADD
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260721T144731Z
+UID:Cours-16034-3-20260904T120218Z-Index-Education
+DTSTART:20260915T120000Z
+DTEND:20260915T125500Z
+SUMMARY;LANGUAGE=fr:FRANCAIS - MARTIN A.
+LOCATION;LANGUAGE=fr:S109
+DESCRIPTION;LANGUAGE=fr:Matière : FRANCAIS\nProfesseur : MARTIN A.\nSalle
+  : S109\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : FRANCAIS<br/>Professeur : MARTIN A
+ .<br/>Salle : S109<br/>
+COLOR:#21BBEF
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260721T144731Z
+UID:Cours-16035-3-20260904T120218Z-Index-Education
+DTSTART:20260914T065500Z
+DTEND:20260914T075000Z
+SUMMARY;LANGUAGE=fr:FRANCAIS - MARTIN A.
+LOCATION;LANGUAGE=fr:S109
+DESCRIPTION;LANGUAGE=fr:Matière : FRANCAIS\nProfesseur : MARTIN A.\nSalle
+  : S109\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : FRANCAIS<br/>Professeur : MARTIN A
+ .<br/>Salle : S109<br/>
+COLOR:#21BBEF
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260721T144731Z
+UID:Cours-16036-3-20260904T120218Z-Index-Education
+DTSTART:20260916T065500Z
+DTEND:20260916T075000Z
+SUMMARY;LANGUAGE=fr:FRANCAIS - MARTIN A.
+LOCATION;LANGUAGE=fr:S109
+DESCRIPTION;LANGUAGE=fr:Matière : FRANCAIS\nProfesseur : MARTIN A.\nSalle
+  : S109\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : FRANCAIS<br/>Professeur : MARTIN A
+ .<br/>Salle : S109<br/>
+COLOR:#21BBEF
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260721T144731Z
+UID:Cours-16037-3-20260904T120218Z-Index-Education
+DTSTART:20260917T081000Z
+DTEND:20260917T090500Z
+SUMMARY;LANGUAGE=fr:FRANCAIS - MARTIN A.
+LOCATION;LANGUAGE=fr:S109
+DESCRIPTION;LANGUAGE=fr:Matière : FRANCAIS\nProfesseur : MARTIN A.\nSalle
+  : S109\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : FRANCAIS<br/>Professeur : MARTIN A
+ .<br/>Salle : S109<br/>
+COLOR:#21BBEF
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260725T150342Z
+UID:Cours-16039-3-20260904T120218Z-Index-Education
+DTSTART:20260915T125500Z
+DTEND:20260915T135000Z
+SUMMARY;LANGUAGE=fr:HISTOIRE-GEOGRAPHIE - PETIT D.
+LOCATION;LANGUAGE=fr:S201
+DESCRIPTION;LANGUAGE=fr:Matière : HISTOIRE-GEOGRAPHIE\nProfesseur : PETIT
+  D.\nSalle : S201\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : HISTOIRE-GEOGRAPHIE<br/>Professeur
+  : PETIT D.<br/>Salle : S201<br/>
+COLOR:#FFED00
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260721T144731Z
+UID:Cours-16040-3-20260904T120218Z-Index-Education
+DTSTART:20260916T081000Z
+DTEND:20260916T090500Z
+SUMMARY;LANGUAGE=fr:HISTOIRE-GEOGRAPHIE - PETIT D.
+LOCATION;LANGUAGE=fr:S201
+DESCRIPTION;LANGUAGE=fr:Matière : HISTOIRE-GEOGRAPHIE\nProfesseur : PETIT
+  D.\nSalle : S201\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : HISTOIRE-GEOGRAPHIE<br/>Professeur
+  : PETIT D.<br/>Salle : S201<br/>
+COLOR:#FFED00
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T093511Z
+UID:Cours-16041-3-20260904T120218Z-Index-Education
+DTSTART:20260914T125500Z
+DTEND:20260914T135000Z
+SUMMARY;LANGUAGE=fr:MATHEMATIQUES - BERNARD B.
+LOCATION;LANGUAGE=fr:S110
+DESCRIPTION;LANGUAGE=fr:Matière : MATHEMATIQUES\nProfesseur : BERNARD B.\
+ nSalle : S110\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : MATHEMATIQUES<br/>Professeur : BER
+ NARD B.<br/>Salle : S110<br/>
+COLOR:#AC75AE
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T093435Z
+UID:Cours-16042-3-20260904T120218Z-Index-Education
+DTSTART:20260915T081000Z
+DTEND:20260915T090500Z
+SUMMARY;LANGUAGE=fr:MATHEMATIQUES - BERNARD B.
+LOCATION;LANGUAGE=fr:S208
+DESCRIPTION;LANGUAGE=fr:Matière : MATHEMATIQUES\nProfesseur : BERNARD B.\
+ nSalle : S208\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : MATHEMATIQUES<br/>Professeur : BER
+ NARD B.<br/>Salle : S208<br/>
+COLOR:#AC75AE
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260820T074333Z
+UID:Cours-16043-3-20260904T120218Z-Index-Education
+DTSTART:20260917T065500Z
+DTEND:20260917T075000Z
+SUMMARY;LANGUAGE=fr:MATHEMATIQUES - BERNARD B.
+LOCATION;LANGUAGE=fr:S207
+DESCRIPTION;LANGUAGE=fr:Matière : MATHEMATIQUES\nProfesseur : BERNARD B.\
+ nSalle : S207\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : MATHEMATIQUES<br/>Professeur : BER
+ NARD B.<br/>Salle : S207<br/>
+COLOR:#AC75AE
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260723T154346Z
+UID:Cours-16365-3-20260904T120218Z-Index-Education
+DTSTART:20260914T140500Z
+DTEND:20260914T150000Z
+SUMMARY;LANGUAGE=fr:ACC. PERSO. MATHEMATIQUES - LEFEBVRE M.\, BERNARD B.
+LOCATION;LANGUAGE=fr:S104 - TECH
+DESCRIPTION;LANGUAGE=fr:Matière : ACC. PERSO. MATHEMATIQUES\nProfesseurs 
+ : LEFEBVRE M.\, BERNARD B.\nSalle : S104 - TECH\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ACC. PERSO. MATHEMATIQUES<br/>Prof
+ esseurs : LEFEBVRE M.\, BERNARD B.<br/>Salle : S104 - TECH<br/>
+COLOR:#AC75AE
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260719T054247Z
+UID:Cours-16432-3-20260904T120218Z-Index-Education
+DTSTART:20260918T060000Z
+DTEND:20260918T072500Z
+SUMMARY;LANGUAGE=fr:TECHNOLOGIE - DUBOIS H. - [4E SCIENCES GR4] - <4EME4> 
+ 4E4 SCIENCES GR1\, <4EME3> 4E3 SCIENCES GR2
+LOCATION;LANGUAGE=fr:S102 - TECH
+DESCRIPTION;LANGUAGE=fr:Matière : TECHNOLOGIE\nProfesseur : DUBOIS H.\nGr
+ oupe : [4E SCIENCES GR4]\nParties de classe : &lt\;4EME4&gt\; 4E4 SCIENCE
+ S GR1\, &lt\;4EME3&gt\; 4E3 SCIENCES GR2\nSalle : S102 - TECH\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : TECHNOLOGIE<br/>Professeur : DUBOI
+ S H.<br/>Groupe : [4E SCIENCES GR4]<br/>Parties de classe : &lt\;4EME4&gt
+ \; 4E4 SCIENCES GR1\, &lt\;4EME3&gt\; 4E3 SCIENCES GR2<br/>Salle : S102 -
+  TECH<br/>
+COLOR:#325A69
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260719T054650Z
+UID:Cours-16433-3-20260904T120218Z-Index-Education
+DTSTART:20260918T072500Z
+DTEND:20260918T090500Z
+SUMMARY;LANGUAGE=fr:SCIENCES VIE & TERRE - MOREAU I. - [4E SCIENCES GR4] -
+  <4EME4> 4E4 SCIENCES GR1\, <4EME3> 4E3 SCIENCES GR2
+LOCATION;LANGUAGE=fr:S103 - Sciences
+DESCRIPTION;LANGUAGE=fr:Matière : SCIENCES VIE &amp\; TERRE\nProfesseur :
+  MOREAU I.\nGroupe : [4E SCIENCES GR4]\nParties de classe : &lt\;4EME4&gt
+ \; 4E4 SCIENCES GR1\, &lt\;4EME3&gt\; 4E3 SCIENCES GR2\nSalle : S103 - Sc
+ iences\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : SCIENCES VIE &amp\; TERRE<br/>Prof
+ esseur : MOREAU I.<br/>Groupe : [4E SCIENCES GR4]<br/>Parties de classe :
+  &lt\;4EME4&gt\; 4E4 SCIENCES GR1\, &lt\;4EME3&gt\; 4E3 SCIENCES GR2<br/>
+ Salle : S103 - Sciences<br/>
+COLOR:#75B951
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260719T055008Z
+UID:Cours-16443-3-20260904T120218Z-Index-Education
+DTSTART:20260918T090500Z
+DTEND:20260918T103000Z
+SUMMARY;LANGUAGE=fr:PHYSIQUE-CHIMIE - LAURENT J. - [4E SCIENCES GR4] - <4E
+ ME4> 4E4 SCIENCES GR1\, <4EME3> 4E3 SCIENCES GR2
+LOCATION;LANGUAGE=fr:S101 - Sciences
+DESCRIPTION;LANGUAGE=fr:Matière : PHYSIQUE-CHIMIE\nProfesseur : LAURENT J
+ .\nGroupe : [4E SCIENCES GR4]\nParties de classe : &lt\;4EME4&gt\; 4E4 SC
+ IENCES GR1\, &lt\;4EME3&gt\; 4E3 SCIENCES GR2\nSalle : S101 - Sciences\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : PHYSIQUE-CHIMIE<br/>Professeur : L
+ AURENT J.<br/>Groupe : [4E SCIENCES GR4]<br/>Parties de classe : &lt\;4EM
+ E4&gt\; 4E4 SCIENCES GR1\, &lt\;4EME3&gt\; 4E3 SCIENCES GR2<br/>Salle : S
+ 101 - Sciences<br/>
+COLOR:#4B95B4
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260719T143739Z
+UID:Cours-16508-3-20260904T120218Z-Index-Education
+DTSTART:20260914T090500Z
+DTEND:20260914T100000Z
+SUMMARY;LANGUAGE=fr:ESPAGNOL LV2 - ROBERT E. - [4E4 ESP NBIL] - <4EME4> 4E
+ ME4 ESP NBIL
+LOCATION;LANGUAGE=fr:S103
+DESCRIPTION;LANGUAGE=fr:Matière : ESPAGNOL LV2\nProfesseur : ROBERT E.\nG
+ roupe : [4E4 ESP NBIL]\nPartie de classe : &lt\;4EME4&gt\; 4EME4 ESP NBIL
+ \nSalle : S103\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ESPAGNOL LV2<br/>Professeur : ROBE
+ RT E.<br/>Groupe : [4E4 ESP NBIL]<br/>Partie de classe : &lt\;4EME4&gt\; 
+ 4EME4 ESP NBIL<br/>Salle : S103<br/>
+COLOR:#F49737
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T203936Z
+UID:Cours-16509-3-20260904T120218Z-Index-Education
+DTSTART:20260915T090500Z
+DTEND:20260915T100000Z
+SUMMARY;LANGUAGE=fr:ESPAGNOL LV2 - ROBERT E. - [4E4 ESP NBIL] - <4EME4> 4E
+ ME4 ESP NBIL
+LOCATION;LANGUAGE=fr:S103
+DESCRIPTION;LANGUAGE=fr:Matière : ESPAGNOL LV2\nProfesseur : ROBERT E.\nG
+ roupe : [4E4 ESP NBIL]\nPartie de classe : &lt\;4EME4&gt\; 4EME4 ESP NBIL
+ \nSalle : S103\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ESPAGNOL LV2<br/>Professeur : ROBE
+ RT E.<br/>Groupe : [4E4 ESP NBIL]<br/>Partie de classe : &lt\;4EME4&gt\; 
+ 4EME4 ESP NBIL<br/>Salle : S103<br/>
+COLOR:#F49737
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260723T170433Z
+UID:Cours-16642-3-20260904T120218Z-Index-Education
+DTSTART:20260917T090500Z
+DTEND:20260917T100000Z
+SUMMARY;LANGUAGE=fr:ANGLAIS LV1 - THOMAS C.
+LOCATION;LANGUAGE=fr:S204
+DESCRIPTION;LANGUAGE=fr:Matière : ANGLAIS LV1\nProfesseur : THOMAS C.\nSa
+ lle : S204\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ANGLAIS LV1<br/>Professeur : THOMA
+ S C.<br/>Salle : S204<br/>
+COLOR:#EC6719
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260725T150503Z
+UID:Cours-16673-3-20260904T120218Z-Index-Education
+DTSTART:20260918T125500Z
+DTEND:20260918T135000Z
+SUMMARY;LANGUAGE=fr:HISTOIRE-GEOGRAPHIE - PETIT D.
+LOCATION;LANGUAGE=fr:S201
+DESCRIPTION;LANGUAGE=fr:Matière : HISTOIRE-GEOGRAPHIE\nProfesseur : PETIT
+  D.\nSalle : S201\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : HISTOIRE-GEOGRAPHIE<br/>Professeur
+  : PETIT D.<br/>Salle : S201<br/>
+COLOR:#FFED00
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260725T082146Z
+UID:Cours-16677-3-20260904T120218Z-Index-Education
+DTSTART:20260916T060000Z
+DTEND:20260916T065500Z
+SUMMARY;LANGUAGE=fr:HISTOIRE-GEOGRAPHIE - PETIT D.
+LOCATION;LANGUAGE=fr:S201
+DESCRIPTION;LANGUAGE=fr:Matière : HISTOIRE-GEOGRAPHIE\nProfesseur : PETIT
+  D.\nSalle : S201\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : HISTOIRE-GEOGRAPHIE<br/>Professeur
+  : PETIT D.<br/>Salle : S201<br/>
+COLOR:#FFED00
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T195655Z
+UID:Cours-16682-3-20260904T120218Z-Index-Education
+DTSTART:20260915T065500Z
+DTEND:20260915T075000Z
+SUMMARY;LANGUAGE=fr:ANGLAIS LV1 - THOMAS C.
+LOCATION;LANGUAGE=fr:S204
+DESCRIPTION;LANGUAGE=fr:Matière : ANGLAIS LV1\nProfesseur : THOMAS C.\nSa
+ lle : S204\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ANGLAIS LV1<br/>Professeur : THOMA
+ S C.<br/>Salle : S204<br/>
+COLOR:#EC6719
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T131144Z
+UID:Cours-16696-3-20260904T120218Z-Index-Education
+DTSTART:20260914T060000Z
+DTEND:20260914T065500Z
+SUMMARY;LANGUAGE=fr:VIE DE CLASSE - MARTIN A.
+LOCATION;LANGUAGE=fr:S109
+DESCRIPTION;LANGUAGE=fr:Matière : VIE DE CLASSE\nProfesseur : MARTIN A.\n
+ Salle : S109\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : VIE DE CLASSE<br/>Professeur : MAR
+ TIN A.<br/>Salle : S109<br/>
+COLOR:#C93E69
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260721T143441Z
+UID:Cours-16023-4-20260904T120218Z-Index-Education
+DTSTART:20260921T120000Z
+DTEND:20260921T125500Z
+SUMMARY;LANGUAGE=fr:ARTS PLASTIQUES - SIMON K.
+LOCATION;LANGUAGE=fr:S001 Arts Plastiques
+DESCRIPTION;LANGUAGE=fr:Matière : ARTS PLASTIQUES\nProfesseur : SIMON K.\
+ nSalle : S001 Arts Plastiques\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ARTS PLASTIQUES<br/>Professeur : S
+ IMON K.<br/>Salle : S001 Arts Plastiques<br/>
+COLOR:#ED6566
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260723T173018Z
+UID:Cours-16024-4-20260904T120218Z-Index-Education
+DTSTART:20260923T060000Z
+DTEND:20260923T065500Z
+SUMMARY;LANGUAGE=fr:ANGLAIS LV1 - THOMAS C.
+LOCATION;LANGUAGE=fr:S204
+DESCRIPTION;LANGUAGE=fr:Matière : ANGLAIS LV1\nProfesseur : THOMAS C.\nSa
+ lle : S204\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ANGLAIS LV1<br/>Professeur : THOMA
+ S C.<br/>Salle : S204<br/>
+COLOR:#EC6719
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260721T143945Z
+UID:Cours-16026-4-20260904T120218Z-Index-Education
+DTSTART:20260921T081000Z
+DTEND:20260921T090500Z
+SUMMARY;LANGUAGE=fr:ANGLAIS LV1 - THOMAS C.
+LOCATION;LANGUAGE=fr:S204
+DESCRIPTION;LANGUAGE=fr:Matière : ANGLAIS LV1\nProfesseur : THOMAS C.\nSa
+ lle : S204\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ANGLAIS LV1<br/>Professeur : THOMA
+ S C.<br/>Salle : S204<br/>
+COLOR:#EC6719
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T195102Z
+UID:Cours-16027-4-20260904T120218Z-Index-Education
+DTSTART:20260924T125500Z
+DTEND:20260924T135000Z
+SUMMARY;LANGUAGE=fr:EDUCATION MUSICALE - DURAND G.
+LOCATION;LANGUAGE=fr:S002 Education musicale
+DESCRIPTION;LANGUAGE=fr:Matière : EDUCATION MUSICALE\nProfesseur : DURAND
+  G.\nSalle : S002 Education musicale\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : EDUCATION MUSICALE<br/>Professeur 
+ : DURAND G.<br/>Salle : S002 Education musicale<br/>
+COLOR:#ED679B
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260723T172306Z
+UID:Cours-16028-4-20260904T120218Z-Index-Education
+DTSTART:20260923T081000Z
+DTEND:20260923T090500Z
+SUMMARY;LANGUAGE=fr:ENS. MORAL & CIVIQUE - PETIT D.
+LOCATION;LANGUAGE=fr:S201
+DESCRIPTION;LANGUAGE=fr:Matière : ENS. MORAL &amp\; CIVIQUE\nProfesseur :
+  PETIT D.\nSalle : S201\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ENS. MORAL &amp\; CIVIQUE<br/>Prof
+ esseur : PETIT D.<br/>Salle : S201<br/>
+COLOR:#FFED00
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260719T093656Z
+UID:Cours-16029-4-20260904T120218Z-Index-Education
+DTSTART:20260924T110000Z
+DTEND:20260924T125500Z
+SUMMARY;LANGUAGE=fr:ED.PHYSIQUE & SPORT. - RICHARD F.
+DESCRIPTION;LANGUAGE=fr:Matière : ED.PHYSIQUE &amp\; SPORT.\nProfesseur :
+  RICHARD F.\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ED.PHYSIQUE &amp\; SPORT.<br/>Prof
+ esseur : RICHARD F.<br/>
+COLOR:#1E6ADD
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260719T093723Z
+UID:Cours-16030-4-20260904T120218Z-Index-Education
+DTSTART:20260921T125500Z
+DTEND:20260921T150000Z
+SUMMARY;LANGUAGE=fr:ED.PHYSIQUE & SPORT. - RICHARD F.
+DESCRIPTION;LANGUAGE=fr:Matière : ED.PHYSIQUE &amp\; SPORT.\nProfesseur :
+  RICHARD F.\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ED.PHYSIQUE &amp\; SPORT.<br/>Prof
+ esseur : RICHARD F.<br/>
+COLOR:#1E6ADD
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260721T144731Z
+UID:Cours-16034-4-20260904T120218Z-Index-Education
+DTSTART:20260922T120000Z
+DTEND:20260922T125500Z
+SUMMARY;LANGUAGE=fr:FRANCAIS - MARTIN A.
+LOCATION;LANGUAGE=fr:S109
+DESCRIPTION;LANGUAGE=fr:Matière : FRANCAIS\nProfesseur : MARTIN A.\nSalle
+  : S109\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : FRANCAIS<br/>Professeur : MARTIN A
+ .<br/>Salle : S109<br/>
+COLOR:#21BBEF
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260721T144731Z
+UID:Cours-16035-4-20260904T120218Z-Index-Education
+DTSTART:20260921T065500Z
+DTEND:20260921T075000Z
+SUMMARY;LANGUAGE=fr:FRANCAIS - MARTIN A.
+LOCATION;LANGUAGE=fr:S109
+DESCRIPTION;LANGUAGE=fr:Matière : FRANCAIS\nProfesseur : MARTIN A.\nSalle
+  : S109\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : FRANCAIS<br/>Professeur : MARTIN A
+ .<br/>Salle : S109<br/>
+COLOR:#21BBEF
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260721T144731Z
+UID:Cours-16036-4-20260904T120218Z-Index-Education
+DTSTART:20260923T065500Z
+DTEND:20260923T075000Z
+SUMMARY;LANGUAGE=fr:FRANCAIS - MARTIN A.
+LOCATION;LANGUAGE=fr:S109
+DESCRIPTION;LANGUAGE=fr:Matière : FRANCAIS\nProfesseur : MARTIN A.\nSalle
+  : S109\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : FRANCAIS<br/>Professeur : MARTIN A
+ .<br/>Salle : S109<br/>
+COLOR:#21BBEF
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260721T144731Z
+UID:Cours-16037-4-20260904T120218Z-Index-Education
+DTSTART:20260924T081000Z
+DTEND:20260924T090500Z
+SUMMARY;LANGUAGE=fr:FRANCAIS - MARTIN A.
+LOCATION;LANGUAGE=fr:S109
+DESCRIPTION;LANGUAGE=fr:Matière : FRANCAIS\nProfesseur : MARTIN A.\nSalle
+  : S109\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : FRANCAIS<br/>Professeur : MARTIN A
+ .<br/>Salle : S109<br/>
+COLOR:#21BBEF
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T093435Z
+UID:Cours-16042-4-20260904T120218Z-Index-Education
+DTSTART:20260922T081000Z
+DTEND:20260922T090500Z
+SUMMARY;LANGUAGE=fr:MATHEMATIQUES - BERNARD B.
+LOCATION;LANGUAGE=fr:S208
+DESCRIPTION;LANGUAGE=fr:Matière : MATHEMATIQUES\nProfesseur : BERNARD B.\
+ nSalle : S208\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : MATHEMATIQUES<br/>Professeur : BER
+ NARD B.<br/>Salle : S208<br/>
+COLOR:#AC75AE
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260725T090245Z
+UID:Cours-16360-4-20260904T120218Z-Index-Education
+DTSTART:20260921T060000Z
+DTEND:20260921T065500Z
+SUMMARY;LANGUAGE=fr:ACC. PERSO. FRANCAIS - MARTIN A.\, MICHEL L.
+LOCATION;LANGUAGE=fr:S109
+DESCRIPTION;LANGUAGE=fr:Matière : ACC. PERSO. FRANCAIS\nProfesseurs : MAR
+ TIN A.\, MICHEL L.\nSalle : S109\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ACC. PERSO. FRANCAIS<br/>Professeu
+ rs : MARTIN A.\, MICHEL L.<br/>Salle : S109<br/>
+COLOR:#21BBEF
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260719T054247Z
+UID:Cours-16432-4-20260904T120218Z-Index-Education
+DTSTART:20260925T060000Z
+DTEND:20260925T072500Z
+SUMMARY;LANGUAGE=fr:TECHNOLOGIE - DUBOIS H. - [4E SCIENCES GR4] - <4EME4> 
+ 4E4 SCIENCES GR1\, <4EME3> 4E3 SCIENCES GR2
+LOCATION;LANGUAGE=fr:S102 - TECH
+DESCRIPTION;LANGUAGE=fr:Matière : TECHNOLOGIE\nProfesseur : DUBOIS H.\nGr
+ oupe : [4E SCIENCES GR4]\nParties de classe : &lt\;4EME4&gt\; 4E4 SCIENCE
+ S GR1\, &lt\;4EME3&gt\; 4E3 SCIENCES GR2\nSalle : S102 - TECH\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : TECHNOLOGIE<br/>Professeur : DUBOI
+ S H.<br/>Groupe : [4E SCIENCES GR4]<br/>Parties de classe : &lt\;4EME4&gt
+ \; 4E4 SCIENCES GR1\, &lt\;4EME3&gt\; 4E3 SCIENCES GR2<br/>Salle : S102 -
+  TECH<br/>
+COLOR:#325A69
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260719T054650Z
+UID:Cours-16433-4-20260904T120218Z-Index-Education
+DTSTART:20260925T072500Z
+DTEND:20260925T090500Z
+SUMMARY;LANGUAGE=fr:SCIENCES VIE & TERRE - MOREAU I. - [4E SCIENCES GR4] -
+  <4EME4> 4E4 SCIENCES GR1\, <4EME3> 4E3 SCIENCES GR2
+LOCATION;LANGUAGE=fr:S103 - Sciences
+DESCRIPTION;LANGUAGE=fr:Matière : SCIENCES VIE &amp\; TERRE\nProfesseur :
+  MOREAU I.\nGroupe : [4E SCIENCES GR4]\nParties de classe : &lt\;4EME4&gt
+ \; 4E4 SCIENCES GR1\, &lt\;4EME3&gt\; 4E3 SCIENCES GR2\nSalle : S103 - Sc
+ iences\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : SCIENCES VIE &amp\; TERRE<br/>Prof
+ esseur : MOREAU I.<br/>Groupe : [4E SCIENCES GR4]<br/>Parties de classe :
+  &lt\;4EME4&gt\; 4E4 SCIENCES GR1\, &lt\;4EME3&gt\; 4E3 SCIENCES GR2<br/>
+ Salle : S103 - Sciences<br/>
+COLOR:#75B951
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260719T055008Z
+UID:Cours-16443-4-20260904T120218Z-Index-Education
+DTSTART:20260925T090500Z
+DTEND:20260925T103000Z
+SUMMARY;LANGUAGE=fr:PHYSIQUE-CHIMIE - LAURENT J. - [4E SCIENCES GR4] - <4E
+ ME4> 4E4 SCIENCES GR1\, <4EME3> 4E3 SCIENCES GR2
+LOCATION;LANGUAGE=fr:S101 - Sciences
+DESCRIPTION;LANGUAGE=fr:Matière : PHYSIQUE-CHIMIE\nProfesseur : LAURENT J
+ .\nGroupe : [4E SCIENCES GR4]\nParties de classe : &lt\;4EME4&gt\; 4E4 SC
+ IENCES GR1\, &lt\;4EME3&gt\; 4E3 SCIENCES GR2\nSalle : S101 - Sciences\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : PHYSIQUE-CHIMIE<br/>Professeur : L
+ AURENT J.<br/>Groupe : [4E SCIENCES GR4]<br/>Parties de classe : &lt\;4EM
+ E4&gt\; 4E4 SCIENCES GR1\, &lt\;4EME3&gt\; 4E3 SCIENCES GR2<br/>Salle : S
+ 101 - Sciences<br/>
+COLOR:#4B95B4
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260719T143739Z
+UID:Cours-16508-4-20260904T120218Z-Index-Education
+DTSTART:20260921T090500Z
+DTEND:20260921T100000Z
+SUMMARY;LANGUAGE=fr:ESPAGNOL LV2 - ROBERT E. - [4E4 ESP NBIL] - <4EME4> 4E
+ ME4 ESP NBIL
+LOCATION;LANGUAGE=fr:S103
+DESCRIPTION;LANGUAGE=fr:Matière : ESPAGNOL LV2\nProfesseur : ROBERT E.\nG
+ roupe : [4E4 ESP NBIL]\nPartie de classe : &lt\;4EME4&gt\; 4EME4 ESP NBIL
+ \nSalle : S103\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ESPAGNOL LV2<br/>Professeur : ROBE
+ RT E.<br/>Groupe : [4E4 ESP NBIL]<br/>Partie de classe : &lt\;4EME4&gt\; 
+ 4EME4 ESP NBIL<br/>Salle : S103<br/>
+COLOR:#F49737
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T203936Z
+UID:Cours-16509-4-20260904T120218Z-Index-Education
+DTSTART:20260922T090500Z
+DTEND:20260922T100000Z
+SUMMARY;LANGUAGE=fr:ESPAGNOL LV2 - ROBERT E. - [4E4 ESP NBIL] - <4EME4> 4E
+ ME4 ESP NBIL
+LOCATION;LANGUAGE=fr:S103
+DESCRIPTION;LANGUAGE=fr:Matière : ESPAGNOL LV2\nProfesseur : ROBERT E.\nG
+ roupe : [4E4 ESP NBIL]\nPartie de classe : &lt\;4EME4&gt\; 4EME4 ESP NBIL
+ \nSalle : S103\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ESPAGNOL LV2<br/>Professeur : ROBE
+ RT E.<br/>Groupe : [4E4 ESP NBIL]<br/>Partie de classe : &lt\;4EME4&gt\; 
+ 4EME4 ESP NBIL<br/>Salle : S103<br/>
+COLOR:#F49737
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260723T170827Z
+UID:Cours-16510-4-20260904T120218Z-Index-Education
+DTSTART:20260924T090500Z
+DTEND:20260924T100000Z
+SUMMARY;LANGUAGE=fr:ESPAGNOL LV2 - ROBERT E. - [4E4 ESP NBIL] - <4EME4> 4E
+ ME4 ESP NBIL
+LOCATION;LANGUAGE=fr:S103
+DESCRIPTION;LANGUAGE=fr:Matière : ESPAGNOL LV2\nProfesseur : ROBERT E.\nG
+ roupe : [4E4 ESP NBIL]\nPartie de classe : &lt\;4EME4&gt\; 4EME4 ESP NBIL
+ \nSalle : S103\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ESPAGNOL LV2<br/>Professeur : ROBE
+ RT E.<br/>Groupe : [4E4 ESP NBIL]<br/>Partie de classe : &lt\;4EME4&gt\; 
+ 4EME4 ESP NBIL<br/>Salle : S103<br/>
+COLOR:#F49737
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T093435Z
+UID:Cours-16643-4-20260904T120218Z-Index-Education
+DTSTART:20260922T125500Z
+DTEND:20260922T135000Z
+SUMMARY;LANGUAGE=fr:MATHEMATIQUES - BERNARD B.
+LOCATION;LANGUAGE=fr:S208
+DESCRIPTION;LANGUAGE=fr:Matière : MATHEMATIQUES\nProfesseur : BERNARD B.\
+ nSalle : S208\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : MATHEMATIQUES<br/>Professeur : BER
+ NARD B.<br/>Salle : S208<br/>
+COLOR:#AC75AE
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260725T150503Z
+UID:Cours-16673-4-20260904T120218Z-Index-Education
+DTSTART:20260925T125500Z
+DTEND:20260925T135000Z
+SUMMARY;LANGUAGE=fr:HISTOIRE-GEOGRAPHIE - PETIT D.
+LOCATION;LANGUAGE=fr:S201
+DESCRIPTION;LANGUAGE=fr:Matière : HISTOIRE-GEOGRAPHIE\nProfesseur : PETIT
+  D.\nSalle : S201\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : HISTOIRE-GEOGRAPHIE<br/>Professeur
+  : PETIT D.<br/>Salle : S201<br/>
+COLOR:#FFED00
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T195655Z
+UID:Cours-16682-4-20260904T120218Z-Index-Education
+DTSTART:20260922T065500Z
+DTEND:20260922T075000Z
+SUMMARY;LANGUAGE=fr:ANGLAIS LV1 - THOMAS C.
+LOCATION;LANGUAGE=fr:S204
+DESCRIPTION;LANGUAGE=fr:Matière : ANGLAIS LV1\nProfesseur : THOMAS C.\nSa
+ lle : S204\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ANGLAIS LV1<br/>Professeur : THOMA
+ S C.<br/>Salle : S204<br/>
+COLOR:#EC6719
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260820T074311Z
+UID:Cours-16737-4-20260904T120218Z-Index-Education
+DTSTART:20260924T065500Z
+DTEND:20260924T075000Z
+SUMMARY;LANGUAGE=fr:MATHEMATIQUES - BERNARD B.
+LOCATION;LANGUAGE=fr:S208
+DESCRIPTION;LANGUAGE=fr:Matière : MATHEMATIQUES\nProfesseur : BERNARD B.\
+ nSalle : S208\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : MATHEMATIQUES<br/>Professeur : BER
+ NARD B.<br/>Salle : S208<br/>
+COLOR:#AC75AE
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260721T143441Z
+UID:Cours-16023-5-20260904T120218Z-Index-Education
+DTSTART:20260928T120000Z
+DTEND:20260928T125500Z
+SUMMARY;LANGUAGE=fr:ARTS PLASTIQUES - SIMON K.
+LOCATION;LANGUAGE=fr:S001 Arts Plastiques
+DESCRIPTION;LANGUAGE=fr:Matière : ARTS PLASTIQUES\nProfesseur : SIMON K.\
+ nSalle : S001 Arts Plastiques\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ARTS PLASTIQUES<br/>Professeur : S
+ IMON K.<br/>Salle : S001 Arts Plastiques<br/>
+COLOR:#ED6566
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260721T143945Z
+UID:Cours-16026-5-20260904T120218Z-Index-Education
+DTSTART:20260928T081000Z
+DTEND:20260928T090500Z
+SUMMARY;LANGUAGE=fr:ANGLAIS LV1 - THOMAS C.
+LOCATION;LANGUAGE=fr:S204
+DESCRIPTION;LANGUAGE=fr:Matière : ANGLAIS LV1\nProfesseur : THOMAS C.\nSa
+ lle : S204\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ANGLAIS LV1<br/>Professeur : THOMA
+ S C.<br/>Salle : S204<br/>
+COLOR:#EC6719
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T195102Z
+UID:Cours-16027-5-20260904T120218Z-Index-Education
+DTSTART:20261001T125500Z
+DTEND:20261001T135000Z
+SUMMARY;LANGUAGE=fr:EDUCATION MUSICALE - DURAND G.
+LOCATION;LANGUAGE=fr:S002 Education musicale
+DESCRIPTION;LANGUAGE=fr:Matière : EDUCATION MUSICALE\nProfesseur : DURAND
+  G.\nSalle : S002 Education musicale\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : EDUCATION MUSICALE<br/>Professeur 
+ : DURAND G.<br/>Salle : S002 Education musicale<br/>
+COLOR:#ED679B
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260719T093656Z
+UID:Cours-16029-5-20260904T120218Z-Index-Education
+DTSTART:20261001T110000Z
+DTEND:20261001T125500Z
+SUMMARY;LANGUAGE=fr:ED.PHYSIQUE & SPORT. - RICHARD F.
+DESCRIPTION;LANGUAGE=fr:Matière : ED.PHYSIQUE &amp\; SPORT.\nProfesseur :
+  RICHARD F.\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ED.PHYSIQUE &amp\; SPORT.<br/>Prof
+ esseur : RICHARD F.<br/>
+COLOR:#1E6ADD
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260721T144731Z
+UID:Cours-16034-5-20260904T120218Z-Index-Education
+DTSTART:20260929T120000Z
+DTEND:20260929T125500Z
+SUMMARY;LANGUAGE=fr:FRANCAIS - MARTIN A.
+LOCATION;LANGUAGE=fr:S109
+DESCRIPTION;LANGUAGE=fr:Matière : FRANCAIS\nProfesseur : MARTIN A.\nSalle
+  : S109\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : FRANCAIS<br/>Professeur : MARTIN A
+ .<br/>Salle : S109<br/>
+COLOR:#21BBEF
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260721T144731Z
+UID:Cours-16035-5-20260904T120218Z-Index-Education
+DTSTART:20260928T065500Z
+DTEND:20260928T075000Z
+SUMMARY;LANGUAGE=fr:FRANCAIS - MARTIN A.
+LOCATION;LANGUAGE=fr:S109
+DESCRIPTION;LANGUAGE=fr:Matière : FRANCAIS\nProfesseur : MARTIN A.\nSalle
+  : S109\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : FRANCAIS<br/>Professeur : MARTIN A
+ .<br/>Salle : S109<br/>
+COLOR:#21BBEF
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260721T144731Z
+UID:Cours-16036-5-20260904T120218Z-Index-Education
+DTSTART:20260930T065500Z
+DTEND:20260930T075000Z
+SUMMARY;LANGUAGE=fr:FRANCAIS - MARTIN A.
+LOCATION;LANGUAGE=fr:S109
+DESCRIPTION;LANGUAGE=fr:Matière : FRANCAIS\nProfesseur : MARTIN A.\nSalle
+  : S109\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : FRANCAIS<br/>Professeur : MARTIN A
+ .<br/>Salle : S109<br/>
+COLOR:#21BBEF
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260721T144731Z
+UID:Cours-16037-5-20260904T120218Z-Index-Education
+DTSTART:20261001T081000Z
+DTEND:20261001T090500Z
+SUMMARY;LANGUAGE=fr:FRANCAIS - MARTIN A.
+LOCATION;LANGUAGE=fr:S109
+DESCRIPTION;LANGUAGE=fr:Matière : FRANCAIS\nProfesseur : MARTIN A.\nSalle
+  : S109\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : FRANCAIS<br/>Professeur : MARTIN A
+ .<br/>Salle : S109<br/>
+COLOR:#21BBEF
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260725T150342Z
+UID:Cours-16039-5-20260904T120218Z-Index-Education
+DTSTART:20260929T125500Z
+DTEND:20260929T135000Z
+SUMMARY;LANGUAGE=fr:HISTOIRE-GEOGRAPHIE - PETIT D.
+LOCATION;LANGUAGE=fr:S201
+DESCRIPTION;LANGUAGE=fr:Matière : HISTOIRE-GEOGRAPHIE\nProfesseur : PETIT
+  D.\nSalle : S201\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : HISTOIRE-GEOGRAPHIE<br/>Professeur
+  : PETIT D.<br/>Salle : S201<br/>
+COLOR:#FFED00
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260721T144731Z
+UID:Cours-16040-5-20260904T120218Z-Index-Education
+DTSTART:20260930T081000Z
+DTEND:20260930T090500Z
+SUMMARY;LANGUAGE=fr:HISTOIRE-GEOGRAPHIE - PETIT D.
+LOCATION;LANGUAGE=fr:S201
+DESCRIPTION;LANGUAGE=fr:Matière : HISTOIRE-GEOGRAPHIE\nProfesseur : PETIT
+  D.\nSalle : S201\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : HISTOIRE-GEOGRAPHIE<br/>Professeur
+  : PETIT D.<br/>Salle : S201<br/>
+COLOR:#FFED00
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T093511Z
+UID:Cours-16041-5-20260904T120218Z-Index-Education
+DTSTART:20260928T125500Z
+DTEND:20260928T135000Z
+SUMMARY;LANGUAGE=fr:MATHEMATIQUES - BERNARD B.
+LOCATION;LANGUAGE=fr:S110
+DESCRIPTION;LANGUAGE=fr:Matière : MATHEMATIQUES\nProfesseur : BERNARD B.\
+ nSalle : S110\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : MATHEMATIQUES<br/>Professeur : BER
+ NARD B.<br/>Salle : S110<br/>
+COLOR:#AC75AE
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T093435Z
+UID:Cours-16042-5-20260904T120218Z-Index-Education
+DTSTART:20260929T081000Z
+DTEND:20260929T090500Z
+SUMMARY;LANGUAGE=fr:MATHEMATIQUES - BERNARD B.
+LOCATION;LANGUAGE=fr:S208
+DESCRIPTION;LANGUAGE=fr:Matière : MATHEMATIQUES\nProfesseur : BERNARD B.\
+ nSalle : S208\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : MATHEMATIQUES<br/>Professeur : BER
+ NARD B.<br/>Salle : S208<br/>
+COLOR:#AC75AE
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260820T074333Z
+UID:Cours-16043-5-20260904T120218Z-Index-Education
+DTSTART:20261001T065500Z
+DTEND:20261001T075000Z
+SUMMARY;LANGUAGE=fr:MATHEMATIQUES - BERNARD B.
+LOCATION;LANGUAGE=fr:S207
+DESCRIPTION;LANGUAGE=fr:Matière : MATHEMATIQUES\nProfesseur : BERNARD B.\
+ nSalle : S207\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : MATHEMATIQUES<br/>Professeur : BER
+ NARD B.<br/>Salle : S207<br/>
+COLOR:#AC75AE
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260723T154346Z
+UID:Cours-16365-5-20260904T120218Z-Index-Education
+DTSTART:20260928T140500Z
+DTEND:20260928T150000Z
+SUMMARY;LANGUAGE=fr:ACC. PERSO. MATHEMATIQUES - LEFEBVRE M.\, BERNARD B.
+LOCATION;LANGUAGE=fr:S104 - TECH
+DESCRIPTION;LANGUAGE=fr:Matière : ACC. PERSO. MATHEMATIQUES\nProfesseurs 
+ : LEFEBVRE M.\, BERNARD B.\nSalle : S104 - TECH\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ACC. PERSO. MATHEMATIQUES<br/>Prof
+ esseurs : LEFEBVRE M.\, BERNARD B.<br/>Salle : S104 - TECH<br/>
+COLOR:#AC75AE
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260719T054247Z
+UID:Cours-16432-5-20260904T120218Z-Index-Education
+DTSTART:20261002T060000Z
+DTEND:20261002T072500Z
+SUMMARY;LANGUAGE=fr:TECHNOLOGIE - DUBOIS H. - [4E SCIENCES GR4] - <4EME4> 
+ 4E4 SCIENCES GR1\, <4EME3> 4E3 SCIENCES GR2
+LOCATION;LANGUAGE=fr:S102 - TECH
+DESCRIPTION;LANGUAGE=fr:Matière : TECHNOLOGIE\nProfesseur : DUBOIS H.\nGr
+ oupe : [4E SCIENCES GR4]\nParties de classe : &lt\;4EME4&gt\; 4E4 SCIENCE
+ S GR1\, &lt\;4EME3&gt\; 4E3 SCIENCES GR2\nSalle : S102 - TECH\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : TECHNOLOGIE<br/>Professeur : DUBOI
+ S H.<br/>Groupe : [4E SCIENCES GR4]<br/>Parties de classe : &lt\;4EME4&gt
+ \; 4E4 SCIENCES GR1\, &lt\;4EME3&gt\; 4E3 SCIENCES GR2<br/>Salle : S102 -
+  TECH<br/>
+COLOR:#325A69
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260719T054650Z
+UID:Cours-16433-5-20260904T120218Z-Index-Education
+DTSTART:20261002T072500Z
+DTEND:20261002T090500Z
+SUMMARY;LANGUAGE=fr:SCIENCES VIE & TERRE - MOREAU I. - [4E SCIENCES GR4] -
+  <4EME4> 4E4 SCIENCES GR1\, <4EME3> 4E3 SCIENCES GR2
+LOCATION;LANGUAGE=fr:S103 - Sciences
+DESCRIPTION;LANGUAGE=fr:Matière : SCIENCES VIE &amp\; TERRE\nProfesseur :
+  MOREAU I.\nGroupe : [4E SCIENCES GR4]\nParties de classe : &lt\;4EME4&gt
+ \; 4E4 SCIENCES GR1\, &lt\;4EME3&gt\; 4E3 SCIENCES GR2\nSalle : S103 - Sc
+ iences\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : SCIENCES VIE &amp\; TERRE<br/>Prof
+ esseur : MOREAU I.<br/>Groupe : [4E SCIENCES GR4]<br/>Parties de classe :
+  &lt\;4EME4&gt\; 4E4 SCIENCES GR1\, &lt\;4EME3&gt\; 4E3 SCIENCES GR2<br/>
+ Salle : S103 - Sciences<br/>
+COLOR:#75B951
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260719T055008Z
+UID:Cours-16443-5-20260904T120218Z-Index-Education
+DTSTART:20261002T090500Z
+DTEND:20261002T103000Z
+SUMMARY;LANGUAGE=fr:PHYSIQUE-CHIMIE - LAURENT J. - [4E SCIENCES GR4] - <4E
+ ME4> 4E4 SCIENCES GR1\, <4EME3> 4E3 SCIENCES GR2
+LOCATION;LANGUAGE=fr:S101 - Sciences
+DESCRIPTION;LANGUAGE=fr:Matière : PHYSIQUE-CHIMIE\nProfesseur : LAURENT J
+ .\nGroupe : [4E SCIENCES GR4]\nParties de classe : &lt\;4EME4&gt\; 4E4 SC
+ IENCES GR1\, &lt\;4EME3&gt\; 4E3 SCIENCES GR2\nSalle : S101 - Sciences\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : PHYSIQUE-CHIMIE<br/>Professeur : L
+ AURENT J.<br/>Groupe : [4E SCIENCES GR4]<br/>Parties de classe : &lt\;4EM
+ E4&gt\; 4E4 SCIENCES GR1\, &lt\;4EME3&gt\; 4E3 SCIENCES GR2<br/>Salle : S
+ 101 - Sciences<br/>
+COLOR:#4B95B4
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260719T143739Z
+UID:Cours-16508-5-20260904T120218Z-Index-Education
+DTSTART:20260928T090500Z
+DTEND:20260928T100000Z
+SUMMARY;LANGUAGE=fr:ESPAGNOL LV2 - ROBERT E. - [4E4 ESP NBIL] - <4EME4> 4E
+ ME4 ESP NBIL
+LOCATION;LANGUAGE=fr:S103
+DESCRIPTION;LANGUAGE=fr:Matière : ESPAGNOL LV2\nProfesseur : ROBERT E.\nG
+ roupe : [4E4 ESP NBIL]\nPartie de classe : &lt\;4EME4&gt\; 4EME4 ESP NBIL
+ \nSalle : S103\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ESPAGNOL LV2<br/>Professeur : ROBE
+ RT E.<br/>Groupe : [4E4 ESP NBIL]<br/>Partie de classe : &lt\;4EME4&gt\; 
+ 4EME4 ESP NBIL<br/>Salle : S103<br/>
+COLOR:#F49737
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T203936Z
+UID:Cours-16509-5-20260904T120218Z-Index-Education
+DTSTART:20260929T090500Z
+DTEND:20260929T100000Z
+SUMMARY;LANGUAGE=fr:ESPAGNOL LV2 - ROBERT E. - [4E4 ESP NBIL] - <4EME4> 4E
+ ME4 ESP NBIL
+LOCATION;LANGUAGE=fr:S103
+DESCRIPTION;LANGUAGE=fr:Matière : ESPAGNOL LV2\nProfesseur : ROBERT E.\nG
+ roupe : [4E4 ESP NBIL]\nPartie de classe : &lt\;4EME4&gt\; 4EME4 ESP NBIL
+ \nSalle : S103\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ESPAGNOL LV2<br/>Professeur : ROBE
+ RT E.<br/>Groupe : [4E4 ESP NBIL]<br/>Partie de classe : &lt\;4EME4&gt\; 
+ 4EME4 ESP NBIL<br/>Salle : S103<br/>
+COLOR:#F49737
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260723T170433Z
+UID:Cours-16642-5-20260904T120218Z-Index-Education
+DTSTART:20261001T090500Z
+DTEND:20261001T100000Z
+SUMMARY;LANGUAGE=fr:ANGLAIS LV1 - THOMAS C.
+LOCATION;LANGUAGE=fr:S204
+DESCRIPTION;LANGUAGE=fr:Matière : ANGLAIS LV1\nProfesseur : THOMAS C.\nSa
+ lle : S204\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ANGLAIS LV1<br/>Professeur : THOMA
+ S C.<br/>Salle : S204<br/>
+COLOR:#EC6719
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260725T150503Z
+UID:Cours-16673-5-20260904T120218Z-Index-Education
+DTSTART:20261002T125500Z
+DTEND:20261002T135000Z
+SUMMARY;LANGUAGE=fr:HISTOIRE-GEOGRAPHIE - PETIT D.
+LOCATION;LANGUAGE=fr:S201
+DESCRIPTION;LANGUAGE=fr:Matière : HISTOIRE-GEOGRAPHIE\nProfesseur : PETIT
+  D.\nSalle : S201\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : HISTOIRE-GEOGRAPHIE<br/>Professeur
+  : PETIT D.<br/>Salle : S201<br/>
+COLOR:#FFED00
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260725T082146Z
+UID:Cours-16677-5-20260904T120218Z-Index-Education
+DTSTART:20260930T060000Z
+DTEND:20260930T065500Z
+SUMMARY;LANGUAGE=fr:HISTOIRE-GEOGRAPHIE - PETIT D.
+LOCATION;LANGUAGE=fr:S201
+DESCRIPTION;LANGUAGE=fr:Matière : HISTOIRE-GEOGRAPHIE\nProfesseur : PETIT
+  D.\nSalle : S201\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : HISTOIRE-GEOGRAPHIE<br/>Professeur
+  : PETIT D.<br/>Salle : S201<br/>
+COLOR:#FFED00
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T195655Z
+UID:Cours-16682-5-20260904T120218Z-Index-Education
+DTSTART:20260929T065500Z
+DTEND:20260929T075000Z
+SUMMARY;LANGUAGE=fr:ANGLAIS LV1 - THOMAS C.
+LOCATION;LANGUAGE=fr:S204
+DESCRIPTION;LANGUAGE=fr:Matière : ANGLAIS LV1\nProfesseur : THOMAS C.\nSa
+ lle : S204\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ANGLAIS LV1<br/>Professeur : THOMA
+ S C.<br/>Salle : S204<br/>
+COLOR:#EC6719
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T131144Z
+UID:Cours-16696-5-20260904T120218Z-Index-Education
+DTSTART:20260928T060000Z
+DTEND:20260928T065500Z
+SUMMARY;LANGUAGE=fr:VIE DE CLASSE - MARTIN A.
+LOCATION;LANGUAGE=fr:S109
+DESCRIPTION;LANGUAGE=fr:Matière : VIE DE CLASSE\nProfesseur : MARTIN A.\n
+ Salle : S109\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : VIE DE CLASSE<br/>Professeur : MAR
+ TIN A.<br/>Salle : S109<br/>
+COLOR:#C93E69
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260721T143441Z
+UID:Cours-16023-6-20260904T120218Z-Index-Education
+DTSTART:20261005T120000Z
+DTEND:20261005T125500Z
+SUMMARY;LANGUAGE=fr:ARTS PLASTIQUES - SIMON K.
+LOCATION;LANGUAGE=fr:S001 Arts Plastiques
+DESCRIPTION;LANGUAGE=fr:Matière : ARTS PLASTIQUES\nProfesseur : SIMON K.\
+ nSalle : S001 Arts Plastiques\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ARTS PLASTIQUES<br/>Professeur : S
+ IMON K.<br/>Salle : S001 Arts Plastiques<br/>
+COLOR:#ED6566
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260723T173018Z
+UID:Cours-16024-6-20260904T120218Z-Index-Education
+DTSTART:20261007T060000Z
+DTEND:20261007T065500Z
+SUMMARY;LANGUAGE=fr:ANGLAIS LV1 - THOMAS C.
+LOCATION;LANGUAGE=fr:S204
+DESCRIPTION;LANGUAGE=fr:Matière : ANGLAIS LV1\nProfesseur : THOMAS C.\nSa
+ lle : S204\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ANGLAIS LV1<br/>Professeur : THOMA
+ S C.<br/>Salle : S204<br/>
+COLOR:#EC6719
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260721T143945Z
+UID:Cours-16026-6-20260904T120218Z-Index-Education
+DTSTART:20261005T081000Z
+DTEND:20261005T090500Z
+SUMMARY;LANGUAGE=fr:ANGLAIS LV1 - THOMAS C.
+LOCATION;LANGUAGE=fr:S204
+DESCRIPTION;LANGUAGE=fr:Matière : ANGLAIS LV1\nProfesseur : THOMAS C.\nSa
+ lle : S204\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ANGLAIS LV1<br/>Professeur : THOMA
+ S C.<br/>Salle : S204<br/>
+COLOR:#EC6719
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T195102Z
+UID:Cours-16027-6-20260904T120218Z-Index-Education
+DTSTART:20261008T125500Z
+DTEND:20261008T135000Z
+SUMMARY;LANGUAGE=fr:EDUCATION MUSICALE - DURAND G.
+LOCATION;LANGUAGE=fr:S002 Education musicale
+DESCRIPTION;LANGUAGE=fr:Matière : EDUCATION MUSICALE\nProfesseur : DURAND
+  G.\nSalle : S002 Education musicale\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : EDUCATION MUSICALE<br/>Professeur 
+ : DURAND G.<br/>Salle : S002 Education musicale<br/>
+COLOR:#ED679B
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260723T172306Z
+UID:Cours-16028-6-20260904T120218Z-Index-Education
+DTSTART:20261007T081000Z
+DTEND:20261007T090500Z
+SUMMARY;LANGUAGE=fr:ENS. MORAL & CIVIQUE - PETIT D.
+LOCATION;LANGUAGE=fr:S201
+DESCRIPTION;LANGUAGE=fr:Matière : ENS. MORAL &amp\; CIVIQUE\nProfesseur :
+  PETIT D.\nSalle : S201\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ENS. MORAL &amp\; CIVIQUE<br/>Prof
+ esseur : PETIT D.<br/>Salle : S201<br/>
+COLOR:#FFED00
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260719T093656Z
+UID:Cours-16029-6-20260904T120218Z-Index-Education
+DTSTART:20261008T110000Z
+DTEND:20261008T125500Z
+SUMMARY;LANGUAGE=fr:ED.PHYSIQUE & SPORT. - RICHARD F.
+DESCRIPTION;LANGUAGE=fr:Matière : ED.PHYSIQUE &amp\; SPORT.\nProfesseur :
+  RICHARD F.\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ED.PHYSIQUE &amp\; SPORT.<br/>Prof
+ esseur : RICHARD F.<br/>
+COLOR:#1E6ADD
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260719T093723Z
+UID:Cours-16030-6-20260904T120218Z-Index-Education
+DTSTART:20261005T125500Z
+DTEND:20261005T150000Z
+SUMMARY;LANGUAGE=fr:ED.PHYSIQUE & SPORT. - RICHARD F.
+DESCRIPTION;LANGUAGE=fr:Matière : ED.PHYSIQUE &amp\; SPORT.\nProfesseur :
+  RICHARD F.\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ED.PHYSIQUE &amp\; SPORT.<br/>Prof
+ esseur : RICHARD F.<br/>
+COLOR:#1E6ADD
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260721T144731Z
+UID:Cours-16034-6-20260904T120218Z-Index-Education
+DTSTART:20261006T120000Z
+DTEND:20261006T125500Z
+SUMMARY;LANGUAGE=fr:FRANCAIS - MARTIN A.
+LOCATION;LANGUAGE=fr:S109
+DESCRIPTION;LANGUAGE=fr:Matière : FRANCAIS\nProfesseur : MARTIN A.\nSalle
+  : S109\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : FRANCAIS<br/>Professeur : MARTIN A
+ .<br/>Salle : S109<br/>
+COLOR:#21BBEF
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260721T144731Z
+UID:Cours-16035-6-20260904T120218Z-Index-Education
+DTSTART:20261005T065500Z
+DTEND:20261005T075000Z
+SUMMARY;LANGUAGE=fr:FRANCAIS - MARTIN A.
+LOCATION;LANGUAGE=fr:S109
+DESCRIPTION;LANGUAGE=fr:Matière : FRANCAIS\nProfesseur : MARTIN A.\nSalle
+  : S109\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : FRANCAIS<br/>Professeur : MARTIN A
+ .<br/>Salle : S109<br/>
+COLOR:#21BBEF
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260721T144731Z
+UID:Cours-16036-6-20260904T120218Z-Index-Education
+DTSTART:20261007T065500Z
+DTEND:20261007T075000Z
+SUMMARY;LANGUAGE=fr:FRANCAIS - MARTIN A.
+LOCATION;LANGUAGE=fr:S109
+DESCRIPTION;LANGUAGE=fr:Matière : FRANCAIS\nProfesseur : MARTIN A.\nSalle
+  : S109\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : FRANCAIS<br/>Professeur : MARTIN A
+ .<br/>Salle : S109<br/>
+COLOR:#21BBEF
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260721T144731Z
+UID:Cours-16037-6-20260904T120218Z-Index-Education
+DTSTART:20261008T081000Z
+DTEND:20261008T090500Z
+SUMMARY;LANGUAGE=fr:FRANCAIS - MARTIN A.
+LOCATION;LANGUAGE=fr:S109
+DESCRIPTION;LANGUAGE=fr:Matière : FRANCAIS\nProfesseur : MARTIN A.\nSalle
+  : S109\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : FRANCAIS<br/>Professeur : MARTIN A
+ .<br/>Salle : S109<br/>
+COLOR:#21BBEF
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T093435Z
+UID:Cours-16042-6-20260904T120218Z-Index-Education
+DTSTART:20261006T081000Z
+DTEND:20261006T090500Z
+SUMMARY;LANGUAGE=fr:MATHEMATIQUES - BERNARD B.
+LOCATION;LANGUAGE=fr:S208
+DESCRIPTION;LANGUAGE=fr:Matière : MATHEMATIQUES\nProfesseur : BERNARD B.\
+ nSalle : S208\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : MATHEMATIQUES<br/>Professeur : BER
+ NARD B.<br/>Salle : S208<br/>
+COLOR:#AC75AE
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260725T090245Z
+UID:Cours-16360-6-20260904T120218Z-Index-Education
+DTSTART:20261005T060000Z
+DTEND:20261005T065500Z
+SUMMARY;LANGUAGE=fr:ACC. PERSO. FRANCAIS - MARTIN A.\, MICHEL L.
+LOCATION;LANGUAGE=fr:S109
+DESCRIPTION;LANGUAGE=fr:Matière : ACC. PERSO. FRANCAIS\nProfesseurs : MAR
+ TIN A.\, MICHEL L.\nSalle : S109\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ACC. PERSO. FRANCAIS<br/>Professeu
+ rs : MARTIN A.\, MICHEL L.<br/>Salle : S109<br/>
+COLOR:#21BBEF
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260719T054247Z
+UID:Cours-16432-6-20260904T120218Z-Index-Education
+DTSTART:20261009T060000Z
+DTEND:20261009T072500Z
+SUMMARY;LANGUAGE=fr:TECHNOLOGIE - DUBOIS H. - [4E SCIENCES GR4] - <4EME4> 
+ 4E4 SCIENCES GR1\, <4EME3> 4E3 SCIENCES GR2
+LOCATION;LANGUAGE=fr:S102 - TECH
+DESCRIPTION;LANGUAGE=fr:Matière : TECHNOLOGIE\nProfesseur : DUBOIS H.\nGr
+ oupe : [4E SCIENCES GR4]\nParties de classe : &lt\;4EME4&gt\; 4E4 SCIENCE
+ S GR1\, &lt\;4EME3&gt\; 4E3 SCIENCES GR2\nSalle : S102 - TECH\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : TECHNOLOGIE<br/>Professeur : DUBOI
+ S H.<br/>Groupe : [4E SCIENCES GR4]<br/>Parties de classe : &lt\;4EME4&gt
+ \; 4E4 SCIENCES GR1\, &lt\;4EME3&gt\; 4E3 SCIENCES GR2<br/>Salle : S102 -
+  TECH<br/>
+COLOR:#325A69
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260719T054650Z
+UID:Cours-16433-6-20260904T120218Z-Index-Education
+DTSTART:20261009T072500Z
+DTEND:20261009T090500Z
+SUMMARY;LANGUAGE=fr:SCIENCES VIE & TERRE - MOREAU I. - [4E SCIENCES GR4] -
+  <4EME4> 4E4 SCIENCES GR1\, <4EME3> 4E3 SCIENCES GR2
+LOCATION;LANGUAGE=fr:S103 - Sciences
+DESCRIPTION;LANGUAGE=fr:Matière : SCIENCES VIE &amp\; TERRE\nProfesseur :
+  MOREAU I.\nGroupe : [4E SCIENCES GR4]\nParties de classe : &lt\;4EME4&gt
+ \; 4E4 SCIENCES GR1\, &lt\;4EME3&gt\; 4E3 SCIENCES GR2\nSalle : S103 - Sc
+ iences\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : SCIENCES VIE &amp\; TERRE<br/>Prof
+ esseur : MOREAU I.<br/>Groupe : [4E SCIENCES GR4]<br/>Parties de classe :
+  &lt\;4EME4&gt\; 4E4 SCIENCES GR1\, &lt\;4EME3&gt\; 4E3 SCIENCES GR2<br/>
+ Salle : S103 - Sciences<br/>
+COLOR:#75B951
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260719T055008Z
+UID:Cours-16443-6-20260904T120218Z-Index-Education
+DTSTART:20261009T090500Z
+DTEND:20261009T103000Z
+SUMMARY;LANGUAGE=fr:PHYSIQUE-CHIMIE - LAURENT J. - [4E SCIENCES GR4] - <4E
+ ME4> 4E4 SCIENCES GR1\, <4EME3> 4E3 SCIENCES GR2
+LOCATION;LANGUAGE=fr:S101 - Sciences
+DESCRIPTION;LANGUAGE=fr:Matière : PHYSIQUE-CHIMIE\nProfesseur : LAURENT J
+ .\nGroupe : [4E SCIENCES GR4]\nParties de classe : &lt\;4EME4&gt\; 4E4 SC
+ IENCES GR1\, &lt\;4EME3&gt\; 4E3 SCIENCES GR2\nSalle : S101 - Sciences\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : PHYSIQUE-CHIMIE<br/>Professeur : L
+ AURENT J.<br/>Groupe : [4E SCIENCES GR4]<br/>Parties de classe : &lt\;4EM
+ E4&gt\; 4E4 SCIENCES GR1\, &lt\;4EME3&gt\; 4E3 SCIENCES GR2<br/>Salle : S
+ 101 - Sciences<br/>
+COLOR:#4B95B4
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260719T143739Z
+UID:Cours-16508-6-20260904T120218Z-Index-Education
+DTSTART:20261005T090500Z
+DTEND:20261005T100000Z
+SUMMARY;LANGUAGE=fr:ESPAGNOL LV2 - ROBERT E. - [4E4 ESP NBIL] - <4EME4> 4E
+ ME4 ESP NBIL
+LOCATION;LANGUAGE=fr:S103
+DESCRIPTION;LANGUAGE=fr:Matière : ESPAGNOL LV2\nProfesseur : ROBERT E.\nG
+ roupe : [4E4 ESP NBIL]\nPartie de classe : &lt\;4EME4&gt\; 4EME4 ESP NBIL
+ \nSalle : S103\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ESPAGNOL LV2<br/>Professeur : ROBE
+ RT E.<br/>Groupe : [4E4 ESP NBIL]<br/>Partie de classe : &lt\;4EME4&gt\; 
+ 4EME4 ESP NBIL<br/>Salle : S103<br/>
+COLOR:#F49737
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T203936Z
+UID:Cours-16509-6-20260904T120218Z-Index-Education
+DTSTART:20261006T090500Z
+DTEND:20261006T100000Z
+SUMMARY;LANGUAGE=fr:ESPAGNOL LV2 - ROBERT E. - [4E4 ESP NBIL] - <4EME4> 4E
+ ME4 ESP NBIL
+LOCATION;LANGUAGE=fr:S103
+DESCRIPTION;LANGUAGE=fr:Matière : ESPAGNOL LV2\nProfesseur : ROBERT E.\nG
+ roupe : [4E4 ESP NBIL]\nPartie de classe : &lt\;4EME4&gt\; 4EME4 ESP NBIL
+ \nSalle : S103\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ESPAGNOL LV2<br/>Professeur : ROBE
+ RT E.<br/>Groupe : [4E4 ESP NBIL]<br/>Partie de classe : &lt\;4EME4&gt\; 
+ 4EME4 ESP NBIL<br/>Salle : S103<br/>
+COLOR:#F49737
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260723T170827Z
+UID:Cours-16510-6-20260904T120218Z-Index-Education
+DTSTART:20261008T090500Z
+DTEND:20261008T100000Z
+SUMMARY;LANGUAGE=fr:ESPAGNOL LV2 - ROBERT E. - [4E4 ESP NBIL] - <4EME4> 4E
+ ME4 ESP NBIL
+LOCATION;LANGUAGE=fr:S103
+DESCRIPTION;LANGUAGE=fr:Matière : ESPAGNOL LV2\nProfesseur : ROBERT E.\nG
+ roupe : [4E4 ESP NBIL]\nPartie de classe : &lt\;4EME4&gt\; 4EME4 ESP NBIL
+ \nSalle : S103\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ESPAGNOL LV2<br/>Professeur : ROBE
+ RT E.<br/>Groupe : [4E4 ESP NBIL]<br/>Partie de classe : &lt\;4EME4&gt\; 
+ 4EME4 ESP NBIL<br/>Salle : S103<br/>
+COLOR:#F49737
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T093435Z
+UID:Cours-16643-6-20260904T120218Z-Index-Education
+DTSTART:20261006T125500Z
+DTEND:20261006T135000Z
+SUMMARY;LANGUAGE=fr:MATHEMATIQUES - BERNARD B.
+LOCATION;LANGUAGE=fr:S208
+DESCRIPTION;LANGUAGE=fr:Matière : MATHEMATIQUES\nProfesseur : BERNARD B.\
+ nSalle : S208\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : MATHEMATIQUES<br/>Professeur : BER
+ NARD B.<br/>Salle : S208<br/>
+COLOR:#AC75AE
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260725T150503Z
+UID:Cours-16673-6-20260904T120218Z-Index-Education
+DTSTART:20261009T125500Z
+DTEND:20261009T135000Z
+SUMMARY;LANGUAGE=fr:HISTOIRE-GEOGRAPHIE - PETIT D.
+LOCATION;LANGUAGE=fr:S201
+DESCRIPTION;LANGUAGE=fr:Matière : HISTOIRE-GEOGRAPHIE\nProfesseur : PETIT
+  D.\nSalle : S201\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : HISTOIRE-GEOGRAPHIE<br/>Professeur
+  : PETIT D.<br/>Salle : S201<br/>
+COLOR:#FFED00
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T195655Z
+UID:Cours-16682-6-20260904T120218Z-Index-Education
+DTSTART:20261006T065500Z
+DTEND:20261006T075000Z
+SUMMARY;LANGUAGE=fr:ANGLAIS LV1 - THOMAS C.
+LOCATION;LANGUAGE=fr:S204
+DESCRIPTION;LANGUAGE=fr:Matière : ANGLAIS LV1\nProfesseur : THOMAS C.\nSa
+ lle : S204\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ANGLAIS LV1<br/>Professeur : THOMA
+ S C.<br/>Salle : S204<br/>
+COLOR:#EC6719
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260820T074311Z
+UID:Cours-16737-6-20260904T120218Z-Index-Education
+DTSTART:20261008T065500Z
+DTEND:20261008T075000Z
+SUMMARY;LANGUAGE=fr:MATHEMATIQUES - BERNARD B.
+LOCATION;LANGUAGE=fr:S208
+DESCRIPTION;LANGUAGE=fr:Matière : MATHEMATIQUES\nProfesseur : BERNARD B.\
+ nSalle : S208\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : MATHEMATIQUES<br/>Professeur : BER
+ NARD B.<br/>Salle : S208<br/>
+COLOR:#AC75AE
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260721T143441Z
+UID:Cours-16023-7-20260904T120218Z-Index-Education
+DTSTART:20261012T120000Z
+DTEND:20261012T125500Z
+SUMMARY;LANGUAGE=fr:ARTS PLASTIQUES - SIMON K.
+LOCATION;LANGUAGE=fr:S001 Arts Plastiques
+DESCRIPTION;LANGUAGE=fr:Matière : ARTS PLASTIQUES\nProfesseur : SIMON K.\
+ nSalle : S001 Arts Plastiques\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ARTS PLASTIQUES<br/>Professeur : S
+ IMON K.<br/>Salle : S001 Arts Plastiques<br/>
+COLOR:#ED6566
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260721T143945Z
+UID:Cours-16026-7-20260904T120218Z-Index-Education
+DTSTART:20261012T081000Z
+DTEND:20261012T090500Z
+SUMMARY;LANGUAGE=fr:ANGLAIS LV1 - THOMAS C.
+LOCATION;LANGUAGE=fr:S204
+DESCRIPTION;LANGUAGE=fr:Matière : ANGLAIS LV1\nProfesseur : THOMAS C.\nSa
+ lle : S204\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ANGLAIS LV1<br/>Professeur : THOMA
+ S C.<br/>Salle : S204<br/>
+COLOR:#EC6719
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T195102Z
+UID:Cours-16027-7-20260904T120218Z-Index-Education
+DTSTART:20261015T125500Z
+DTEND:20261015T135000Z
+SUMMARY;LANGUAGE=fr:EDUCATION MUSICALE - DURAND G.
+LOCATION;LANGUAGE=fr:S002 Education musicale
+DESCRIPTION;LANGUAGE=fr:Matière : EDUCATION MUSICALE\nProfesseur : DURAND
+  G.\nSalle : S002 Education musicale\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : EDUCATION MUSICALE<br/>Professeur 
+ : DURAND G.<br/>Salle : S002 Education musicale<br/>
+COLOR:#ED679B
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260719T093656Z
+UID:Cours-16029-7-20260904T120218Z-Index-Education
+DTSTART:20261015T110000Z
+DTEND:20261015T125500Z
+SUMMARY;LANGUAGE=fr:ED.PHYSIQUE & SPORT. - RICHARD F.
+DESCRIPTION;LANGUAGE=fr:Matière : ED.PHYSIQUE &amp\; SPORT.\nProfesseur :
+  RICHARD F.\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ED.PHYSIQUE &amp\; SPORT.<br/>Prof
+ esseur : RICHARD F.<br/>
+COLOR:#1E6ADD
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260721T144731Z
+UID:Cours-16034-7-20260904T120218Z-Index-Education
+DTSTART:20261013T120000Z
+DTEND:20261013T125500Z
+SUMMARY;LANGUAGE=fr:FRANCAIS - MARTIN A.
+LOCATION;LANGUAGE=fr:S109
+DESCRIPTION;LANGUAGE=fr:Matière : FRANCAIS\nProfesseur : MARTIN A.\nSalle
+  : S109\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : FRANCAIS<br/>Professeur : MARTIN A
+ .<br/>Salle : S109<br/>
+COLOR:#21BBEF
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260721T144731Z
+UID:Cours-16035-7-20260904T120218Z-Index-Education
+DTSTART:20261012T065500Z
+DTEND:20261012T075000Z
+SUMMARY;LANGUAGE=fr:FRANCAIS - MARTIN A.
+LOCATION;LANGUAGE=fr:S109
+DESCRIPTION;LANGUAGE=fr:Matière : FRANCAIS\nProfesseur : MARTIN A.\nSalle
+  : S109\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : FRANCAIS<br/>Professeur : MARTIN A
+ .<br/>Salle : S109<br/>
+COLOR:#21BBEF
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260721T144731Z
+UID:Cours-16036-7-20260904T120218Z-Index-Education
+DTSTART:20261014T065500Z
+DTEND:20261014T075000Z
+SUMMARY;LANGUAGE=fr:FRANCAIS - MARTIN A.
+LOCATION;LANGUAGE=fr:S109
+DESCRIPTION;LANGUAGE=fr:Matière : FRANCAIS\nProfesseur : MARTIN A.\nSalle
+  : S109\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : FRANCAIS<br/>Professeur : MARTIN A
+ .<br/>Salle : S109<br/>
+COLOR:#21BBEF
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260721T144731Z
+UID:Cours-16037-7-20260904T120218Z-Index-Education
+DTSTART:20261015T081000Z
+DTEND:20261015T090500Z
+SUMMARY;LANGUAGE=fr:FRANCAIS - MARTIN A.
+LOCATION;LANGUAGE=fr:S109
+DESCRIPTION;LANGUAGE=fr:Matière : FRANCAIS\nProfesseur : MARTIN A.\nSalle
+  : S109\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : FRANCAIS<br/>Professeur : MARTIN A
+ .<br/>Salle : S109<br/>
+COLOR:#21BBEF
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260725T150342Z
+UID:Cours-16039-7-20260904T120218Z-Index-Education
+DTSTART:20261013T125500Z
+DTEND:20261013T135000Z
+SUMMARY;LANGUAGE=fr:HISTOIRE-GEOGRAPHIE - PETIT D.
+LOCATION;LANGUAGE=fr:S201
+DESCRIPTION;LANGUAGE=fr:Matière : HISTOIRE-GEOGRAPHIE\nProfesseur : PETIT
+  D.\nSalle : S201\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : HISTOIRE-GEOGRAPHIE<br/>Professeur
+  : PETIT D.<br/>Salle : S201<br/>
+COLOR:#FFED00
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260721T144731Z
+UID:Cours-16040-7-20260904T120218Z-Index-Education
+DTSTART:20261014T081000Z
+DTEND:20261014T090500Z
+SUMMARY;LANGUAGE=fr:HISTOIRE-GEOGRAPHIE - PETIT D.
+LOCATION;LANGUAGE=fr:S201
+DESCRIPTION;LANGUAGE=fr:Matière : HISTOIRE-GEOGRAPHIE\nProfesseur : PETIT
+  D.\nSalle : S201\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : HISTOIRE-GEOGRAPHIE<br/>Professeur
+  : PETIT D.<br/>Salle : S201<br/>
+COLOR:#FFED00
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T093511Z
+UID:Cours-16041-7-20260904T120218Z-Index-Education
+DTSTART:20261012T125500Z
+DTEND:20261012T135000Z
+SUMMARY;LANGUAGE=fr:MATHEMATIQUES - BERNARD B.
+LOCATION;LANGUAGE=fr:S110
+DESCRIPTION;LANGUAGE=fr:Matière : MATHEMATIQUES\nProfesseur : BERNARD B.\
+ nSalle : S110\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : MATHEMATIQUES<br/>Professeur : BER
+ NARD B.<br/>Salle : S110<br/>
+COLOR:#AC75AE
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T093435Z
+UID:Cours-16042-7-20260904T120218Z-Index-Education
+DTSTART:20261013T081000Z
+DTEND:20261013T090500Z
+SUMMARY;LANGUAGE=fr:MATHEMATIQUES - BERNARD B.
+LOCATION;LANGUAGE=fr:S208
+DESCRIPTION;LANGUAGE=fr:Matière : MATHEMATIQUES\nProfesseur : BERNARD B.\
+ nSalle : S208\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : MATHEMATIQUES<br/>Professeur : BER
+ NARD B.<br/>Salle : S208<br/>
+COLOR:#AC75AE
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260820T074333Z
+UID:Cours-16043-7-20260904T120218Z-Index-Education
+DTSTART:20261015T065500Z
+DTEND:20261015T075000Z
+SUMMARY;LANGUAGE=fr:MATHEMATIQUES - BERNARD B.
+LOCATION;LANGUAGE=fr:S207
+DESCRIPTION;LANGUAGE=fr:Matière : MATHEMATIQUES\nProfesseur : BERNARD B.\
+ nSalle : S207\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : MATHEMATIQUES<br/>Professeur : BER
+ NARD B.<br/>Salle : S207<br/>
+COLOR:#AC75AE
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260723T154346Z
+UID:Cours-16365-7-20260904T120218Z-Index-Education
+DTSTART:20261012T140500Z
+DTEND:20261012T150000Z
+SUMMARY;LANGUAGE=fr:ACC. PERSO. MATHEMATIQUES - LEFEBVRE M.\, BERNARD B.
+LOCATION;LANGUAGE=fr:S104 - TECH
+DESCRIPTION;LANGUAGE=fr:Matière : ACC. PERSO. MATHEMATIQUES\nProfesseurs 
+ : LEFEBVRE M.\, BERNARD B.\nSalle : S104 - TECH\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ACC. PERSO. MATHEMATIQUES<br/>Prof
+ esseurs : LEFEBVRE M.\, BERNARD B.<br/>Salle : S104 - TECH<br/>
+COLOR:#AC75AE
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260719T054247Z
+UID:Cours-16432-7-20260904T120218Z-Index-Education
+DTSTART:20261016T060000Z
+DTEND:20261016T072500Z
+SUMMARY;LANGUAGE=fr:TECHNOLOGIE - DUBOIS H. - [4E SCIENCES GR4] - <4EME4> 
+ 4E4 SCIENCES GR1\, <4EME3> 4E3 SCIENCES GR2
+LOCATION;LANGUAGE=fr:S102 - TECH
+DESCRIPTION;LANGUAGE=fr:Matière : TECHNOLOGIE\nProfesseur : DUBOIS H.\nGr
+ oupe : [4E SCIENCES GR4]\nParties de classe : &lt\;4EME4&gt\; 4E4 SCIENCE
+ S GR1\, &lt\;4EME3&gt\; 4E3 SCIENCES GR2\nSalle : S102 - TECH\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : TECHNOLOGIE<br/>Professeur : DUBOI
+ S H.<br/>Groupe : [4E SCIENCES GR4]<br/>Parties de classe : &lt\;4EME4&gt
+ \; 4E4 SCIENCES GR1\, &lt\;4EME3&gt\; 4E3 SCIENCES GR2<br/>Salle : S102 -
+  TECH<br/>
+COLOR:#325A69
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260719T054650Z
+UID:Cours-16433-7-20260904T120218Z-Index-Education
+DTSTART:20261016T072500Z
+DTEND:20261016T090500Z
+SUMMARY;LANGUAGE=fr:SCIENCES VIE & TERRE - MOREAU I. - [4E SCIENCES GR4] -
+  <4EME4> 4E4 SCIENCES GR1\, <4EME3> 4E3 SCIENCES GR2
+LOCATION;LANGUAGE=fr:S103 - Sciences
+DESCRIPTION;LANGUAGE=fr:Matière : SCIENCES VIE &amp\; TERRE\nProfesseur :
+  MOREAU I.\nGroupe : [4E SCIENCES GR4]\nParties de classe : &lt\;4EME4&gt
+ \; 4E4 SCIENCES GR1\, &lt\;4EME3&gt\; 4E3 SCIENCES GR2\nSalle : S103 - Sc
+ iences\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : SCIENCES VIE &amp\; TERRE<br/>Prof
+ esseur : MOREAU I.<br/>Groupe : [4E SCIENCES GR4]<br/>Parties de classe :
+  &lt\;4EME4&gt\; 4E4 SCIENCES GR1\, &lt\;4EME3&gt\; 4E3 SCIENCES GR2<br/>
+ Salle : S103 - Sciences<br/>
+COLOR:#75B951
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260719T055008Z
+UID:Cours-16443-7-20260904T120218Z-Index-Education
+DTSTART:20261016T090500Z
+DTEND:20261016T103000Z
+SUMMARY;LANGUAGE=fr:PHYSIQUE-CHIMIE - LAURENT J. - [4E SCIENCES GR4] - <4E
+ ME4> 4E4 SCIENCES GR1\, <4EME3> 4E3 SCIENCES GR2
+LOCATION;LANGUAGE=fr:S101 - Sciences
+DESCRIPTION;LANGUAGE=fr:Matière : PHYSIQUE-CHIMIE\nProfesseur : LAURENT J
+ .\nGroupe : [4E SCIENCES GR4]\nParties de classe : &lt\;4EME4&gt\; 4E4 SC
+ IENCES GR1\, &lt\;4EME3&gt\; 4E3 SCIENCES GR2\nSalle : S101 - Sciences\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : PHYSIQUE-CHIMIE<br/>Professeur : L
+ AURENT J.<br/>Groupe : [4E SCIENCES GR4]<br/>Parties de classe : &lt\;4EM
+ E4&gt\; 4E4 SCIENCES GR1\, &lt\;4EME3&gt\; 4E3 SCIENCES GR2<br/>Salle : S
+ 101 - Sciences<br/>
+COLOR:#4B95B4
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260719T143739Z
+UID:Cours-16508-7-20260904T120218Z-Index-Education
+DTSTART:20261012T090500Z
+DTEND:20261012T100000Z
+SUMMARY;LANGUAGE=fr:ESPAGNOL LV2 - ROBERT E. - [4E4 ESP NBIL] - <4EME4> 4E
+ ME4 ESP NBIL
+LOCATION;LANGUAGE=fr:S103
+DESCRIPTION;LANGUAGE=fr:Matière : ESPAGNOL LV2\nProfesseur : ROBERT E.\nG
+ roupe : [4E4 ESP NBIL]\nPartie de classe : &lt\;4EME4&gt\; 4EME4 ESP NBIL
+ \nSalle : S103\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ESPAGNOL LV2<br/>Professeur : ROBE
+ RT E.<br/>Groupe : [4E4 ESP NBIL]<br/>Partie de classe : &lt\;4EME4&gt\; 
+ 4EME4 ESP NBIL<br/>Salle : S103<br/>
+COLOR:#F49737
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T203936Z
+UID:Cours-16509-7-20260904T120218Z-Index-Education
+DTSTART:20261013T090500Z
+DTEND:20261013T100000Z
+SUMMARY;LANGUAGE=fr:ESPAGNOL LV2 - ROBERT E. - [4E4 ESP NBIL] - <4EME4> 4E
+ ME4 ESP NBIL
+LOCATION;LANGUAGE=fr:S103
+DESCRIPTION;LANGUAGE=fr:Matière : ESPAGNOL LV2\nProfesseur : ROBERT E.\nG
+ roupe : [4E4 ESP NBIL]\nPartie de classe : &lt\;4EME4&gt\; 4EME4 ESP NBIL
+ \nSalle : S103\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ESPAGNOL LV2<br/>Professeur : ROBE
+ RT E.<br/>Groupe : [4E4 ESP NBIL]<br/>Partie de classe : &lt\;4EME4&gt\; 
+ 4EME4 ESP NBIL<br/>Salle : S103<br/>
+COLOR:#F49737
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260723T170433Z
+UID:Cours-16642-7-20260904T120218Z-Index-Education
+DTSTART:20261015T090500Z
+DTEND:20261015T100000Z
+SUMMARY;LANGUAGE=fr:ANGLAIS LV1 - THOMAS C.
+LOCATION;LANGUAGE=fr:S204
+DESCRIPTION;LANGUAGE=fr:Matière : ANGLAIS LV1\nProfesseur : THOMAS C.\nSa
+ lle : S204\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ANGLAIS LV1<br/>Professeur : THOMA
+ S C.<br/>Salle : S204<br/>
+COLOR:#EC6719
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260725T150503Z
+UID:Cours-16673-7-20260904T120218Z-Index-Education
+DTSTART:20261016T125500Z
+DTEND:20261016T135000Z
+SUMMARY;LANGUAGE=fr:HISTOIRE-GEOGRAPHIE - PETIT D.
+LOCATION;LANGUAGE=fr:S201
+DESCRIPTION;LANGUAGE=fr:Matière : HISTOIRE-GEOGRAPHIE\nProfesseur : PETIT
+  D.\nSalle : S201\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : HISTOIRE-GEOGRAPHIE<br/>Professeur
+  : PETIT D.<br/>Salle : S201<br/>
+COLOR:#FFED00
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260725T082146Z
+UID:Cours-16677-7-20260904T120218Z-Index-Education
+DTSTART:20261014T060000Z
+DTEND:20261014T065500Z
+SUMMARY;LANGUAGE=fr:HISTOIRE-GEOGRAPHIE - PETIT D.
+LOCATION;LANGUAGE=fr:S201
+DESCRIPTION;LANGUAGE=fr:Matière : HISTOIRE-GEOGRAPHIE\nProfesseur : PETIT
+  D.\nSalle : S201\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : HISTOIRE-GEOGRAPHIE<br/>Professeur
+  : PETIT D.<br/>Salle : S201<br/>
+COLOR:#FFED00
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T195655Z
+UID:Cours-16682-7-20260904T120218Z-Index-Education
+DTSTART:20261013T065500Z
+DTEND:20261013T075000Z
+SUMMARY;LANGUAGE=fr:ANGLAIS LV1 - THOMAS C.
+LOCATION;LANGUAGE=fr:S204
+DESCRIPTION;LANGUAGE=fr:Matière : ANGLAIS LV1\nProfesseur : THOMAS C.\nSa
+ lle : S204\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : ANGLAIS LV1<br/>Professeur : THOMA
+ S C.<br/>Salle : S204<br/>
+COLOR:#EC6719
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Cours
+DTSTAMP:20260904T100218Z
+LAST-MODIFIED:20260726T131144Z
+UID:Cours-16696-7-20260904T120218Z-Index-Education
+DTSTART:20261012T060000Z
+DTEND:20261012T065500Z
+SUMMARY;LANGUAGE=fr:VIE DE CLASSE - MARTIN A.
+LOCATION;LANGUAGE=fr:S109
+DESCRIPTION;LANGUAGE=fr:Matière : VIE DE CLASSE\nProfesseur : MARTIN A.\n
+ Salle : S109\n
+X-ALT-DESC;FMTTYPE=text/html:Matière : VIE DE CLASSE<br/>Professeur : MAR
+ TIN A.<br/>Salle : S109<br/>
+COLOR:#C93E69
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Jours fériés
+DTSTAMP:20260904T100218Z
+UID:Ferie-10-20260904T120218Z-Index-Education
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261102
+SUMMARY;LANGUAGE=fr:Vacances
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Jours fériés
+DTSTAMP:20260904T100218Z
+UID:Ferie-11-20260904T120218Z-Index-Education
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY;LANGUAGE=fr:Férié
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Jours fériés
+DTSTAMP:20260904T100218Z
+UID:Ferie-12-20260904T120218Z-Index-Education
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20270104
+SUMMARY;LANGUAGE=fr:Vacances
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Jours fériés
+DTSTAMP:20260904T100218Z
+UID:Ferie-13-20260904T120218Z-Index-Education
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270301
+SUMMARY;LANGUAGE=fr:Vacances
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Jours fériés
+DTSTAMP:20260904T100218Z
+UID:Ferie-14-20260904T120218Z-Index-Education
+DTSTART;VALUE=DATE:20270328
+DTEND;VALUE=DATE:20270330
+SUMMARY;LANGUAGE=fr:Vacances
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Jours fériés
+DTSTAMP:20260904T100218Z
+UID:Ferie-15-20260904T120218Z-Index-Education
+DTSTART;VALUE=DATE:20270411
+DTEND;VALUE=DATE:20270426
+SUMMARY;LANGUAGE=fr:Vacances
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Jours fériés
+DTSTAMP:20260904T100218Z
+UID:Ferie-16-20260904T120218Z-Index-Education
+DTSTART;VALUE=DATE:20270501
+DTEND;VALUE=DATE:20270502
+SUMMARY;LANGUAGE=fr:Férié
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Jours fériés
+DTSTAMP:20260904T100218Z
+UID:Ferie-17-20260904T120218Z-Index-Education
+DTSTART;VALUE=DATE:20270506
+DTEND;VALUE=DATE:20270510
+SUMMARY;LANGUAGE=fr:Vacances
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Jours fériés
+DTSTAMP:20260904T100218Z
+UID:Ferie-18-20260904T120218Z-Index-Education
+DTSTART;VALUE=DATE:20270516
+DTEND;VALUE=DATE:20270518
+SUMMARY;LANGUAGE=fr:Vacances
+END:VEVENT
+END:VCALENDAR
