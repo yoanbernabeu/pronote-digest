@@ -106,7 +106,7 @@ données.
 - TDD : chaque module a son test, écrit d'abord. Fixtures anonymisées tirées de vrais flux
   (`tests/fixtures/`), cas limites synthétiques via `tests/helpers/ics.ts`.
 - Couverture minimale imposée par Vitest (90 % lignes, 85 % branches).
-- Biome, `tsc --noEmit`, Knip, `pnpm audit` en CI, matrice Node 22 et 24, et un test de bout en bout de
+- Biome, `tsc --noEmit`, Knip, `pnpm audit` en CI (non bloquant), matrice Node 22 et 24, et un test de bout en bout de
   l'action elle-même sur les fixtures.
 - Conventional Commits vérifiés par un hook, releases et changelog par release-please, `dist/` compilé et
   taggé par le workflow de release (jamais committé sur `main`).
